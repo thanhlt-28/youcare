@@ -9,7 +9,7 @@
     <!-- Favicons -->
     <link href="assets/img/favicon.gif" rel="icon">
     <link href="assets/img/logo-landscape.png" rel="logo-Landscape">
-    <title> @yield('title', 'Braincare')</title>
+    <title> @yield('title', 'BrainCare')</title>
     @include('layouts.style')
 </head>
 
