@@ -51,7 +51,7 @@
       </div>
 
       <div class="col-lg-3 col-md-6 footer-newsletter">
-        <h4>Cộng đồng</h4>
+        <h4>Website</h4>
         <div class="footer-links">
         <ul>
           <li><a href="https://braincare.vn/" target="_blank">braincare.vn</a></li>
