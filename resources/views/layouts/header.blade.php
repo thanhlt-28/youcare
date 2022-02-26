@@ -5,6 +5,34 @@
     <p style="color:#ffffff;">Trung tâm chăm sóc sức khoẻ tinh thần Braincare với sự khao khát mang những nguồn<br> tri thức ứng dụng vào đời sống giúp cho cộng đồng hạnh phúc hơn từng phút giây...</p>
     <p style="color:#ffffff;">Braincare hướng tới trở thành một trong những đơn vị dẫn đầu về lĩnh vực chăm sóc sức khoẻ tinh thần<br> tại Việt Nam, làm thay đổi thói quen và nhận thức của người Việt Nam trong việc<br> chú trọng sức khoẻ tinh thần và tìm kiếm sự trợ giúp khi cần thiết.</p>
     <a href="#about" class="btn-get-started scrollto">Tìm hiểu ngay!</a>
+
+    <div class="mouse-icon">
+      <svg xmlns="http://www.w3.org/2000/svg" width="30" height="74.106" viewBox="0 0 30 74.106">
+        <g id="Group_1582" data-name="Group 1582" transform="translate(-945 -545.699)">
+          <g id="mouse" transform="translate(869.274 545.699)">
+            <g id="Group_1577" data-name="Group 1577" transform="translate(75.726)">
+              <g id="Group_1576" data-name="Group 1576">
+                <path id="Path_4" data-name="Path 4" d="M90.726,0a15.136,15.136,0,0,0-15,15.235V27.367a15,15,0,1,0,30,.047V15.235A15.137,15.137,0,0,0,90.726,0ZM102.9,27.414a12.181,12.181,0,1,1-24.357-.047V15.235a12.181,12.181,0,1,1,24.357,0Z" transform="translate(-75.726)" fill="#fff"></path>
+              </g>
+            </g>
+            <g id="Group_1579" data-name="Group 1579" transform="translate(89.315 11.662)">
+              <g id="Group_1578" data-name="Group 1578">
+                <path id="Path_5" data-name="Path 5" d="M240.457,140.15a1.411,1.411,0,0,0-1.411,1.411V146.5a1.411,1.411,0,0,0,2.821,0v-4.937A1.411,1.411,0,0,0,240.457,140.15Z" transform="translate(-239.046 -140.15)" fill="#fff"></path>
+              </g>
+            </g>
+          </g>
+          <g id="Group_1581" data-name="Group 1581" transform="translate(0 14)">
+            <line id="Line_2" data-name="Line 2" y2="23" transform="translate(960.5 580.5)" fill="none" stroke="#fff" stroke-width="1" stroke-dasharray="4"></line>
+            <g id="next" transform="translate(966.05 481.991) rotate(90)">
+              <g id="Group_1580" data-name="Group 1580" transform="translate(117.742 0)">
+                <path id="Path_6" data-name="Path 6" d="M123.685,5.312l-5.2-5.185a.436.436,0,0,0-.615.617l4.89,4.877L117.87,10.5a.436.436,0,0,0,.616.617l5.2-5.185a.436.436,0,0,0,0-.617Z" transform="translate(-117.742 0)" fill="#fff"></path>
+              </g>
+            </g>
+          </g>
+        </g>
+      </svg>
+    </div>
+
   </div>
 </section>
 <!-- End Hero -->
@@ -82,17 +110,17 @@
                 </div>
               </div>
               <div class="col-lg-4 col-md-5 col-6 d-md-flex align-items-md-stretch"></div>
-              
+
             </div>
           </div>
         </div>
 
         <div class="row justify-content-end">
-          <div class="col-lg-12 col-md-auto">
+          <div style="margin-left:20px" class="col-lg-12">
             <div class="row justify-content-end">
 
               <div class="col-lg-4 col-md-5 col-6 d-flex align-items-center">
-                <div class="box-shade count-box">
+                <div class="box-shade count-box pb-5 pt-0 pt-lg-5">
                   <!-- <i class="bi bi-clock"></i> -->
                   <!-- <span data-purecounter-start="0" data-purecounter-end="2" class="purecounter">2</span> -->
                   <h4 class="text-center text-uppercase">Hệ sinh thái</h4>
@@ -104,11 +132,11 @@
                   </div>
                   <a class="details text-start" href="" target="_blank"> Chi tiết<span class='bi bi-arrow-right'></span></a>
                 </div>
-                
+
               </div>
               <div class="col-lg-4 col-md-5 col-6 align-self-center">
                 <div class="count-box py-5">
-                    <img class="rounded mx-auto d-block" src="assets/img/hesinhthai.png" width="100%" alt="">
+                  <img class="rounded mx-auto d-block" src="assets/img/hesinhthai.png" width="100%" alt="">
                 </div>
               </div>
               <div class="col-lg-4 col-md-5 col-6 d-flex align-items-center">
@@ -167,7 +195,6 @@
           </div>
         </div>
       </div>
-    </div>
     </div>
   </section>
   <!-- End About Section -->

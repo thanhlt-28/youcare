@@ -594,13 +594,18 @@ section {
 }
 
 .about .count-box a:hover {
-    color: rgb(106, 149, 26);
+    color: rgb(255, 255, 255);
 }
 
 .box-shade:hover {
     background-color: rgb(106, 149, 26);
     color: #ffffff;
     border-radius: 30px;
+}
+
+.justify-content-end {
+    margin-top: 10px;
+    margin-left: -3px;
 }
 
 .about .content {
