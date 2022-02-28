@@ -23,5 +23,15 @@ Route::prefix('/')->group(function () {
     Route::get('lien-he', function () {
         return view('clients.contact');
     })->name('clients.contact');
+    Route::get('tuyen-dung', function () {
+        return view('clients.post.enlist');
+    })->name('clients.post.enlist');
 });
+
+Route::prefix('admin')->group(function () {
+    Route::get('/', function () {
+        return view('admin.dashboard');
+    })->name('dashboard');
+});
+
 

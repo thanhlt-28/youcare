@@ -12,7 +12,7 @@
             <li><a class="active" href="{{'/'}}">Trang chủ</a></li>
             <li class="dropdown"><a href="{{route('clients.about')}}"><span>Giới thiệu</span> <i class="bi bi-chevron-down"></i></a>
                 <ul>
-                    <li><a href="#">Tuyển dụng</a></li>
+                    <li><a href="{{route('clients.post.enlist')}}">Tuyển dụng</a></li>
                     <li><a href="#">Thông tin thanh toán</a></li>
                     <!-- navbar-items -->
                     <!-- <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>

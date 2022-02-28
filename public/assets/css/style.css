@@ -1634,6 +1634,10 @@ section {
     margin: 0 0 20px 0;
 }
 
+.entry-title h3 {
+    font-size: 23px;
+}
+
 .blog .entry .entry-title a {
     color: #3c4133;
     transition: 0.3s;
