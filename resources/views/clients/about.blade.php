@@ -10,7 +10,7 @@
       <div class="container">
         <div class="breadcrumb-hero">
           <h2 class="text-uppercase mb-3">Giới thiệu</h2>
-          <p>Hệ sinh thái toàn diện sức khỏe tinh thần BrainCare </p>
+          <h6>Hệ sinh thái toàn diện sức khỏe tinh thần BrainCare </h6>
         </div>
       </div>
     </div>
@@ -38,7 +38,9 @@
           <img src="assets/img/work-process-1.png" class="img-fluid" alt="">
         </div>
         <div class="col-md-7 pt-4" data-aos="fade-left">
-          <h3>Hệ sinh thái 1</h3>
+          <a href="#">
+            <h3>Hệ sinh thái 1</h3>
+          </a>
           <p class="fst-italic">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
             magna aliqua.
@@ -55,7 +57,9 @@
           <img src="assets/img/work-process-2.png" class="img-fluid" alt="">
         </div>
         <div class="col-md-7 pt-5 order-2 order-md-1" data-aos="fade-right">
-          <h3>Hệ sinh thái 2</h3>
+          <a href="#">
+            <h3>Hệ sinh thái 2</h3>
+          </a>
           <p class="fst-italic">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
             magna aliqua.
@@ -73,7 +77,9 @@
           <img src="assets/img/work-process-3.png" class="img-fluid" alt="">
         </div>
         <div class="col-md-7 pt-5" data-aos="fade-left">
-          <h3>Hệ sinh thái 3</h3>
+          <a href="#">
+            <h3>Hệ sinh thái 3</h3>
+          </a>
           <p>Cupiditate placeat cupiditate placeat est ipsam culpa. Delectus quia minima quod. Sunt saepe odit aut quia voluptatem hic voluptas dolor doloremque.</p>
           <ul>
             <li><i class="bi bi-check"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
@@ -88,7 +94,9 @@
           <img src="assets/img/work-process-4.png" class="img-fluid" alt="">
         </div>
         <div class="col-md-7 pt-5 order-2 order-md-1" data-aos="fade-right">
-          <h3>Hệ sinh thái 4</h3>
+          <a href="#">
+            <h3>Hệ sinh thái 4</h3>
+          </a>
           <p class="fst-italic">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
             magna aliqua.
@@ -104,68 +112,57 @@
     </div>
   </section><!-- End Work Process Section -->
 
-  <!-- ======= Our Skills Section ======= -->
-  <section id="skills" class="skills section-bg">
-    <div class="container">
+  <!-- ======= Cta Section ======= -->
+  <section id="cta" class="cta">
+    <div class="container" data-aos="fade-in">
 
-      <div class="section-title" data-aos="fade-up">
-        <h2>Nhận xét</h2>
-        <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-      </div>
-
-      <div class="row">
-        <div class="col-lg-6" data-aos="fade-right">
-          <img src="assets/img/skills-img.jpg" class="img-fluid" alt="">
-        </div>
-        <div class="col-lg-6 pt-4 pt-lg-0 content" data-aos="fade-left">
-          <h3>Voluptatem dignissimos provident quasi corporis voluptates</h3>
-          <p class="fst-italic">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-            magna aliqua.
-          </p>
-          <p>
-            Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-            velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
-          </p>
-
-          <div class="skills-content">
-
-            <div class="progress">
-              <span class="skill">HTML <i class="val">100%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">CSS <i class="val">90%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">JavaScript <i class="val">75%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">Photoshop <i class="val">55%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-          </div>
-
-        </div>
+      <div class="text-center">
+        <h3>Cộng đồng</h3>
+        <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <a class="cta-btn" href="#">Tham gia ngay</a>
       </div>
 
     </div>
-  </section><!-- End Our Skills Section -->
+  </section>
+  <!-- End Cta Section -->
 
+  <section id="contact" class="contact-ft">
+    <div class="container">
+      <div class="row mt-5">
+
+        <div class="col-lg-4" data-aos="fade-right">
+          <div class="info-ft">
+            <div class="address">
+              <i class="bi bi-geo-alt"></i>
+              <h4>Địa chỉ/ Location:</h4>
+              <p>- Tầng 7, 59 Võ Chí Công, Cầu Giấy, Hà Nội</p>
+              <p>- 7th floor, 59 Vo Chi Cong street, <br>Cau Giay District, Ha Noi</p>
+            </div>
+
+            <div class="email">
+              <i class="bi bi-envelope"></i>
+              <h4>Email:</h4>
+              <p>lienhe@braincare.vn</p>
+            </div>
+
+            <div class="phone">
+              <i class="bi bi-phone"></i>
+              <h4>Hotline:</h4>
+              <p>(024) 4455 3307</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-8 mt-5 mt-lg-0" data-aos="fade-left">
+          <section id="contact" class="content-section">
+            <div id="map">
+              <iframe class="rounded" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d476614.106305572!2d105.804103!3d21.050776!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab226a78d97b%3A0xfa288a20a51995a7!2zVOG6p25nIDcsIDU5IFbDtSBDaMOtIEPDtG5nLCBOZ2jEqWEgxJDDtCwgQ-G6p3UgR2nhuqV5LCBIw6AgTuG7mWkgMTAwMDAwLCBWaeG7h3QgTmFt!5e0!3m2!1svi!2sus!4v1621176139857!5m2!1svi!2sus" width="100%" height="320" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+  </section>
 
 
 </main><!-- End #main -->

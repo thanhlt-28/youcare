@@ -563,6 +563,14 @@ section {
     line-height: 0;
 }
 
+.about .count-boxed i {
+    display: block;
+    font-size: 40px;
+    color: #94c045;
+    float: left;
+    line-height: 0;
+}
+
 .about .count-box span {
     font-size: 28px;
     padding: 0px 0px 0px 1px;
@@ -574,12 +582,30 @@ section {
     margin-left: 60px;
 }
 
+.about .count-boxed span {
+    font-size: 28px;
+    padding: 0px 0px 0px 1px;
+    line-height: 24px;
+    display: block;
+    font-weight: 700;
+    color: #94c045;
+    margin-left: 60px;
+}
+
 .about .count-box p {
     padding: 5px 50px 0 50px;
     margin: auto;
     font-family: "Raleway", sans-serif;
     font-weight: 600;
     font-size: 14px;
+}
+
+.about .count-boxed p {
+    padding: 5px 50px 0 60px;
+    margin: auto;
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
 }
 
 .about .count-box a {
@@ -1389,6 +1415,36 @@ section {
     background: #fff;
 }
 
+.contact-ft {
+    width: 100%;
+    padding: 50px 0;
+    background: url("../img/people.jpg") center;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+
+.contact-ft .info-ft {
+    width: 100%;
+    background: #fff;
+    padding: 15px 15px 5px 10px;
+    border-radius: 5px;
+}
+
+.contact-ft .info-ft i {
+    font-size: 20px;
+    color: #94c045;
+    float: left;
+    width: 44px;
+    height: 44px;
+    background: #f0f6e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
+}
+
 .contact .info i {
     font-size: 20px;
     color: #94c045;
@@ -1401,6 +1457,21 @@ section {
     align-items: center;
     border-radius: 50px;
     transition: all 0.3s ease-in-out;
+}
+
+.contact-ft .info-ft h4 {
+    padding: 0 0 0 60px;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #3c4133;
+}
+
+.contact-ft .info-ft p {
+    padding: 0 0 0 60px;
+    margin-bottom: 0;
+    font-size: 14px;
+    color: #717a60;
 }
 
 .contact .info h4 {
@@ -1423,9 +1494,22 @@ section {
     margin-top: 40px;
 }
 
+.contact-ft .info-ft .email,
+.contact-ft .info-ft .phone {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
 .contact .info .email:hover i,
 .contact .info .address:hover i,
 .contact .info .phone:hover i {
+    background: #94c045;
+    color: #fff;
+}
+
+.contact-ft .info-ft .email:hover i,
+.contact-ft .info-ft .address:hover i,
+.contact-ft .info-ft .phone:hover i {
     background: #94c045;
     color: #fff;
 }

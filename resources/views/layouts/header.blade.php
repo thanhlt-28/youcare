@@ -42,47 +42,6 @@
   <!-- ======= About Section ======= -->
   <section id="about" class="about">
     <div class="container">
-
-      <!-- <div class="row justify-content-end">
-        <div class="col-lg-11">
-          <div class="row justify-content-end">
-
-            <div class="col-lg-3 col-md-5 col-6 d-md-flex align-items-md-stretch">
-              <div class="count-box py-5">
-                <i class="bi bi-emoji-smile"></i>
-                <span data-purecounter-start="0" data-purecounter-end="65" class="purecounter">0</span>
-                <p>Happy Clients</p>
-              </div>
-            </div>
-
-            <div class="col-lg-3 col-md-5 col-6 d-md-flex align-items-md-stretch">
-              <div class="count-box py-5">
-                <i class="bi bi-journal-richtext"></i>
-                <span data-purecounter-start="0" data-purecounter-end="85" class="purecounter">0</span>
-                <p>Projects</p>
-              </div>
-            </div>
-
-            <div class="col-lg-3 col-md-5 col-6 d-md-flex align-items-md-stretch">
-              <div class="count-box pb-5 pt-0 pt-lg-5">
-                <i class="bi bi-clock"></i>
-                <span data-purecounter-start="0" data-purecounter-end="27" class="purecounter">0</span>
-                <p>Years of experience</p>
-              </div>
-            </div>
-
-            <div class="col-lg-3 col-md-5 col-6 d-md-flex align-items-md-stretch">
-              <div class="count-box pb-5 pt-0 pt-lg-5">
-                <i class="bi bi-award"></i>
-                <span data-purecounter-start="0" data-purecounter-end="22" class="purecounter">0</span>
-                <p>Awards</p>
-              </div>
-            </div>
-
-          </div>
-        </div>
-      </div> -->
-
       <!--==================Hệ sinh thái==================-->
       <div class="row">
 
@@ -204,9 +163,9 @@
     <div class="container" data-aos="fade-in">
 
       <div class="text-center">
-        <h3>Call To Action</h3>
+        <h3>Cộng đồng</h3>
         <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <a class="cta-btn" href="#">Call To Action</a>
+        <a class="cta-btn" href="#">Tham gia ngay</a>
       </div>
 
     </div>
@@ -217,7 +176,7 @@
     <div class="container">
 
       <div class="section-title pt-5" data-aos="fade-up">
-        <h2>Our Services</h2>
+        <h2>Dịch vụ của chúng tôi</h2>
       </div>
 
       <div class="row">
@@ -266,8 +225,46 @@
           </div>
         </div>
       </div>
-
     </div>
   </section><!-- End Services Section -->
+
+
+  <section id="contact" class="contact-ft">
+    <div class="container">
+      <div class="row mt-5">
+
+        <div class="col-lg-4" data-aos="fade-right">
+          <div class="info-ft">
+            <div class="address">
+              <i class="bi bi-geo-alt"></i>
+              <h4>Địa chỉ/ Location:</h4>
+              <p>- Tầng 7, 59 Võ Chí Công, Cầu Giấy, Hà Nội</p>
+              <p>- 7th floor, 59 Vo Chi Cong street, <br>Cau Giay District, Ha Noi</p>
+            </div>
+
+            <div class="email">
+              <i class="bi bi-envelope"></i>
+              <h4>Email:</h4>
+              <p>lienhe@braincare.vn</p>
+            </div>
+
+            <div class="phone">
+              <i class="bi bi-phone"></i>
+              <h4>Hotline:</h4>
+              <p>(024) 4455 3307</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-8 mt-5 mt-lg-0" data-aos="fade-left">
+          <section id="contact" class="content-section">
+            <div id="map">
+              <iframe class="rounded" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d476614.106305572!2d105.804103!3d21.050776!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab226a78d97b%3A0xfa288a20a51995a7!2zVOG6p25nIDcsIDU5IFbDtSBDaMOtIEPDtG5nLCBOZ2jEqWEgxJDDtCwgQ-G6p3UgR2nhuqV5LCBIw6AgTuG7mWkgMTAwMDAwLCBWaeG7h3QgTmFt!5e0!3m2!1svi!2sus!4v1621176139857!5m2!1svi!2sus" width="100%" height="320" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+  </section>
 
 </main><!-- End #main -->

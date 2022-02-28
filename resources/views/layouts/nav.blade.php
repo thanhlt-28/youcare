@@ -13,7 +13,7 @@
             <li class="dropdown"><a href="{{route('clients.about')}}"><span>Giới thiệu</span> <i class="bi bi-chevron-down"></i></a>
                 <ul>
                     <li><a href="{{route('clients.post.enlist')}}">Tuyển dụng</a></li>
-                    <li><a href="#">Thông tin thanh toán</a></li>
+                    <li><a href="{{route('clients.billing_infor')}}">Thông tin thanh toán</a></li>
                     <!-- navbar-items -->
                     <!-- <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
                 <ul>
@@ -26,10 +26,10 @@
               </li> -->
                 </ul>
             </li>
-            <li class="dropdown"><a href="#"><span>Phần mềm</span> <i class="bi bi-chevron-down"></i></a>
+            <li class="dropdown"><a href="{{route('clients.features')}}"><span>Phần mềm</span> <i class="bi bi-chevron-down"></i></a>
                 <ul>
-                    <li><a href="#">Tính năng</a></li>
-                    <li><a href="#">Bảng giá</a></li>
+                    <li><a href="{{route('clients.features')}}">Tính năng</a></li>
+                    <li><a href="{{route('clients.pricing')}}">Bảng giá</a></li>
                 </ul>
             </li>
             <li class="dropdown"><a href="#"><span>Tài nguyên</span> <i class="bi bi-chevron-down"></i></a>
@@ -42,7 +42,7 @@
             <!-- <li><a href="services.html">Services</a></li>
           <li><a href="pricing.html">Pricing</a></li>
           <li><a href="portfolio.html">Portfolio</a></li> -->
-            <li><a href="#">Kiến thức</a></li>
+            <li><a href="{{route('clients.knowledge')}}">Kiến thức</a></li>
             <li><a href="{{route('clients.contact')}}">Liên hệ</a></li>
 
             <!-- <li><a class="getstarted" href="about.html">Get Started</a></li> -->
