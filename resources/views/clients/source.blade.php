@@ -15,21 +15,21 @@
                 <div class="carousel-item active" data-bs-interval="10000">
                     <img src="assets/img/banner-1.jpg" class="d-block w-100" alt="...">
                     <div class="carousel-caption d-none d-md-block">
-                        <h5>First slide label</h5>
+                        <h2>Tài nguyên</h2>
                         <p>Some representative placeholder content for the first slide.</p>
                     </div>
                 </div>
                 <div class="carousel-item" data-bs-interval="2000">
                     <img src="assets/img/banner-2.jpg" class="d-block w-100" alt="...">
                     <div class="carousel-caption d-none d-md-block">
-                        <h5>Second slide label</h5>
+                        <h2>Tài nguyên</h2>
                         <p>Some representative placeholder content for the second slide.</p>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <img src="assets/img/banner-3.jpg" class="d-block w-100" alt="...">
                     <div class="carousel-caption d-none d-md-block">
-                        <h5>Third slide label</h5>
+                        <h2>Tài nguyên</h2>
                         <p>Some representative placeholder content for the third slide.</p>
                     </div>
                 </div>
@@ -60,7 +60,7 @@
     <!-- End Breadcrumbs -->
     <!-- =====Lợi ích====== -->
     <section class="container-fluild" data-aos="fade-in">
-        <div>
+        <div>s
             <h3 class="text-center text-uppercase mb-3">Lợi ích</h3>
         </div>
         <div class="container">
