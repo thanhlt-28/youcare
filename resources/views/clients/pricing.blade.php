@@ -6,21 +6,16 @@
 
     <!-- ======= Breadcrumbs ======= -->
     <section id="breadcrumbs" class="breadcrumbs">
-        <div class="breadcrumb-hero">
-            <div class="container">
-                <div class="breadcrumb-hero">
-                    <h2 class="text-uppercase mb-3">Phần mềm</h2>
-                    <h6>Hệ sinh thái toàn diện sức khỏe tinh thần BrainCare </h6>
-                </div>
-            </div>
-        </div>
         <div class="container">
-            <ol>
-                <li><a href="{{'/'}}">Trang chủ</a></li>
-                <li>Bảng giá</li>
-            </ol>
+            <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='currentColor'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="{{'/'}}">Trang chủ</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Bảng giá</li>
+                </ol>
+            </nav>
         </div>
-    </section><!-- End Breadcrumbs -->
+    </section>
+    <!-- End Breadcrumbs -->
 
     <section id="about" class="about">
         <div class="container">

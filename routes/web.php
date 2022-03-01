@@ -43,7 +43,9 @@ Route::prefix('/')->group(function () {
     Route::get('kien-thuc', function () {
         return view('clients.knowledge');
     })->name('clients.knowledge');
-    
+    Route::get('tai-nguyen', function () {
+        return view('clients.source');
+    })->name('clients.source');
 });
 
 // ===== Router Admin ===== //
