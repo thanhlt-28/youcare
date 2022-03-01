@@ -1,6 +1,9 @@
 <?php
 
+use App\Http\Controllers\CatePostController;
+use App\Http\Controllers\PostController;
 use Illuminate\Support\Facades\Route;
+use PhpParser\Node\Stmt\Catch_;
 
 /*
 |--------------------------------------------------------------------------
@@ -56,6 +59,18 @@ Route::prefix('admin')->group(function () {
     Route::get('page_error_404', function () {
         return view('admin.page_error_404');
     })->name('page_error_404');
+    
+
+    Route::prefix('posts')->group(function(){
+        Route::get('bai-viet', [PostController::class, 'index'])->name('posts.index');
+        
+    });
+
+    Route::prefix('cate_post')->group(function(){
+        Route::get('danh-muc-bai-viet', [CatePostController::class, 'index'])->name('cate_post.index');
+        
+    });
 });
+
 
 

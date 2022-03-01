@@ -4,7 +4,7 @@
     <h1 class="mb-5">HỆ SINH THÁI SỨC KHỎE TINH THẦN BRAINCARE</h1>
     <p style="color:#ffffff;">Trung tâm chăm sóc sức khoẻ tinh thần Braincare với sự khao khát mang những nguồn<br> tri thức ứng dụng vào đời sống giúp cho cộng đồng hạnh phúc hơn từng phút giây...</p>
     <p style="color:#ffffff;">Braincare hướng tới trở thành một trong những đơn vị dẫn đầu về lĩnh vực chăm sóc sức khoẻ tinh thần<br> tại Việt Nam, làm thay đổi thói quen và nhận thức của người Việt Nam trong việc<br> chú trọng sức khoẻ tinh thần và tìm kiếm sự trợ giúp khi cần thiết.</p>
-    <a href="#about" class="btn-get-started scrollto">Tìm hiểu ngay!</a>
+    <a href="{{route('clients.about')}}" class="btn-get-started scrollto">Tìm hiểu ngay!</a>
 
     <div class="mouse-icon">
       <svg xmlns="http://www.w3.org/2000/svg" width="30" height="74.106" viewBox="0 0 30 74.106">
