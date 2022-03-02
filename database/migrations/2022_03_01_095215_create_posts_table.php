@@ -19,8 +19,8 @@ class CreatePostsTable extends Migration
             $table->string('post_id');
             $table->string('title',191)->uniqid();
             $table->text('desc')->nullable();
-            $table->text('detail')->nullable();
-            $table->string('image',191)->default('images/default.png');
+            $table->text('content')->nullable();
+            $table->string('image_post',191)->default('images/default.png');
             $table->timestamps();
         });
     }
