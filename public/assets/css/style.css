@@ -1091,6 +1091,12 @@ section {
 # Card====Card-img
 --------------------------------------------------------------*/
 
+.filter {
+    position: absolute;
+    right: 0px;
+    top: 15px;
+}
+
 .card {
     position: relative;
     display: flex;

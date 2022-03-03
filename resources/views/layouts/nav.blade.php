@@ -32,11 +32,11 @@
                     <li><a href="{{route('clients.pricing')}}">Bảng giá</a></li>
                 </ul>
             </li>
-            <li class="dropdown"><a href="{{route('clients.source')}}"><span>Tài nguyên</span> <i class="bi bi-chevron-down"></i></a>
+            <li class="dropdown"><a href="#"><span>Tài nguyên</span> <i class="bi bi-chevron-down"></i></a>
                 <ul>
-                    <li><a href="#">Tổng quan</a></li>
-                    <li><a href="#">Tài liệu</a></li>
-                    <li><a href="#">Video</a></li>
+                    <li><a href="{{route('clients.library.overview')}}">Tổng quan</a></li>
+                    <li><a href="{{route('clients.library.docs')}}">Tài liệu</a></li>
+                    <li><a href="{{route('clients.library.media')}}">Video</a></li>
                 </ul>
             </li>
             <!-- <li><a href="services.html">Services</a></li>
