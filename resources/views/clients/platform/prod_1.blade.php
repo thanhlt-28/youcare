@@ -1,5 +1,5 @@
 @extends('layouts.main')
-@section('page-title', 'Bảng giá')
+@section('page-title', 'San pham 1')
 @section('content')
 
 <main id="main">
@@ -9,7 +9,7 @@
         <div class="breadcrumb-hero">
             <div class="container">
                 <div class="breadcrumb-hero">
-                    <h1 class="text-uppercase mb-3">Bảng giá</h1>
+                    <h1 class="text-uppercase mb-3">San pham 1</h1>
                 </div>
             </div>
         </div>
@@ -17,7 +17,8 @@
             <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='currentColor'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item"><a href="{{'/'}}">Trang chủ</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">Bảng giá</li>
+                    <li class="breadcrumb-item" aria-current="page"><a href="{{route('clients.platform.product')}}">Sản phẩm</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">San pham 1</li>
                 </ol>
             </nav>
         </div>
@@ -65,7 +66,7 @@
     <section id="pricing" class="pricing">
         <div class="container">
             <div class="section-title" data-aos="fade-up">
-                <h2>Bảng giá</h2>
+                <h2>San pham 1</h2>
             </div>
             <div class="row">
 

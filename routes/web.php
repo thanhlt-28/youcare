@@ -29,30 +29,42 @@ Route::prefix('/')->group(function () {
     Route::get('gioi-thieu', function () {
         return view('clients.about');
     })->name('clients.about');
+    // Tầm nhìn & sứ mệnh
+    Route::get('gioi-thieu/tam-nhin-su-menh', function () {
+        return view('clients.about.vision');
+    })->name('clients.about.vision');
+    // Đội ngũ chuyên gia
+    Route::get('gioi-thieu/doi-ngu-chuyen-gia', function () {
+        return view('clients.about.team_experts');
+    })->name('clients.about.team_experts');
+
     // Liên hệ 
     Route::get('lien-he', function () {
         return view('clients.contact');
     })->name('clients.contact');
-    // Tuyển dụng
-    Route::get('tuyen-dung', function () {
-        return view('clients.post.enlist');
-    })->name('clients.post.enlist');
-    // Thông tin thanh toán
-    Route::get('thong-tin-thanh-toan', function () {
-        return view('clients.billing_infor');
-    })->name('clients.billing_infor');
-    // Phần mềm
-    Route::get('phan-mem', function () {
-        return view('clients.features');
-    })->name('clients.features');
-    // Bảng giá
-    Route::get('bang-gia', function () {
-        return view('clients.pricing');
-    })->name('clients.pricing');
-    // Kiến thức
-    Route::get('kien-thuc', function () {
-        return view('clients.knowledge');
-    })->name('clients.knowledge');
+
+    // =================Sản phẩm===================== //
+    Route::prefix('platform/')->group(function () {
+        Route::get('san-pham', function () {
+            return view('clients.platform.product');
+        })->name('clients.platform.product');
+
+        Route::get('san-pham-1', function () {
+            return view('clients.platform.prod_1');
+        })->name('clients.platform.prod_1');
+        Route::get('san-pham-2', function () {
+            return view('clients.platform.prod_2');
+        })->name('clients.platform.prod_2');
+        Route::get('san-pham-3', function () {
+            return view('clients.platform.prod_3');
+        })->name('clients.platform.prod_3');
+        Route::get('san-pham-4', function () {
+            return view('clients.platform.prod_4');
+        })->name('clients.platform.prod_4');
+    });
+
+
+
     // Tài nguyên
     Route::get('tai-nguyen', function () {
         return view('clients.source');
@@ -81,18 +93,13 @@ Route::prefix('admin')->group(function () {
     Route::get('page_error_404', function () {
         return view('admin.page_error_404');
     })->name('page_error_404');
-    
+
     // ===== Router Post ===== //
-    Route::prefix('posts')->group(function(){
+    Route::prefix('posts')->group(function () {
         Route::get('bai-viet', [PostController::class, 'index'])->name('posts.index');
-        
     });
     // ===== Router Post Category ===== //
-    Route::prefix('cate_post')->group(function(){
+    Route::prefix('cate_post')->group(function () {
         Route::get('danh-muc-bai-viet', [CatePostController::class, 'index'])->name('cate_post.index');
-        
     });
 });
-
-
-

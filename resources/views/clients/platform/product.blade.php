@@ -1,15 +1,15 @@
 @extends('layouts.main')
-@section('page-title', 'Tính năng')
+@section('page-title', 'Sản phẩm')
 @section('content')
 
 <main id="main">
 
     <!-- ======= Breadcrumbs ======= -->
     <section id="breadcrumbs" class="breadcrumbs">
-    <div class="breadcrumb-hero">
+        <div class="breadcrumb-hero">
             <div class="container">
                 <div class="breadcrumb-hero">
-                    <h1 class="text-uppercase mb-3">Phần mềm</h1>
+                    <h1 class="text-uppercase mb-3">Sản phẩm</h1>
                 </div>
             </div>
         </div>
@@ -17,14 +17,14 @@
             <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='currentColor'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item"><a href="{{'/'}}">Trang chủ</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">Phần mềm</li>
+                    <li class="breadcrumb-item active" aria-current="page">Sản phẩm</li>
                 </ol>
             </nav>
         </div>
     </section>
     <!-- End Breadcrumbs -->
 
-    <section id="about" class="about">
+    <!-- <section id="about" class="about">
         <div class="container">
 
             <div class="row justify-content-end">
@@ -59,7 +59,83 @@
                 </div>
             </div>
         </div>
+    </section> -->
+
+    <!-- ======= Pricing Section ======= -->
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <div class="row row-cols-1 row-cols-md-5 g-4">
+                <div class="col-lg-3 col-md-12">
+                    <div class="box featured" data-aos="fade-up">
+                        <!-- <h3>San Pham 1</h3> -->
+                        <div style="border: none;" class="card h-100">
+                            <img class="card-img-top" src="/assets/img/work/pack.hrm.svg" width="50%" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Work</h5>
+                                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                            </div>
+                            <div class="btn-wrap">
+                                <a href="{{route('clients.platform.prod_1')}}" class="btn-buy">Xem thêm</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-3 col-md-12">
+                    <div class="box featured" data-aos="fade-up">
+                        <!-- <h3>San Pham 2</h3> -->
+                        <div style="border: none;" class="card h-100">
+                            <img class="card-img-top" src="/assets/img/work/pack.info.svg" width="50%" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Work</h5>
+                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                            </div>
+                        </div>
+                        <div class="btn-wrap">
+                            <a href="{{route('clients.platform.prod_2')}}" class="btn-buy">Xem thêm</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-12">
+                    <div class="box featured" data-aos="fade-up">
+                        <!-- <h3>San Pham 3</h3> -->
+                        <div style="border: none;" class="card h-100">
+                            <img class="card-img-top" src="/assets/img/work/pack.sales.svg" width="50%" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Work</h5>
+                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                            </div>
+                            <div class="btn-wrap">
+                                <a href="{{route('clients.platform.prod_3')}}" class="btn-buy">Xem thêm</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-12">
+                    <div class="box featured" data-aos="fade-up">
+                        <!-- <h3>San Pham 4</h3> -->
+                        <div style="border: none;" class="card h-100">
+                            <img class="card-img-top" src="/assets/img/work/pack.work.svg" width="50%" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Work</h5>
+                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                            </div>
+                            <div class="btn-wrap">
+                                <a href="{{route('clients.platform.prod_4')}}" class="btn-buy">Xem thêm</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
     </section>
+    <!-- End Pricing Section -->
+
     <!-- ======= Features Section ======= -->
     <section id="features" class="features">
         <div class="container">
@@ -72,7 +148,7 @@
 
             <div class="row">
                 <div class="col-md-6 d-flex align-items-stretch" data-aos="fade-up">
-                    <div class="card" style="background-image: url(assets/img/features-1.jpg);">
+                    <div class="card" style="background-image: url(/assets/img/features-1.jpg);">
                         <div class="card-body">
                             <h5 class="card-title"><a href="">Our Mission</a></h5>
                             <p class="card-text">Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor ut labore et dolore magna aliqua.</p>
@@ -81,7 +157,7 @@
                     </div>
                 </div>
                 <div class="col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="fade-up">
-                    <div class="card" style="background-image: url(assets/img/features-2.jpg);">
+                    <div class="card" style="background-image: url(/assets/img/features-2.jpg);">
                         <div class="card-body">
                             <h5 class="card-title"><a href="">Our Plan</a></h5>
                             <p class="card-text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem doloremque laudantium, totam rem.</p>
@@ -91,7 +167,7 @@
 
                 </div>
                 <div class="col-md-6 d-flex align-items-stretch mt-4" data-aos="fade-up" data-aos-delay="100">
-                    <div class="card" style="background-image: url(assets/img/features-3.jpg);">
+                    <div class="card" style="background-image: url(/assets/img/features-3.jpg);">
                         <div class="card-body">
                             <h5 class="card-title"><a href="">Our Vision</a></h5>
                             <p class="card-text">Nemo enim ipsam voluptatem quia voluptas sit aut odit aut fugit, sed quia magni dolores.</p>
@@ -100,7 +176,7 @@
                     </div>
                 </div>
                 <div class="col-md-6 d-flex align-items-stretch mt-4" data-aos="fade-up" data-aos-delay="100">
-                    <div class="card" style="background-image: url(assets/img/features-4.jpg);">
+                    <div class="card" style="background-image: url(/assets/img/features-4.jpg);">
                         <div class="card-body">
                             <h5 class="card-title"><a href="">Our Care</a></h5>
                             <p class="card-text">Nostrum eum sed et autem dolorum perspiciatis. Magni porro quisquam laudantium voluptatem.</p>
@@ -114,87 +190,6 @@
     </section>
     <!-- End Features Section -->
 
-    <!-- ======= Pricing Section ======= -->
-    <section id="pricing" class="pricing">
-        <div class="container">
-            <div class="section-title" data-aos="fade-up">
-                <h2>Bảng giá</h2>
-            </div>
-            <div class="row">
 
-                <div class="col-lg-3 col-md-6">
-                    <div class="box" data-aos="fade-up">
-                        <h3>Free</h3>
-                        <h4><sup>$</sup>0<span> / month</span></h4>
-                        <ul>
-                            <li>Aida dere</li>
-                            <li>Nec feugiat nisl</li>
-                            <li>Nulla at volutpat dola</li>
-                            <li class="na">Pharetra massa</li>
-                            <li class="na">Massa ultricies mi</li>
-                        </ul>
-                        <div class="btn-wrap">
-                            <a href="#" class="btn-buy">Buy Now</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6 mt-4 mt-md-0">
-                    <div class="box featured" data-aos="fade-up" data-aos-delay="100">
-                        <h3>Business</h3>
-                        <h4><sup>$</sup>19<span> / month</span></h4>
-                        <ul>
-                            <li>Aida dere</li>
-                            <li>Nec feugiat nisl</li>
-                            <li>Nulla at volutpat dola</li>
-                            <li>Pharetra massa</li>
-                            <li class="na">Massa ultricies mi</li>
-                        </ul>
-                        <div class="btn-wrap">
-                            <a href="#" class="btn-buy">Buy Now</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6 mt-4 mt-lg-0">
-                    <div class="box" data-aos="fade-up" data-aos-delay="200">
-                        <h3>Developer</h3>
-                        <h4><sup>$</sup>29<span> / month</span></h4>
-                        <ul>
-                            <li>Aida dere</li>
-                            <li>Nec feugiat nisl</li>
-                            <li>Nulla at volutpat dola</li>
-                            <li>Pharetra massa</li>
-                            <li>Massa ultricies mi</li>
-                        </ul>
-                        <div class="btn-wrap">
-                            <a href="#" class="btn-buy">Buy Now</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6 mt-4 mt-lg-0">
-                    <div class="box" data-aos="fade-up" data-aos-delay="300">
-                        <span class="advanced">Advanced</span>
-                        <h3>Ultimate</h3>
-                        <h4><sup>$</sup>49<span> / month</span></h4>
-                        <ul>
-                            <li>Aida dere</li>
-                            <li>Nec feugiat nisl</li>
-                            <li>Nulla at volutpat dola</li>
-                            <li>Pharetra massa</li>
-                            <li>Massa ultricies mi</li>
-                        </ul>
-                        <div class="btn-wrap">
-                            <a href="#" class="btn-buy">Buy Now</a>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-
-        </div>
-    </section>
-    <!-- End Pricing Section -->
 </main>
 @endsection

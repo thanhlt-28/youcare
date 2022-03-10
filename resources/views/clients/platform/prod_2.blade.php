@@ -8,7 +8,7 @@
         <div class="breadcrumb-hero">
             <div class="container">
                 <div class="breadcrumb-hero">
-                    <h1 class="text-uppercase mb-3">Kiến thức</h1>
+                    <h1 class="text-uppercase mb-3">San pham 2</h1>
                 </div>
             </div>
         </div>
@@ -16,7 +16,8 @@
             <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='currentColor'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item"><a href="{{'/'}}">Trang chủ</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">Kiến thức</li>
+                    <li class="breadcrumb-item" aria-current="page"><a href="{{route('clients.platform.product')}}">Sản phẩm</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">San pham 2</li>
                 </ol>
             </nav>
         </div>
@@ -38,10 +39,10 @@
                             <button class="nav-link w-100 active" id="all-tab" data-bs-toggle="tab" data-bs-target="#bordered-justified-all" type="button" role="tab" aria-controls="all" aria-selected="true">Tất cả</button>
                         </li>
                         <li class="nav-item flex-fill" role="presentation">
-                            <button class="nav-link w-100" id="knowledge-tab" data-bs-toggle="tab" data-bs-target="#bordered-justified-knowledge" type="button" role="tab" aria-controls="knowledge" aria-selected="false">Kiến thức cơ bản</button>
+                            <button class="nav-link w-100" id="knowledge-tab" data-bs-toggle="tab" data-bs-target="#bordered-justified-knowledge" type="button" role="tab" aria-controls="knowledge" aria-selected="false">San pham 2 cơ bản</button>
                         </li>
                         <li class="nav-item flex-fill" role="presentation">
-                            <button class="nav-link w-100" id="knowledges-tab" data-bs-toggle="tab" data-bs-target="#bordered-justified-knowledges" type="button" role="tab" aria-controls="knowledges" aria-selected="false">Kiến thức nâng cao</button>
+                            <button class="nav-link w-100" id="knowledges-tab" data-bs-toggle="tab" data-bs-target="#bordered-justified-knowledges" type="button" role="tab" aria-controls="knowledges" aria-selected="false">San pham 2 nâng cao</button>
                         </li>
                     </ul>
                     <div class="tab-content pt-2" id="borderedTabJustifiedContent">
@@ -49,7 +50,7 @@
                             <div class="card mb-3" style="max-width: 1280px;">
                                 <div class="row g-0">
                                     <div class="col-md-4">
-                                        <img src="server/assets/img/product-1.jpg" class="img-fluid rounded-start" width="50%" alt="">
+                                        <img src="/server//assets/img/product-1.jpg" class="img-fluid rounded-start" width="50%" alt="">
                                     </div>
                                     <div class="col-md-8">
                                         <div class="card-body">
@@ -65,7 +66,7 @@
                             <div class="card mb-3" style="max-width: 1280px;">
                                 <div class="row g-0">
                                     <div class="col-md-4">
-                                        <img src="server/assets/img/product-2.jpg" class="img-fluid rounded-start" width="50%" alt="">
+                                        <img src="/server//assets/img/product-2.jpg" class="img-fluid rounded-start" width="50%" alt="">
                                     </div>
                                     <div class="col-md-8">
                                         <div class="card-body">
@@ -81,7 +82,7 @@
                             <div class="card mb-3" style="max-width: 1280px;">
                                 <div class="row g-0">
                                     <div class="col-md-4">
-                                        <img src="server/assets/img/product-3.jpg" class="img-fluid rounded-start" width="50%" alt="">
+                                        <img src="/server//assets/img/product-3.jpg" class="img-fluid rounded-start" width="50%" alt="">
                                     </div>
                                     <div class="col-md-8">
                                         <div class="card-body">
@@ -111,7 +112,7 @@
                     <div class="col-lg-4">
                         <div class="row justify-content-center">
                             <div class="col-lg-12 video-box align-self-baseline position-relative">
-                                <img src="assets/img/danhgia.png" class="img-fluid" alt="">
+                                <img src="/assets/img/danhgia.png" class="img-fluid" alt="">
                                 <a href="https://youtu.be/A67rHCURVaE" class="glightbox play-btn mb-4"></a>
                             </div>
                             <div class="col-inner">
@@ -124,7 +125,7 @@
                     <div class="col-lg-4">
                         <div class="row justify-content-center">
                             <div class="col-lg-12 video-box align-self-baseline position-relative">
-                                <img src="assets/img/danhgia.png" class="img-fluid" alt="">
+                                <img src="/assets/img/danhgia.png" class="img-fluid" alt="">
                                 <a href="https://youtu.be/A67rHCURVaE" class="glightbox play-btn mb-4"></a>
                             </div>
                             <div class="col-inner">
@@ -137,7 +138,7 @@
                     <div class="col-lg-4">
                         <div class="row justify-content-center">
                             <div class="col-lg-12 video-box align-self-baseline position-relative">
-                                <img src="assets/img/danhgia.png" class="img-fluid" alt="">
+                                <img src="/assets/img/danhgia.png" class="img-fluid" alt="">
                                 <a href="https://youtu.be/A67rHCURVaE" class="glightbox play-btn mb-4"></a>
                             </div>
                             <div class="col-inner">

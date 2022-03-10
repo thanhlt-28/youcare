@@ -1113,6 +1113,8 @@ section {
 .card-img-top {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    height: 190px;
+    overflow: hidden;
 }
 
 
@@ -1508,7 +1510,9 @@ section {
 }
 
 .pricing .btn-buy:hover {
-    background: #aacd6b;
+    background: #ffffff;
+    color: #94c045;
+    box-shadow: 0 3px 7px rgba(110, 110, 110, 0.4);
 }
 
 .pricing .featured h3 {
