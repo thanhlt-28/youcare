@@ -6,11 +6,22 @@
 
     <!-- ======= Breadcrumbs ======= -->
     <section id="breadcrumbs" class="breadcrumbs">
-        <div class="breadcrumb-hero">
+        <div class="breadcrumb-hero" style="
+            background-image: url(http://phongkhamtamly.com/wp-content/uploads/2021/11/doi-ngu-chuyen-gia-braincare.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            min-height: 30rem;
+        ">
             <div class="container">
-                <div class="breadcrumb-hero">
-                    <h1 class="text-uppercase mb-3">Đội ngũ chuyên gia</h1>
-                </div>
+                <!-- <div class="breadcrumb-hero"> -->
+                <style>
+                    h1 {
+                        text-shadow: 2px 2px 4px #000000;
+                        line-height: 10;
+                    }
+                </style>
+                <h1 class="txt-shadow text-uppercase mb-3">Đội ngũ chuyên gia</h1>
+                <!-- </div> -->
             </div>
         </div>
         <div class="container">
@@ -42,14 +53,14 @@
 
             <div class="row row-cols-1 row-cols-md-4 g-4">
                 <div class="col">
-                    <div class="card h-100 hover-shadow">
+                    <div style="border:none;" class="card h-100 hover-shadow">
                         <img src="https://phongkhamtamly.com/wp-content/uploads/2021/11/nguyen-van-dung.png" class="img-top" alt="...">
                         <div class="card-body">
                             <a class="text-center" href="https://phongkhamtamly.com/thay-thuoc-uu-tu-nguyen-van-dung/" target="_blank">
-                                <h5 class="card-title">THẦY THUỐC ƯU TÚ BSCC.TS.BSCKII - NGUYỄN VĂN DŨNG</h5>
+                                <h5 class="card-title">THẦY THUỐC ƯU TÚ BSCC.TS.BSCKII - </br>NGUYỄN VĂN DŨNG</h5>
                             </a>
-                            <p class="card-text">Phó viện trưởng Viện sức khỏe
-                                tâm thần – Bệnh viện Bạch Mai</p>
+                            <p class="card-text text-center">Phó viện trưởng Viện sức khỏe
+                                </br>tâm thần – Bệnh viện Bạch Mai</p>
                         </div>
                         <div class="btn-footer">
                             <div class="d-grid mx-auto">
@@ -59,14 +70,14 @@
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card h-100 hover-shadow">
+                    <div style="border:none;" class="card h-100 hover-shadow">
                         <img src="https://phongkhamtamly.com/wp-content/uploads/2021/11/pham-van-tu.png" class="img-top" alt="...">
                         <div class="card-body">
                             <a target="_blank" class="text-center" href="https://phongkhamtamly.com/tien-si-pham-van-tu/">
-                                <h5 class="card-title">TIẾN SĨ
+                                <h5 class="card-title">TIẾN SĨ</br>
                                     PHẠM VĂN TƯ</h5>
                             </a>
-                            <p class="card-text">Phó trưởng Khoa Công tác xã hội,
+                            <p class="card-text text-center">Phó trưởng Khoa Công tác xã hội,
                                 trường Đại học Sư phạm Hà Nội</p>
                         </div>
                         <div class="btn-footer">
@@ -77,14 +88,14 @@
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card h-100 hover-shadow">
+                    <div style="border:none;" class="card h-100 hover-shadow">
                         <img src="https://phongkhamtamly.com/wp-content/uploads/2021/11/nguyen-thi-tham.png" class="img-top" alt="...">
                         <div class="card-body">
                             <a target="_blank" class="text-center" href="https://phongkhamtamly.com/tien-si-nguyen-thi-tham/">
-                                <h5 class="card-title">TIẾN SĨ
+                                <h5 class="card-title">TIẾN SĨ</br>
                                     NGUYỄN THỊ THẮM</h5>
                             </a>
-                            <p class="card-text">Tiến sĩ ngành:
+                            <p class="card-text text-center">Tiến sĩ ngành:
                                 tâm lý – giáo dục</p>
                         </div>
                         <div class="btn-footer">
@@ -95,14 +106,14 @@
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card h-100 hover-shadow">
+                    <div style="border:none;" class="card h-100 hover-shadow">
                         <img src="https://phongkhamtamly.com/wp-content/uploads/2021/11/nguyen-thi-mai-huong.png" class="img-top" alt="...">
                         <div class="card-body">
                             <a target="_blank" class="text-center" href="https://phongkhamtamly.com/tien-si-nguyen-thi-mai-huong/">
-                                <h5 class="card-title">TIẾN SĨ
+                                <h5 class="card-title">TIẾN SĨ</br>
                                     NGUYỄN THỊ MAI HƯƠNG</h5>
                             </a>
-                            <p class="card-text">Tiến sĩ chuyên ngành:
+                            <p class="card-text text-center">Tiến sĩ chuyên ngành:
                                 Tâm lý học</p>
                         </div>
                         <div class="btn-footer">
@@ -113,15 +124,15 @@
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card h-100 hover-shadow">
+                    <div style="border:none;" class="card h-100 hover-shadow">
                         <img src="https://phongkhamtamly.com/wp-content/uploads/2022/01/Thanh-Van.jpg" class="img-top" alt="...">
                         <div class="card-body">
                             <a target="_blank" class="text-center" href="https://phongkhamtamly.com/thac-si-nguyen-thi-thanh-van/">
-                                <h5 class="card-title">THẠC SĨ
+                                <h5 class="card-title">THẠC SĨ</br>
                                     NGUYỄN THỊ THANH VÂN</h5>
                             </a>
-                            <p class="card-text">Thạc sĩ chuyên ngành:
-                                Tâm lý học lâm sàng</p>
+                            <p class="card-text text-center">Thạc sĩ chuyên ngành:
+                                Tâm lý học </br> lâm sàng</p>
                         </div>
                         <div class="btn-footer">
                             <div class="d-grid mx-auto">
@@ -131,14 +142,14 @@
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card h-100 hover-shadow">
+                    <div style="border:none;" class="card h-100 hover-shadow">
                         <img src="https://phongkhamtamly.com/wp-content/uploads/2021/11/hoang-le-thuy.png" class="img-top" alt="...">
                         <div class="card-body">
                             <a target="_blank" class="text-center" href="https://phongkhamtamly.com/thac-si-hoang-le-thuy/">
-                                <h5 class="card-title">THẠC SĨ
+                                <h5 class="card-title">THẠC SĨ</br>
                                     HOÀNG LÊ THỦY</h5>
                             </a>
-                            <p class="card-text">Thạc sĩ chuyên ngành: Tâm lý học
+                            <p class="card-text text-center">Thạc sĩ chuyên ngành: Tâm lý học
                                 lâm sàng trẻ em và thanh thiếu niên</p>
                         </div>
                         <div class="btn-footer">
@@ -149,14 +160,14 @@
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card h-100 hover-shadow">
+                    <div style="border:none;" class="card h-100 hover-shadow">
                         <img src="https://phongkhamtamly.com/wp-content/uploads/2021/11/nguyen-thi-thuy-hang.png" class="img-top" alt="...">
                         <div class="card-body">
                             <a target="_blank" class="text-center" href="https://phongkhamtamly.com/thac-si-nguyen-thi-thuy-hang/">
-                                <h5 class="card-title">THẠC SĨ
+                                <h5 class="card-title">THẠC SĨ</br>
                                     NGUYỄN THỊ THÚY HẰNG</h5>
                             </a>
-                            <p class="card-text">Thạc sĩ chuyên ngành:
+                            <p class="card-text text-center">Thạc sĩ chuyên ngành:
                                 Giáo dục học</p>
                         </div>
                         <div class="btn-footer">
@@ -167,14 +178,14 @@
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card h-100 hover-shadow">
+                    <div style="border:none;" class="card h-100 hover-shadow">
                         <img src="https://phongkhamtamly.com/wp-content/uploads/2022/01/Hien-Minh.jpg" class="img-top" alt="...">
                         <div class="card-body">
                             <a target="_blank" class="text-center" href="https://phongkhamtamly.com/thac-si-nguyen-hien-minh/">
-                                <h5 class="card-title">THẠC SĨ
+                                <h5 class="card-title">THẠC SĨ</br>
                                     NGUYỄN HIỀN MINH</h5>
                             </a>
-                            <p class="card-text">Thạc sĩ chuyên ngành:
+                            <p class="card-text text-center">Thạc sĩ chuyên ngành:
                                 Công tác xã hội</p>
                         </div>
                         <div class="btn-footer">
@@ -185,17 +196,17 @@
                     </div>
                 </div>
                 <div class="col">
-                    
+
                 </div>
                 <div class="col">
-                    <div class="card h-100 hover-shadow">
+                    <div style="border:none;" class="card h-100 hover-shadow">
                         <img src="https://phongkhamtamly.com/wp-content/uploads/2022/01/Hanh-Le-1.jpg" class="img-top" alt="...">
                         <div class="card-body">
                             <a target="_blank" class="text-center" href="https://phongkhamtamly.com/thac-si-le-the-hanh/">
-                                <h5 class="card-title">THẠC SĨ
+                                <h5 class="card-title">THẠC SĨ</br>
                                     LÊ THẾ HANH</h5>
                             </a>
-                            <p class="card-text">Thạc sĩ
+                            <p class="card-text text-center">Thạc sĩ
                                 Tâm lý học Lâm sàng</p>
                         </div>
                         <div class="btn-footer">
@@ -206,14 +217,14 @@
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card h-100 hover-shadow">
+                    <div style="border:none;" class="card h-100 hover-shadow">
                         <img src="https://phongkhamtamly.com/wp-content/uploads/2022/01/Group-98231.jpg" class="img-top" alt="...">
                         <div class="card-body">
                             <a target="_blank" class="text-center" href="https://phongkhamtamly.com/thac-si-dang-minh-khue/">
-                                <h5 class="card-title">THẠC SĨ
+                                <h5 class="card-title">THẠC SĨ</br>
                                     ĐẶNG MINH KHUÊ</h5>
                             </a>
-                            <p class="card-text">Thạc sĩ
+                            <p class="card-text text-center">Thạc sĩ
                                 Tâm lý học Lâm sàng</p>
                         </div>
                         <div class="btn-footer">
@@ -228,6 +239,19 @@
             <!-- End Chuyên gia -->
         </div>
     </section>
+    <!-- ======= Cta Section ======= -->
+    <section id="cta" class="cta">
+        <div class="container" data-aos="fade-in">
+
+            <div class="text-center">
+                <h3>Cộng đồng</h3>
+                <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <a class="cta-btn" href="#">Tham gia ngay</a>
+            </div>
+
+        </div>
+    </section>
+    <!-- End Cta Section -->
 
 </main>
 
