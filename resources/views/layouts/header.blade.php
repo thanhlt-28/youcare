@@ -1,5 +1,13 @@
 <!-- ======= Hero Section ======= -->
 <section id="hero">
+  
+  @if(session()->has('success'))
+  <div class="alert alert-success alert-dismissible fade show">
+    {{ session()->get('success') }}
+    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+  </div>
+  @endif
+
   <div class="hero-container" data-aos="fade-up">
     <h1 class="mb-5">HỆ SINH THÁI SỨC KHỎE TINH THẦN BRAINCARE</h1>
     <p style="color:#ffffff;">Trung tâm chăm sóc sức khoẻ tinh thần Braincare với sự khao khát mang những nguồn<br> tri thức ứng dụng vào đời sống giúp cho cộng đồng hạnh phúc hơn từng phút giây...</p>

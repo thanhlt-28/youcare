@@ -1,5 +1,5 @@
 @extends('layouts.main')
-@section('page-title', 'Thông tin thanh toán')
+@section('title', 'San pham 2')
 @section('content')
 
 <main id="main">

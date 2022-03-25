@@ -39,10 +39,42 @@
           <li><a href="pricing.html">Pricing</a></li>
           <li><a href="portfolio.html">Portfolio</a></li> -->
             <li><a href="{{route('clients.contact')}}">Liên hệ</a></li>
-
             <!-- <li><a class="getstarted" href="about.html">Get Started</a></li> -->
+
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
+
+
     </nav><!-- .navbar -->
+
+    <div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center py-4 sm:pt-0">
+        @if (Route::has('login'))
+        <div class="hidden fixed top-0 right-0 px-6 py-4 sm:block">
+            @auth
+            <nav id="navbar" class="navbar">
+                <ul>
+                    <li class="dropdown">
+                        <a href="#">
+                            <span class="text-success">{{Auth::user()->name}}</span>
+                        </a>
+                    <li class="dropdown"><a href="#"> <i class="bi bi-chevron-down"></i></a>
+                        <ul>
+                            <li><a href="{{'logout'}}"><i class="fas fa-sign-out-alt"></i>Đăng xuất</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <!-- <a href="{{'/'}}" class="text-sm text-gray-700 dark:text-gray-500 underline">Home</a> -->
+            @else
+            <a href="{{ route('login') }}"><button class="btn btn-outline-success rounded-pill">Đăng nhập</button></a>
+
+            @if (Route::has('register'))
+            <a href="{{ route('register') }}"><button class="btn btn-warnin rounded-pill">Đăng ký</button></a>
+            @endif
+
+            @endauth
+        </div>
+        @endif
+    </div>
 
 </div>

@@ -1,5 +1,5 @@
 @extends('layouts.main')
-@section('page-title', 'Đội ngũ chuyên gia')
+@section('title', 'Đội ngũ chuyên gia')
 @section('content')
 
 <main id="main">
@@ -20,7 +20,7 @@
                         line-height: 10;
                     }
                 </style>
-                <h1 class="txt-shadow text-uppercase mb-3">Đội ngũ chuyên gia</h1>
+                <h1 class="text-uppercase mb-3">Đội ngũ chuyên gia</h1>
                 <!-- </div> -->
             </div>
         </div>

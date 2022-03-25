@@ -1,5 +1,5 @@
 @extends('layouts.main')
-@section('page-title', 'Tầm nhìn & Sứ mệnh')
+@section('title', 'Tầm nhìn & Sứ mệnh')
 @section('content')
 
 <main id="main">
@@ -37,12 +37,12 @@
                         Trung tâm chăm sóc sức khoẻ tinh thần Braincare với sự khao khát mang mang những nguồn tri thức ứng dụng vào đời sống giúp cho cộng đồng hạnh phúc từng giây phút...
                     </p>
                     <p class="card-text">
-                    <p><b>Tầm nhìn</b></p>
+                    <p class="text-succes"><b>Tầm nhìn</b></p>
                     Braincare hướng tới trở thành một trong những đơn vị dẫn đầu về lĩnh vực chăm sóc sức khoẻ tinh thần tại Việt Nam, làm thay đổi thói quen và nhận thức của người Việt Nam trong việc chú trọng sức khoẻ tinh thần và tìm kiếm sự trợ giúp khi cần thiết.
                     </p>
                     <p class="card-text">
-                    <p><b>Sứ mệnh</b></p>
-                    “Vì cộng đồng hạnh phúc hơn từng giây phút”
+                    <p class="text-succes"><b>Sứ mệnh</b></p>
+                    "Vì cộng đồng hạnh phúc hơn từng phút giây"
                     </p>
                 </div>
             </div>
@@ -54,7 +54,7 @@
                         <div class="col-sm-3">
                             <div class="card" style="border:none;" data-aos="fade-left">
                                 <div class="card-body">
-                                    <h5 class="card-title">Tâm</h5>
+                                    <h5 class="card-title text-succes">Tâm</h5>
                                     <p class="card-text">Làm lĩnh vực tâm lý, chữ “TÂM” phải luôn đặt lên hàng đầu, chúng tôi luôn đặt việc phụng sự và cho đi hơn cả, luôn coi trọng và lấy khách hàng là trung tâm</p>
                                 </div>
                             </div>
@@ -62,7 +62,7 @@
                         <div class="col-sm-3">
                             <div class="card" style="border:none;" data-aos="fade-left">
                                 <div class="card-body">
-                                    <h5 class="card-title">Chuyên</h5>
+                                    <h5 class="card-title text-succes">Chuyên</h5>
                                     <p class="card-text">Làm việc với khách hàng, chúng tôi luôn đề cao sự chuyên nghiệp, sự nhiệt thành, tính trách nhiệm, sự tận tụy, sự minh bạch rõ ràng; lấy sự hài lòng của khách hàng làm thước đo cho sự thành công!</p>
                                 </div>
                             </div>
@@ -70,7 +70,7 @@
                         <div class="col-sm-3">
                             <div class="card" style="border:none;" data-aos="fade-right">
                                 <div class="card-body">
-                                    <h5 class="card-title">Tín</h5>
+                                    <h5 class="card-title text-succes">Tín</h5>
                                     <p class="card-text">Chữ tín là điều tối quan trọng, chúng tôi luôn vươn tới khẳng định niềm tin đúng đắn khi khách hàng chọn chúng tôi.</p>
                                 </div>
                             </div>
@@ -78,7 +78,7 @@
                         <div class="col-sm-3">
                             <div class="card" style="border:none;" data-aos="fade-right">
                                 <div class="card-body">
-                                    <h5 class="card-title">Nhân</h5>
+                                    <h5 class="card-title text-succes">Nhân</h5>
                                     <p class="card-text">Xây dựng mối quan hệ với khách hàng, đối tác, đồng nghiệp bằng sự thiện chí , tình ái, tinh thần nhân văn, sự công bằng, tôn trọng và yêu thương.</p>
                                 </div>
                             </div>

@@ -12,7 +12,23 @@
 
 body {
     font-family: "Segoe UI", "Open Sans", sans-serif;
-    color: #444444;
+    color: #5a5454;
+}
+
+.text-succes {
+    color: #94c045;
+}
+
+.btn-warnin {
+    background-color: #94c045;
+    color: #fff;
+    border: 1px solid #94c045;
+}
+
+.btn-warnin:hover {
+    background-color: #ffc107;
+    color: #000;
+    border: 1px solid #ffc107;
 }
 
 a {
@@ -1255,7 +1271,7 @@ section {
     font-weight: 600;
     line-height: 1;
     text-transform: uppercase;
-    color: #444444;
+    color: #5a5454;
     margin-bottom: 5px;
     transition: all 0.3s ease-in-out;
     border-radius: 3px;
@@ -1471,7 +1487,7 @@ section {
 .pricing ul {
     padding: 0;
     list-style: none;
-    color: #444444;
+    color: #5a5454;
     text-align: center;
     line-height: 20px;
     font-size: 14px;
@@ -1972,7 +1988,7 @@ section {
 }
 
 .blog .entry .entry-content blockquote p {
-    color: #444444;
+    color: #5a5454;
     line-height: 1.6;
     margin-bottom: 0;
     font-style: italic;
@@ -2112,7 +2128,7 @@ section {
 
 .blog .blog-comments .comment h5 a {
     font-weight: bold;
-    color: #444444;
+    color: #5a5454;
     transition: 0.3s;
 }
 
