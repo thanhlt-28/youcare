@@ -15,6 +15,10 @@ body {
     color: #5a5454;
 }
 
+.msg-info {
+    font-size: 14px;
+}
+
 .text-succes {
     color: #94c045;
 }

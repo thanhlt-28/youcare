@@ -89,7 +89,7 @@
                 </div>
                 <div class="col">
                     <div style="border:none;" class="card h-100 hover-shadow">
-                        <img src="https://phongkhamtamly.com/wp-content/uploads/2021/11/nguyen-thi-tham.png" class="img-top" alt="...">
+                        <img src="https://phongkhamtamly.com/wp-content/uploads/2022/03/Nguyen-Thi-Tham-280x280.jpg" class="img-top" alt="...">
                         <div class="card-body">
                             <a target="_blank" class="text-center" href="https://phongkhamtamly.com/tien-si-nguyen-thi-tham/">
                                 <h5 class="card-title">TIẾN SĨ</br>
@@ -107,7 +107,7 @@
                 </div>
                 <div class="col">
                     <div style="border:none;" class="card h-100 hover-shadow">
-                        <img src="https://phongkhamtamly.com/wp-content/uploads/2021/11/nguyen-thi-mai-huong.png" class="img-top" alt="...">
+                        <img src="https://phongkhamtamly.com/wp-content/uploads/2022/03/Nguyen-Mai-Huong-280x280.jpg" class="img-top" alt="...">
                         <div class="card-body">
                             <a target="_blank" class="text-center" href="https://phongkhamtamly.com/tien-si-nguyen-thi-mai-huong/">
                                 <h5 class="card-title">TIẾN SĨ</br>
@@ -125,7 +125,7 @@
                 </div>
                 <div class="col">
                     <div style="border:none;" class="card h-100 hover-shadow">
-                        <img src="https://phongkhamtamly.com/wp-content/uploads/2022/01/Thanh-Van.jpg" class="img-top" alt="...">
+                        <img src="https://phongkhamtamly.com/wp-content/uploads/2022/03/Nguyen-Thanh-Van-280x280.jpg" class="img-top" alt="...">
                         <div class="card-body">
                             <a target="_blank" class="text-center" href="https://phongkhamtamly.com/thac-si-nguyen-thi-thanh-van/">
                                 <h5 class="card-title">THẠC SĨ</br>
@@ -161,7 +161,7 @@
                 </div>
                 <div class="col">
                     <div style="border:none;" class="card h-100 hover-shadow">
-                        <img src="https://phongkhamtamly.com/wp-content/uploads/2021/11/nguyen-thi-thuy-hang.png" class="img-top" alt="...">
+                        <img src="https://phongkhamtamly.com/wp-content/uploads/2022/03/Nguyen-Thuy-Hang-280x280.jpg" class="img-top" alt="...">
                         <div class="card-body">
                             <a target="_blank" class="text-center" href="https://phongkhamtamly.com/thac-si-nguyen-thi-thuy-hang/">
                                 <h5 class="card-title">THẠC SĨ</br>
@@ -179,7 +179,7 @@
                 </div>
                 <div class="col">
                     <div style="border:none;" class="card h-100 hover-shadow">
-                        <img src="https://phongkhamtamly.com/wp-content/uploads/2022/01/Hien-Minh.jpg" class="img-top" alt="...">
+                        <img src="https://phongkhamtamly.com/wp-content/uploads/2022/03/Nguyen-Hien-Minh-280x280.jpg" class="img-top" alt="...">
                         <div class="card-body">
                             <a target="_blank" class="text-center" href="https://phongkhamtamly.com/thac-si-nguyen-hien-minh/">
                                 <h5 class="card-title">THẠC SĨ</br>
@@ -200,7 +200,7 @@
                 </div>
                 <div class="col">
                     <div style="border:none;" class="card h-100 hover-shadow">
-                        <img src="https://phongkhamtamly.com/wp-content/uploads/2022/01/Hanh-Le-1.jpg" class="img-top" alt="...">
+                        <img src="https://phongkhamtamly.com/wp-content/uploads/2022/03/Le-The-Hanh-280x280.jpg" class="img-top" alt="...">
                         <div class="card-body">
                             <a target="_blank" class="text-center" href="https://phongkhamtamly.com/thac-si-le-the-hanh/">
                                 <h5 class="card-title">THẠC SĨ</br>
@@ -218,7 +218,7 @@
                 </div>
                 <div class="col">
                     <div style="border:none;" class="card h-100 hover-shadow">
-                        <img src="https://phongkhamtamly.com/wp-content/uploads/2022/01/Group-98231.jpg" class="img-top" alt="...">
+                        <img src="https://phongkhamtamly.com/wp-content/uploads/2022/03/Dang-Minh-Khue-280x280.jpg" class="img-top" alt="...">
                         <div class="card-body">
                             <a target="_blank" class="text-center" href="https://phongkhamtamly.com/thac-si-dang-minh-khue/">
                                 <h5 class="card-title">THẠC SĨ</br>

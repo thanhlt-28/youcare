@@ -55,11 +55,12 @@
                 <ul>
                     <li class="dropdown">
                         <a href="#">
-                            <span class="text-success">{{Auth::user()->name}}</span>
+                            <img src="assets/img/person-fill.png" width="30px" alt="">
+                            <span class="text-succes">{{Auth::user()->name}}</span>
+                            <i class="bi bi-chevron-down"></i>
                         </a>
-                    <li class="dropdown"><a href="#"> <i class="bi bi-chevron-down"></i></a>
                         <ul>
-                            <li><a href="{{'logout'}}"><i class="fas fa-sign-out-alt"></i>Đăng xuất</a></li>
+                            <li><a href="{{'logout'}}"></i>Đăng xuất</a></li>
                         </ul>
                     </li>
                 </ul>

@@ -4,14 +4,17 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Facades\Hash;
 
 class Register extends Model
 {
     use HasFactory;
     protected $fillable = [
         'name',
+        'phone_number',
         'email',
         'password',
+        'role',
     ];
 
     /**
@@ -20,8 +23,8 @@ class Register extends Model
      * @param $value
      * @return string
      */
-    public function setPasswordAttribute($value)
+    public function setPasswordAttribute($password)
     {
-        $this->attributes['password'] = bcrypt($value);
+        $this->attributes['password'] = Hash::make($password);
     }
 }
