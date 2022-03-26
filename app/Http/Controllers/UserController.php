@@ -78,6 +78,7 @@ class UserController extends Controller
 
         return view('auth.login', [
             'email' => $request->email,
+            'remember' => $request->remember,
         ]);
     }
 }

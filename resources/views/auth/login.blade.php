@@ -6,6 +6,14 @@
     <div class="container">
 
         <section class="section register min-vh-100 d-flex flex-column align-items-center justify-content-center py-4">
+
+            @if(session()->has('warning'))
+            <div class="alert alert-warning">
+                {{ session()->get('warning') }}
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+            @endif
+
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-4 col-md-6 d-flex flex-column align-items-center justify-content-center">
@@ -15,7 +23,6 @@
                             <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                         </div>
                         @endif
-
                         <div class="card">
                             <div class="card-body">
                                 <div class="d-flex justify-content-center py-4">
@@ -33,7 +40,7 @@
                                     <div class="col-12">
                                         <label for="yourEmail" class="form-label">Email</label>
                                         <div class="input-group has-validation">
-                                            <span class="input-group-text" id="inputGroupPrepend">@</span>
+                                            <!-- <span class="input-group-text" id="inputGroupPrepend">@</span> -->
                                             <input type="text" name="email" class="form-control" value="{{old('email')}}" placeholder="Điền email..." id="yourEmail">
                                         </div>
                                         @if ($errors->has('email'))

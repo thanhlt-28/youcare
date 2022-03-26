@@ -43,7 +43,7 @@
                                     <div class="col-12">
                                         <label for="yourEmail" class="form-label">Email</label>
                                         <div class="input-group has-validation">
-                                            <span class="input-group-text" id="inputGroupPrepend">@</span>
+                                            <!-- <span class="input-group-text" id="inputGroupPrepend">@</span> -->
                                             <input type="email" name="email" class="form-control" value="{{ old('email') }}" placeholder="Điền email...!" id="yourEmail">
                                             <div class="invalid-feedback">Vui lòng nhập địa chỉ email...!</div>
                                         </div>

@@ -37,10 +37,13 @@ Route::any('logout', function () {
 Route::view('register', 'auth.register')->name('register');
 Route::post('register', [RegisterController::class, 'postRegister'])->name('auth.postRegister');
 
-
+ // Liên hệ 
+ Route::get('lien-he', function () {
+    return view('clients.contact');
+})->name('clients.contact');
 
 // ===== Router Clients ===== //
-Route::prefix('/')->group(function () {
+Route::prefix('/')->middleware('check_users')->group(function () {
     // Giới thiệu
     Route::get('gioi-thieu', function () {
         return view('clients.about');
@@ -54,13 +57,8 @@ Route::prefix('/')->group(function () {
         return view('clients.about.team_experts');
     })->name('clients.about.team_experts');
 
-    // Liên hệ 
-    Route::get('lien-he', function () {
-        return view('clients.contact');
-    })->name('clients.contact');
-
     // =================Sản phẩm===================== //
-    Route::prefix('platform/')->group(function () {
+    // Route::prefix('platform/')->group(function () {
         Route::get('san-pham', function () {
             return view('clients.platform.product');
         })->name('clients.platform.product');
@@ -77,7 +75,7 @@ Route::prefix('/')->group(function () {
         Route::get('san-pham-4', function () {
             return view('clients.platform.prod_4');
         })->name('clients.platform.prod_4');
-    });
+    // });
 
 
 
@@ -100,7 +98,7 @@ Route::prefix('/')->group(function () {
 });
 
 // ===== Router Admin ===== //
-Route::prefix('admin')->group(function () {
+Route::prefix('admin')->middleware('check_admin_role')->group(function () {
     // Dashboard
     Route::get('/', function () {
         return view('admin.dashboard');

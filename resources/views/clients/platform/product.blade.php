@@ -6,11 +6,24 @@
 
     <!-- ======= Breadcrumbs ======= -->
     <section id="breadcrumbs" class="breadcrumbs">
-        <div class="breadcrumb-hero">
+    <div class="breadcrumb-hero">
             <div class="container">
-                <div class="breadcrumb-hero">
-                    <h1 class="text-uppercase mb-3">Sản phẩm</h1>
-                </div>
+                <!-- <div class="breadcrumb-hero"> -->
+                <style>
+                    h1 {
+                        text-shadow: 2px 2px 4px #000000;
+                        margin-top: -50px;
+                        line-height: 10;
+                    }
+                </style>
+                <h1 class="text-uppercase mb-3">Sản phẩm tính năng vượt trội</h1>
+                <button type="button" class="btn btn-warning rounded-pill">
+                    <a class="text-dark" href="">Đăng ký</a>
+                </button>
+                <button type="button" class="btn btn-outline-light rounded-pill">
+                    <a class="text-dark" href="">Liên hệ ngay</a>
+                </button>
+                <!-- </div> -->
             </div>
         </div>
         <div class="container">
@@ -189,7 +202,6 @@
         </div>
     </section>
     <!-- End Features Section -->
-
 
 </main>
 @endsection
