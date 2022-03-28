@@ -13,6 +13,7 @@ class CreateRegistersTable extends Migration
      */
     public function up()
     {
+        Schema::dropIfExists('registers');
         Schema::create('registers', function (Blueprint $table) {
             $table->id();
             $table->string('name');
@@ -31,6 +32,6 @@ class CreateRegistersTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('registers');
+        
     }
 }

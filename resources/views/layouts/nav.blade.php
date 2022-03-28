@@ -9,7 +9,7 @@
 
     <nav id="navbar" class="navbar">
         <ul>
-            <li><a class="active" href="{{'/'}}">Trang chủ</a></li>
+            <li><a class="{{ Request::is('/') ? 'active' : '' }}" href="{{'/'}}">Trang chủ</a></li>
             <li class="dropdown"><a href="{{route('clients.about')}}"><span>Giới thiệu</span> <i class="bi bi-chevron-down"></i></a>
                 <ul>
                     <li><a href="{{route('clients.about.vision')}}">Tầm nhìn & Sứ mệnh</a></li>
@@ -19,9 +19,6 @@
                 <ul>
                   <li><a href="#">Deep Drop Down 1</a></li>
                   <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
                 </ul>
               </li> -->
                 </ul>
@@ -55,13 +52,18 @@
                 <ul>
                     <li class="dropdown">
                         <a href="#">
-                            <img src="assets/img/person-fill.png" width="30px" alt="">
-                            <span class="text-succes">{{Auth::user()->name}}</span>
+                            <img src="assets/img/work/avt.png" width="30px" alt="">
+                            <span class="text-succes"> &nbsp; {{Auth::user()->name}}</span>
                             <i class="bi bi-chevron-down"></i>
                         </a>
+                        @if (Auth::check())
                         <ul>
-                            <li><a href="{{'logout'}}"></i>Đăng xuất</a></li>
+                            @if (Auth::user()->role == 1)
+                            <li><a href="{{route('dashboard')}}">Quản trị <i class="bi bi-person-fill"></i></a></li>
+                            @endif
+                            <li><a href="{{'logout'}}">Đăng xuất <i class="bi bi-box-arrow-left"></i></a></li>
                         </ul>
+                        @endif
                     </li>
                 </ul>
             </nav>

@@ -48,6 +48,7 @@ class RegisterController extends Controller
         $users->phone_number = $request->phone_number;
         $users->email = $request->email;
         $users->password = Hash::make('password');
+        $users->role = 2;
         $users->fill($request->all());
         // dd($users);
 

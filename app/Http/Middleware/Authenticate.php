@@ -20,9 +20,10 @@ class Authenticate extends Middleware
     // }
     protected function redirectTo($request)
     {
-        if (auth()->user()->is_admin == 1) {
-            return '/admin';
+        if ($request->expectsJson()) {
+            return response()->json(['success' => 'Bạn phải đăng nhập.'], 401);
         }
-        return '/';
+        
+        return route('login');
     }
 }

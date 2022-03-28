@@ -17,7 +17,7 @@ class CheckUsers
      */
     public function handle(Request $request, Closure $next)
     {
-        if (Auth::check() && Auth::user()->role == null) {
+        if ((Auth::check() && Auth::user()->role == 1)||(Auth::check() && Auth::user()->role == 2)) {
             return $next($request);
         }
         return redirect('login')->with('warning', 'Bạn vui lòng đăng nhập hoặc đăng kí để tiếp tục xem!');
