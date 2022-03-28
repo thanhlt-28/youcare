@@ -36,8 +36,8 @@ Route::any('logout', function () {
 Route::view('register', 'auth.register')->name('register');
 Route::post('register', [RegisterController::class, 'postRegister'])->name('auth.postRegister');
 
- // Liên hệ 
- Route::get('lien-he', function () {
+// Liên hệ 
+Route::get('lien-he', function () {
     return view('clients.contact');
 })->name('clients.contact');
 
@@ -58,22 +58,22 @@ Route::prefix('/')->middleware('check_users')->group(function () {
 
     // =================Sản phẩm===================== //
     // Route::prefix('platform/')->group(function () {
-        Route::get('san-pham', function () {
-            return view('clients.platform.product');
-        })->name('clients.platform.product');
+    Route::get('platform/san-pham', function () {
+        return view('clients.platform.product');
+    })->name('clients.platform.product');
 
-        Route::get('san-pham-1', function () {
-            return view('clients.platform.prod_1');
-        })->name('clients.platform.prod_1');
-        Route::get('san-pham-2', function () {
-            return view('clients.platform.prod_2');
-        })->name('clients.platform.prod_2');
-        Route::get('san-pham-3', function () {
-            return view('clients.platform.prod_3');
-        })->name('clients.platform.prod_3');
-        Route::get('san-pham-4', function () {
-            return view('clients.platform.prod_4');
-        })->name('clients.platform.prod_4');
+    Route::get('platform/san-pham-1', function () {
+        return view('clients.platform.prod_1');
+    })->name('clients.platform.prod_1');
+    Route::get('platform/san-pham-2', function () {
+        return view('clients.platform.prod_2');
+    })->name('clients.platform.prod_2');
+    Route::get('platform/san-pham-3', function () {
+        return view('clients.platform.prod_3');
+    })->name('clients.platform.prod_3');
+    Route::get('platform/san-pham-4', function () {
+        return view('clients.platform.prod_4');
+    })->name('clients.platform.prod_4');
     // });
 
 
@@ -115,4 +115,7 @@ Route::prefix('admin')->middleware('check_admin_role')->group(function () {
     Route::prefix('cate_post')->group(function () {
         Route::get('danh-muc-bai-viet', [CatePostController::class, 'index'])->name('cate_post.index');
     });
+
+    // ===== Router Users ===== //
+    Route::get('users/nguoi-dung', [UserController::class, 'index'])->name('users.index');
 });

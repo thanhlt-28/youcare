@@ -2,11 +2,13 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 
 class UserController extends Controller
 {
+    
     public function getLogin()
     {
         return view('auth.login');
@@ -46,4 +48,11 @@ class UserController extends Controller
             'remember' => $request->remember,
         ]);
     }
+
+
+    public function index(){
+        $user = User::all();
+        return view('admin.users.index', compact('user'));
+    }
+
 }

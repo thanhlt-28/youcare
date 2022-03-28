@@ -59,13 +59,13 @@
      </li><!-- End Tables Nav -->
 
      <li class="nav-item">
-         <a class="nav-link collapsed" data-bs-target="#charts-nav" data-bs-toggle="collapse" href="#">
-             <i class="bi bi-bar-chart"></i><span>Charts</span>
+         <a class="nav-link" href="{{route('users.index')}}">
+             <i class="bi bi-bar-chart"></i><span>Users</span>
          </a>
      </li><!-- End Charts Nav -->
 
      <li class="nav-item">
-         <a class="nav-link collapsed" data-bs-target="#icons-nav" data-bs-toggle="collapse" href="#">
+         <a class="nav-link" href="#">
              <i class="bi bi-gem"></i><span>Icons</span>
          </a>
      </li><!-- End Icons Nav -->

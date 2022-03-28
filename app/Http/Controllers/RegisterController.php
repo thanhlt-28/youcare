@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Role;
 use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Hash;
@@ -51,6 +52,11 @@ class RegisterController extends Controller
         $users->role = 2;
         $users->fill($request->all());
         // dd($users);
+
+        // $users
+        // ->roles()
+        // ->attach(Role::where('name','custom')->first());
+        // return $users;
 
         $users->save();
         session()->flash('success', 'Đăng ký thành công');

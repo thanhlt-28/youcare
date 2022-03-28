@@ -6,20 +6,23 @@
 
     <!-- ======= Breadcrumbs ======= -->
     <section id="breadcrumbs" class="breadcrumbs">
-    <div class="breadcrumb-hero">
+        <div class="breadcrumb-hero">
             <div class="container">
                 <!-- <div class="breadcrumb-hero"> -->
                 <style>
-                    h1 {
+                    .header-hero{
                         text-shadow: 2px 2px 4px #000000;
-                        margin-top: -50px;
-                        line-height: 7;
+                        margin-top: 50px;
+                        height: auto;
+                        line-height: 5;
                     }
                 </style>
-                <h1 class="text-uppercase mb-3">Sản phẩm tính năng vượt trội</h1>
-                <button type="button" class="btn btn-warning rounded-pill">
-                    <a class="text-dark" href="{{route('clients.contact')}}">Liên hệ ngay</a>
-                </button>
+                <div class="header-hero">
+                    <h1 class="text-uppercase mb-3">Sản phẩm tính năng vượt trội</h1>
+                    <button type="button" class="btn btn-warning rounded-pill">
+                        <a class="text-dark" href="{{route('clients.contact')}}">Liên hệ ngay</a>
+                    </button>
+                </div>
                 <!-- </div> -->
             </div>
         </div>
