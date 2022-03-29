@@ -10,7 +10,7 @@
             <div class="container">
                 <!-- <div class="breadcrumb-hero"> -->
                 <style>
-                    .header-hero{
+                    .header-hero {
                         text-shadow: 2px 2px 4px #000000;
                         margin-top: 50px;
                         height: auto;
@@ -19,9 +19,31 @@
                 </style>
                 <div class="header-hero">
                     <h1 class="text-uppercase mb-3">Sản phẩm tính năng vượt trội</h1>
-                    <button type="button" class="btn btn-warning rounded-pill">
-                        <a class="text-dark" href="{{route('clients.contact')}}">Liên hệ ngay</a>
-                    </button>
+                    <style>
+                        .btnsecondary button {
+                            border: 1px solid #fff;
+                            color: #fff;
+                        }
+
+                        .btnsecondary a {
+                            color: #fff;
+                        }
+
+                        .btnsecondary a:hover {
+                            color: #94c045;
+                        }
+
+                        .btnsecondary button:hover {
+                            border: 1px solid #94c045;
+                            background-color: #fff;
+                        }
+                    </style>
+                    <div class="btnsecondary">
+                        <button type="button" class="btn btn-outline-secondary btn-lg rounded-pill">
+                            <a href="{{route('clients.contact')}}"><i class="bx bx-phone-call"></i> Liên hệ tư vấn</a>
+                        </button>
+                    </div>
+
                 </div>
                 <!-- </div> -->
             </div>
@@ -202,6 +224,146 @@
         </div>
     </section>
     <!-- End Features Section -->
+
+    <!-- FAQs Start -->
+    <div class="faqs">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                    <div class="section-header left">
+                        <h2>Câu hỏi thường gặp</h2>
+                    </div>
+                    <img src="{{asset('assets/img/footer-bg.png')}}" alt="Image">
+                </div>
+                <div class="col-md-7">
+                    <div id="accordion">
+                        <div class="card">
+                            <div class="card-header">
+                                <a class="card-link" href="#" aria-expanded="true">
+                                    <span>1</span> Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor ut labore et dolore magna aliqua?
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header">
+                                <a class="card-link" href="#">
+                                    <span>2</span> Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor ut labore et dolore magna aliqua?
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header">
+                                <a class="card-link" href="#">
+                                    <span>3</span> Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor ut labore et dolore magna aliqua?
+                                </a>
+                            </div>
+
+                        </div>
+                        <div class="card">
+                            <div class="card-header">
+                                <a class="card-link" href="#">
+                                    <span>4</span> Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor ut labore et dolore magna aliqua?
+                                </a>
+                            </div>
+
+                        </div>
+                        <div class="card">
+                            <div class="card-header">
+                                <a class="card-link" href="#">
+                                    <span>5</span> Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor ut labore et dolore magna aliqua?
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+                    <a class="btn" href="{{route('clients.contact')}}">Bạn có thể hỏi</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- FAQs End -->
+
+    <!-- ======= Features Section ======= -->
+    <section id="features" class="features">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-3 col-md-4">
+                    <div class="icon-box">
+                        <i class="bi bi-shop" style="color: #ffbb2c;"></i>
+                        <h3><a href="">Bài test</a></h3>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
+                    <div class="icon-box">
+                        <i class="bi bi-bar-chart-line" style="color: #5578ff;"></i>
+                        <h3><a href="">Bài test</a></h3>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
+                    <div class="icon-box">
+                        <i class="bi bi-calendar-check-fill" style="color: #e80368;"></i>
+                        <h3><a href="">Bài tests</a></h3>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 mt-4 mt-lg-0">
+                    <div class="icon-box">
+                        <i class="bi bi-paint-bucket" style="color: #e361ff;"></i>
+                        <h3><a href="">Bài test</a></h3>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 mt-4">
+                    <div class="icon-box">
+                        <i class="bi bi-clipboard-data" style="color: #47aeff;"></i>
+                        <h3><a href="">Bài test</a></h3>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 mt-4">
+                    <div class="icon-box">
+                        <i class="bi bi-text-paragraph" style="color: #ffa76e;"></i>
+                        <h3><a href="">Bài testr</a></h3>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 mt-4">
+                    <div class="icon-box">
+                        <i class="bi bi-card-list" style="color: #11dbcf;"></i>
+                        <h3><a href="">Bài test</a></h3>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 mt-4">
+                    <div class="icon-box">
+                        <i class="bi bi-pie-chart" style="color: #4233ff;"></i>
+                        <h3><a href="">Bài test</a></h3>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 mt-4">
+                    <div class="icon-box">
+                        <i class="bi bi-type-underline" style="color: #b2904f;"></i>
+                        <h3><a href="">Bài test</a></h3>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 mt-4">
+                    <div class="icon-box">
+                        <i class="bi bi-disc" style="color: #b20969;"></i>
+                        <h3><a href="">Bài testl</a></h3>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 mt-4">
+                    <div class="icon-box">
+                        <i class="bi bi-hdd-stack" style="color: #ff5828;"></i>
+                        <h3><a href="">Bài test</a></h3>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 mt-4">
+                    <div class="icon-box">
+                        <i class="bi bi-filter-circle" style="color: #29cc61;"></i>
+                        <h3><a href="">Bài test</a></h3>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section><!-- End Features Section -->
 
 </main>
 @endsection

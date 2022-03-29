@@ -28,24 +28,38 @@
     <!-- ======= Frequently Asked Questions Section ======= -->
     <section id="faq" class="faq section-bg" style="background: none;">
         <div class="container">
+            <div class="row justify-content-start align-items">
 
-            <!-- Recent Activity -->
-            <div class="card" style="border: none;" data-aos="fade-in">
-                <div class="card-body">
-                    <h3 class="card-title">Về chúng tôi</h3>
-                    <p class="card-text">
+                <div class="col-lg-6 no-padding" data-aos="fade">
+                    <h2>Về chúng tôi</h2>
+                    <p>
                         Trung tâm chăm sóc sức khoẻ tinh thần Braincare với sự khao khát mang mang những nguồn tri thức ứng dụng vào đời sống giúp cho cộng đồng hạnh phúc từng giây phút...
                     </p>
-                    <p class="card-text">
-                    <p class="text-succes"><b>Tầm nhìn</b></p>
-                    Braincare hướng tới trở thành một trong những đơn vị dẫn đầu về lĩnh vực chăm sóc sức khoẻ tinh thần tại Việt Nam, làm thay đổi thói quen và nhận thức của người Việt Nam trong việc chú trọng sức khoẻ tinh thần và tìm kiếm sự trợ giúp khi cần thiết.
-                    </p>
-                    <p class="card-text">
-                    <p class="text-succes"><b>Sứ mệnh</b></p>
-                    "Vì cộng đồng hạnh phúc hơn từng phút giây"
-                    </p>
+                    <div class="single-about">
+                        <span class="lnr lnr-diamond"></span>
+                        <a href="#">
+                            <h6>Tầm nhìn</h6>
+                        </a>
+                        <p>
+                            Braincare hướng tới trở thành một trong những đơn vị dẫn đầu về lĩnh vực chăm sóc sức khoẻ tinh thần tại Việt Nam, làm thay đổi thói quen và nhận thức của người Việt Nam trong việc chú trọng sức khoẻ tinh thần và tìm kiếm sự trợ giúp khi cần thiết.
+                        </p>
+                    </div>
+                    <div class="single-about">
+                        <span class="lnr lnr-phone"></span>
+                        <a href="#">
+                            <h6>Sứ mệnh</h6>
+                        </a>
+                        <p>
+                            "Vì cộng đồng hạnh phúc hơn từng phút giây"
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-6 no-padding" data-aos="fade">
+                    <img class="img-fluid mt-5" src="{{asset('assets/img/bongden.png')}}" alt="">
                 </div>
             </div>
+            <!-- Recent Activity -->
+
             <div class="card mt-3" data-aos="fade-in">
                 <div class="card-body">
                     <h3 class="card-title">Giá trị cốt lõi BrainCare</h3>
@@ -91,7 +105,6 @@
         </div>
     </section><!-- End Frequently Asked Questions Section -->
 
-    
 
     <section id="contact" class="contact-ft">
         <div class="container">

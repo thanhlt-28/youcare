@@ -382,6 +382,154 @@ h6 {
 }
 
 
+/*******************************/
+
+
+/*********** FAQs CSS **********/
+
+
+/*******************************/
+
+.faqs {
+    position: relative;
+    width: 100%;
+    padding: 45px 0;
+}
+
+.faqs .section-header {
+    margin-bottom: 30px;
+}
+
+.faqs img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+@media(max-width: 767.98px) {
+    .faqs img {
+        margin-bottom: 30px;
+    }
+}
+
+.faqs .card {
+    margin-bottom: 15px;
+    padding-top: 15px;
+    border: none;
+    border-radius: 0;
+    border-top: 1px solid #eeeeee;
+}
+
+.faqs .card:last-child {
+    margin-bottom: 0;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.faqs .card-header {
+    padding: 0;
+    border: none;
+    background: #ffffff;
+}
+
+.faqs .card-header a {
+    display: block;
+    width: 100%;
+    color: #5a5454;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 40px;
+}
+
+.faqs .card-header a span {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    text-align: center;
+    background: #FFD662;
+    color: #000000;
+    border-radius: 5px;
+}
+
+.faqs .card-header [data-toggle="collapse"]:after {
+    font-family: "Segoe UI", "Open Sans", sans-serif;
+    content: "\f067";
+    float: right;
+    color: #5a5454;
+    font-size: 12px;
+    font-weight: 900;
+    transition: .3s;
+}
+
+.faqs .card-header [data-toggle="collapse"][aria-expanded="true"]:after {
+    font-family: "Segoe UI", "Open Sans", sans-serif;
+    content: "\f068";
+    float: right;
+    color: #5a5454;
+    font-size: 12px;
+    font-weight: 900;
+    transition: .3s;
+}
+
+.faqs .card-body {
+    padding: 15px 0 0 0;
+    font-size: 16px;
+    border: none;
+    background: #ffffff;
+}
+
+.faqs a.btn {
+    margin-top: 30px;
+    padding: 15px 35px;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    background: #FFD662;
+    transition: .3s;
+}
+
+.faqs a.btn:hover {
+    color: #ffffff;
+    background: #94c045;
+}
+
+
+/**********************************/
+
+
+/********* Team #6 Style **********/
+
+
+/**********************************/
+
+.team-6 {
+    margin-bottom: 30px;
+}
+
+.team-6 .team-img {
+    position: relative;
+    font-size: 0;
+    text-align: center;
+    border-radius: 100%;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+
+.team-6 .team-img img {
+    width: 100%;
+    height: auto;
+    border-radius: 100%;
+    border: 15px solid #f3f4fa;
+    transition: all .3s;
+}
+
+.team-6:hover .team-img img {
+    border: 0px solid #f3f4fa;
+}
+
+
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
@@ -1249,6 +1397,46 @@ section {
 .features .card:hover .card-title a,
 .features .card:hover .card-text {
     color: #fff;
+}
+
+
+/*--------------------------------------------------------------
+# Features
+--------------------------------------------------------------*/
+
+.features {
+    padding-top: 0;
+}
+
+.features .icon-box {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    transition: ease-in-out 0.3s;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+.features .icon-box i {
+    font-size: 32px;
+    padding-right: 10px;
+    line-height: 1;
+}
+
+.features .icon-box h3 {
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-size: 16px;
+}
+
+.features .icon-box h3 a {
+    color: #94c045;
+    transition: ease-in-out 0.3s;
+}
+
+.features .icon-box:hover h3 a {
+    color: #789d35;
 }
 
 

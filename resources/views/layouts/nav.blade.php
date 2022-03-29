@@ -4,7 +4,7 @@
     <div class="logo">
         <!-- <h1 class="text-light"><a href="{{'/'}}">Serenity</a></h1> -->
         <!-- Uncomment below if you prefer to use an image logo -->
-        <a href="{{'/'}}"><img src="assets/img/logo-landscape.png" alt="" class="img-fluid"></a>
+        <a href="{{'/'}}"><img src="{{asset('assets/img/logo-landscape.png')}}" alt="" class="img-fluid"></a>
     </div>
 
     <nav id="navbar" class="navbar">
@@ -52,7 +52,7 @@
                 <ul>
                     <li class="dropdown">
                         <a href="#">
-                            <img src="assets/img/work/avt.png" width="30px" alt="">
+                            <img src="{{asset('assets/img/work/avt.png')}}" width="30px" alt="">
                             <span class="text-succes"> &nbsp; {{Auth::user()->name}}</span>
                             <i class="bi bi-chevron-down"></i>
                         </a>

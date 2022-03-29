@@ -5,10 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <link rel="shortcut icon" href="assets/img/logo-new.png" type="image/png"> -->
     <!-- Favicons -->
-    <link href="assets/img/favicon.gif" rel="icon">
-    <link href="assets/img/logo-landscape.png" rel="logo-Landscape">
+    <link href="{{asset('assets/img/favicon.gif')}}" rel="icon">
+    <link href="{{asset('assets/img/logo-landscape.png')}}" rel="logo-Landscape">
     <title> @yield('title', 'BrainCare')</title>
     @include('layouts.style')
 </head>

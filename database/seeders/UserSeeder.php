@@ -28,7 +28,7 @@ class UserSeeder extends Seeder
  
         $manager = new User();
         $manager->name = 'Admin Name';
-        $manager->email = 'admin@example.com';
+        $manager->email = 'braincare.vn@gmail.com';
         $manager->password = bcrypt('123456');
         $manager->save();
         $manager->roles()->attach($role_manager);

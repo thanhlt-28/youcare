@@ -60,7 +60,7 @@
 
      <li class="nav-item">
          <a class="nav-link" href="{{route('users.index')}}">
-             <i class="bi bi-bar-chart"></i><span>Users</span>
+             <i class="bi bi-person-lines-fill"></i><span>Users</span>
          </a>
      </li><!-- End Charts Nav -->
 
