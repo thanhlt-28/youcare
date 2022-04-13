@@ -31,4 +31,4 @@
 <script src="{{asset('assets/lib/lightbox/js/lightbox.min.js')}}"></script>
 
 <!-- Template Javascript -->
-<script src="{{asset('lib/js/main.js')}}"></script>
+<script src="{{asset('assets/lib/js/main.js')}}"></script>

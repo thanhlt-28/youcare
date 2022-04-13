@@ -6,7 +6,12 @@
 
     <!-- ======= Breadcrumbs ======= -->
     <section id="breadcrumbs" class="breadcrumbs">
-        <div class="breadcrumb-hero">
+        <div class="breadcrumb-hero" style="
+            background-image: url(../assets/img/19208.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            min-height: 30rem;
+        ">
             <div class="container">
                 <!-- <div class="breadcrumb-hero"> -->
                 <style>
@@ -23,19 +28,18 @@
                         .btnsecondary button {
                             border: 1px solid #fff;
                             color: #fff;
+                            background-color: #ffffff;
                         }
 
                         .btnsecondary a {
-                            color: #fff;
-                        }
-
-                        .btnsecondary a:hover {
                             color: #94c045;
                         }
+
 
                         .btnsecondary button:hover {
                             border: 1px solid #94c045;
                             background-color: #fff;
+                            
                         }
                     </style>
                     <div class="btnsecondary">

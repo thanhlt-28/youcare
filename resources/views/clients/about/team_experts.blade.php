@@ -7,7 +7,7 @@
     <!-- ======= Breadcrumbs ======= -->
     <section id="breadcrumbs" class="breadcrumbs">
         <div class="breadcrumb-hero" style="
-            background-image: url(http://phongkhamtamly.com/wp-content/uploads/2021/11/doi-ngu-chuyen-gia-braincare.jpg);
+            background-image: url(../assets/img/6487.jpg);
             background-repeat: no-repeat;
             background-size: cover;
             min-height: 30rem;

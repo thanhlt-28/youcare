@@ -262,3 +262,67 @@
     });
 
 })()
+
+$(function() {
+
+    if ($('.owl-2').length > 0) {
+        $('.owl-2').owlCarousel({
+            center: false,
+            items: 1,
+            loop: true,
+            stagePadding: 0,
+            margin: 20,
+            smartSpeed: 2000,
+            autoplay: true,
+            nav: true,
+            dots: true,
+            pauseOnHover: false,
+            responsive: {
+                600: {
+                    margin: 20,
+                    nav: true,
+                    items: 2
+                },
+                1000: {
+                    margin: 20,
+                    stagePadding: 0,
+                    nav: true,
+                    items: 3
+                }
+            }
+        });
+    }
+
+})
+$(function() {
+
+    var owl = $('.slide-one-item');
+
+    $('.slide-one-item').owlCarousel({
+        center: false,
+        items: 1,
+        loop: true,
+        stagePadding: 0,
+        margin: 0,
+        smartSpeed: 1500,
+        autoplay: true,
+        nav: true,
+        dots: true,
+        pauseOnHover: true,
+        navText: ['<span class="icon-keyboard_arrow_left">', '<span class="icon-keyboard_arrow_right">']
+    });
+
+    $('.thumbnail li').each(function(slide_index) {
+        $(this).click(function(e) {
+            owl.trigger('to.owl.carousel', [slide_index, 1500]);
+            e.preventDefault();
+        })
+    })
+
+    owl.on('changed.owl.carousel', function(event) {
+        $('.thumbnail li').removeClass('active');
+        $('.thumbnail li').eq(event.item.index - 2).addClass('active');
+    })
+
+
+})

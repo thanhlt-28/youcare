@@ -59,13 +59,14 @@
      </li><!-- End Tables Nav -->
 
      <li class="nav-item">
-         <a class="nav-link" href="{{route('users.index')}}">
+         <a class="nav-link collapsed" href="{{route('users.index')}}">
              <i class="bi bi-person-lines-fill"></i><span>Users</span>
          </a>
      </li><!-- End Charts Nav -->
+     
 
      <li class="nav-item">
-         <a class="nav-link" href="#">
+         <a class="nav-link collapsed" href="#">
              <i class="bi bi-gem"></i><span>Icons</span>
          </a>
      </li><!-- End Icons Nav -->

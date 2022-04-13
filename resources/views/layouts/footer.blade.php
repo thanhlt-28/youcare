@@ -42,8 +42,10 @@
         <div class="footer-links mt-3">
           <h4>Phần mềm</h4>
           <ul>
-            <li><a href="#">Tính năng</a></li>
-            <li><a href="#">Bảng giá</a></li>
+            <li><a href="https://chk.youcare.vn/user/login">ChkCare</a></li>
+            <li><a href="#">PubCare</a></li>
+            <li><a href="#">PsyCare</a></li>
+            <li><a href="#">BizCare</a></li>
           </ul>
         </div>
        
@@ -77,7 +79,7 @@
 
 <div class="container">
   <div class="copyright">
-    &copy; Copyright <strong><span>by BrainCare</span></strong>
+    &copy; Copyright <strong>by<a href="https://braincare.vn/"><span> BrainCare</span></a></strong>
   </div>
 </div>
 </footer><!-- End Footer -->
