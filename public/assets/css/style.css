@@ -707,6 +707,64 @@ section {
     content: "/";
 }
 
+.breadcrumb-prod {
+    background: url('../img/banner-product.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 55vh;
+}
+
+@media only screen and (max-width: 600px) {
+    .breadcrumb-prod {
+        background: url('../img/banner-product.png');
+        padding: 74px 0;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 100%;
+    }
+}
+
+.breadcrumb-product {
+    text-align: center;
+    background: #789d35;
+    min-height: 50px;
+    color: #fff;
+}
+
+.breadcrumb-product h5 {
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 400;
+}
+
+@media(max-width: 767.98px) {
+    .breadcrumb-product {
+        text-align: center;
+        background: #789d35;
+        min-height: 25px;
+        color: #fff;
+    }
+    .breadcrumb-product h5 {
+        font-size: 18px;
+        line-height: 20px;
+        font-weight: 400;
+    }
+}
+
+q {
+    display: inline;
+    line-height: 50px;
+}
+
+q:before {
+    content: open-quote;
+}
+
+q:after {
+    content: close-quote;
+}
+
 
 /*--------------------------------------------------------------
 # About
@@ -1221,8 +1279,6 @@ section {
 .img-fluid {
     border-radius: 20px;
 }
-
-.details {}
 
 .clients {
     padding-top: 60px;
@@ -2804,6 +2860,41 @@ h2 {
 }
 
 
+/* chkcare-detail */
+
+.bread-chkcare {
+    background: url('../img/banner-chkcare.png') top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 32rem;
+    margin: auto;
+    padding: 0;
+    z-index: 1;
+}
+
+.header-hero {
+    line-height: 40;
+    margin: auto;
+}
+
+@media(max-width: 767.98px) {
+    .bread-chkcare {
+        display: none;
+    }
+    .header-hero {
+        padding: 0;
+        margin-left: 70px;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .bread-chkcare {
+        display: none;
+    }
+}
+
+
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
@@ -2980,3 +3071,96 @@ h2 {
     font-size: 13px;
     color: #fff;
 }
+
+
+/* Tabs */
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+HK&display=swap');
+.nav-shadow {
+    box-shadow: 0 2px 15px rgb(0 0 0 / 5%) !important;
+}
+
+.nav-border {
+    border-right: 3px solid #94c045;
+}
+
+.nav-pills .nav-link {
+    padding: 20px;
+    width: 300px;
+    height: 100%;
+    border: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: #fff;
+    color: #333;
+    transition: all 0.3s;
+}
+
+.nav-pills .nav-link.active {
+    background: -webkit-linear-gradient(30deg, #94c045, #789d35);
+    background: -o-linear-gradient(30deg, #94c045, #789d35);
+    background: linear-gradient(120deg, #94c045, #789d35);
+    color: #fff;
+    box-shadow: 0 2px 15px rgb(0 0 0 / 10%);
+}
+
+.nav-pills .nav-link {
+    border-radius: 0px;
+}
+
+.nav-link .circle-icon {
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    border: 2px solid #789d35;
+    background: #fff;
+    color: #94c045;
+    font-size: 22px;
+}
+
+.img-cont {
+    max-width: 350px;
+    width: 100%;
+}
+
+
+/* @media (min-width: 576px) {
+    .nav-pills .nav-link {
+        width: 150px;
+        width: calc(100% - 150px);
+        padding: 2rem 2rem;
+        width: 100%;
+        display: block;
+        margin-top: 0.2rem;
+        flex-wrap: wrap;
+    }
+    .tabs section {
+        width: calc(100% - 150px);
+        padding: 2rem 2rem;
+    }
+    .nav-link .circle-icon {
+        height: 20px;
+        width: 20px;
+        border-radius: 20px;
+        border: 2px solid #789d35;
+        background: #fff;
+        color: #94c045;
+        font-size: 22px;
+    }
+}
+
+@media (min-width: 768px) {
+    body {
+        font-size: 0.125rem;
+    }
+    .tabs-container {
+        padding: 4rem 4rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .tabs {
+        width: 800px;
+    }
+} */

@@ -6,50 +6,14 @@
 
     <!-- ======= Breadcrumbs ======= -->
     <section id="breadcrumbs" class="breadcrumbs">
-        <div class="breadcrumb-hero" style="
-            background-image: url(../assets/img/19208.jpg);
-            background-repeat: no-repeat;
-            background-size: cover;
-            min-height: 30rem;
-        ">
+        <div class="breadcrumb-prod">
             <div class="container">
-                <!-- <div class="breadcrumb-hero"> -->
-                <style>
-                    .header-hero {
-                        text-shadow: 2px 2px 4px #000000;
-                        margin-top: 50px;
-                        height: auto;
-                        line-height: 5;
-                    }
-                </style>
                 <div class="header-hero">
-                    <h1 class="text-uppercase mb-3">Sản phẩm tính năng vượt trội</h1>
-                    <style>
-                        .btnsecondary button {
-                            border: 1px solid #fff;
-                            color: #fff;
-                            background-color: #ffffff;
-                        }
-
-                        .btnsecondary a {
-                            color: #94c045;
-                        }
-
-
-                        .btnsecondary button:hover {
-                            border: 1px solid #94c045;
-                            background-color: #fff;
-                            
-                        }
-                    </style>
-                    <div class="btnsecondary">
-                        <button type="button" class="btn btn-outline-secondary btn-lg rounded-pill">
-                            <a href="{{route('clients.contact')}}"><i class="bx bx-phone-call"></i> Liên hệ tư vấn</a>
-                        </button>
-                    </div>
-
+                        <a href="{{route('clients.contact')}}">
+                            <button type="button" class="btn btn-outline-success rounded-pill">
+                                <i class="bx bx-phone-call"></i> Liên hệ tư vấn</button>
+                        </a>
                 </div>
-                <!-- </div> -->
             </div>
         </div>
         <div class="container">
@@ -63,42 +27,6 @@
     </section>
     <!-- End Breadcrumbs -->
 
-    <!-- <section id="about" class="about">
-        <div class="container">
-
-            <div class="row justify-content-end">
-                <div class="col-lg-11">
-                    <div class="row justify-content-end">
-
-                        <div class="col-lg-4 col-md-5 col-6 d-md-flex align-items-md-stretch">
-                            <div class="count-boxed py-5">
-                                <i class="bi bi-people-fill"></i>
-                                <span data-purecounter-start="0" data-purecounter-end="50000" class="purecounter"></span>
-                                <p>Khách hàng</p>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-4 col-md-5 col-6 d-md-flex align-items-md-stretch">
-                            <div class="count-boxed py-5">
-                                <i class="bi bi-journal-richtext"></i>
-                                <span data-purecounter-start="0" data-purecounter-end="10" class="purecounter">0</span>
-                                <p>Dịch vụ</p>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-4 col-md-5 col-6 d-md-flex align-items-md-stretch">
-                            <div class="count-boxed pb-5 pt-0 pt-lg-5">
-                                <i class="bi bi-person-plus"></i>
-                                <span data-purecounter-start="0" data-purecounter-end="15000" class="purecounter">0</span>
-                                <p>Khách hàng tin cậy</p>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> -->
 
     <!-- ======= Pricing Section ======= -->
     <section id="pricing" class="pricing">
@@ -110,11 +38,11 @@
                         <div style="border: none;" class="card h-100">
                             <img class="card-img-top" src="/assets/img/work/pack.hrm.svg" width="50%" alt="">
                             <div class="card-body">
-                                <h5 class="card-title">Work</h5>
+                                <h5 class="card-title">Ứng dụng ChkCare</h5>
                                 <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
                             </div>
                             <div class="btn-wrap">
-                                <a href="{{route('clients.platform.prod_1')}}" class="btn-buy">Xem thêm</a>
+                                <a href="{{route('clients.platform.chkcare_detail')}}" class="btn-buy">Xem thêm</a>
                             </div>
                         </div>
                     </div>
@@ -127,7 +55,7 @@
                         <div style="border: none;" class="card h-100">
                             <img class="card-img-top" src="/assets/img/work/pack.info.svg" width="50%" alt="">
                             <div class="card-body">
-                                <h5 class="card-title">Work</h5>
+                                <h5 class="card-title">Ứng dụng PubCare</h5>
                                 <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
                             </div>
                         </div>
@@ -143,7 +71,7 @@
                         <div style="border: none;" class="card h-100">
                             <img class="card-img-top" src="/assets/img/work/pack.sales.svg" width="50%" alt="">
                             <div class="card-body">
-                                <h5 class="card-title">Work</h5>
+                                <h5 class="card-title">Ứng dụng PsyCare</h5>
                                 <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
                             </div>
                             <div class="btn-wrap">
@@ -159,7 +87,7 @@
                         <div style="border: none;" class="card h-100">
                             <img class="card-img-top" src="/assets/img/work/pack.work.svg" width="50%" alt="">
                             <div class="card-body">
-                                <h5 class="card-title">Work</h5>
+                                <h5 class="card-title">Ứng dụng BizCare</h5>
                                 <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
                             </div>
                             <div class="btn-wrap">
@@ -367,7 +295,8 @@
             </div>
 
         </div>
-    </section><!-- End Features Section -->
+    </section>
+    <!-- End Features Section -->
 
 </main>
 @endsection

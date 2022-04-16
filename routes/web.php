@@ -62,9 +62,9 @@ Route::prefix('/')->middleware('check_users')->group(function () {
         return view('clients.platform.product');
     })->name('clients.platform.product');
 
-    Route::get('platform/san-pham-1', function () {
-        return view('clients.platform.prod_1');
-    })->name('clients.platform.prod_1');
+    Route::get('platform/chkcare', function () {
+        return view('clients.platform.chkcare_detail');
+    })->name('clients.platform.chkcare_detail');
     Route::get('platform/san-pham-2', function () {
         return view('clients.platform.prod_2');
     })->name('clients.platform.prod_2');
