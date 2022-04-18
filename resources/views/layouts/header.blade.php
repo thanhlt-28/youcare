@@ -82,7 +82,7 @@
                       tuổi đến 18 tuổi.
                     </p>
                   </div>
-                  <a class="details text-start" href="https://chk.youcare.vn/user/login" target="_blank"> Chi tiết<span class='bi bi-arrow-right'></span></a>
+                  <a class="details text-start" href="{{route('clients.platform.chkcare_detail')}}"> Chi tiết<span class='bi bi-arrow-right'></span></a>
                 </div>
               </div>
               <div class="col-lg-4 col-md-5 col-6 d-md-flex align-items-md-stretch"></div>
@@ -175,9 +175,7 @@
       </div>
     </div>
 
-
     @include('layouts.team')
-    
 
   </section>
   <!-- End About Section -->
@@ -198,24 +196,69 @@
 
   <!-- ======= Services Section ======= -->
   <section id="services" class="services ">
-    <div class="container pt-5">
+    <div class="container">
       <div class="row justify-content-center">
         <div class="col-8 video-box align-self-baseline position-relative">
-          <div class="section-title">
-            <h2>KHÁCH HÀNG</h2>
+          <div class="section-title" data-aos="fade-up">
+            <h2 class="text-uppercase">KHÁCH HÀNG</h2>
             <img src="{{asset('assets/img/Charactor-11.jpg')}}" class="img-fluid" alt="">
           </div>
         </div>
       </div>
-      <div class="row justify-content-center">
-        <div class="col-8 video-box align-self-baseline position-relative">
-          <div class="section-title">
-            <h2>CÁC HOẠT ĐỘNG KHÁC</h2>
+      
+    </div>
+  </section><!-- End Services Section -->
+  <!-- ======= Features Section ======= -->
+  <section id="features" class="features">
+    <div class="container">
+
+      <div class="section-title" data-aos="fade-up">
+        <h2>CÁC HOẠT ĐỘNG KHÁC</h2>
+      </div>
+
+      <div class="row">
+        <div class="col-md-6 d-flex align-items-stretch" data-aos="fade-up">
+          <div class="card" style="background-image: url(/assets/img/features-1.jpg);">
+            <div class="card-body">
+              <h5 class="card-title"><a href="">Our Mission</a></h5>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor ut labore et dolore magna aliqua.</p>
+              <div class="read-more"><a href="#"><i class="bi bi-arrow-right"></i> Read More</a></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="fade-up">
+          <div class="card" style="background-image: url(/assets/img/features-2.jpg);">
+            <div class="card-body">
+              <h5 class="card-title"><a href="">Our Plan</a></h5>
+              <p class="card-text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem doloremque laudantium, totam rem.</p>
+              <div class="read-more"><a href="#"><i class="bi bi-arrow-right"></i> Read More</a></div>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-md-6 d-flex align-items-stretch mt-4" data-aos="fade-up" data-aos-delay="100">
+          <div class="card" style="background-image: url(/assets/img/features-3.jpg);">
+            <div class="card-body">
+              <h5 class="card-title"><a href="">Our Vision</a></h5>
+              <p class="card-text">Nemo enim ipsam voluptatem quia voluptas sit aut odit aut fugit, sed quia magni dolores.</p>
+              <div class="read-more"><a href="#"><i class="bi bi-arrow-right"></i> Read More</a></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 d-flex align-items-stretch mt-4" data-aos="fade-up" data-aos-delay="100">
+          <div class="card" style="background-image: url(/assets/img/features-4.jpg);">
+            <div class="card-body">
+              <h5 class="card-title"><a href="">Our Care</a></h5>
+              <p class="card-text">Nostrum eum sed et autem dolorum perspiciatis. Magni porro quisquam laudantium voluptatem.</p>
+              <div class="read-more"><a href="#"><i class="bi bi-arrow-right"></i> Read More</a></div>
+            </div>
           </div>
         </div>
       </div>
+
     </div>
-  </section><!-- End Services Section -->
+  </section>
+  <!-- End Features Section -->
 
 
   <section id="contact" class="contact-ft">

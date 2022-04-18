@@ -23,12 +23,24 @@
 
 
 <!-- JavaScript Libraries -->
-<!-- <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script> -->
-<!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script> -->
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 <script src="{{asset('assets/lib/easing/easing.min.js')}}"></script>
-<script src="{{asset('assets/lib/owlcarousel/owl.carousel.min.js')}}"></script>
 <script src="{{asset('assets/lib/isotope/isotope.pkgd.min.js')}}"></script>
 <script src="{{asset('assets/lib/lightbox/js/lightbox.min.js')}}"></script>
 
 <!-- Template Javascript -->
 <script src="{{asset('assets/lib/js/main.js')}}"></script>
+
+<!-- Scripts -->
+  <!-- Bootstrap core JavaScript -->
+
+  <script src="{{asset('assets/js/isotope.min.js')}}"></script>
+  <script src="{{asset('assets/js/owl-carousel.js')}}"></script>
+  <script src="{{asset('assets/js/wow.js')}}"></script>
+  <script src="{{asset('assets/js/tabs.js')}}"></script>
+  <script src="{{asset('assets/js/popup.js')}}"></script>
+  <script src="{{asset('assets/js/custom.js')}}"></script>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.js"></script>
+
+  

@@ -273,11 +273,12 @@ $(function() {
             loop: true,
             stagePadding: 0,
             margin: 20,
-            smartSpeed: 2000,
+            smartSpeed: 1000,
             autoplay: true,
             nav: true,
             dots: true,
-            pauseOnHover: false,
+            pauseOnHover: true,
+            autoplayHoverPause: true,
             responsive: {
                 600: {
                     margin: 20,

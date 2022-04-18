@@ -529,6 +529,10 @@ h6 {
     border: 0px solid #f3f4fa;
 }
 
+.ratings i {
+    color: #ffc107
+}
+
 
 /*--------------------------------------------------------------
 # Hero Section
@@ -1120,6 +1124,10 @@ q:after {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
+
+.services {
+    margin-top: 55px;
+}
 
 .services .icon-box {
     padding: 30px;
@@ -3124,43 +3132,117 @@ h2 {
     width: 100%;
 }
 
-
-/* @media (min-width: 576px) {
-    .nav-pills .nav-link {
-        width: 150px;
-        width: calc(100% - 150px);
-        padding: 2rem 2rem;
-        width: 100%;
-        display: block;
-        margin-top: 0.2rem;
-        flex-wrap: wrap;
-    }
-    .tabs section {
-        width: calc(100% - 150px);
-        padding: 2rem 2rem;
-    }
-    .nav-link .circle-icon {
-        height: 20px;
-        width: 20px;
-        border-radius: 20px;
-        border: 2px solid #789d35;
-        background: #fff;
-        color: #94c045;
-        font-size: 22px;
-    }
+.section-header {
+    position: relative;
+    width: 100%;
+    max-width: 550px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 60px;
+    padding-bottom: 15px;
 }
 
-@media (min-width: 768px) {
-    body {
-        font-size: 0.125rem;
-    }
-    .tabs-container {
-        padding: 4rem 4rem;
-    }
+.section-header::before {
+    position: absolute;
+    content: "";
+    width: 100px;
+    height: 3px;
+    left: calc(50% - 50px);
+    bottom: 0;
+    background: linear-gradient(to left, #FFD662, #94c045, #FFD662);
+    border-radius: 100%;
 }
 
-@media (min-width: 992px) {
-    .tabs {
-        width: 800px;
-    }
-} */
+*,
+ ::after,
+ ::before {
+    box-sizing: border-box;
+}
+
+.section-header p {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.section-header h2 {
+    color: #646c55;
+    font-size: 40px;
+    font-weight: 100;
+}
+
+.section-header::after {
+    position: absolute;
+    content: "";
+    width: 20px;
+    height: 9px;
+    left: calc(50% - 10px);
+    bottom: -3px;
+    background: #94c045;
+    border-radius: 5px;
+}
+
+*,
+ ::after,
+ ::before {
+    box-sizing: border-box;
+}
+
+.carousel .carousel-item {
+    color: #999;
+    overflow: hidden;
+    min-height: 120px;
+    font-size: 13px;
+}
+
+.carousel .media img {
+    width: 80px;
+    height: 80px;
+    display: block;
+    border-radius: 50%;
+}
+
+.carousel .testimonial {
+    padding: 0 15px 0 60px;
+    position: relative;
+}
+
+.carousel .testimonial::before {
+    content: "\201C";
+    font-family: Arial, sans-serif;
+    color: #e2e2e2;
+    font-weight: bold;
+    font-size: 68px;
+    line-height: 54px;
+    position: absolute;
+    left: 15px;
+    top: 0;
+}
+
+.carousel .overview b {
+    text-transform: uppercase;
+    color: #1c47e3;
+}
+
+.carousel .carousel-indicators {
+    bottom: -40px;
+}
+
+.carousel-indicators li,
+.carousel-indicators li.active {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin: 1px 3px;
+    box-sizing: border-box;
+}
+
+.carousel-indicators li {
+    background: #e2e2e2;
+    border: 4px solid #fff;
+}
+
+.carousel-indicators li.active {
+    color: #fff;
+    background: #1c47e3;
+    border: 5px double;
+}
