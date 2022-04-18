@@ -42,7 +42,7 @@ Route::get('lien-he', function () {
 })->name('clients.contact');
 
 // ===== Router Clients ===== //
-Route::prefix('/')->middleware('check_users')->group(function () {
+Route::prefix('/')->group(function () {
     // Giới thiệu
     Route::get('gioi-thieu', function () {
         return view('clients.about');

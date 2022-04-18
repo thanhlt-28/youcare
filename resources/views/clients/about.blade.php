@@ -41,7 +41,7 @@
         </div>
         <div class="col-md-7 pt-4" data-aos="fade-left">
           <a href="#">
-            <h3>Hệ sinh thái 1</h3>
+            <h3>Ứng dụng ChkCare</h3>
           </a>
           <p class="fst-italic">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
@@ -60,7 +60,7 @@
         </div>
         <div class="col-md-7 pt-5 order-2 order-md-1" data-aos="fade-right">
           <a href="#">
-            <h3>Hệ sinh thái 2</h3>
+            <h3>Ứng dụng PubCare</h3>
           </a>
           <p class="fst-italic">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
@@ -80,7 +80,7 @@
         </div>
         <div class="col-md-7 pt-5" data-aos="fade-left">
           <a href="#">
-            <h3>Hệ sinh thái 3</h3>
+            <h3>Ứng dụng PsyCare</h3>
           </a>
           <p>Cupiditate placeat cupiditate placeat est ipsam culpa. Delectus quia minima quod. Sunt saepe odit aut quia voluptatem hic voluptas dolor doloremque.</p>
           <ul>
@@ -97,7 +97,7 @@
         </div>
         <div class="col-md-7 pt-5 order-2 order-md-1" data-aos="fade-right">
           <a href="#">
-            <h3>Hệ sinh thái 4</h3>
+            <h3>Ứng dụng BizCare</h3>
           </a>
           <p class="fst-italic">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
