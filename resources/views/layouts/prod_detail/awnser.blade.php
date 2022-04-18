@@ -3,7 +3,7 @@
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 
-<div class="container-xl">
+<div class="container-xl"  data-aos="fade-up">
     <div class="row">
         <div class="col-sm-12">
             <div id="myCarousel" class="carousel slide" data-ride="carousel">
