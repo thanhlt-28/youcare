@@ -68,13 +68,12 @@
               <div class="col-lg-4 col-md-5 col-6 d-md-flex align-items-md-stretch"></div>
               <div style="margin-bottom: -50px;" class="col-lg-4 col-md-5 col-6 d-md-flex align-items-md-stretch">
                 <div class="box-shade count-box py-5">
-                  <!-- <i class="bi bi-emoji-smile"></i> -->
-                  <!-- <span data-purecounter-start="0" data-purecounter-end="1" class="purecounter">1</span> -->
+                  
                   <h4 class="text-center text-uppercase"> ỨNG DỤNG CHKCARE</h4>
                   <div class="d-flex flex-nowrap">
                     <p class="box-shade text-justify">
-                      ChkCare là sán phãm công nghệ.
-                      được ứng dụng việc theo dõi,
+                      ChkCare là sản phẩm công nghệ
+                      được ứng dụng trong việc theo dõi,
                       sàng lọc và đánh giá nhằm phát
                       hiện sớm những vấn đề rối loạn
                       phát triển cũng như sức khỏe
@@ -157,11 +156,11 @@
                   <div class="d-flex flex-nowrap">
                     <p class="box-shade text-justify">
                       BizCare là sản phẩm công nghệ được
-                      ứng dụng vào doanh nghiệp để theo.
+                      ứng dụng vào doanh nghiệp để theo
                       dõi và chăm sóc sức khỏe tỉnh thần
                       nhân sự. Giúp môi môi trường,
                       doanh nghiệp vui vẻ hạnh phúc và
-                      nâng cao hiệu quả công việc
+                      nâng cao hiệu quả công việc.
                     </p>
                   </div>
                   <a class="details text-start" href="" target="_blank"> Chi tiết<span class='bi bi-arrow-right'></span></a>
@@ -208,6 +207,7 @@
       
     </div>
   </section><!-- End Services Section -->
+  
   <!-- ======= Features Section ======= -->
   <section id="features" class="features">
     <div class="container">

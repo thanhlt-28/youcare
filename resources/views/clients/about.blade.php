@@ -5,13 +5,12 @@
 <main id="main">
   <!-- ======= Breadcrumbs ======= -->
   <section id="breadcrumbs" class="breadcrumbs">
-    <div class="breadcrumb-hero">
-      <div class="container">
-        <div class="breadcrumb-hero">
-          <h1 class="text-uppercase mb-3">Giới thiệu</h1>
-          <h6>Hệ sinh thái toàn diện sức khỏe tinh thần BrainCare</h6>
-        </div>
-      </div>
+    <div class="breadcrumb-hero" style="
+            background-image: url(../assets/img/banner-about.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 55vh;
+        ">
     </div>
     <div class="container">
       <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='currentColor'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
@@ -31,8 +30,8 @@
     <div class="container">
 
       <div class="section-title" data-aos="fade-up">
-        <h2>Tổng quan về hệ sinh thái</h2>
-        <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+        <h2 class="text-uppercase">Tổng quan về hệ sinh thái</h2>
+        <p>Cùng với đội ngũ chuyên gia hơn 15 năm kinh nghiệm đánh giá và trị liệu tâm lý, tâm lý giáo dục ở các trường nổi tiếng của Việt Nam.</p>
       </div>
 
       <div class="row content">
@@ -44,12 +43,11 @@
             <h3>Ứng dụng ChkCare</h3>
           </a>
           <p class="fst-italic">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-            magna aliqua.
+            ChkCare là sản phẩm công nghệ:
           </p>
           <ul>
-            <li><i class="bi bi-check"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-            <li><i class="bi bi-check"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+            <li><i class="bi bi-check"></i> Được ứng dụng trong việc theo dõi, sàng lọc và đánh giá.</li>
+            <li><i class="bi bi-check"></i> Nhằm phát hiện sớm những vấn đề rối loạn phát triển, cũng như sức khỏe tâm thần của trẻ từ 12 tháng tuổi đến 18 tuổi.</li>
           </ul>
         </div>
       </div>
@@ -63,14 +61,15 @@
             <h3>Ứng dụng PubCare</h3>
           </a>
           <p class="fst-italic">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-            magna aliqua.
+            PubCare là sản phẩm công nghệ:
           </p>
-          <p>
-            Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-            velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum
-          </p>
+          <ul>
+            <li><i class="bi bi-check"></i> Được ứng dụng vào việc sàng lọc miễn phí sức khỏe cộng đồng.</li>
+            <li><i class="bi bi-check"></i>Giúp những người gặp phải vấn đề về tâm lý và sức khỏe tâm thần biết được </br> vấn đề mình đang gặp phải.</li>
+            <li><i class="bi bi-check"></i>Sản phẩm miễn phí cho cộng đồng.</li>
+
+
+          </ul>
         </div>
       </div>
 
@@ -82,12 +81,14 @@
           <a href="#">
             <h3>Ứng dụng PsyCare</h3>
           </a>
-          <p>Cupiditate placeat cupiditate placeat est ipsam culpa. Delectus quia minima quod. Sunt saepe odit aut quia voluptatem hic voluptas dolor doloremque.</p>
+          <p>
+            PsyCare là nền tảng tham vấn và trị liệu:
+          </p>
           <ul>
-            <li><i class="bi bi-check"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-            <li><i class="bi bi-check"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-            <li><i class="bi bi-check"></i> Facilis ut et voluptatem aperiam. Autem soluta ad fugiat.</li>
+            <li><i class="bi bi-check"></i> Các vấn đề về tâm lý và sức khỏe tâm thần online.</li>
+            <li><i class="bi bi-check"></i> Được kết nối với các chuyên gia tâm lý và chuyên gia sức khỏe tâm thần hàng đầu.</li>
           </ul>
+
         </div>
       </div>
 
@@ -100,20 +101,18 @@
             <h3>Ứng dụng BizCare</h3>
           </a>
           <p class="fst-italic">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-            magna aliqua.
+            BizCare là sản phẩm công nghệ:
           </p>
-          <p>
-            Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-            velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum
-          </p>
+          <ul>
+            <li><i class="bi bi-check"></i> Được ứng dụng vào doanh nghiệp để theo dõi và chăm sóc sức khỏe tỉnh thần nhân sự.</li>
+            <li><i class="bi bi-check"></i> Giúp môi môi trường, doanh nghiệp vui vẻ hạnh phúc và nâng cao hiệu quả công việc.</li>
+          </ul>
         </div>
       </div>
 
     </div>
   </section><!-- End Work Process Section -->
-
+  @include('layouts.slider_team')
   <!-- ======= Cta Section ======= -->
   <section id="cta" class="cta">
     <div class="container" data-aos="fade-in">
@@ -165,7 +164,6 @@
       </div>
     </div>
   </section>
-
 
 </main><!-- End #main -->
 

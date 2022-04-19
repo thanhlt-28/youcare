@@ -4,7 +4,7 @@
 
     <div class="section-title">
       <h2>ĐỘI NGŨ CHUYÊN GIA</h2>
-      <p>Đội ngũ chuyên gia giàu kinh nghiệm trong lĩnh vực tâm lý & trị liệu. <br/>Áp dụng công nghệ đơn giản, hiệu quả với bộ công cụ sàng lọc được tin cậy nhất hiện nay.
+      <p>Đội ngũ chuyên gia giàu kinh nghiệm trong lĩnh vực tâm lý & trị liệu. <br />Áp dụng công nghệ đơn giản, hiệu quả với bộ công cụ sàng lọc được tin cậy nhất hiện nay.
       </p>
     </div>
 

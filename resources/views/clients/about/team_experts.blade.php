@@ -7,22 +7,11 @@
     <!-- ======= Breadcrumbs ======= -->
     <section id="breadcrumbs" class="breadcrumbs">
         <div class="breadcrumb-hero" style="
-            background-image: url(../assets/img/6487.jpg);
+            background-image: url(../assets/img/banner-team.png);
             background-repeat: no-repeat;
             background-size: cover;
-            min-height: 30rem;
+            height: 55vh;
         ">
-            <div class="container">
-                <!-- <div class="breadcrumb-hero"> -->
-                <style>
-                    h1 {
-                        text-shadow: 2px 2px 4px #000000;
-                        line-height: 10;
-                    }
-                </style>
-                <h1 class="text-uppercase mb-3">Đội ngũ chuyên gia</h1>
-                <!-- </div> -->
-            </div>
         </div>
         <div class="container">
             <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='currentColor'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
@@ -280,18 +269,18 @@
 
 
     <!-- ======= Cta Section ======= -->
-  <section id="cta" class="cta">
-    <div class="container" data-aos="fade-in">
+    <section id="cta" class="cta">
+        <div class="container" data-aos="fade-in">
 
-      <div class="text-center">
-        <h3>Cộng đồng</h3>
-        <p> Cộng đồng tâm lý với sứ mệnh thay đổi thói quen và nhận thức của người Việt Nam </br> trong việc chú trọng sức khoẻ tinh thần và tìm kiếm sự trợ giúp khi cần thiết.</p>
-        <a class="cta-btn" target="_blank" href="https://www.facebook.com/congdongtamly/">Tham gia ngay</a>
-      </div>
+            <div class="text-center">
+                <h3>Cộng đồng</h3>
+                <p> Cộng đồng tâm lý với sứ mệnh thay đổi thói quen và nhận thức của người Việt Nam </br> trong việc chú trọng sức khoẻ tinh thần và tìm kiếm sự trợ giúp khi cần thiết.</p>
+                <a class="cta-btn" target="_blank" href="https://www.facebook.com/congdongtamly/">Tham gia ngay</a>
+            </div>
 
-    </div>
-  </section>
-  <!-- End Cta Section -->
+        </div>
+    </section>
+    <!-- End Cta Section -->
 
 </main>
 
