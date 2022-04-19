@@ -1471,6 +1471,13 @@ q:after {
     border-radius: 50%;
 }
 
+.img-media img:hover {
+    width: 31%;
+    border-radius: 50%;
+    transition: .25s ease-in-out;
+    overflow: hidden;
+}
+
 .img-item-1 h5 {
     color: #94c045;
     padding: 10px;

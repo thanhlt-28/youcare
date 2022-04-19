@@ -65,17 +65,29 @@ Route::prefix('/')->group(function () {
     Route::get('platform/chkcare', function () {
         return view('clients.platform.chkcare_detail');
     })->name('clients.platform.chkcare_detail');
-    Route::get('platform/san-pham-2', function () {
-        return view('clients.platform.prod_2');
-    })->name('clients.platform.prod_2');
-    Route::get('platform/san-pham-3', function () {
-        return view('clients.platform.prod_3');
-    })->name('clients.platform.prod_3');
-    Route::get('platform/san-pham-4', function () {
-        return view('clients.platform.prod_4');
-    })->name('clients.platform.prod_4');
-    // });
+    Route::get('platform/pubcare', function () {
+        return view('clients.platform.pubcare');
+    })->name('clients.platform.pubcare');
+    Route::get('platform/psycare', function () {
+        return view('clients.platform.psycare');
+    })->name('clients.platform.psycare');
+    Route::get('platform/bizcare', function () {
+        return view('clients.platform.bizcare');
+    })->name('clients.platform.bizcare');
 
+    // ========= Quy trình =============//
+    Route::get('layouts/dure-before', function () {
+        return view('layouts.procedure.dure_once');
+    })->name('layouts.procedure.dure_once');
+    Route::get('layouts/dure-prepareing', function () {
+        return view('layouts.procedure.dure_twice');
+    })->name('layouts.procedure.dure_twice');
+    Route::get('layouts/dure-screening', function () {
+        return view('layouts.procedure.dure_three');
+    })->name('layouts.procedure.dure_three');
+    Route::get('layouts/dure-success', function () {
+        return view('layouts.procedure.dure_four');
+    })->name('layouts.procedure.dure_four');
 
 
     // Tài nguyên
@@ -94,6 +106,12 @@ Route::prefix('/')->group(function () {
     Route::get('video', function () {
         return view('clients.library.media');
     })->name('clients.library.media');
+
+    // Tài nguyên
+    Route::get('chkcare-price', function () {
+        return view('price.chk_price');
+    })->name('price.chk_price');
+    
 });
 
 // ===== Router Admin ===== //

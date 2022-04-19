@@ -212,12 +212,12 @@
   <section id="features" class="features">
     <div class="container">
 
-      <div class="section-title" data-aos="fade-up">
+      <div class="section-title" data-aos="fade-in">
         <h2>CÁC HOẠT ĐỘNG KHÁC</h2>
       </div>
 
       <div class="row">
-        <div class="col-md-6 d-flex align-items-stretch" data-aos="fade-up">
+        <div class="col-md-6 d-flex align-items-stretch" data-aos="fade-right">
           <div class="card" style="background-image: url(/assets/img/features-1.jpg);">
             <div class="card-body">
               <h5 class="card-title"><a href="">Our Mission</a></h5>
@@ -226,7 +226,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="fade-up">
+        <div class="col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="fade-left">
           <div class="card" style="background-image: url(/assets/img/features-2.jpg);">
             <div class="card-body">
               <h5 class="card-title"><a href="">Our Plan</a></h5>
@@ -236,7 +236,7 @@
           </div>
 
         </div>
-        <div class="col-md-6 d-flex align-items-stretch mt-4" data-aos="fade-up" data-aos-delay="100">
+        <div class="col-md-6 d-flex align-items-stretch mt-4" data-aos="fade-right" data-aos-delay="100">
           <div class="card" style="background-image: url(/assets/img/features-3.jpg);">
             <div class="card-body">
               <h5 class="card-title"><a href="">Our Vision</a></h5>
@@ -245,7 +245,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-6 d-flex align-items-stretch mt-4" data-aos="fade-up" data-aos-delay="100">
+        <div class="col-md-6 d-flex align-items-stretch mt-4" data-aos="fade-left" data-aos-delay="100">
           <div class="card" style="background-image: url(/assets/img/features-4.jpg);">
             <div class="card-body">
               <h5 class="card-title"><a href="">Our Care</a></h5>

@@ -9,10 +9,10 @@
         <div class="breadcrumb-prod">
             <div class="container">
                 <div class="header-hero">
-                        <a href="{{route('clients.contact')}}">
-                            <button type="button" class="btn btn-outline-success rounded-pill">
-                                <i class="bx bx-phone-call"></i> Liên hệ tư vấn</button>
-                        </a>
+                    <a href="{{route('clients.contact')}}">
+                        <button type="button" class="btn btn-outline-success rounded-pill">
+                            <i class="bx bx-phone-call"></i> Liên hệ tư vấn</button>
+                    </a>
                 </div>
             </div>
         </div>
@@ -60,7 +60,7 @@
                             </div>
                         </div>
                         <div class="btn-wrap">
-                            <a href="{{route('clients.platform.prod_2')}}" class="btn-buy">Xem thêm</a>
+                            <a href="{{route('clients.platform.pubcare')}}" class="btn-buy">Xem thêm</a>
                         </div>
                     </div>
                 </div>
@@ -75,7 +75,7 @@
                                 <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
                             </div>
                             <div class="btn-wrap">
-                                <a href="{{route('clients.platform.prod_3')}}" class="btn-buy">Xem thêm</a>
+                                <a href="{{route('clients.platform.psycare')}}" class="btn-buy">Xem thêm</a>
                             </div>
                         </div>
                     </div>
@@ -91,7 +91,7 @@
                                 <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
                             </div>
                             <div class="btn-wrap">
-                                <a href="{{route('clients.platform.prod_4')}}" class="btn-buy">Xem thêm</a>
+                                <a href="{{route('clients.platform.bizcare')}}" class="btn-buy">Xem thêm</a>
                             </div>
                         </div>
                     </div>
@@ -168,76 +168,100 @@
 
             <div class="row">
                 <div class="col-lg-3 col-md-4">
-                    <div class="icon-box">
-                        <i class="bi bi-shop" style="color: #ffbb2c;"></i>
-                        <h3><a href="">Bài test</a></h3>
-                    </div>
+                    <a href="https://checkingcare.vn/sang-loc-theo-doi/" target="_blank">
+                        <div class="icon-box">
+                            <i class="bi bi-shop" style="color: #ffbb2c;"></i>
+                            <h3>ASQ-3</h3>
+                        </div>
+                    </a>
                 </div>
                 <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
-                    <div class="icon-box">
-                        <i class="bi bi-bar-chart-line" style="color: #5578ff;"></i>
-                        <h3><a href="">Bài test</a></h3>
-                    </div>
+                    <a href="https://checkingcare.vn/cbcl/" target="_blank">
+                        <div class="icon-box">
+                            <i class="bi bi-bar-chart-line" style="color: #5578ff;"></i>
+                            <h3>CBCL</h3>
+                        </div>
+                    </a>
                 </div>
                 <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
-                    <div class="icon-box">
-                        <i class="bi bi-calendar-check-fill" style="color: #e80368;"></i>
-                        <h3><a href="">Bài tests</a></h3>
-                    </div>
+                    <a href="https://checkingcare.vn/cham-noi/" target="_blank">
+                        <div class="icon-box">
+                            <i class="bi bi-calendar-check-fill" style="color: #e80368;"></i>
+                            <h3>Chậm nói</h3>
+                        </div>
+                    </a>
                 </div>
                 <div class="col-lg-3 col-md-4 mt-4 mt-lg-0">
-                    <div class="icon-box">
-                        <i class="bi bi-paint-bucket" style="color: #e361ff;"></i>
-                        <h3><a href="">Bài test</a></h3>
-                    </div>
+                    <a href="https://checkingcare.vn/m-chart/" target="_blank">
+                        <div class="icon-box">
+                            <i class="bi bi-paint-bucket" style="color: #e361ff;"></i>
+                            <h3>M-Char-R</h3>
+                        </div>
+                    </a>
                 </div>
                 <div class="col-lg-3 col-md-4 mt-4">
-                    <div class="icon-box">
-                        <i class="bi bi-clipboard-data" style="color: #47aeff;"></i>
-                        <h3><a href="">Bài test</a></h3>
-                    </div>
+                    <a href="https://checkingcare.vn/raven/" target="_blank">
+                        <div class="icon-box">
+                            <i class="bi bi-card-list" style="color: #11dbcf;"></i>
+                            <h3>Raven</h3>
+                        </div>
+                    </a>
                 </div>
                 <div class="col-lg-3 col-md-4 mt-4">
-                    <div class="icon-box">
-                        <i class="bi bi-text-paragraph" style="color: #ffa76e;"></i>
-                        <h3><a href="">Bài testr</a></h3>
-                    </div>
+                    <a href="https://checkingcare.vn/epi/" target="_blank">
+                        <div class="icon-box">
+                            <i class="bi bi-pie-chart" style="color: #4233ff;"></i>
+                            <h3> EPI</h3>
+                        </div>
+                    </a>
                 </div>
                 <div class="col-lg-3 col-md-4 mt-4">
-                    <div class="icon-box">
-                        <i class="bi bi-card-list" style="color: #11dbcf;"></i>
-                        <h3><a href="">Bài test</a></h3>
-                    </div>
+                    <a href="https://checkingcare.vn/adhd/" target="_blank">
+                        <div class="icon-box">
+                            <i class="bi bi-type-underline" style="color: #b2904f;"></i>
+                            <h3>ADHD</h3>
+                        </div>
+                    </a>
                 </div>
                 <div class="col-lg-3 col-md-4 mt-4">
-                    <div class="icon-box">
-                        <i class="bi bi-pie-chart" style="color: #4233ff;"></i>
-                        <h3><a href="">Bài test</a></h3>
-                    </div>
+                    <a href="https://checkingcare.vn/mbti/" target="_blank">
+                        <div class="icon-box">
+                            <i class="bi bi-disc" style="color: #b20969;"></i>
+                            <h3> MBTI</h3>
+                        </div>
+                    </a>
                 </div>
                 <div class="col-lg-3 col-md-4 mt-4">
-                    <div class="icon-box">
-                        <i class="bi bi-type-underline" style="color: #b2904f;"></i>
-                        <h3><a href="">Bài test</a></h3>
-                    </div>
+                    <a href="https://checkingcare.vn/disc/" target="_blank">
+                        <div class="icon-box">
+                            <i class="bi bi-hdd-stack" style="color: #ff5828;"></i>
+                            <h3>DISC</h3>
+                        </div>
+                    </a>
                 </div>
                 <div class="col-lg-3 col-md-4 mt-4">
-                    <div class="icon-box">
-                        <i class="bi bi-disc" style="color: #b20969;"></i>
-                        <h3><a href="">Bài testl</a></h3>
-                    </div>
+                    <a href="https://checkingcare.vn/danh-gia-tram-cam-beck/" target="_blank">
+                        <div class="icon-box">
+                            <i class="bi bi-filter-circle" style="color: #29cc61;"></i>
+                            <h3>BECK</h3>
+                        </div>
+                    </a>
                 </div>
                 <div class="col-lg-3 col-md-4 mt-4">
-                    <div class="icon-box">
-                        <i class="bi bi-hdd-stack" style="color: #ff5828;"></i>
-                        <h3><a href="">Bài test</a></h3>
-                    </div>
+                    <a href="https://checkingcare.vn/danh-gia-roi-loan-lo-au-zung/" target="_blank">
+                        <div class="icon-box">
+                            <i class="bi bi-text-paragraph" style="color: #ffa76e;"></i>
+                            <h3>ZUNG</h3>
+                        </div>
+                    </a>
                 </div>
                 <div class="col-lg-3 col-md-4 mt-4">
-                    <div class="icon-box">
-                        <i class="bi bi-filter-circle" style="color: #29cc61;"></i>
-                        <h3><a href="">Bài test</a></h3>
-                    </div>
+                    <a href="https://checkingcare.vn/danh-gia-tong-hop-dass21/" target="_blank">
+                        <div class="icon-box">
+                            <i class="bi bi-clipboard-data" style="color: #47aeff;"></i>
+                            <h3>DASS21</h3>
+                        </div>
+                    </a>
                 </div>
             </div>
 

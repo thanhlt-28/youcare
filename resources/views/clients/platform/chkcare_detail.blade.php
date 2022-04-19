@@ -1,4 +1,4 @@
-@extends('layouts.main')
+@extends('layouts.main_detail')
 @section('title', 'ChkCare')
 @section('content')
 
@@ -50,30 +50,38 @@
                                 <div class="col-lg-6 col-md-6">
                                     <div class="row">
                                         <div class="col-lg-6 col-md-6 mt-3">
-                                            <div class="icon-box">
-                                                <i class="bi bi-shop" style="color: #ffbb2c;"></i>
-                                                <h3><a href="https://checkingcare.vn/sang-loc-theo-doi/" target="_blank">ASQ-3</a></h3>
-                                            </div>
+                                            <a href="https://checkingcare.vn/sang-loc-theo-doi/" target="_blank">
+                                                <div class="icon-box">
+                                                    <i class="bi bi-shop" style="color: #ffbb2c;"></i>
+                                                    <h3>ASQ-3</h3>
+                                                </div>
+                                            </a>
                                         </div>
                                         <div class="col-lg-6 col-md-6 mt-3">
-                                            <div class="icon-box">
-                                                <i class="bi bi-calendar-check-fill" style="color: #e80368;"></i>
-                                                <h3><a href="https://checkingcare.vn/cbcl/" target="_blank">CBCL</a></h3>
-                                            </div>
+                                            <a href="https://checkingcare.vn/cbcl/" target="_blank">
+                                                <div class="icon-box">
+                                                    <i class="bi bi-calendar-check-fill" style="color: #e80368;"></i>
+                                                    <h3>CBCL</h3>
+                                                </div>
+                                            </a>
                                         </div>
                                     </div>
                                     <div class="row">
                                         <div class="col-lg-6 col-md-6 mt-3">
-                                            <div class="icon-box">
-                                                <i class="bi bi-bar-chart-line" style="color: #5578ff;"></i>
-                                                <h3><a href="https://checkingcare.vn/adhd/" target="_blank">ADHD</a></h3>
-                                            </div>
+                                            <a href="https://checkingcare.vn/adhd/" target="_blank">
+                                                <div class="icon-box">
+                                                    <i class="bi bi-bar-chart-line" style="color: #5578ff;"></i>
+                                                    <h3>ADHD</h3>
+                                                </div>
+                                            </a>
                                         </div>
                                         <div class="col-lg-6 col-md-6 mt-3">
-                                            <div class="icon-box">
-                                                <i class="bi bi-paint-bucket" style="color: #e361ff;"></i>
-                                                <h3><a href="https://checkingcare.vn/m-chart/" target="_blank">M-Char-R</a></h3>
-                                            </div>
+                                            <a href="https://checkingcare.vn/m-chart/" target="_blank">
+                                                <div class="icon-box">
+                                                    <i class="bi bi-paint-bucket" style="color: #e361ff;"></i>
+                                                    <h3>M-Char-R</h3>
+                                                </div>
+                                            </a>
                                         </div>
                                     </div>
                                 </div>
@@ -111,10 +119,10 @@
                     <!-- row -- 1 -->
                     <div class="row">
                         <div class="col-md-5 d-flex align-items-stretch" data-aos="fade-up">
-                            <a href="#" class="img-item img-item-1">
+                            <a href="{{route('layouts.procedure.dure_once')}}" class="img-item img-item-1">
                                 <div class="card">
                                     <div class="card-body">
-                                        <h5 class="card-title">Before You Begin</h5>
+                                        <h5 class="card-title">Trước khi bắt đầu</h5>
                                         <div class="img-media text-center">
                                             <img src="https://i.imgur.com/w2CKRB9.jpg" class="mr-3" alt="">
                                         </div>
@@ -125,7 +133,7 @@
                                 </div>
                             </a>
                         </div>
-                        
+
                         <div class="col-md-2 d-flex align-items-stretch mt-4" data-aos="fade-up">
                             <div class="img-media-icon" data-aos-delay="100">
                                 <i class="bi bi-arrow-right"></i>
@@ -133,7 +141,7 @@
                         </div>
 
                         <div class="col-md-5 d-flex align-items-stretch mt-4 mt-md-0" data-aos="fade-up">
-                            <a href="#" class="img-item img-item-1">
+                            <a href="{{route('layouts.procedure.dure_twice')}}" class="img-item img-item-1">
                                 <div class="card">
                                     <div class="card-body">
                                         <h5 class="card-title">Chuẩn bị chương trình</h5>
@@ -163,27 +171,7 @@
 
                         <!-- row -- 3 -->
                         <div class="col-md-5 d-flex align-items-stretch mt-4" data-aos="fade-up" data-aos-delay="100">
-                            <a href="#" class="img-item img-item-1">
-                                <div class="card">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Tiến hành</h5>
-                                        <div class="img-media text-center">
-                                            <img src="https://i.imgur.com/w2CKRB9.jpg" class="mr-3" alt="">
-                                        </div>
-                                        <p class="card-text text-center mt-3">Thực hiện sàng lọc dựa trên kế hoạch đã xây dựng</p>
-                                        <div class="read-more"><a href="#"><i class="bi bi-arrow-right"></i> Xem thêm</a></div>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-
-                        <div class="col-md-2 d-flex align-items-stretch mt-4" data-aos="fade-up">
-                            <div class="img-media-icon">
-                                <i class="bi bi-arrow-left"></i>
-                            </div>
-                        </div>
-                        <div class="col-md-5 d-flex align-items-stretch mt-4" data-aos="fade-up" data-aos-delay="100">
-                            <a href="#" class="img-item img-item-1">
+                            <a href="{{route('layouts.procedure.dure_four')}}" class="img-item img-item-1">
                                 <div class="card">
                                     <div class="card-body">
                                         <h5 class="card-title">Hỗ trợ thành công</h5>
@@ -196,12 +184,32 @@
                                 </div>
                             </a>
                         </div>
+
+                        <div class="col-md-2 d-flex align-items-stretch mt-4" data-aos="fade-up">
+                            <div class="img-media-icon">
+                                <i class="bi bi-arrow-left"></i>
+                            </div>
+                        </div>
+                        <div class="col-md-5 d-flex align-items-stretch mt-4" data-aos="fade-up" data-aos-delay="100">
+                            <a href="{{route('layouts.procedure.dure_three')}}" class="img-item img-item-1">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Tiến hành</h5>
+                                        <div class="img-media text-center">
+                                            <img src="https://i.imgur.com/w2CKRB9.jpg" class="mr-3" alt="">
+                                        </div>
+                                        <p class="card-text text-center mt-3">Thực hiện sàng lọc dựa trên kế hoạch đã xây dựng</p>
+                                        <div class="read-more"><a href="#"><i class="bi bi-arrow-right"></i> Xem thêm</a></div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
                     </div>
 
                 </div>
             </section>
             <!-- End Features Section -->
-            @include('layouts.chk_detail.procedure')
+            @include('layouts.chk_detail.chk_tabs')
 
         </div>
         <section class="content" data-aos="fade-up">

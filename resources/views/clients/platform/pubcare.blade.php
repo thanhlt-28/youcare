@@ -1,5 +1,5 @@
 @extends('layouts.main')
-@section('title', 'San pham 2')
+@section('title', 'PubCare')
 @section('content')
 
 <main id="main">
@@ -8,7 +8,7 @@
         <div class="breadcrumb-hero">
             <div class="container">
                 <div class="breadcrumb-hero">
-                    <h1 class="text-uppercase mb-3">San pham 2</h1>
+                    <h1 class="text-uppercase mb-3">PubCare</h1>
                 </div>
             </div>
         </div>
@@ -17,7 +17,7 @@
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item"><a href="{{'/'}}">Trang chủ</a></li>
                     <li class="breadcrumb-item" aria-current="page"><a href="{{route('clients.platform.product')}}">Sản phẩm</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">San pham 2</li>
+                    <li class="breadcrumb-item active" aria-current="page">PubCare</li>
                 </ol>
             </nav>
         </div>
@@ -39,10 +39,10 @@
                             <button class="nav-link w-100 active" id="all-tab" data-bs-toggle="tab" data-bs-target="#bordered-justified-all" type="button" role="tab" aria-controls="all" aria-selected="true">Tất cả</button>
                         </li>
                         <li class="nav-item flex-fill" role="presentation">
-                            <button class="nav-link w-100" id="knowledge-tab" data-bs-toggle="tab" data-bs-target="#bordered-justified-knowledge" type="button" role="tab" aria-controls="knowledge" aria-selected="false">San pham 2 cơ bản</button>
+                            <button class="nav-link w-100" id="knowledge-tab" data-bs-toggle="tab" data-bs-target="#bordered-justified-knowledge" type="button" role="tab" aria-controls="knowledge" aria-selected="false">PubCare cơ bản</button>
                         </li>
                         <li class="nav-item flex-fill" role="presentation">
-                            <button class="nav-link w-100" id="knowledges-tab" data-bs-toggle="tab" data-bs-target="#bordered-justified-knowledges" type="button" role="tab" aria-controls="knowledges" aria-selected="false">San pham 2 nâng cao</button>
+                            <button class="nav-link w-100" id="knowledges-tab" data-bs-toggle="tab" data-bs-target="#bordered-justified-knowledges" type="button" role="tab" aria-controls="knowledges" aria-selected="false">PubCare nâng cao</button>
                         </li>
                     </ul>
                     <div class="tab-content pt-2" id="borderedTabJustifiedContent">

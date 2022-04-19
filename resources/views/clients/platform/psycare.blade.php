@@ -1,5 +1,5 @@
 @extends('layouts.main')
-@section('title', 'San pham 4')
+@section('title', 'PsyCare')
 @section('content')
 
 <main id="main">
@@ -9,7 +9,7 @@
         <div class="breadcrumb-hero">
             <div class="container">
                 <div class="breadcrumb-hero">
-                    <h1 class="text-uppercase mb-3">San pham 4</h1>
+                    <h1 class="text-uppercase mb-3">PsyCare</h1>
                 </div>
             </div>
         </div>
@@ -18,7 +18,7 @@
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item"><a href="{{'/'}}">Trang chủ</a></li>
                     <li class="breadcrumb-item" aria-current="page"><a href="{{route('clients.platform.product')}}">Sản phẩm</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">San pham 4</li>
+                    <li class="breadcrumb-item active" aria-current="page">PsyCare</li>
                 </ol>
             </nav>
         </div>
@@ -66,7 +66,7 @@
     <section id="pricing" class="pricing">
         <div class="container">
             <div class="section-title" data-aos="fade-up">
-                <h2>San pham 4</h2>
+                <h2>PsyCare</h2>
             </div>
             <div class="row">
 
