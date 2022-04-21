@@ -68,8 +68,8 @@
               <div class="col-lg-4 col-md-5 col-6 d-md-flex align-items-md-stretch"></div>
               <div style="margin-bottom: -50px;" class="col-lg-4 col-md-5 col-6 d-md-flex align-items-md-stretch">
                 <div class="box-shade count-box py-5">
-                  
-                  <h4 class="text-center text-uppercase"> ỨNG DỤNG CHKCARE</h4>
+
+                  <h4 class="text-center text-uppercase"> CHKCARE</h4>
                   <div class="d-flex flex-nowrap">
                     <p class="box-shade text-justify">
                       ChkCare là sản phẩm công nghệ
@@ -98,7 +98,7 @@
                 <div class="box-shade count-box pb-5 pt-0 pt-lg-5">
                   <!-- <i class="bi bi-clock"></i> -->
                   <!-- <span data-purecounter-start="0" data-purecounter-end="2" class="purecounter">2</span> -->
-                  <h4 class="text-center text-uppercase">ỨNG DỤNG PUBCARE</h4>
+                  <h4 class="text-center text-uppercase"> PUBCARE</h4>
                   <div class="d-flex flex-nowrap text-end">
                     <p class="box-shade text-justify">
                       PubCare là sản phẩm công nghệ được
@@ -123,7 +123,7 @@
                 <div class="box-shade count-box pb-5 pt-0 pt-lg-5">
                   <!-- <i class="bi bi-award"></i> -->
                   <!-- <span data-purecounter-start="0" data-purecounter-end="3" class="purecounter">3</span> -->
-                  <h4 class="text-center text-uppercase"> ỨNG DỤNG PSYCARE</h4>
+                  <h4 class="text-center text-uppercase"> PSYCARE</h4>
                   <div class="d-flex flex-nowrap">
                     <p class="box-shade text-justify">
                       PsyCare là nền tảng tham vấn và trị liệu
@@ -152,7 +152,7 @@
                 <div class="box-shade count-box py-5">
                   <!-- <i class="bi bi-journal-richtext"></i> -->
                   <!-- <span data-purecounter-start="0" data-purecounter-end="4" class="purecounter">4</span> -->
-                  <h4 class="text-center text-uppercase">ỨNG DỤNG BIZCARE</h4>
+                  <h4 class="text-center text-uppercase"> BIZCARE</h4>
                   <div class="d-flex flex-nowrap">
                     <p class="box-shade text-justify">
                       BizCare là sản phẩm công nghệ được
@@ -196,18 +196,10 @@
   <!-- ======= Services Section ======= -->
   <section id="services" class="services ">
     <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-8 video-box align-self-baseline position-relative">
-          <div class="section-title" data-aos="fade-up">
-            <h2 class="text-uppercase">KHÁCH HÀNG</h2>
-            <img src="{{asset('assets/img/Charactor-11.jpg')}}" class="img-fluid" alt="">
-          </div>
-        </div>
-      </div>
-      
+      @include('layouts.say')
     </div>
   </section><!-- End Services Section -->
-  
+
   <!-- ======= Features Section ======= -->
   <section id="features" class="features">
     <div class="container">

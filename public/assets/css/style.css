@@ -2385,6 +2385,8 @@ h2 {
 
 .thumbnail li {
     display: inline-block;
+    margin: auto;
+    padding: 0;
 }
 
 .thumbnail li a {
@@ -2393,7 +2395,7 @@ h2 {
 }
 
 .thumbnail li a img {
-    width: 30px;
+    width: 60px;
     border-radius: 50%;
     -webkit-transform: scale(0.8);
     -ms-transform: scale(0.8);
@@ -3129,7 +3131,7 @@ h2 {
     background: #789d35;
 }
 
-#footer .copyright {
+#footer .powered {
     text-align: center;
     padding-top: 30px;
 }

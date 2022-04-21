@@ -18,15 +18,16 @@
       <div class="col-lg-3 col-md-6 footer-links">
         <h4>Tài nguyên</h4>
         <ul>
-          <li><a href="#">Tổng quan</a></li>
-          <li><a href="#">Tài liệu</a></li>
-          <li><a href="#">Video</a></li>
+          <li><a target="_blank" href="{{route('clients.library.overview')}}">Tổng quan</a></li>
+          <li><a target="_blank" href="{{route('clients.library.docs')}}">Tài liệu</a></li>
+          <li><a target="_blank" href="{{route('clients.library.media')}}">Video</a></li>
         </ul>
         <div class="footer-links mt-3">
         <h4>Dịch vụ</h4>
         <ul>
-          <li><a href="#">Sức khỏe Tâm lý</a></li>
-          <li><a href="#">Sức khỏe Tâm thần</a></li>
+        <li><a target="_blank" href="https://checkingcare.vn/">Đánh giá Sàng lọc</a></li>
+          <li><a target="_blank" href="https://phongkhamtamly.com/">Sức khỏe Tâm lý</a></li>
+          <li><a target="_blank" href="https://phongkhamtamthan.com/">Sức khỏe Tâm thần</a></li>
         </ul>
       </div>
       </div>
@@ -40,12 +41,12 @@
         </p>
 
         <div class="footer-links mt-3">
-          <h4>Phần mềm</h4>
+          <h4>Ứng dụng</h4>
           <ul>
             <li><a href="https://chk.youcare.vn/user/login">ChkCare</a></li>
-            <li><a href="#">PubCare</a></li>
-            <li><a href="#">PsyCare</a></li>
-            <li><a href="#">BizCare</a></li>
+            <li><a target="_blank" href="#">PubCare</a></li>
+            <li><a target="_blank" href="#">PsyCare</a></li>
+            <li><a target="_blank" href="#">BizCare</a></li>
           </ul>
         </div>
        
@@ -60,7 +61,6 @@
           <li><a href="https://checkingcare.vn/" target="_blank">checkingcare.vn</a></li>
           <li><a href="https://phongkhamtamly.com/" target="_blank">phongkhamtamly.com</a></li>
           <li><a href="https://phongkhamtamthan.com/" target="_blank">phongkhamtamthan.com</a></li>
-          <li><a href="https://shop.braincare.vn/" target="_blank">shop.braincare.vn</a></li>
         </ul>
          <div class="social-links">
           <a target="_blank" href="https://www.facebook.com/Braincare.vn" class="facebook"><i class="bi bi-facebook"></i></a>
@@ -78,8 +78,8 @@
 </div>
 
 <div class="container">
-  <div class="copyright">
-    &copy; Copyright <strong>by<a href="https://braincare.vn/"><span> BrainCare</span></a></strong>
+  <div class="powered">
+    Powered <strong>by<a href="https://braincare.vn/" target="_blank"><span> BrainCare</span></a></strong>
   </div>
 </div>
 </footer><!-- End Footer -->

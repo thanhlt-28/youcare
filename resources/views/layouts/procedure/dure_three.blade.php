@@ -86,10 +86,8 @@
         </div>
     </section>
 
-    @include('layouts.slider_team')
-
-      <!-- =========Next Procedure======== -->
-      <section id="features" class="features" data-aos="fade">
+    <!-- =========Next Procedure======== -->
+    <section id="features" class="features" data-aos="fade">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-md-6">
@@ -113,6 +111,8 @@
             </div>
         </div>
     </section>
+
+    @include('layouts.slider_team')
 
     <!-- ======= Cta Section ======= -->
     <section id="cta" class="cta">
