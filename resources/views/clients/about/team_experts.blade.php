@@ -125,6 +125,8 @@
                         </div>
                     </div>
                 </div>
+            </div>
+            <div class="row row-cols-1 row-cols-md-4 g-4 mt-2">
                 <div class="col">
                     <div style="border:none;" class="card h-100 hover-shadow">
                         <div class="team-6">
@@ -143,28 +145,6 @@
                         <div class="btn-footer">
                             <div class="d-grid mx-auto">
                                 <a href="https://phongkhamtamly.com/thac-si-nguyen-thi-thanh-van/" target="_blank" type="button" class="btn btn-outline-success rounded-pill">Xem chi tiết <span class='bi bi-arrow-right'></span></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div style="border:none;" class="card h-100 hover-shadow">
-                        <div class="team-6">
-                            <div class="team-img">
-                                <img src="https://phongkhamtamly.com/wp-content/uploads/2021/11/hoang-le-thuy.png" class="img-top" alt="...">
-                            </div>
-                        </div>
-                        <div class="card-body">
-                            <a target="_blank" class="text-center" href="https://phongkhamtamly.com/thac-si-hoang-le-thuy/">
-                                <h5 class="card-title">THẠC SĨ</br>
-                                    HOÀNG LÊ THỦY</h5>
-                            </a>
-                            <p class="card-text text-center">Thạc sĩ chuyên ngành: Tâm lý học
-                                lâm sàng trẻ em và thanh thiếu niên</p>
-                        </div>
-                        <div class="btn-footer">
-                            <div class="d-grid mx-auto">
-                                <a href="https://phongkhamtamly.com/thac-si-hoang-le-thuy/" target="_blank" type="button" class="btn btn-outline-success rounded-pill">Xem chi tiết <span class='bi bi-arrow-right'></span></a>
                             </div>
                         </div>
                     </div>
@@ -213,9 +193,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="col">
+            </div>
 
-                </div>
+            <div class="row row-cols-1 row-cols-md-4 g-4 mt-2">
+                <div class="col"></div>
                 <div class="col">
                     <div style="border:none;" class="card h-100 hover-shadow">
                         <div class="team-6">
@@ -260,6 +241,7 @@
                         </div>
                     </div>
                 </div>
+                <div class="col"></div>
             </div>
 
             <!-- End Chuyên gia -->

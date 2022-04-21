@@ -88,20 +88,7 @@
                 </div>
               </div> <!-- .item -->
 
-              <div class="d-md-flex testimony-29101 align-items-stretch">
-                <div class="image" style="background-image: url('assets/img/team/Hoang Le Thuy.png');"></div>
-                <div class="text">
-                  <h4><a target="_blank" href="https://phongkhamtamly.com/thac-si-hoang-le-thuy/">HOÀNG LÊ THỦY</a></h4>
-                  <strong>Chuyên gia Tâm lý học lâm sàng & trị liệu tâm lý</strong>
-                  <p>- Hơn 20 năm nghiên cứu và trị liệu tâm lý cho trẻ em.</p>
-                  <p>– Cán bộ cao cấp của Cục bảo vệ chăm sóc trẻ em, đường dây tư vấn và hỗ trợ trẻ em.</p>
-                  <p>– Chuyên gia tham vấn và trị liệu các vấn đề liên quan đến hôn nhân, bạo lực gia đình, xâm hại tình dục, căng thẳng trong cuộc sống,…</p>
-                  <p>- Tham gia nhiều khoá đào tạo, tập huấn cho cán bộ các địa phương về trị liệu tâm lý cho trẻ em.</p>
-
-                  <a class="cta-btn" target="_blank" href="https://phongkhamtamly.com/thac-si-hoang-le-thuy/">
-                    <button type="button" class="btn btn-outline-success rounded-pill">Xem chi tiết</button></a>
-                </div>
-              </div> <!-- .item -->
+             
               <div class="d-md-flex testimony-29101 align-items-stretch">
                 <div class="image" style="background-image: url('assets/img/team/Nguyen Thuy Hang.png');"></div>
                 <div class="text">
@@ -169,7 +156,6 @@
                 <li><a href="#"><img src="{{asset('assets/img/team/Nguyen Thi Tham.png')}}" alt="Image" class="img-fluid"></a></li>
                 <li><a href="#"><img src="{{asset('assets/img/team/Nguyen Mai Huong.png')}}" alt="Image" class="img-fluid"></a></li>
                 <li><a href="#"><img src="{{asset('assets/img/team/Nguyen Thanh Van.png')}}" alt="Image" class="img-fluid"></a></li>
-                <li><a href="#"><img src="{{asset('assets/img/team/Hoang Le Thuy.png')}}" alt="Image" class="img-fluid"></a></li>
                 <li><a href="#"><img src="{{asset('assets/img/team/Nguyen Thuy Hang.png')}}" alt="Image" class="img-fluid"></a></li>
                 <li><a href="#"><img src="{{asset('assets/img/team/Nguyen Hien Minh.png')}}" alt="Image" class="img-fluid"></a></li>
                 <li><a href="#"><img src="{{asset('assets/img/team/Le The Hanh.png')}}" alt="Image" class="img-fluid"></a></li>
