@@ -403,10 +403,7 @@
                 </div>
             </div>
         </section>
-        <div class="section-title" data-aos="fade-up">
-            <h2 class="text-uppercase">Khách hàng nói gì?</h2>
-        </div>
-        @include('layouts.chk_detail.awnser')
+        @include('layouts.say')
     </section>
 
 

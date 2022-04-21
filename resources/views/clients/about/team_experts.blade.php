@@ -40,18 +40,20 @@
             <div class="row row-cols-1 row-cols-md-4 g-4">
                 <div class="col">
                     <div style="border:none;" class="card h-100 hover-shadow">
-                        <div class="team-6">
-                            <div class="team-img">
-                                <img src="https://phongkhamtamly.com/wp-content/uploads/2021/11/nguyen-van-dung.png" class="img-top" alt="Team Image">
+                        <a class="text-center" href="https://phongkhamtamly.com/thay-thuoc-uu-tu-nguyen-van-dung/" target="_blank">
+                            <div class="team-6">
+                                <div class="team-img">
+                                    <img src="https://phongkhamtamly.com/wp-content/uploads/2021/11/nguyen-van-dung.png" class="img-top" alt="Team Image">
+                                </div>
                             </div>
-                        </div>
-                        <div class="card-body">
-                            <a class="text-center" href="https://phongkhamtamly.com/thay-thuoc-uu-tu-nguyen-van-dung/" target="_blank">
+                            <div class="card-body">
+
                                 <h5 class="card-title">THẦY THUỐC ƯU TÚ BSCC.TS.BSCKII - </br>NGUYỄN VĂN DŨNG</h5>
-                            </a>
-                            <p class="card-text text-center">Phó viện trưởng Viện sức khỏe
-                                </br>tâm thần – Bệnh viện Bạch Mai</p>
-                        </div>
+
+                                <p  style="color:#5a5454;" class="card-text text-center">Phó viện trưởng Viện sức khỏe
+                                    </br>tâm thần – Bệnh viện Bạch Mai</p>
+                            </div>
+                        </a>
                         <div class="btn-footer">
                             <div class="d-grid mx-auto">
                                 <a href="https://phongkhamtamly.com/thay-thuoc-uu-tu-nguyen-van-dung/" target="_blank" type="button" class="btn btn-outline-success rounded-pill">Xem chi tiết <span class='bi bi-arrow-right'></span></a>
@@ -61,19 +63,21 @@
                 </div>
                 <div class="col">
                     <div style="border:none;" class="card h-100 hover-shadow">
-                        <div class="team-6">
-                            <div class="team-img">
-                                <img src="https://phongkhamtamly.com/wp-content/uploads/2021/11/pham-van-tu.png" class="img-top" alt="...">
+                        <a target="_blank" class="text-center" href="https://phongkhamtamly.com/tien-si-pham-van-tu/">
+                            <div class="team-6">
+                                <div class="team-img">
+                                    <img src="https://phongkhamtamly.com/wp-content/uploads/2021/11/pham-van-tu.png" class="img-top" alt="...">
+                                </div>
                             </div>
-                        </div>
-                        <div class="card-body">
-                            <a target="_blank" class="text-center" href="https://phongkhamtamly.com/tien-si-pham-van-tu/">
+                            <div class="card-body">
+
                                 <h5 class="card-title">TIẾN SĨ</br>
                                     PHẠM VĂN TƯ</h5>
-                            </a>
-                            <p class="card-text text-center">Phó trưởng Khoa Công tác xã hội,
-                                trường Đại học Sư phạm Hà Nội</p>
-                        </div>
+
+                                <p style="color:#5a5454;" class="card-text text-center">Phó trưởng Khoa Công tác xã hội,
+                                    trường Đại học Sư phạm Hà Nội</p>
+                            </div>
+                        </a>
                         <div class="btn-footer">
                             <div class="d-grid mx-auto">
                                 <a href="https://phongkhamtamly.com/tien-si-pham-van-tu/" target="_blank" type="button" class="btn btn-outline-success rounded-pill">Xem chi tiết <span class='bi bi-arrow-right'></span></a>
@@ -83,19 +87,20 @@
                 </div>
                 <div class="col">
                     <div style="border:none;" class="card h-100 hover-shadow">
-                        <div class="team-6">
-                            <div class="team-img">
-                                <img src="https://phongkhamtamly.com/wp-content/uploads/2022/03/Nguyen-Thi-Tham-280x280.jpg" class="img-top" alt="...">
+                        <a target="_blank" class="text-center" href="https://phongkhamtamly.com/tien-si-nguyen-thi-tham/">
+                            <div class="team-6">
+                                <div class="team-img">
+                                    <img src="https://phongkhamtamly.com/wp-content/uploads/2022/03/Nguyen-Thi-Tham-280x280.jpg" class="img-top" alt="...">
+                                </div>
                             </div>
-                        </div>
-                        <div class="card-body">
-                            <a target="_blank" class="text-center" href="https://phongkhamtamly.com/tien-si-nguyen-thi-tham/">
-                                <h5 class="card-title">TIẾN SĨ</br>
+                            <div class="card-body">
+                                <h5  class="card-title">TIẾN SĨ</br>
                                     NGUYỄN THỊ THẮM</h5>
-                            </a>
-                            <p class="card-text text-center">Tiến sĩ ngành:
-                                tâm lý – giáo dục</p>
-                        </div>
+
+                                <p style="color:#5a5454;" class="card-text text-center">Tiến sĩ ngành:
+                                    tâm lý – giáo dục</p>
+                            </div>
+                        </a>
                         <div class="btn-footer">
                             <div class="d-grid mx-auto">
                                 <a href="https://phongkhamtamly.com/tien-si-nguyen-thi-tham/" target="_blank" type="button" class="btn btn-outline-success rounded-pill">Xem chi tiết <span class='bi bi-arrow-right'></span></a>
@@ -105,19 +110,20 @@
                 </div>
                 <div class="col">
                     <div style="border:none;" class="card h-100 hover-shadow">
-                        <div class="team-6">
-                            <div class="team-img">
-                                <img src="https://phongkhamtamly.com/wp-content/uploads/2022/03/Nguyen-Mai-Huong-280x280.jpg" class="img-top" alt="...">
+                        <a target="_blank" class="text-center" href="https://phongkhamtamly.com/tien-si-nguyen-thi-mai-huong/">
+                            <div class="team-6">
+                                <div class="team-img">
+                                    <img src="https://phongkhamtamly.com/wp-content/uploads/2022/03/Nguyen-Mai-Huong-280x280.jpg" class="img-top" alt="...">
+                                </div>
                             </div>
-                        </div>
-                        <div class="card-body">
-                            <a target="_blank" class="text-center" href="https://phongkhamtamly.com/tien-si-nguyen-thi-mai-huong/">
+                            <div class="card-body">
                                 <h5 class="card-title">TIẾN SĨ</br>
                                     NGUYỄN THỊ MAI HƯƠNG</h5>
-                            </a>
-                            <p class="card-text text-center">Tiến sĩ chuyên ngành:
-                                Tâm lý học</p>
-                        </div>
+
+                                <p style="color:#5a5454;" class="card-text text-center">Tiến sĩ chuyên ngành:
+                                    Tâm lý học</p>
+                            </div>
+                        </a>
                         <div class="btn-footer">
                             <div class="d-grid mx-auto">
                                 <a href="https://phongkhamtamly.com/tien-si-nguyen-thi-mai-huong/" target="_blank" type="button" class="btn btn-outline-success rounded-pill">Xem chi tiết <span class='bi bi-arrow-right'></span></a>
@@ -129,19 +135,21 @@
             <div class="row row-cols-1 justify-content-center row-cols-md-4 g-4 mt-2">
                 <div class="col">
                     <div style="border:none;" class="card h-100 hover-shadow">
-                        <div class="team-6">
-                            <div class="team-img">
-                                <img src="https://phongkhamtamly.com/wp-content/uploads/2022/03/Nguyen-Thanh-Van-280x280.jpg" class="img-top" alt="...">
+                        <a target="_blank" class="text-center" href="https://phongkhamtamly.com/thac-si-nguyen-thi-thanh-van/">
+                            <div class="team-6">
+                                <div class="team-img">
+                                    <img src="https://phongkhamtamly.com/wp-content/uploads/2022/03/Nguyen-Thanh-Van-280x280.jpg" class="img-top" alt="...">
+                                </div>
                             </div>
-                        </div>
-                        <div class="card-body">
-                            <a target="_blank" class="text-center" href="https://phongkhamtamly.com/thac-si-nguyen-thi-thanh-van/">
+                            <div class="card-body">
+
                                 <h5 class="card-title">THẠC SĨ</br>
                                     NGUYỄN THỊ THANH VÂN</h5>
-                            </a>
-                            <p class="card-text text-center">Thạc sĩ chuyên ngành:
-                                Tâm lý học </br> lâm sàng</p>
-                        </div>
+
+                                <p style="color:#5a5454;" class="card-text text-center">Thạc sĩ chuyên ngành:
+                                </br> Tâm lý học lâm sàng</p>
+                            </div>
+                        </a>
                         <div class="btn-footer">
                             <div class="d-grid mx-auto">
                                 <a href="https://phongkhamtamly.com/thac-si-nguyen-thi-thanh-van/" target="_blank" type="button" class="btn btn-outline-success rounded-pill">Xem chi tiết <span class='bi bi-arrow-right'></span></a>
@@ -151,19 +159,21 @@
                 </div>
                 <div class="col">
                     <div style="border:none;" class="card h-100 hover-shadow">
-                        <div class="team-6">
-                            <div class="team-img">
-                                <img src="https://phongkhamtamly.com/wp-content/uploads/2022/03/Nguyen-Thuy-Hang-280x280.jpg" class="img-top" alt="...">
+                        <a target="_blank" class="text-center" href="https://phongkhamtamly.com/thac-si-nguyen-thi-thuy-hang/">
+                            <div class="team-6">
+                                <div class="team-img">
+                                    <img src="https://phongkhamtamly.com/wp-content/uploads/2022/03/Nguyen-Thuy-Hang-280x280.jpg" class="img-top" alt="...">
+                                </div>
                             </div>
-                        </div>
-                        <div class="card-body">
-                            <a target="_blank" class="text-center" href="https://phongkhamtamly.com/thac-si-nguyen-thi-thuy-hang/">
+                            <div class="card-body">
+
                                 <h5 class="card-title">THẠC SĨ</br>
                                     NGUYỄN THỊ THÚY HẰNG</h5>
-                            </a>
-                            <p class="card-text text-center">Thạc sĩ chuyên ngành:
-                                Giáo dục học</p>
-                        </div>
+
+                                <p style="color:#5a5454;" class="card-text text-center">Thạc sĩ chuyên ngành:
+                                    Giáo dục học</p>
+                            </div>
+                        </a>
                         <div class="btn-footer">
                             <div class="d-grid mx-auto">
                                 <a href="https://phongkhamtamly.com/thac-si-nguyen-thi-thuy-hang/" target="_blank" type="button" class="btn btn-outline-success rounded-pill">Xem chi tiết <span class='bi bi-arrow-right'></span></a>
@@ -173,19 +183,21 @@
                 </div>
                 <div class="col">
                     <div style="border:none;" class="card h-100 hover-shadow">
-                        <div class="team-6">
-                            <div class="team-img">
-                                <img src="https://phongkhamtamly.com/wp-content/uploads/2022/03/Nguyen-Hien-Minh-280x280.jpg" class="img-top" alt="...">
+                        <a target="_blank" class="text-center" href="https://phongkhamtamly.com/thac-si-nguyen-hien-minh/">
+                            <div class="team-6">
+                                <div class="team-img">
+                                    <img src="https://phongkhamtamly.com/wp-content/uploads/2022/03/Nguyen-Hien-Minh-280x280.jpg" class="img-top" alt="...">
+                                </div>
                             </div>
-                        </div>
-                        <div class="card-body">
-                            <a target="_blank" class="text-center" href="https://phongkhamtamly.com/thac-si-nguyen-hien-minh/">
+                            <div class="card-body">
+
                                 <h5 class="card-title">THẠC SĨ</br>
                                     NGUYỄN HIỀN MINH</h5>
-                            </a>
-                            <p class="card-text text-center">Thạc sĩ chuyên ngành:
-                                Công tác xã hội</p>
-                        </div>
+
+                                <p style="color:#5a5454;" class="card-text text-center">Thạc sĩ chuyên ngành:
+                                    Công tác xã hội</p>
+                            </div>
+                        </a>
                         <div class="btn-footer">
                             <div class="d-grid mx-auto">
                                 <a href="https://phongkhamtamly.com/thac-si-nguyen-hien-minh/" target="_blank" type="button" class="btn btn-outline-success rounded-pill">Xem chi tiết <span class='bi bi-arrow-right'></span></a>
@@ -199,19 +211,21 @@
                 <div class="col"></div>
                 <div class="col">
                     <div style="border:none;" class="card h-100 hover-shadow">
-                        <div class="team-6">
-                            <div class="team-img">
-                                <img src="https://phongkhamtamly.com/wp-content/uploads/2022/03/Le-The-Hanh-280x280.jpg" class="img-top" alt="...">
+                        <a target="_blank" class="text-center" href="https://phongkhamtamly.com/thac-si-le-the-hanh/">
+                            <div class="team-6">
+                                <div class="team-img">
+                                    <img src="https://phongkhamtamly.com/wp-content/uploads/2022/03/Le-The-Hanh-280x280.jpg" class="img-top" alt="...">
+                                </div>
                             </div>
-                        </div>
-                        <div class="card-body">
-                            <a target="_blank" class="text-center" href="https://phongkhamtamly.com/thac-si-le-the-hanh/">
+                            <div class="card-body">
+
                                 <h5 class="card-title">THẠC SĨ</br>
                                     LÊ THẾ HANH</h5>
-                            </a>
-                            <p class="card-text text-center">Thạc sĩ
-                                Tâm lý học Lâm sàng</p>
-                        </div>
+
+                                <p style="color:#5a5454;" class="card-text text-center">Thạc sĩ
+                                    Tâm lý học Lâm sàng</p>
+                            </div>
+                        </a>
                         <div class="btn-footer">
                             <div class="d-grid mx-auto">
                                 <a href="https://phongkhamtamly.com/thac-si-le-the-hanh/" target="_blank" type="button" class="btn btn-outline-success rounded-pill">Xem chi tiết <span class='bi bi-arrow-right'></span></a>
@@ -221,19 +235,21 @@
                 </div>
                 <div class="col">
                     <div style="border:none;" class="card h-100 hover-shadow">
-                        <div class="team-6">
-                            <div class="team-img">
-                                <img src="https://phongkhamtamly.com/wp-content/uploads/2022/03/Dang-Minh-Khue-280x280.jpg" class="img-top" alt="...">
+                        <a target="_blank" class="text-center" href="https://phongkhamtamly.com/thac-si-dang-minh-khue/">
+                            <div class="team-6">
+                                <div class="team-img">
+                                    <img src="https://phongkhamtamly.com/wp-content/uploads/2022/03/Dang-Minh-Khue-280x280.jpg" class="img-top" alt="...">
+                                </div>
                             </div>
-                        </div>
-                        <div class="card-body">
-                            <a target="_blank" class="text-center" href="https://phongkhamtamly.com/thac-si-dang-minh-khue/">
+                            <div class="card-body">
+
                                 <h5 class="card-title">THẠC SĨ</br>
                                     ĐẶNG MINH KHUÊ</h5>
-                            </a>
-                            <p class="card-text text-center">Thạc sĩ
-                                Tâm lý học Lâm sàng</p>
-                        </div>
+
+                                <p style="color:#5a5454;" class="card-text text-center">Thạc sĩ
+                                    Tâm lý học Lâm sàng</p>
+                            </div>
+                        </a>
                         <div class="btn-footer">
                             <div class="d-grid mx-auto">
                                 <a href="https://phongkhamtamly.com/thac-si-dang-minh-khue/" target="_blank" type="button" class="btn btn-outline-success rounded-pill">Xem chi tiết <span class='bi bi-arrow-right'></span></a>

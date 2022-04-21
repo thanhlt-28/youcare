@@ -10,16 +10,15 @@
 
     <div class="clients-slider swiper">
       <div class="swiper-wrapper align-items-center">
-        <div class="swiper-slide"><a href="#"><img src="{{asset('assets/img/team/chu-dung.png')}}" class="img-fluid" alt=""></a></div>
-        <div class="swiper-slide"><a href="#"><img src="{{asset('assets/img/team/Pham Van Tu.png')}}" class="img-fluid" alt=""></a></div>
-        <div class="swiper-slide"><a href="#"><img src="{{asset('assets/img/team/Nguyen Thi Tham.png')}}" class="img-fluid" alt=""></a></div>
-        <div class="swiper-slide"><a href="#"><img src="{{asset('assets/img/team/Nguyen Mai Huong.png')}}" class="img-fluid" alt=""></a></div>
-        <div class="swiper-slide"><a href="#"><img src="{{asset('assets/img/team/Nguyen Thanh Van.png')}}" class="img-fluid" alt=""></a></div>
-        <div class="swiper-slide"><a href="#"><img src="{{asset('assets/img/team/Hoang Le Thuy.png')}}" class="img-fluid" alt=""></a></div>
-        <div class="swiper-slide"><a href="#"><img src="{{asset('assets/img/team/Nguyen Thuy Hang.png')}}" class="img-fluid" alt=""></a></div>
-        <div class="swiper-slide"><a href="#"><img src="{{asset('assets/img/team/Nguyen Hien Minh.png')}}" class="img-fluid" alt=""></a></div>
-        <div class="swiper-slide"><a href="#"><img src="{{asset('assets/img/team/Le The Hanh.png')}}" class="img-fluid" alt=""></a></div>
-        <div class="swiper-slide"><a href="#"><img src="{{asset('assets/img/team/Dang Minh Khue.png')}}" class="img-fluid" alt=""></a></div>
+        <div class="swiper-slide"><a href="https://phongkhamtamly.com/thay-thuoc-uu-tu-nguyen-van-dung/"><img src="{{asset('assets/img/team/chu-dung.png')}}" class="img-fluid" alt=""></a></div>
+        <div class="swiper-slide"><a href="https://phongkhamtamly.com/tien-si-pham-van-tu/"><img src="{{asset('assets/img/team/Pham Van Tu.png')}}" class="img-fluid" alt=""></a></div>
+        <div class="swiper-slide"><a href="https://phongkhamtamly.com/tien-si-nguyen-thi-tham/"><img src="{{asset('assets/img/team/Nguyen Thi Tham.png')}}" class="img-fluid" alt=""></a></div>
+        <div class="swiper-slide"><a href="https://phongkhamtamly.com/tien-si-nguyen-thi-mai-huong/"><img src="{{asset('assets/img/team/Nguyen Mai Huong.png')}}" class="img-fluid" alt=""></a></div>
+        <div class="swiper-slide"><a href="https://phongkhamtamly.com/thac-si-nguyen-thi-thanh-van/"><img src="{{asset('assets/img/team/Nguyen Thanh Van.png')}}" class="img-fluid" alt=""></a></div>
+        <div class="swiper-slide"><a href="https://phongkhamtamly.com/thac-si-nguyen-thi-thuy-hang/"><img src="{{asset('assets/img/team/Nguyen Thuy Hang.png')}}" class="img-fluid" alt=""></a></div>
+        <div class="swiper-slide"><a href="https://phongkhamtamly.com/thac-si-nguyen-hien-minh/"><img src="{{asset('assets/img/team/Nguyen Hien Minh.png')}}" class="img-fluid" alt=""></a></div>
+        <div class="swiper-slide"><a href="https://phongkhamtamly.com/thac-si-le-the-hanh/"><img src="{{asset('assets/img/team/Le The Hanh.png')}}" class="img-fluid" alt=""></a></div>
+        <div class="swiper-slide"><a href="https://phongkhamtamly.com/thac-si-dang-minh-khue/"><img src="{{asset('assets/img/team/Dang Minh Khue.png')}}" class="img-fluid" alt=""></a></div>
       </div>
       <div class="swiper-pagination"></div>
     </div>
