@@ -126,7 +126,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row row-cols-1 row-cols-md-4 g-4 mt-2">
+            <div class="row row-cols-1 justify-content-center row-cols-md-4 g-4 mt-2">
                 <div class="col">
                     <div style="border:none;" class="card h-100 hover-shadow">
                         <div class="team-6">
