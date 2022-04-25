@@ -52,7 +52,7 @@
 
                 <div class="col-lg-3 col-md-6 mt-4 mt-md-0">
                     <div class="box featured" data-aos="fade-up" data-aos-delay="100">
-                        <h3>Kinh doanh</h3>
+                        <h3>Phổ biến</h3>
                         <h4><sup>$</sup>19<span> / month</span></h4>
                         <ul>
                             <li>Aida dere</li>
@@ -69,7 +69,7 @@
 
                 <div class="col-lg-3 col-md-6 mt-4 mt-lg-0">
                     <div class="box" data-aos="fade-up" data-aos-delay="200">
-                        <h3>Nhà phát triển</h3>
+                        <h3>Kinh doanh</h3>
                         <h4><sup>$</sup>29<span> / month</span></h4>
                         <ul>
                             <li>Aida dere</li>
@@ -86,8 +86,8 @@
 
                 <div class="col-lg-3 col-md-6 mt-4 mt-lg-0">
                     <div class="box" data-aos="fade-up" data-aos-delay="300">
-                        <span class="advanced">Trình độ cao</span>
-                        <h3>Tối ưu</h3>
+                        <span class="advanced">Mới</span>
+                        <h3>Premium </h3>
                         <h4><sup>$</sup>49<span> / month</span></h4>
                         <ul>
                             <li>Aida dere</li>

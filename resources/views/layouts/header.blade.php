@@ -16,7 +16,7 @@
     </p>
     <p style="color:#ffffff;">YouCare ứng dụng công nghệ để nan tỏa những trị tuệ của các chuyên
       gia hàng đầu trong lịch vực chăm sóc sức khỏe tỉnh thần.</p>
-    <a href="{{route('clients.about')}}" class="btn-get-started scrollto">Tìm hiểu ngay!</a>
+    <a href="{{route('clients.platform.product')}}" class="btn-get-started scrollto">Tìm hiểu ngay!</a>
 
     <div class="mouse-icon">
       <svg xmlns="http://www.w3.org/2000/svg" width="30" height="74.106" viewBox="0 0 30 74.106">
@@ -59,7 +59,7 @@
 
         <!-- <div class="col-lg-6 video-box align-self-baseline position-relative">
             <img src="assets/img/about.jpg" class="img-fluid" alt="">
-            <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="glightbox play-btn mb-4"></a>
+            <a target="_blank" href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="glightbox play-btn mb-4"></a>
           </div> -->
         <div class="row justify-content-end">
           <div class="col-lg-12">
@@ -205,46 +205,54 @@
     <div class="container">
 
       <div class="section-title" data-aos="fade-in">
-        <h2>CÁC HOẠT ĐỘNG KHÁC</h2>
+        <h2>CÁC LĨNH VỰC KHÁC</h2>
       </div>
 
       <div class="row">
         <div class="col-md-6 d-flex align-items-stretch" data-aos="fade-right">
-          <div class="card" style="background-image: url(/assets/img/features-1.jpg);">
-            <div class="card-body">
-              <h5 class="card-title"><a href="">Our Mission</a></h5>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor ut labore et dolore magna aliqua.</p>
-              <div class="read-more"><a href="#"><i class="bi bi-arrow-right"></i> Read More</a></div>
+          <a target="_blank" href="https://phongkhamtamly.com/dich-vu-tam-ly/">
+            <div class="card" style="background-image: url(/assets/img/features-1.jpg);">
+              <div class="card-body">
+                <h5 class="card-title">Tham vấn trị liệu tâm lý</h5>
+                <p class="card-text">Thực hiện tham vấn, tư vấn tâm lý trực tiếp, trực tuyến cho học sinh, cặp đôi, gia đình...</p>
+                <div class="read-more"><a target="_blank" href="https://phongkhamtamly.com/dich-vu-tam-ly/"><i class="bi bi-arrow-right"></i> Xem thêm</a></div>
+              </div>
             </div>
-          </div>
+          </a>
         </div>
         <div class="col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="fade-left">
-          <div class="card" style="background-image: url(/assets/img/features-2.jpg);">
-            <div class="card-body">
-              <h5 class="card-title"><a href="">Our Plan</a></h5>
-              <p class="card-text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem doloremque laudantium, totam rem.</p>
-              <div class="read-more"><a href="#"><i class="bi bi-arrow-right"></i> Read More</a></div>
+          <a target="_blank" href="https://checkingcare.vn/sang-loc-theo-doi/">
+            <div class="card" style="background-image: url(/assets/img/features-2.jpg);">
+              <div class="card-body">
+                <h5 class="card-title">Sàng lọc đánh giá sự phát triển của trẻ</h5>
+                <p class="card-text">Hỗ trợ theo dõi sự phát triển của trẻ với bộ công cụ sàng lọc tin cậy nhất hiện nay...</p>
+                <div class="read-more"><a target="_blank" href="https://checkingcare.vn/sang-loc-theo-doi/"><i class="bi bi-arrow-right"></i> Xem thêm</a></div>
+              </div>
             </div>
-          </div>
+          </a>
 
         </div>
         <div class="col-md-6 d-flex align-items-stretch mt-4" data-aos="fade-right" data-aos-delay="100">
-          <div class="card" style="background-image: url(/assets/img/features-3.jpg);">
-            <div class="card-body">
-              <h5 class="card-title"><a href="">Our Vision</a></h5>
-              <p class="card-text">Nemo enim ipsam voluptatem quia voluptas sit aut odit aut fugit, sed quia magni dolores.</p>
-              <div class="read-more"><a href="#"><i class="bi bi-arrow-right"></i> Read More</a></div>
+          <a target="_blank" href="https://phongkhamtamthan.com/">
+            <div class="card" style="background-image: url(/assets/img/features-3.jpg);">
+              <div class="card-body">
+                <h5 class="card-title">Kiểm tra sức khỏe tâm thần</h5>
+                <p class="card-text">Đánh giá và trị liệu sức khỏe tâm thần như rối loạn lo âu, trầm cảm, stres...</p>
+                <div class="read-more"><a target="_blank" href="https://phongkhamtamthan.com/"><i class="bi bi-arrow-right"></i> Xem thêm</a></div>
+              </div>
             </div>
-          </div>
+          </a>
         </div>
         <div class="col-md-6 d-flex align-items-stretch mt-4" data-aos="fade-left" data-aos-delay="100">
-          <div class="card" style="background-image: url(/assets/img/features-4.jpg);">
-            <div class="card-body">
-              <h5 class="card-title"><a href="">Our Care</a></h5>
-              <p class="card-text">Nostrum eum sed et autem dolorum perspiciatis. Magni porro quisquam laudantium voluptatem.</p>
-              <div class="read-more"><a href="#"><i class="bi bi-arrow-right"></i> Read More</a></div>
+          <a target="_blank" href="https://phongkhamtamly.com/tong-quan-doanh-nghiep/">
+            <div class="card" style="background-image: url(/assets/img/features-4.jpg);">
+              <div class="card-body">
+                <h5 class="card-title">Sức khỏe tinh thần doanh nghiệp</h5>
+                <p class="card-text">Sức khỏe là một trạng thái hoàn toàn thoải mái về thể chất, tinh thần và xã hội, chứ không phải là chỉ không có bệnh hay tật...</p>
+                <div class="read-more"><a target="_blank" href="https://phongkhamtamly.com/tong-quan-doanh-nghiep/"><i class="bi bi-arrow-right"></i> Xem thêm</a></div>
+              </div>
             </div>
-          </div>
+          </a>
         </div>
       </div>
 

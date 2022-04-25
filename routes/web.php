@@ -26,15 +26,15 @@ Route::get('page_not_found', function () {
 });
 
 
-Route::view('login', 'auth.login')->name('login');
-Route::post('login', [UserController::class, 'postLogin'])->name('auth.postLogin');
-Route::any('logout', function () {
-    Auth::logout();
-    return redirect(route('login'));
-})->name('logout');
+// Route::view('login', 'auth.login')->name('login');
+// Route::post('login', [UserController::class, 'postLogin'])->name('auth.postLogin');
+// Route::any('logout', function () {
+//     Auth::logout();
+//     return redirect(route('login'));
+// })->name('logout');
 
-Route::view('register', 'auth.register')->name('register');
-Route::post('register', [RegisterController::class, 'postRegister'])->name('auth.postRegister');
+// Route::view('register', 'auth.register')->name('register');
+// Route::post('register', [RegisterController::class, 'postRegister'])->name('auth.postRegister');
 
 // Liên hệ 
 Route::get('lien-he', function () {
