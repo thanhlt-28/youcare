@@ -97,7 +97,7 @@
               <div class="card-body">
                 <h5 class="card-title">Tham vấn trị liệu tâm lý</h5>
                 <p class="card-text">Thực hiện tham vấn, tư vấn tâm lý trực tiếp, trực tuyến cho học sinh, cặp đôi, gia đình...</p>
-                <div class="read-more"><a target="_blank" href="https://phongkhamtamly.com/dich-vu-tam-ly/"><i class="bi bi-arrow-right"></i> Xem thêm</a></div>
+                <div class="read-more"><a target="_blank" href="https://phongkhamtamly.com/dich-vu-tam-ly/"><i class="bi bi-arrow-right"></i></a></div>
               </div>
             </div>
           </a>
@@ -108,7 +108,7 @@
               <div class="card-body">
                 <h5 class="card-title">Sàng lọc đánh giá sự phát triển của trẻ</h5>
                 <p class="card-text">Hỗ trợ theo dõi sự phát triển của trẻ với bộ công cụ sàng lọc tin cậy nhất hiện nay...</p>
-                <div class="read-more"><a target="_blank" href="https://checkingcare.vn/sang-loc-theo-doi/"><i class="bi bi-arrow-right"></i> Xem thêm</a></div>
+                <div class="read-more"><a target="_blank" href="https://checkingcare.vn/sang-loc-theo-doi/"><i class="bi bi-arrow-right"></i></a></div>
               </div>
             </div>
           </a>
@@ -120,7 +120,7 @@
               <div class="card-body">
                 <h5 class="card-title">Kiểm tra sức khỏe tâm thần</h5>
                 <p class="card-text">Đánh giá và trị liệu sức khỏe tâm thần như rối loạn lo âu, trầm cảm, stres...</p>
-                <div class="read-more"><a target="_blank" href="https://phongkhamtamthan.com/"><i class="bi bi-arrow-right"></i> Xem thêm</a></div>
+                <div class="read-more"><a target="_blank" href="https://phongkhamtamthan.com/"><i class="bi bi-arrow-right"></i></a></div>
               </div>
             </div>
           </a>
@@ -131,7 +131,7 @@
               <div class="card-body">
                 <h5 class="card-title">Sức khỏe tinh thần doanh nghiệp</h5>
                 <p class="card-text">Sức khỏe là một trạng thái hoàn toàn thoải mái về thể chất, tinh thần và xã hội, chứ không phải là chỉ không có bệnh hay tật...</p>
-                <div class="read-more"><a target="_blank" href="https://phongkhamtamly.com/tong-quan-doanh-nghiep/"><i class="bi bi-arrow-right"></i> Xem thêm</a></div>
+                <div class="read-more"><a target="_blank" href="https://phongkhamtamly.com/tong-quan-doanh-nghiep/"><i class="bi bi-arrow-right"></i></a></div>
               </div>
             </div>
           </a>

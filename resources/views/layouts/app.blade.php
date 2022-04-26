@@ -38,7 +38,6 @@
         <div class="row justify-content-end">
             <div style="margin-left:20px" class="col-lg-12">
                 <div class="row justify-content-end">
-
                     <div class="col-lg-4 col-md-5 col-6 d-flex align-items-center">
                         <a style=" color:#5a5454;" class="details text-start" href="#">
                             <div class="box-shade count-box pb-5 pt-0 pt-lg-5">
@@ -88,12 +87,12 @@
             </div>
         </div>
 
-        <!--==================4==================-->
         <div style="margin-top: -50px" class="row justify-content-end">
             <div class="col-lg-12">
                 <div class="row justify-content-end">
 
                     <div class="col-lg-4 col-md-5 col-6 d-md-flex align-items-md-stretch"></div>
+
                     <div class="col-lg-4 col-md-5 col-6 align-self-center">
                         <a style=" color:#5a5454;" class="details text-start" href="#">
                             <div class="box-shade count-box py-5">

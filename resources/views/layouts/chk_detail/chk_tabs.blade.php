@@ -27,31 +27,46 @@
                 <div class="tab-content" id="v-pills-tabContent">
                     <div class="tab-pane fade show active pt-4 me-4" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
                         <!-- <img src="https://htmlcss3tutorials.com/wp-content/themes/htmlcss3TutorialRevamp/assets/img/course/HTMLCSS.jpg" alt="" class="img-cont me-3"> -->
-                        <h4>Lorem Ipsum Dolor</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae alias eum fugiat asperiores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime at magnam modi iusto porro excepturi.</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae alias eum fugiat asperiores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime at magnam modi iusto porro excepturi.</p>
+                        <h4>Nhà trường</h4>
+                        <p>Dễ dàng theo dõi sự phát triển của học sinh trong trường học nhằm phát hiện sớm những vấn đề giúp cho học sinh được phòng ngừa và can thiệp, trị liệu sớm nhất và hiệu quả tốt nhất.</p>
+                        <p>Tiết kiệm thời gian và tài chính không cần phải cứ giáo viên đi học sử dụng bộ công cụ.</p>
 
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae alias eum fugiat asperiores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime at magnam modi iusto porro excepturi.</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <p>Ứng dụng được xây dựng trên nền tảng công nghệ hiện đại giúp việc theo dõi và sàng lọc vấn đề của trẻ cho kết quả chính xác và nhanh chóng.</p>
+                        <p>Các bộ công cụ đã được sử dụng nhiều nước trên thế giới và được chuẩn hóa phù hợp với người Việt Nam.</p>
+                        <p>Có thể sàng lọc và đánh giá cho 5000 học sinh trong thời gian 10 phút cho kết quả phân tích thống kê của cả trường học. Dễ dàng tra cứu, quản lý các đợt đánh giá, kết quả đánh giá đến từng học sinh</p>
+                        <p>Hệ thống tự động gửi email cho phụ huynh kết quả đánh giá sàng lọc.</p>
+                        <p>Từ kết quả đánh giá sẽ xây dựng các chương trình ngoại khóa phù hợp với vấn đề của học sinh để phòng ngừa các rối loạn như lo lâu, trầm cảm, rối loạn cảm xúc, chống đôi, tự tự, xâm hại...</p>
+                        <p> Được sự hỗ trợ của các chuyên gia đầu ngành về sức khỏe tâm thần của học sinh khi gặp phải vấn đề.</p>
+
                     </div>
                     <div class="tab-pane fade pt-4 me-4" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
-                        <h4>Lorem Ipsum</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                        <h4>Giáo viên</h4>
+                        <p>Phát hiện sớm những học sinh có những vấn đề về sức khoẻ tinh thần để thông báo cho phụ huynh kịp thời.
+                            Cho kết quả nhanh và chính xác</p>
+                        <p>Dễ dàng theo dõi sự phát triển của trẻ em nhằm phát hiện sớm những vấn đề giúp cho học sinh được hỗ trợ kịp thời.</p>
+                        <p>Không cần phải đi tập huấn, đào tạo về sử dụng công cụ đánh giá. Đơn giản chỉ bằng click chuột.</p>
+                        <p>Các bộ công cụ đã được sử dụng nhiều nước trên thế giới và được chuẩn hóa phù hợp với người Việt Nam.</p>
+                        <p>Dễ dàng quản lý tình trạng sức khoẻ tâm thần của học sinh trong lớp mà không cần kiến thức chuyên môn.</p>
+                        <p>Được hỗ trợ của các chuyên gia đầu ngành về sức khỏe tinh thần khi học sinh gặp phải vấn đề.</p>
                     </div>
                     <div class="tab-pane fade pt-4 me-4" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
-                        <h4>Lorem Ipsum</h4>
-                        <p> Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <h4>Phụ huynh</h4>
+                        <p> Dễ dàng theo dõi và đánh giá được sức khoẻ tâm thần của con mà không cần kiến thức chuyên môn  chỉ bằng click chuột.</p>
+                        <p> Sớm phát hiện vấn đề của con gặp phải để có phương án hỗ trợ cho con.</p>
+                        <p> Được đội ngũ chuyên gia nhiều năm kinh nghiệm hỗ trợ và đồng hành cùng con khi cần thiết.</p>
+                        <p> Các bộ công cụ đã được sử dụng nhiều nước trên thế giới và được chuẩn hóa phù hợp với người Việt Nam.</p>
                     </div>
                     <div class="tab-pane fade pt-4 me-4" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
-                        <h4>Lorem Ipsum</h4>
-                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <h4>Học sinh</h4>
+                        <p>Biết được tình trạng của mình và tìm kiếm sự hỗ trợ khi cần thiết chỉ đơn giản bằng lick chuột.</p>
+                        <p>Dễ dàng kiểm tra sức khoẻ tâm thần của mình mà không cần kiến thức chuyên môn.</p>
+                        <p>Được đội ngũ chuyên gia nhiều năm kinh nghiệm hỗ trợ và đồng hành cùng  khi cần hỗ trợ.</p>
                     </div>
                     <div class="tab-pane fade pt-4 me-4" id="v-pills-teams" role="tabpanel" aria-labelledby="v-pills-teams-tab">
-                        <h4>Lorem Ipsum</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae alias eum fugiat asperiores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime at magnam modi iusto porro excepturi.</p>
-
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae alias eum fugiat asperiores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime at magnam modi iusto porro excepturi.</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <h4>Nhà chuyên môn</h4>
+                        <p>Là hệ thống đầy đủ các bộ công cụ theo dõi, đánh giá, sàng lọc được tính toán xử lý tự động.</p>
+                        <p>Các bộ công cụ đã được sử dụng nhiều nước trên thế giới và được chuẩn hóa phù hợp với người Việt Nam. Nhà chuyên môn không phải tập huấn sử dụng bộ công cụ. Kết quả chính xác và quản lý trẻ em, thân chủ đơn giản và thuận tiện.</p>
+                        <p>Được hỗ trợ của các chuyên gia đầu ngành về sức khỏe tinh thần.</p>
                     </div>
                 </div>
             </div>
