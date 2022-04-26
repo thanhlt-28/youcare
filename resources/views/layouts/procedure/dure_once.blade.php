@@ -54,12 +54,65 @@
                     <div class="tab-content" id="v-pills-tabContent">
                         <div class="tab-pane fade show active pt-4 me-4" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
                             <!-- <img src="https://htmlcss3tutorials.com/wp-content/themes/htmlcss3TutorialRevamp/assets/img/course/HTMLCSS.jpg" alt="" class="img-cont me-3"> -->
-                            <h4>Lorem Ipsum Dolor</h4>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae alias eum fugiat asperiores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime at magnam modi iusto porro excepturi.</p>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae alias eum fugiat asperiores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime at magnam modi iusto porro excepturi.</p>
+                            <h4> <i class="bi bi-check-circle-fill"></i> ĐĂNG NHẬP / ĐĂNG KÝ</h4>
+                            <h5>Đăng kí tài khoản</h5>
+                            <p>
+                                1. Người dùng truy cập đường link <a href="https://app.checkingcare.vn/user/register" target="_blank">https://app.checkingcare.vn/user/register</a> trên trình duyệt web có kết nối Internet
+                            </p>
+                            <p>
+                                2. Nhập thông tin Đăng ký và chọn quyền Giáo viên </p>
+                            <p>
+                                3. Bấm Đăng ký
+                            </p>
 
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae alias eum fugiat asperiores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime at magnam modi iusto porro excepturi.</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            <h5>Đăng nhập</h5>
+                            <p>
+                                1. Người dùng truy cập đường link: <a href="https://app.checkingcare.vn/user/login" target="_blank">https://app.checkingcare.vn/user/login</a> trên trình duyệt kết nối internet
+                            </p>
+                            <p>
+                                2. Nhập thông tin Đăng nhập hoặc Đăng nhập thông qua Facebook / Google
+                            </p>
+                            <p>
+                                3. Bấm đăng nhập
+                            </p>
+
+                            <h4><i class="bi bi-check-circle-fill"></i> THỰC HIỆN ĐÁNH GIÁ</h4>
+
+                            <h5>Thêm trẻ</h5>
+                            <p>
+                                Người dùng bấm vào menu “Quản lý trẻ em” hệ thống hiển thị màn hình:
+                            </p>
+                            <p>Người dùng thực hiện các bước sau: <b> <i> B1. Click vào “Thêm”</i>
+                                    <i class="bi bi-arrow-right"> B2. Nhập đầy đủ thông tin trẻ </i>
+                                    <i class="bi bi-arrow-right"> B3. Click thêm</i></b>
+                            </p>
+                            <h5>Lựa chọn bộ công cụ</h5>
+
+                            Bấm vào menu “Bộ công cụ” hệ thống hiển thị màn hình các bộ công cụ gồm:
+                            <br/>
+                            
+                            <i class="bi bi-check"></i> Sàng lọc CBCL  <br/>
+                            • Dành cho trẻ có độ tuổi từ 6-18 tuổi  <br/>
+                            • Nhận biết các vấn đề tâm lý rối nhiễu, cảm xúc hành vi  <br/>
+                            • Lo âu trầm cảm  <br/>
+                            • Thu mình, cô đơn  <br/>
+                            • Cơ thể, thể chất  <br/>
+                            • Xã hội, mỗi quan hệ  <br/>
+                            • Suy nghĩ, nhận thức  <br/>
+                            • Tập trung, chú ý  <br/>
+                            • Hành vi say phạm ( chống đối )  <br/>
+                            • Hành vi thái quá ( hung tính )  <br/>
+                            • Sàng lọc ASQ3  <br/>
+                            • Dành cho trẻ từ 12 tháng đến 6 tuổi  <br/>
+                            • Giúp sàng lọc các vấn đề liên quan đến trẻ mầm non phát hiện sớm các lĩnh vực trẻ phát triển chậm hơn so với độ tuổi  <br/>
+                            • Đánh giá chuyển sâu để có những hỗ trợ tốt cho trẻ  <br/>
+                            • Sàng lọc ADHD  <br/>
+                            • Dành cho trẻ từ 0-6 tuổi và 6-12 tuổi  <br/>
+                            • Biết được rối loạn phát triển thần kinh liên quan đến vấn đề tăng động giảm tập trung của trẻ  <br/>
+                            • Sàng lọc M – CHAT – R  <br/>
+                            • Dành cho độ tuổi từ 0-36 tháng  <br/>
+                            • Giúp sàng lọc về các vấn đề rối loạn phổ tự kỷ xem trẻ có nguy cơ mắc bệnh tự kỷ hay không  <br/>
+
                         </div>
                         <div class="tab-pane fade pt-4 me-4" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
                             <h4>Lorem Ipsum</h4>
@@ -113,7 +166,7 @@
 
             <div class="text-center">
                 <h3>Cộng đồng</h3>
-                <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p> Cộng đồng tâm lý với sứ mệnh thay đổi thói quen và nhận thức của người Việt Nam </br> trong việc chú trọng sức khoẻ tinh thần và tìm kiếm sự trợ giúp khi cần thiết.</p>
                 <a class="cta-btn" href="#">Tham gia ngay</a>
             </div>
 

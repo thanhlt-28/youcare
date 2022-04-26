@@ -122,12 +122,12 @@
                             <a href="{{route('layouts.procedure.dure_once')}}" class="img-item img-item-1">
                                 <div class="card">
                                     <div class="card-body">
-                                        <h5 class="card-title">Trước khi bắt đầu</h5>
+                                        <h5 class="card-title">Quy trình cho giáo viên</h5>
                                         <div class="img-media text-center">
                                             <img src="https://i.imgur.com/w2CKRB9.jpg" class="mr-3" alt="">
                                         </div>
                                         <p class="card-text text-center mt-3">Xây dựng kế hoạch sàng lọc từ khi bắt đầu đến khi kết thúc</p>
-                                        <div class="read-more"><a href="#"><i class="bi bi-arrow-right"></i> Xem thêm</a></div>
+                                        
 
                                     </div>
                                 </div>
@@ -144,12 +144,12 @@
                             <a href="{{route('layouts.procedure.dure_twice')}}" class="img-item img-item-1">
                                 <div class="card">
                                     <div class="card-body">
-                                        <h5 class="card-title">Chuẩn bị chương trình</h5>
+                                        <h5 class="card-title">Quy trình cho phụ huynh</h5>
                                         <div class="img-media text-center">
                                             <img src="https://i.imgur.com/w2CKRB9.jpg" class="mr-3" alt="">
                                         </div>
                                         <p class="card-text text-center mt-3">Thiết lập nhóm chuyên gia để thực hiện chương trình sàng lọc</p>
-                                        <div class="read-more"><a href="#"><i class="bi bi-arrow-right"></i> Xem thêm</a></div>
+                                        
                                     </div>
                                 </div>
                             </a>
@@ -174,12 +174,12 @@
                             <a href="{{route('layouts.procedure.dure_four')}}" class="img-item img-item-1">
                                 <div class="card">
                                     <div class="card-body">
-                                        <h5 class="card-title">Hỗ trợ thành công</h5>
+                                        <h5 class="card-title">Quy trình cho nhà trường</h5>
                                         <div class="img-media text-center">
                                             <img src="https://i.imgur.com/w2CKRB9.jpg" class="mr-3" alt="">
                                         </div>
                                         <p class="card-text text-center mt-3">Giám sát quá trình sàng lọc và đưa ra những điều chỉnh khi cần thiết</p>
-                                        <div class="read-more"><a href="#"><i class="bi bi-arrow-right"></i> Xem thêm</a></div>
+                                        
                                     </div>
                                 </div>
                             </a>
@@ -194,12 +194,12 @@
                             <a href="{{route('layouts.procedure.dure_three')}}" class="img-item img-item-1">
                                 <div class="card">
                                     <div class="card-body">
-                                        <h5 class="card-title">Tiến hành</h5>
+                                        <h5 class="card-title">Quy trình cho học sinh</h5>
                                         <div class="img-media text-center">
                                             <img src="https://i.imgur.com/w2CKRB9.jpg" class="mr-3" alt="">
                                         </div>
-                                        <p class="card-text text-center mt-3">Thực hiện sàng lọc dựa trên kế hoạch đã xây dựng</p>
-                                        <div class="read-more"><a href="#"><i class="bi bi-arrow-right"></i> Xem thêm</a></div>
+                                        <p class="card-text text-center mt-3">Tiến hành thực hiện sàng lọc dựa trên kế hoạch đã xây dựng</p>
+                                        
                                     </div>
                                 </div>
                             </a>

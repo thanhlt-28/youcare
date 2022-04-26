@@ -59,7 +59,7 @@
                     </div>
                     <div class="col-lg-4 col-md-5 col-6 align-self-center">
                         <div class="count-box py-5">
-                            <img class="rounded mx-auto d-block" src="assets/img/hesinhthai.png" width="100%" alt="">
+                            <img class="rounded mx-auto d-block" src="assets/img/app.png" width="100%" alt="">
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-5 col-6 d-flex align-items-center">
@@ -67,14 +67,16 @@
                             <div class="box-shade count-box pb-5 pt-0 pt-lg-5">
                                 <!-- <i class="bi bi-award"></i> -->
                                 <!-- <span data-purecounter-start="0" data-purecounter-end="3" class="purecounter">3</span> -->
-                                <h4 class="text-center text-uppercase"> PSYCARE</h4>
+                                <h4 class="text-center text-uppercase"> BIZCARE</h4>
                                 <div class="d-flex flex-nowrap">
                                     <p class="box-shade text-justify">
-                                        PsyCare là nền tảng tham vấn và trị liệu
-                                        các vấn đề về tâm lý và sức khỏe tâm
-                                        thần online. Được kết nối với các chuyên
-                                        gia tâm lý và chuyên gia sức khỏe tâm
-                                        thần hàng đầu.
+
+                                        BizCare là sản phẩm công nghệ được
+                                        ứng dụng vào doanh nghiệp để theo
+                                        dõi và chăm sóc sức khỏe tỉnh thần
+                                        nhân sự. Giúp môi môi trường,
+                                        doanh nghiệp vui vẻ hạnh phúc và
+                                        nâng cao hiệu quả công việc.
                                     </p>
 
                                 </div>
@@ -98,15 +100,14 @@
                             <div class="box-shade count-box py-5">
                                 <!-- <i class="bi bi-journal-richtext"></i> -->
                                 <!-- <span data-purecounter-start="0" data-purecounter-end="4" class="purecounter">4</span> -->
-                                <h4 class="text-center text-uppercase"> BIZCARE</h4>
+                                <h4 class="text-center text-uppercase"> PSYCARE</h4>
                                 <div class="d-flex flex-nowrap">
                                     <p class="box-shade text-justify">
-                                        BizCare là sản phẩm công nghệ được
-                                        ứng dụng vào doanh nghiệp để theo
-                                        dõi và chăm sóc sức khỏe tỉnh thần
-                                        nhân sự. Giúp môi môi trường,
-                                        doanh nghiệp vui vẻ hạnh phúc và
-                                        nâng cao hiệu quả công việc.
+                                        PsyCare là nền tảng tham vấn và trị liệu
+                                        cá vấn đề về tâm lý và sức khỏe tâm
+                                        thần online. Được kết nối với các chuyên
+                                        gia tâm lý và chuyên gia sức khỏe tâm
+                                        thần hàng đầu.
                                     </p>
                                 </div>
                                 <p class="text-white">Chi tiết<span class='bi bi-arrow-right'></span></p>
