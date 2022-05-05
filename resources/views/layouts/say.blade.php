@@ -8,6 +8,8 @@
                 <h2 class="text-uppercase">KHÁCH HÀNG</h2>
             </div>
             <div class="carousel-inner" role="listbox">
+                <h3 class="text-uppercase">Công cụ sàng lọc ASQ – 3</h3>
+
                 <div class="carousel-item active">
                     <div class="testimonial4_slide">
                         <img src="https://i.imgur.com/m2O0ykv.jpeg" class="img-circle img-responsive" />
