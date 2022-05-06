@@ -38,11 +38,11 @@
                         <div style="border: none;" class="card h-100">
                             <img class="card-img-top" src="/assets/img/work/pack.hrm.svg" width="50%" alt="">
                             <div class="card-body">
-                                <h5 class="card-title">Ứng dụng ChkCare</h5>
+                                <h5 class="card-title">Ứng dụng CkCare</h5>
                                 <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
                             </div>
                             <div class="btn-wrap">
-                                <a href="{{route('clients.platform.chkcare_detail')}}" class="btn-buy">Xem thêm</a>
+                                <a href="{{route('clients.platform.ckcare_detail')}}" class="btn-buy">Xem thêm</a>
                             </div>
                         </div>
                     </div>

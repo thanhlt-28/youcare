@@ -18,7 +18,7 @@
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item"><a href="{{'/'}}">Trang chủ</a></li>
                     <li class="breadcrumb-item" aria-current="page"><a
-                            href="{{route('clients.platform.chkcare_detail')}}">Quy trình</a></li>
+                            href="{{route('clients.platform.ckcare_detail')}}">Quy trình</a></li>
                     <li class="breadcrumb-item active" aria-current="page">Trước khi bắt đầu</li>
                 </ol>
             </nav>

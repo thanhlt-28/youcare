@@ -11,12 +11,12 @@
                     <div class="col-lg-4 col-md-5 col-6 d-md-flex align-items-md-stretch"></div>
 
                     <div style="margin-bottom: -50px;" class="col-lg-4 col-md-5 col-6 d-md-flex align-items-md-stretch">
-                        <a style=" color:#5a5454;" class="details text-start" target="_blank" href="{{route('clients.platform.chkcare_detail')}}">
+                        <a style=" color:#5a5454;" class="details text-start" target="_blank" href="{{route('clients.platform.ckcare_detail')}}">
                             <div class="box-shade count-box py-5">
-                                <h4 class="text-center text-uppercase"> CHKCARE</h4>
+                                <h4 class="text-center text-uppercase"> CKCARE</h4>
                                 <div class="d-flex flex-nowrap">
                                     <p class="box-shade text-justify">
-                                        ChkCare là sản phẩm công nghệ
+                                        CkCare là sản phẩm công nghệ
                                         được ứng dụng trong việc theo dõi,
                                         sàng lọc và đánh giá nhằm phát
                                         hiện sớm những vấn đề rối loạn

@@ -58,20 +58,21 @@ Route::prefix('/')->group(function () {
 
     // =================Sản phẩm===================== //
     // Route::prefix('platform/')->group(function () {
-    Route::get('platform/san-pham', function () {
+    Route::get('san-pham', function () {
         return view('clients.platform.product');
     })->name('clients.platform.product');
 
-    Route::get('platform/chkcare', function () {
-        return view('clients.platform.chkcare_detail');
-    })->name('clients.platform.chkcare_detail');
-    Route::get('platform/pubcare', function () {
+    
+    Route::get('ckcare', function () {
+        return view('clients.platform.ckcare_detail');
+    })->name('clients.platform.ckcare_detail');
+    Route::get('pubcare', function () {
         return view('clients.platform.pubcare');
     })->name('clients.platform.pubcare');
-    Route::get('platform/psycare', function () {
+    Route::get('psycare', function () {
         return view('clients.platform.psycare');
     })->name('clients.platform.psycare');
-    Route::get('platform/bizcare', function () {
+    Route::get('bizcare', function () {
         return view('clients.platform.bizcare');
     })->name('clients.platform.bizcare');
 
@@ -108,9 +109,9 @@ Route::prefix('/')->group(function () {
     })->name('clients.library.media');
 
     // Tài nguyên
-    Route::get('chkcare-price', function () {
-        return view('price.chk_price');
-    })->name('price.chk_price');
+    Route::get('ckcare-price', function () {
+        return view('price.ck_price');
+    })->name('price.ck_price');
     
 });
 

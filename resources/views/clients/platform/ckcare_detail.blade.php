@@ -1,15 +1,15 @@
 @extends('layouts.main_detail')
-@section('title', 'ChkCare')
+@section('title', 'CkCare')
 @section('content')
 
 <main id="main">
 
     <!-- ======= Breadcrumbs ======= -->
     <section id="breadcrumbs" class="breadcrumbs">
-        <div class="bread-chkcare">
+        <div class="bread-ckcare">
             <div class="container">
                 <div class="header-hero">
-                    <a href="https://chk.youcare.vn/user/login" target="_blank">
+                    <a href="https://ck.youcare.vn/user/login" target="_blank">
                         <button type="button" class="btn btn-outline-success rounded-pill">Sàng lọc ngay</button>
                     </a>
                 </div>
@@ -25,7 +25,7 @@
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item"><a href="{{'/'}}">Trang chủ</a></li>
                     <li class="breadcrumb-item" aria-current="page"><a href="{{route('clients.platform.product')}}">Sản phẩm</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">Ứng dụng ChkCare</li>
+                    <li class="breadcrumb-item active" aria-current="page">Ứng dụng CkCare</li>
                 </ol>
             </nav>
         </div>
@@ -209,7 +209,7 @@
                 </div>
             </section>
             <!-- End Features Section -->
-            @include('layouts.chk_detail.chk_tabs')
+            @include('layouts.ck_detail.ck_tabs')
 
         </div>
         <section class="content" data-aos="fade-up">
