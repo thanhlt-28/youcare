@@ -1,15 +1,15 @@
 @extends('layouts.main_detail')
-@section('title', 'ChkCare')
+@section('title', 'CkCare')
 @section('content')
 
 <main id="main">
 
     <!-- ======= Breadcrumbs ======= -->
     <section id="breadcrumbs" class="breadcrumbs">
-        <!-- <div class="bread-chkcare">
+        <!-- <div class="bread-ckcare">
             <div class="container">
                 <div class="header-hero">
-                    <a href="https://chk.youcare.vn/user/login" target="_blank">
+                    <a href="https://ck.youcare.vn/user/login" target="_blank">
                         <button type="button" class="btn btn-outline-success rounded-pill">Mua ngay</button>
                     </a>
                 </div>
@@ -19,7 +19,7 @@
             <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='currentColor'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item"><a href="{{'/'}}">Trang chủ</a></li>
-                    <li class="breadcrumb-item" aria-current="page"><a href="{{route('clients.platform.product')}}">Ứng dụng Chkcare</a></li>
+                    <li class="breadcrumb-item" aria-current="page"><a href="{{route('clients.platform.product')}}">Ứng dụng Ckcare</a></li>
                     <li class="breadcrumb-item active" aria-current="page">Giá</li>
                 </ol>
             </nav>
@@ -45,7 +45,7 @@
                             <li class="na">Massa ultricies mi</li>
                         </ul>
                         <div class="btn-wrap">
-                            <a href="https://chk.youcare.vn/user/login" class="btn-buy">Mua ngay</a>
+                            <a href="https://ck.youcare.vn/user/login" class="btn-buy">Mua ngay</a>
                         </div>
                     </div>
                 </div>

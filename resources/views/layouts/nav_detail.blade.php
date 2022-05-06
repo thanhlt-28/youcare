@@ -12,7 +12,7 @@
             <li><a class="{{ Request::is('/') ? 'active' : '' }}" href="{{'/'}}">Trang chủ</a></li>
             <li class="dropdown"><a href="{{route('clients.about')}}"><span>Giới thiệu</span></a></li>
             <li class="dropdown"><a href="{{route('clients.platform.product')}}"><span>Sản phẩm</span></a></li>
-            <li class="dropdown"><a href="{{route('price.chk_price')}}"><span>Giá</span></a></li>
+            <li class="dropdown"><a href="{{route('price.ck_price')}}"><span>Giá</span></a></li>
             <li><a href="{{route('clients.contact')}}">Liên hệ</a></li>
 
         </ul>
