@@ -77,18 +77,21 @@ Route::prefix('/')->group(function () {
     })->name('clients.platform.bizcare');
 
     // ========= Quy trình =============//
-    Route::get('layouts/dure-before', function () {
+    Route::get('quy-trinh-giao-vien', function () {
         return view('layouts.procedure.dure_once');
     })->name('layouts.procedure.dure_once');
-    Route::get('layouts/dure-prepareing', function () {
+    Route::get('quy-trinh-phu-huynh', function () {
         return view('layouts.procedure.dure_twice');
     })->name('layouts.procedure.dure_twice');
-    Route::get('layouts/dure-screening', function () {
+    Route::get('quy-trinh-hoc-sinh', function () {
         return view('layouts.procedure.dure_three');
     })->name('layouts.procedure.dure_three');
-    Route::get('layouts/dure-success', function () {
+    Route::get('quy-trinh-nha-quan-ly', function () {
         return view('layouts.procedure.dure_four');
     })->name('layouts.procedure.dure_four');
+    Route::get('quy-trinh-nha-chuyen-mon', function () {
+        return view('layouts.procedure.dure_five');
+    })->name('layouts.procedure.dure_five');
 
 
     // Tài nguyên
