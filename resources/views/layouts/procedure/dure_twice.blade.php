@@ -222,7 +222,7 @@
                 <div class="col-lg-6 col-md-6">
                     <a class="d-flex align-item-start" href="{{route('layouts.procedure.dure_once')}}">
                         <div class="icon-box">
-                            <h3>Quy trình trước &nbsp;</h3>
+                            <h3>Quy trình giáo viên &nbsp;</h3>
                             <span>(1)&nbsp;</span>
                             <i class="bi bi-arrow-left-circle-fill" style="color: #94c045;"></i>
                         </div>
@@ -231,7 +231,7 @@
                 <div class="col-lg-6 col-md-6">
                     <a class="d-flex justify-content-end" href="{{route('layouts.procedure.dure_three')}}">
                         <div class="icon-box">
-                            <h3>Quy trình sau &nbsp;</h3>
+                            <h3>Quy trình học sinh &nbsp;</h3>
                             <span>(3)&nbsp;</span>
                             <i class="bi bi-arrow-right-circle-fill" style="color: #94c045;"></i>
                         </div>

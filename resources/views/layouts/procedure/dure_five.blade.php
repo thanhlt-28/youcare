@@ -239,8 +239,8 @@
                 <div class="col-lg-6 col-md-6">
                     <a class="d-flex justify-content-end" href="{{route('layouts.procedure.dure_four')}}">
                         <div class="icon-box">
-                            <h3>Quy trình sau &nbsp;</h3>
-                            <span>(5)&nbsp;</span>
+                            <h3>Quy trình nhà  &nbsp;</h3>
+                            <span>(1)&nbsp;</span>
                             <i class="bi bi-arrow-right-circle-fill" style="color: #94c045;"></i>
                         </div>
                     </a>

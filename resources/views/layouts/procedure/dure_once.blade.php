@@ -262,7 +262,7 @@
                 <div class="col-lg-6 col-md-6">
                     <a class="d-flex justify-content-end" href="{{route('layouts.procedure.dure_twice')}}">
                         <div class="icon-box">
-                            <h3>Quy trình sau &nbsp;</h3>
+                            <h3>Quy trình phụ huynh &nbsp;</h3>
                             <span>(2)&nbsp;</span>
                             <i class="bi bi-arrow-right-circle-fill" style="color: #94c045;"></i>
                         </div>

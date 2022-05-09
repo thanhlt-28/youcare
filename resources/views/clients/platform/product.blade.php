@@ -35,16 +35,26 @@
                 <div class="col-lg-3 col-md-12">
                     <div class="box featured" data-aos="fade-up">
                         <!-- <h3>San Pham 1</h3> -->
-                        <div style="border: none;" class="card h-100">
-                            <img class="card-img-top" src="/assets/img/work/pack.hrm.svg" width="50%" alt="">
-                            <div class="card-body">
-                                <h5 class="card-title">Ứng dụng CkCare</h5>
-                                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                        <a href="{{route('clients.platform.ckcare_detail')}}">
+                            <div style="border: none;" class="card h-100">
+                                <img class="card-img-top" src="/assets/img/work/pack.hrm.svg" width="50%" alt="">
+                                <div class="card-body">
+                                    <h5 class="card-title text-dark">Ứng dụng CkCare</h5>
+                                    <p class="text-flow card-text text-dark">
+                                        CkCare là sản phẩm công nghệ
+                                        được ứng dụng trong việc theo dõi,
+                                        sàng lọc và đánh giá nhằm phát
+                                        hiện sớm những vấn đề rối loạn
+                                        phát triển cũng như sức khỏe
+                                        tâm thần của trẻ từ 12 tháng
+                                        tuổi đến 18 tuổi.
+                                    </p>
+                                </div>
+                                <div class="btn-wrap">
+                                    <a href="{{route('clients.platform.ckcare_detail')}}" class="btn-buy">Xem thêm</a>
+                                </div>
                             </div>
-                            <div class="btn-wrap">
-                                <a href="{{route('clients.platform.ckcare_detail')}}" class="btn-buy">Xem thêm</a>
-                            </div>
-                        </div>
+                        </a>
                     </div>
                 </div>
 
@@ -52,50 +62,78 @@
                 <div class="col-lg-3 col-md-12">
                     <div class="box featured" data-aos="fade-up">
                         <!-- <h3>San Pham 2</h3> -->
-                        <div style="border: none;" class="card h-100">
-                            <img class="card-img-top" src="/assets/img/work/pack.info.svg" width="50%" alt="">
-                            <div class="card-body">
-                                <h5 class="card-title">Ứng dụng PubCare</h5>
-                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                            </div>
-                        </div>
-                        <div class="btn-wrap">
-                            <a href="{{route('clients.platform.pubcare')}}" class="btn-buy">Xem thêm</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-12">
-                    <div class="box featured" data-aos="fade-up">
-                        <!-- <h3>San Pham 3</h3> -->
-                        <div style="border: none;" class="card h-100">
-                            <img class="card-img-top" src="/assets/img/work/pack.sales.svg" width="50%" alt="">
-                            <div class="card-body">
-                                <h5 class="card-title">Ứng dụng PsyCare</h5>
-                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                        <a href="{{route('clients.platform.pubcare')}}">
+                            <div style="border: none;" class="card h-100">
+                                <img class="card-img-top" src="/assets/img/work/pack.info.svg" width="50%" alt="">
+                                <div class="card-body">
+                                    <h5 class="card-title text-dark">Ứng dụng PubCare</h5>
+                                    <p class="text-flow card-text text-dark">
+                                        PubCare là sản phẩm công nghệ được
+                                        ứng dụng vào việc sàng lọc miễn phí
+                                        sức khỏe cộng đồng. Giúp những người gặp phải
+                                        vấn đề về tâm lý và
+                                        sức khỏe tâm thần biết được vấn đề
+                                        mình đang gặp phải. Sản phẩm miễn
+                                        phí cho cộng đồng.
+                                    </p>
+                                </div>
                             </div>
                             <div class="btn-wrap">
-                                <a href="{{route('clients.platform.psycare')}}" class="btn-buy">Xem thêm</a>
+                                <a href="{{route('clients.platform.pubcare')}}" class="btn-buy">Xem thêm</a>
                             </div>
-                        </div>
+                        </a>
                     </div>
                 </div>
 
                 <div class="col-lg-3 col-md-12">
                     <div class="box featured" data-aos="fade-up">
                         <!-- <h3>San Pham 4</h3> -->
-                        <div style="border: none;" class="card h-100">
-                            <img class="card-img-top" src="/assets/img/work/pack.work.svg" width="50%" alt="">
-                            <div class="card-body">
-                                <h5 class="card-title">Ứng dụng BizCare</h5>
-                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                        <a href="{{route('clients.platform.bizcare')}}">
+                            <div style="border: none;" class="card h-100">
+                                <img class="card-img-top" src="/assets/img/work/pack.work.svg" width="50%" alt="">
+                                <div class="card-body">
+                                    <h5 class="card-title text-dark">Ứng dụng BizCare</h5>
+                                    <p class="text-flow card-text text-dark">
+                                        BizCare là sản phẩm công nghệ được
+                                        ứng dụng vào doanh nghiệp để theo
+                                        dõi và chăm sóc sức khỏe tỉnh thần
+                                        nhân sự. Giúp môi môi trường,
+                                        doanh nghiệp vui vẻ hạnh phúc và
+                                        nâng cao hiệu quả công việc.
+                                    </p>
+                                </div>
+                                <div class="btn-wrap">
+                                    <a href="{{route('clients.platform.bizcare')}}" class="btn-buy">Xem thêm</a>
+                                </div>
                             </div>
-                            <div class="btn-wrap">
-                                <a href="{{route('clients.platform.bizcare')}}" class="btn-buy">Xem thêm</a>
-                            </div>
-                        </div>
+                        </a>
                     </div>
                 </div>
+
+                <div class="col-lg-3 col-md-12">
+                    <div class="box featured" data-aos="fade-up">
+                        <!-- <h3>San Pham 3</h3> -->
+                        <a href="{{route('clients.platform.psycare')}}">
+                            <div style="border: none;" class="card h-100">
+                                <img class="card-img-top" src="/assets/img/work/pack.sales.svg" width="50%" alt="">
+                                <div class="card-body">
+                                    <h5 class="card-title text-dark">Ứng dụng PsyCare</h5>
+                                    <p class="text-flow card-text text-dark">
+                                        PsyCare là nền tảng tham vấn và trị liệu
+                                        cá vấn đề về tâm lý và sức khỏe tâm
+                                        thần online. Được kết nối với các chuyên
+                                        gia tâm lý và chuyên gia sức khỏe tâm
+                                        thần hàng đầu.
+                                    </p>
+                                </div>
+                                <div class="btn-wrap">
+                                    <a href="{{route('clients.platform.psycare')}}" class="btn-buy">Xem thêm</a>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
 
             </div>
 
@@ -119,21 +157,22 @@
                         <div class="card">
                             <div class="card-header">
                                 <a class="card-link" href="#" aria-expanded="true">
-                                    <span>1</span> Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor ut labore et dolore magna aliqua?
+                                    <span>1</span> ASQ-3 có thể được dùng để sàng lọc tự kỷ?
                                 </a>
                             </div>
                         </div>
                         <div class="card">
                             <div class="card-header">
                                 <a class="card-link" href="#">
-                                    <span>2</span> Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor ut labore et dolore magna aliqua?
+                                    <span>2</span> Nếu kết quả M - CHAT của con tôi là “nguy cơ tự kỷ trung bình” hoặc “nguy cơ tự kỷ cao” tôi có thể tìm đến đâu?
                                 </a>
                             </div>
                         </div>
                         <div class="card">
                             <div class="card-header">
                                 <a class="card-link" href="#">
-                                    <span>3</span> Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor ut labore et dolore magna aliqua?
+                                    <span>3</span> Sử dụng công cụ CBCL để đánh giá cho đối tượng nào?
+
                                 </a>
                             </div>
 
@@ -141,7 +180,7 @@
                         <div class="card">
                             <div class="card-header">
                                 <a class="card-link" href="#">
-                                    <span>4</span> Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor ut labore et dolore magna aliqua?
+                                    <span>4</span> Thang CBCL đánh giá các hội chứng, lĩnh vực nào?
                                 </a>
                             </div>
 
@@ -149,7 +188,7 @@
                         <div class="card">
                             <div class="card-header">
                                 <a class="card-link" href="#">
-                                    <span>5</span> Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor ut labore et dolore magna aliqua?
+                                    <span>5</span> Mất bao lâu để hoàn thành?
                                 </a>
                             </div>
 

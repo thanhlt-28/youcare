@@ -1355,6 +1355,18 @@ q:after {
 }
 
 
+/* Card-text */
+
+.card-text:last-child {
+    margin-bottom: 0;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+
+
 /* Card footer */
 
 .card-footer:last-child {
