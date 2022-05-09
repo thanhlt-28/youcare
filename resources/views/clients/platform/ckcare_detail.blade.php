@@ -114,91 +114,76 @@
                 <h2 class="text-uppercase">Quy trình sàng lọc</h2>
             </div>
             <!-- ======= Features Section ======= -->
-            <section id="features" class="features">
+
+            <section class="container-fluild" data-aos="fade-up">
                 <div class="container">
-
-
-                
-                    <!-- row -- 1 -->
-                    <div class="row">
-                        <div class="col-md-2 d-flex align-items-stretch" data-aos="fade-up">
-                            <a href="{{route('layouts.procedure.dure_once')}}" class="img-item img-item-1">
-                                <div class="card">
+                    <div class="row row-cols-1 row-cols-md-5 g-4">
+                        <div class="col">
+                            <a href="{{route('layouts.procedure.dure_once')}}">
+                                <div class="sell card h-100">
+                                    <img src="server/assets/img/news-5.jpg" class="card-img-top" alt="">
                                     <div class="card-body">
-                                        <h5 class="card-title">Quy trình cho giáo viên</h5>
-                                        <div class="img-media text-center">
-                                            <img src="https://i.imgur.com/w2CKRB9.jpg" class="mr-3" alt="">
-                                        </div>
-                                        <p class="card-text text-center mt-3">Xây dựng kế hoạch sàng lọc từ khi bắt đầu đến khi kết thúc</p>
-        
+                                        <h5 class="card-title text-center">Quy trình giáo viên</h5>
+                                    </div>
+                                    <div class="card-footer text-center">
+                                        <small>Xem thêm</small>
                                     </div>
                                 </div>
                             </a>
                         </div>
-
-                        <div class="col-md-2 d-flex align-items-stretch" data-aos="fade-up">
-                            <a href="{{route('layouts.procedure.dure_twice')}}" class="img-item img-item-1">
-                                <div class="card">
+                        <div class="col">
+                            <a href="{{route('layouts.procedure.dure_once')}}">
+                                <div class="sell card h-100">
+                                    <img src="server/assets/img/news-5.jpg" class="card-img-top" alt="">
                                     <div class="card-body">
-                                        <h5 class="card-title">Quy trình cho phụ huynh</h5>
-                                        <div class="img-media text-center">
-                                            <img src="https://i.imgur.com/w2CKRB9.jpg" class="mr-3" alt="">
-                                        </div>
-                                        <p class="card-text text-center mt-3">Thiết lập nhóm chuyên gia để thực hiện chương trình sàng lọc</p>
-                                        
+                                        <h5 class="card-title text-center">Quy trình phụ huynh</h5>
+                                    </div>
+                                    <div class="card-footer text-center">
+                                        <small>Xem thêm</small>
                                     </div>
                                 </div>
                             </a>
                         </div>
-
-
-                        <!-- row -- 3 -->
-                        <div class="col-md-2 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
-                            <a href="{{route('layouts.procedure.dure_three')}}" class="img-item img-item-1">
-                                <div class="card">
+                        <div class="col">
+                            <a href="{{route('layouts.procedure.dure_once')}}">
+                                <div class="sell card h-100">
+                                    <img src="server/assets/img/news-5.jpg" class="card-img-top" alt="">
                                     <div class="card-body">
-                                        <h5 class="card-title">Quy trình cho học sinh</h5>
-                                        <div class="img-media text-center">
-                                            <img src="https://i.imgur.com/w2CKRB9.jpg" class="mr-3" alt="">
-                                        </div>
-                                        <p class="card-text text-center mt-3">Giám sát quá trình sàng lọc và đưa ra những điều chỉnh khi cần thiết</p>
-                                        
+                                        <h5 class="card-title text-center">Quy trình học sinh</h5>
+                                    </div>
+                                    <div class="card-footer text-center">
+                                        <small>Xem thêm</small>
                                     </div>
                                 </div>
                             </a>
                         </div>
-
-                        <div class="col-md-2 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
-                            <a href="{{route('layouts.procedure.dure_four')}}" class="img-item img-item-1">
-                                <div class="card">
+                        <div class="col">
+                            <a href="{{route('layouts.procedure.dure_once')}}">
+                                <div class="sell card h-100">
+                                    <img src="server/assets/img/news-5.jpg" class="card-img-top" alt="">
                                     <div class="card-body">
-                                        <h5 class="card-title">Quy trình nhà quản lý</h5>
-                                        <div class="img-media text-center">
-                                            <img src="https://i.imgur.com/w2CKRB9.jpg" class="mr-3" alt="">
-                                        </div>
-                                        <p class="card-text text-center mt-3">Tiến hành thực hiện sàng lọc dựa trên kế hoạch đã xây dựng</p>
-                                        
+                                        <h5 class="card-title text-center">Quy trình nhà quản lý</h5>
+                                    </div>
+                                    <div class="card-footer text-center">
+                                        <small>Xem thêm</small>
                                     </div>
                                 </div>
                             </a>
                         </div>
-
-                        <div class="col-md-2 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
-                            <a href="{{route('layouts.procedure.dure_five')}}" class="img-item img-item-1">
-                                <div class="card">
+                        <div class="col">
+                            <a href="{{route('layouts.procedure.dure_once')}}">
+                                <div class="sell card h-100">
+                                    <img src="server/assets/img/news-5.jpg" class="card-img-top" alt="">
                                     <div class="card-body">
-                                        <h5 class="card-title">Quy trình nhà chuyên môn</h5>
-                                        <div class="img-media text-center">
-                                            <img src="https://i.imgur.com/w2CKRB9.jpg" class="mr-3" alt="">
-                                        </div>
-                                        <p class="card-text text-center mt-3">Tiến hành thực hiện sàng lọc dựa trên kế hoạch đã xây dựng</p>
-                                        
+                                        <h5 class="card-title text-center">Quy trình nhà <br> chuyên môn</h5>
+                                    </div>
+                                    <div class="card-footer text-center">
+                                        <small>Xem thêm</small>
                                     </div>
                                 </div>
                             </a>
                         </div>
                     </div>
-
                 </div>
             </section>
             <!-- End Features Section -->
@@ -297,7 +282,7 @@
                                             </div>
                                         </div> <!-- .item -->
 
-                                    
+
                                         <div class="d-md-flex testimony-29101 align-items-stretch">
                                             <div class="image" style="background-image: url('../assets/img/team/Nguyen Thuy Hang.png');"></div>
                                             <div class="text">

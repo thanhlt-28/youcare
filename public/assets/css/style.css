@@ -1398,6 +1398,11 @@ q:after {
     border-top: 1px solid rgba(0, 0, 0, .125);
 }
 
+.sell:hover {
+    background-color: #789d35;
+    color: #fff;
+}
+
 
 /* Bordered Tabs */
 
