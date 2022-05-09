@@ -116,9 +116,12 @@
             <!-- ======= Features Section ======= -->
             <section id="features" class="features">
                 <div class="container">
+
+
+                
                     <!-- row -- 1 -->
                     <div class="row">
-                        <div class="col-md-5 d-flex align-items-stretch" data-aos="fade-up">
+                        <div class="col-md-2 d-flex align-items-stretch" data-aos="fade-up">
                             <a href="{{route('layouts.procedure.dure_once')}}" class="img-item img-item-1">
                                 <div class="card">
                                     <div class="card-body">
@@ -127,20 +130,13 @@
                                             <img src="https://i.imgur.com/w2CKRB9.jpg" class="mr-3" alt="">
                                         </div>
                                         <p class="card-text text-center mt-3">Xây dựng kế hoạch sàng lọc từ khi bắt đầu đến khi kết thúc</p>
-                                        
-
+        
                                     </div>
                                 </div>
                             </a>
                         </div>
 
-                        <div class="col-md-2 d-flex align-items-stretch mt-4" data-aos="fade-up">
-                            <div class="img-media-icon" data-aos-delay="100">
-                                <i class="bi bi-arrow-right"></i>
-                            </div>
-                        </div>
-
-                        <div class="col-md-5 d-flex align-items-stretch mt-4 mt-md-0" data-aos="fade-up">
+                        <div class="col-md-2 d-flex align-items-stretch" data-aos="fade-up">
                             <a href="{{route('layouts.procedure.dure_twice')}}" class="img-item img-item-1">
                                 <div class="card">
                                     <div class="card-body">
@@ -155,26 +151,13 @@
                             </a>
                         </div>
 
-                        <!-- row -- 2 -->
-                        <div class="col-md-5 text-center" data-aos="fade-up" data-aos-delay="100">
-                            <div class="img-media-icon-2">
-                                <i class="bi bi-arrow-up"></i>
-                            </div>
-                        </div>
-                        <div class="col-md-2 d-flex align-items-stretch"></div>
-                        <div class="col-md-5 text-center" data-aos="fade-up" data-aos-delay="100">
-                            <div class="img-media-icon-2">
-                                <i class="bi bi-arrow-down"></i>
-                            </div>
-                        </div>
-
 
                         <!-- row -- 3 -->
-                        <div class="col-md-5 d-flex align-items-stretch mt-4" data-aos="fade-up" data-aos-delay="100">
-                            <a href="{{route('layouts.procedure.dure_four')}}" class="img-item img-item-1">
+                        <div class="col-md-2 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+                            <a href="{{route('layouts.procedure.dure_three')}}" class="img-item img-item-1">
                                 <div class="card">
                                     <div class="card-body">
-                                        <h5 class="card-title">Quy trình cho nhà trường</h5>
+                                        <h5 class="card-title">Quy trình cho học sinh</h5>
                                         <div class="img-media text-center">
                                             <img src="https://i.imgur.com/w2CKRB9.jpg" class="mr-3" alt="">
                                         </div>
@@ -185,16 +168,26 @@
                             </a>
                         </div>
 
-                        <div class="col-md-2 d-flex align-items-stretch mt-4" data-aos="fade-up">
-                            <div class="img-media-icon">
-                                <i class="bi bi-arrow-left"></i>
-                            </div>
-                        </div>
-                        <div class="col-md-5 d-flex align-items-stretch mt-4" data-aos="fade-up" data-aos-delay="100">
-                            <a href="{{route('layouts.procedure.dure_three')}}" class="img-item img-item-1">
+                        <div class="col-md-2 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+                            <a href="{{route('layouts.procedure.dure_four')}}" class="img-item img-item-1">
                                 <div class="card">
                                     <div class="card-body">
-                                        <h5 class="card-title">Quy trình cho học sinh</h5>
+                                        <h5 class="card-title">Quy trình nhà quản lý</h5>
+                                        <div class="img-media text-center">
+                                            <img src="https://i.imgur.com/w2CKRB9.jpg" class="mr-3" alt="">
+                                        </div>
+                                        <p class="card-text text-center mt-3">Tiến hành thực hiện sàng lọc dựa trên kế hoạch đã xây dựng</p>
+                                        
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="col-md-2 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+                            <a href="{{route('layouts.procedure.dure_five')}}" class="img-item img-item-1">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Quy trình nhà chuyên môn</h5>
                                         <div class="img-media text-center">
                                             <img src="https://i.imgur.com/w2CKRB9.jpg" class="mr-3" alt="">
                                         </div>
@@ -210,6 +203,7 @@
             </section>
             <!-- End Features Section -->
             @include('layouts.ck_detail.ck_tabs')
+
 
         </div>
         <section class="content" data-aos="fade-up">

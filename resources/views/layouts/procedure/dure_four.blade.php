@@ -27,157 +27,177 @@
     <!-- ======= Tab Section ======= -->
     <section class="main-content" data-aos="fade-up">
         <div class="container">
-            <div class="min-vh-100 py-2">
-                <div class="container network_wrapper col-sm p-2 ">
-                    <div class="card">
-                        <div class="card-header">
-                            <h5 class="card-title">
-                                <i class="bi bi-check-circle-fill">
-                                </i>&nbsp;CHUẨN BỊ SÀNG LỌC
-                            </h5>
-                        </div>
-                        <div class="card-body tab-content">
-                            <div class="tab-pane active" id="login">
-                                <div class="accordion-body">
-                                    <b> Người dùng đăng nhập bằng tài khoản đã được cung cấp.</b></br>
-                                    <b> Nhập dữ liệu học sinh theo lớp.</b></br>
-                                    <b> Làm việc với giáo viên về tính cần thiết của việc thực hiện sàng lọc cho học sinh.</b></br>
-                                    <i>Lưu ý:</i></br>
+            
+            <!-- Accordion quy trình -->
+            <div class="col-lg-12">
+                <div class="card">
+                    <div class="card-body">
+                        <h3 class="card-title mt-1 mb-3">Quy trình đánh giá & sàng lọc dành cho nhà quản lý</h3>
 
-                                    <p>
-                                        • Giải thích rõ việc làm sàng lọc không nhằm điều tra học sinh và không có tác dụng chẩn đoán lâm sàng, khuyến cáo giáo viên KHÔNG gán nhãn học sinh “bị bệnh” sau khi nhận kết quả.
-                                        • Đảm bảo bảo mật thông tin học sinh
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingOne">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" style="font-size: 18px;">
+                                        Bước 1: Chuẩn bị sàng lọc
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <div class="card-body tab-content">
+                                            <div class="tab-pane active" id="login">
+                                                <div class="accordion-body">
+                                                    <b> Người dùng đăng nhập bằng tài khoản đã được cung cấp.</b></br>
+                                                    <b> Nhập dữ liệu học sinh theo lớp.</b></br>
+                                                    <b> Làm việc với giáo viên về tính cần thiết của việc thực hiện sàng lọc cho học sinh.</b></br>
+                                                    <i>Lưu ý:</i></br>
 
-                                    </p>
-                                    <b> Lựa chọn bộ công cụ phù hợp với lứa tuổi học sinh cần thực hiện sàng lọc</b>
+                                                    <p>
+                                                        • Giải thích rõ việc làm sàng lọc không nhằm điều tra học sinh và không có tác dụng chẩn đoán lâm sàng, khuyến cáo giáo viên KHÔNG gán nhãn học sinh “bị bệnh” sau khi nhận kết quả.
+                                                        • Đảm bảo bảo mật thông tin học sinh
 
-                                    <br />
-                                    <div class="mt-2">
-                                        <i class="bi bi-check"></i> <i>Sàng lọc CBCL </i> <br />
+                                                    </p>
+                                                    <b> Lựa chọn bộ công cụ phù hợp với lứa tuổi học sinh cần thực hiện sàng lọc</b>
+
+                                                    <br />
+                                                    <div class="mt-2">
+                                                        <i class="bi bi-check"></i> <i>Sàng lọc CBCL </i> <br />
+                                                    </div>
+
+                                                    <div class="row">
+                                                        <div class="col-md-12">
+                                                            &nbsp;&nbsp;Dành cho trẻ có độ tuổi từ 6-18 tuổi nhận biết các vấn đề tâm lý rối nhiễu, cảm xúc hành vi: <br />
+                                                        </div>
+                                                        <br>
+                                                        <div class="col-md-4">
+                                                            • Lo âu trầm cảm <br />
+                                                            • Thu mình, cô đơn <br />
+                                                        </div>
+                                                        <div class="col-md-4">
+                                                            • Cơ thể, thể chất <br />
+                                                            • Xã hội, mỗi quan hệ <br />
+                                                        </div>
+                                                        <div class="col-md-4">
+                                                            • Suy nghĩ, nhận thức <br />
+                                                            • Tập trung, chú ý <br />
+                                                        </div>
+                                                        <div class="col-md-4">
+                                                            • Hành vi say phạm (chống đối) <br />
+                                                        </div>
+                                                        <div class="col-md-4">
+                                                            • Hành vi thái quá (hung tính) <br />
+                                                        </div>
+                                                    </div>
+
+
+                                                    <div class="mt-2">
+                                                        <i class="bi bi-check"></i> <i>Sàng lọc ASQ-3</i> <br />
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-md-6">
+                                                            • Dành cho trẻ từ 01 tháng đến 5 tuổi rưỡi (66 tháng) <br />
+                                                            • Đánh giá chuyển sâu để có những hỗ trợ tốt cho trẻ <br />
+                                                        </div>
+                                                        <div class="col-md-6">
+                                                            • Giúp sàng lọc các vấn đề liên quan đến trẻ mầm non phát hiện sớm các lĩnh vực trẻ phát triển chậm hơn so với độ tuổi <br />
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="mt-2">
+                                                        <i class="bi bi-check"></i> <i>Đánh giá Tăng động – Giảm tập trung Vanderbilt</i> <br />
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-md-11">
+                                                            • Thang có phiên bản cho trẻ 0 - 6 tuổi và 6 - 12 tuổi <br />
+                                                            • Biết được rối loạn phát triển thần kinh liên quan đến vấn đề tăng động giảm tập trung của trẻ <br />
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="mt-2">
+                                                        <i class="bi bi-check"></i> <i>Sàng lọc M-CHAT-R</i> <br />
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-md-11">
+                                                            • Dành cho độ tuổi từ 0 - 36 tháng <br />
+                                                            • Giúp sàng lọc về các vấn đề rối loạn phổ tự kỷ xem trẻ có nguy cơ mắc bệnh tự kỷ hay không
+                                                        </div>
+                                                    </div>
+
+
+                                                    <br />
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
-
-                                    <div class="row">
-                                        <div class="col-md-12">
-                                            &nbsp;&nbsp;Dành cho trẻ có độ tuổi từ 6-18 tuổi nhận biết các vấn đề tâm lý rối nhiễu, cảm xúc hành vi: <br />
-                                        </div>
-                                        <br>
-                                        <div class="col-md-4">
-                                            • Lo âu trầm cảm <br />
-                                            • Thu mình, cô đơn <br />
-                                        </div>
-                                        <div class="col-md-4">
-                                            • Cơ thể, thể chất <br />
-                                            • Xã hội, mỗi quan hệ <br />
-                                        </div>
-                                        <div class="col-md-4">
-                                            • Suy nghĩ, nhận thức <br />
-                                            • Tập trung, chú ý <br />
-                                        </div>
-                                        <div class="col-md-4">
-                                            • Hành vi say phạm (chống đối) <br />
-                                        </div>
-                                        <div class="col-md-4">
-                                            • Hành vi thái quá (hung tính) <br />
-                                        </div>
-                                    </div>
-
-
-                                    <div class="mt-2">
-                                        <i class="bi bi-check"></i> <i>Sàng lọc ASQ-3</i> <br />
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-md-6">
-                                            • Dành cho trẻ từ 01 tháng đến 5 tuổi rưỡi (66 tháng) <br />
-                                            • Đánh giá chuyển sâu để có những hỗ trợ tốt cho trẻ <br />
-                                        </div>
-                                        <div class="col-md-6">
-                                            • Giúp sàng lọc các vấn đề liên quan đến trẻ mầm non phát hiện sớm các lĩnh vực trẻ phát triển chậm hơn so với độ tuổi <br />
-                                        </div>
-                                    </div>
-
-                                    <div class="mt-2">
-                                        <i class="bi bi-check"></i> <i>Đánh giá Tăng động – Giảm tập trung Vanderbilt</i> <br />
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-md-11">
-                                            • Thang có phiên bản cho trẻ 0 - 6 tuổi và 6 - 12 tuổi <br />
-                                            • Biết được rối loạn phát triển thần kinh liên quan đến vấn đề tăng động giảm tập trung của trẻ <br />
-                                        </div>
-                                    </div>
-
-                                    <div class="mt-2">
-                                        <i class="bi bi-check"></i> <i>Sàng lọc M-CHAT-R</i> <br />
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-md-11">
-                                            • Dành cho độ tuổi từ 0 - 36 tháng <br />
-                                            • Giúp sàng lọc về các vấn đề rối loạn phổ tự kỷ xem trẻ có nguy cơ mắc bệnh tự kỷ hay không
-                                        </div>
-                                    </div>
-
-
-                                    <br />
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="container network_wrapper col-sm p-2 ">
-                    <div class="card">
-                        <div class="card-header">
-                            <h5 class="card-title"><i class="bi bi-check-circle-fill"></i>&nbsp; QUẢN LÝ THỰC HIỆN SÀNG LỌC</h5>
-                        </div>
-                        <div class="card-body tab-content">
-                            <div class="tab-pane active" id="hd">
-                                <div class="accordion-body">
-                                    <b> Nhà quản lý thao tác những chức năng của tài khoản được hướng dẫn trong hướng dẫn sử dụng <a href=""> (not link)</a></b>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" style="font-size: 18px;">
+                                        Bước 2: Thực hiện đánh giá
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <div class="card-body tab-content">
+                                            <div class="tab-pane active" id="hd">
+                                                <div class="accordion-body">
+                                                    <b> Nhà quản lý thao tác những chức năng của tài khoản được hướng dẫn trong hướng dẫn sử dụng <a href=""> (not link)</a></b>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="container network_wrapper col-sm p-2 ">
-                    <div class="card">
-                        <div class="card-header">
-                            <h5 class="card-title">
-                                <i class="bi bi-check-circle-fill">
-                                </i>&nbsp;NHẬN KẾT QUẢ
-                            </h5>
-                        </div>
-                        <div class="card-body tab-content">
-                            <div class="tab-pane active" id="result">
-                                <div class="accordion-body">
-                                    <b>Nhận kết quả:</b>
-                                    <p>• Sau khi các bài sàng lọc được hoàn thành, nhà quản lý có thể lựa chọn "Tải về" để trực tiếp lưu trữ kết quả trong máy, hoặc nhận kết quả thông qua email. <br>
-                                        • Kết quả sàng lọc sẽ cho nhà quản lý một cái nhìn bao quát nhất về những nhóm vấn đề học sinh đang gặp khó khăn. Dựa vào kết quả, nhà quản lý có thể có những phương hướng thích hợp để hỗ trợ, cải thiện những vấn đề học sinh gặp phải.
-                                    </p>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" style="font-size: 18px;">
+                                        Bước 3: Nhận kết quả
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <div class="card-body tab-content">
+                                            <div class="tab-pane active" id="result">
+                                                <div class="accordion-body">
+                                                    <b>Nhận kết quả:</b>
+                                                    <p>• Sau khi các bài sàng lọc được hoàn thành, nhà quản lý có thể lựa chọn "Tải về" để trực tiếp lưu trữ kết quả trong máy, hoặc nhận kết quả thông qua email. <br>
+                                                        • Kết quả sàng lọc sẽ cho nhà quản lý một cái nhìn bao quát nhất về những nhóm vấn đề học sinh đang gặp khó khăn. Dựa vào kết quả, nhà quản lý có thể có những phương hướng thích hợp để hỗ trợ, cải thiện những vấn đề học sinh gặp phải.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="container network_wrapper col-sm p-2 ">
-                    <div class="card">
-                        <div class="card-header">
-                            <h5 class="card-title"><i class="bi bi-check-circle-fill"></i>&nbsp;HỖ TRỢ CHUYÊN SÂU</h5>
-                            </ul>
-                        </div>
-                        <div class="card-body tab-content">
-                            <div class="tab-pane active" id="hd">
-                                <div class="accordion-body">
-                                    <b>Nhà quản lý có thể liên hệ Trung tâm Braincare để được tư vấn chi tiết về kết quả sàng lọc và hướng hỗ trợ trẻ. </b>
-                                    <br>
-                                    • Địa chỉ: Tầng 7, Toà nhà 59 Võ Chí Công, P. Nghĩa Đô, Q. Cầu Giấy, Tp. Hà Nội, Việt Nam <br>
-                                    • Tổng đài tư vấn: <a href="tel:1900 3307">1900 3307</a> hoặc hotline: <a href="tel:(024) 4455 3307">(024) 4455 3307</a><br>
-                                    • Email: <a href="mailto:lienhe@braincare.vn">lienhe@braincare.vn</a> <br>
-                                    • Website: <a href="https://braincare.vn/" target="_blank">braincare.vn </a>-
-                                    <a href="https://checkingcare.vn/" target="_blank">checkingcare.vn </a>-
-                                    <a href="https://phongkhamtamly.com/" target="_blank">phongkhamtamly.com </a>-
-                                    <a href="https://phongkhamtamthan.com/" target="_blank">phongkhamtamthan.com </a>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingFour">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour" style="font-size: 18px;">
+                                        Bước 4: Hỗ trợ chuyên sâu
+                                    </button>
+                                </h2>
+                                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <div class="card-body tab-content">
+                                            <div class="tab-pane active" id="hd">
+                                                <div class="accordion-body">
+                                                    <b>Nhà quản lý có thể liên hệ Trung tâm Braincare để được tư vấn chi tiết về kết quả sàng lọc và hướng hỗ trợ trẻ. </b>
+                                                    <br>
+                                                    • Địa chỉ: Tầng 7, Toà nhà 59 Võ Chí Công, P. Nghĩa Đô, Q. Cầu Giấy, Tp. Hà Nội, Việt Nam <br>
+                                                    • Tổng đài tư vấn: <a href="tel:1900 3307">1900 3307</a> hoặc hotline: <a href="tel:(024) 4455 3307">(024) 4455 3307</a><br>
+                                                    • Email: <a href="mailto:lienhe@braincare.vn">lienhe@braincare.vn</a> <br>
+                                                    • Website: <a href="https://braincare.vn/" target="_blank">braincare.vn </a>-
+                                                    <a href="https://checkingcare.vn/" target="_blank">checkingcare.vn </a>-
+                                                    <a href="https://phongkhamtamly.com/" target="_blank">phongkhamtamly.com </a>-
+                                                    <a href="https://phongkhamtamthan.com/" target="_blank">phongkhamtamthan.com </a>
 
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
+                        </div><!-- End Default Accordion Example -->
+
                     </div>
                 </div>
             </div>
@@ -194,7 +214,7 @@
                             <h3>Quy trình học sinh &nbsp;</h3>
                             <span>(3)&nbsp;</span>
                             <i class="bi bi-arrow-left-circle-fill" style="color: #94c045;"></i>
-                        </div> 
+                        </div>
                     </a>
                 </div>
                 <div class="col-lg-6 col-md-6">

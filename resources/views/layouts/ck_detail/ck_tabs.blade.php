@@ -5,7 +5,7 @@
                 <div class="nav flex-column nav-pills me-3 nav-shadow pb-5" id="v-pills-tab" role="tablist" aria-orientation="vertical">
                     <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">
                         <div class="circle-icon d-flex align-items-center justify-content-center me-3"> <i class="fa fa-home"></i> </div>
-                        Nhà trường
+                        Nhà quản lý
                     </button>
                     <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">
                         <div class="circle-icon d-flex align-items-center justify-content-center me-3"> <i class="fa fa-user"></i> </div>
@@ -21,13 +21,13 @@
                     </button>
                     <button class="nav-link" id="v-pills-teams-tab" data-bs-toggle="pill" data-bs-target="#v-pills-teams" type="button" role="tab" aria-controls="v-pills-teams" aria-selected="false">
                         <div class="circle-icon d-flex align-items-center justify-content-center me-3"> <i class="bi bi-people-fill"></i> </div>
-                        Chuyên gia về trẻ
+                        Nhà chuyên môn
                     </button>
                 </div>
                 <div class="tab-content" id="v-pills-tabContent">
                     <div class="tab-pane fade show active pt-4 me-4" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
                         <!-- <img src="https://htmlcss3tutorials.com/wp-content/themes/htmlcss3TutorialRevamp/assets/img/course/HTMLCSS.jpg" alt="" class="img-cont me-3"> -->
-                        <h4>Nhà trường</h4>
+                        <h4>Nhà quản lý</h4>
                         <p>Dễ dàng theo dõi sự phát triển của học sinh trong trường học nhằm phát hiện sớm những vấn đề giúp cho học sinh được phòng ngừa và can thiệp, trị liệu sớm nhất và hiệu quả tốt nhất.</p>
                         <p>Tiết kiệm thời gian và tài chính không cần phải cứ giáo viên đi học sử dụng bộ công cụ.</p>
 
