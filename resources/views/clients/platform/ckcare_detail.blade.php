@@ -85,21 +85,10 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-lg-6 col-md-6 mt-3">
+                                <div class="col-lg-6 col-md-6">
                                     <div class="col-lg-12 col-md-12">
-                                        <div class="box" data-aos="fade-up">
-                                            <h3>Free</h3>
-                                            <h4><sup>$</sup>0<span> / month</span></h4>
-                                            <ul>
-                                                <li>Aida dere</li>
-                                                <li>Nec feugiat nisl</li>
-                                                <li>Nulla at volutpat dola</li>
-                                                <li class="na">Pharetra massa</li>
-                                                <li class="na">Massa ultricies mi</li>
-                                            </ul>
-                                            <div class="btn-wrap">
-                                                <a href="#" class="btn-buy">Buy Now</a>
-                                            </div>
+                                        <div data-aos="fade-up">
+                                            <img class="card" src="{{asset('assets/img/clients/ck-detail.png')}}" alt="">
                                         </div>
                                     </div>
                                 </div>
