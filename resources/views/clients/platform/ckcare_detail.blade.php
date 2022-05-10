@@ -110,7 +110,7 @@
                         <div class="col">
                             <a href="{{route('layouts.procedure.dure_once')}}">
                                 <div class="sell card h-100">
-                                    <img src="server/assets/img/news-5.jpg" class="card-img-top" alt="">
+                                    <img src="{{asset('assets/img/blog/qt-gv.jpg')}}" class="card-img-top" alt="">
                                     <div class="card-body">
                                         <h5 class="card-title text-center">Quy trình giáo viên</h5>
                                     </div>
@@ -123,7 +123,7 @@
                         <div class="col">
                             <a href="{{route('layouts.procedure.dure_once')}}">
                                 <div class="sell card h-100">
-                                    <img src="server/assets/img/news-5.jpg" class="card-img-top" alt="">
+                                    <img src="{{asset('assets/img/blog/qt-ph.jpg')}}" class="card-img-top" alt="">
                                     <div class="card-body">
                                         <h5 class="card-title text-center">Quy trình phụ huynh</h5>
                                     </div>
@@ -136,7 +136,7 @@
                         <div class="col">
                             <a href="{{route('layouts.procedure.dure_once')}}">
                                 <div class="sell card h-100">
-                                    <img src="server/assets/img/news-5.jpg" class="card-img-top" alt="">
+                                    <img src="{{asset('assets/img/blog/qt-hs.jpg')}}" class="card-img-top" alt="">
                                     <div class="card-body">
                                         <h5 class="card-title text-center">Quy trình học sinh</h5>
                                     </div>
@@ -149,7 +149,7 @@
                         <div class="col">
                             <a href="{{route('layouts.procedure.dure_once')}}">
                                 <div class="sell card h-100">
-                                    <img src="server/assets/img/news-5.jpg" class="card-img-top" alt="">
+                                    <img src="{{asset('assets/img/blog/qt-nql.jpg')}}" class="card-img-top" alt="">
                                     <div class="card-body">
                                         <h5 class="card-title text-center">Quy trình nhà quản lý</h5>
                                     </div>
@@ -162,7 +162,7 @@
                         <div class="col">
                             <a href="{{route('layouts.procedure.dure_once')}}">
                                 <div class="sell card h-100">
-                                    <img src="server/assets/img/news-5.jpg" class="card-img-top" alt="">
+                                    <img src="{{asset('assets/img/blog/qt-ncm.jpg')}}" class="card-img-top" alt="">
                                     <div class="card-body">
                                         <h5 class="card-title text-center">Quy trình nhà <br> chuyên môn</h5>
                                     </div>
