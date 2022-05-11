@@ -657,6 +657,23 @@ section {
     margin-bottom: 0;
 }
 
+@media (max-width: 768px) {
+    .section-title {
+        text-align: center;
+        padding-bottom: 30px;
+    }
+    .section-title h2 {
+        font-size: 25px;
+        font-weight: 500;
+        padding-bottom: 0;
+        font-family: "Segoe UI", "Poppins", sans-serif;
+        color: #646c55;
+    }
+    .section-title p {
+        margin-bottom: 0;
+    }
+}
+
 
 /*--------------------------------------------------------------
 # Breadcrumbs
@@ -737,9 +754,9 @@ section {
         color: #fff;
     }
     .slogan-ckcare p {
-        font-size: 16px;
+        font-size: 15px;
         padding: 10px 5px 10px 5px;
-        margin: 0px 10px 0px 10px;
+        margin: 0px 5px 0px 5px;
         font-weight: 400;
         line-height: 20px;
         color: #fff;
@@ -1355,15 +1372,6 @@ q:after {
 }
 
 
-/* Accordion Quy trình*/
-
-.accordion-button:not(.collapsed) {
-    color: #94c045;
-    background-color: #f4f7fba4;
-    box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
-}
-
-
 /* Card footer */
 
 .card-footer:last-child {
@@ -1414,6 +1422,70 @@ q:after {
     color: #4154f1;
     border-bottom: 2px solid #4154f1;
 }
+
+@media screen and (max-width: 768px) {
+    .main-content {
+        display: none;
+    }
+}
+
+
+/* Accordion Quy trình*/
+
+.accordion-button:not(.collapsed) {
+    color: #94c045;
+    background-color: #f4f7fba4;
+    box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+}
+
+
+/* Accordion thay cho tabs */
+
+@media screen and (min-width: 1024px) {
+    .according-content {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1366px) {
+    .according-content {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 2048) {
+    .according-content {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 991.98px) {
+    .according-content {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .according-content {
+        display: block;
+    }
+}
+
+
+/* id features */
+
+
+/* @media screen and (max-width: 768px) {
+    #features .icon-box {
+        line-height: 15px;
+    }
+    #features .icon-box h3 {
+        font-weight: 500;
+        line-height: 1;
+        font-size: 10px;
+        display: none;
+    }
+} */
 
 
 /*--------------------------------------------------------------
