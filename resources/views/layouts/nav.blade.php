@@ -10,20 +10,20 @@
     <nav id="navbar" class="navbar">
         <ul>
             <li><a class="{{ Request::is('/') ? 'active' : '' }}" href="{{'/'}}">Trang chủ</a></li>
-            <li class="dropdown"><a href="{{route('clients.about')}}"><span>Giới thiệu</span> <i class="bi bi-chevron-down"></i></a>
+            <li class="dropdown"><a href="{{route('clients.about')}}">Giới thiệu <i class="bi bi-chevron-down"></i></a>
                 <ul>
                     <li><a href="{{route('clients.about.vision')}}">Tầm nhìn & Sứ mệnh</a></li>
                     <li><a href="{{route('clients.about.team_experts')}}">Đội ngũ chuyên gia</a></li>
                     <!-- navbar-items -->
                     <!-- <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
-                <ul>
+                <ul> 
                   <li><a href="#">Deep Drop Down 1</a></li>
                   <li><a href="#">Deep Drop Down 2</a></li>
                 </ul>
               </li> -->
                 </ul>
             </li>
-            <li class="dropdown"><a href="{{route('clients.platform.product')}}"><span>Sản phẩm</span></a>
+            <li><a href="{{route('clients.platform.product')}}">Sản phẩm</a>
             </li>
             <li class="dropdown"><a href="#"><span>Tài nguyên</span> <i class="bi bi-chevron-down"></i></a>
                 <ul>
@@ -32,11 +32,7 @@
                     <li><a href="{{route('clients.library.media')}}">Video</a></li>
                 </ul>
             </li>
-            <!-- <li><a href="services.html">Services</a></li>
-          <li><a href="pricing.html">Pricing</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li> -->
             <li><a href="{{route('clients.contact')}}">Liên hệ</a></li>
-            <!-- <li><a class="getstarted" href="about.html">Get Started</a></li> -->
 
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>

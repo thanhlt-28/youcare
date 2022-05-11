@@ -1,11 +1,3 @@
-/**
-* Template Name: Serenity - v4.7.0
-* Template URL: https://bootstrapmade.com/serenity-bootstrap-corporate-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -654,9 +646,8 @@ section {
 }
 
 .section-title h2 {
-    font-size: 32px;
+    font-size: 30px;
     font-weight: 600;
-    margin-bottom: 20px;
     padding-bottom: 0;
     font-family: "Segoe UI", "Poppins", sans-serif;
     color: #646c55;
@@ -721,44 +712,38 @@ section {
 
 @media only screen and (max-width: 600px) {
     .breadcrumb-prod {
-        background: url('../img/banner-product.png');
-        padding: 74px 0;
+        background: url('../img/banner-product-mobile.png');
         background-size: cover;
         background-repeat: no-repeat;
-        background-position: 100%;
     }
 }
 
-.breadcrumb-product {
+.slogan-ckcare {
     text-align: center;
     background: #789d35;
-    min-height: 50px;
+    line-height: 50px;
     color: #fff;
 }
 
-.breadcrumb-product h5 {
+.slogan-ckcare p {
     font-size: 18px;
-    line-height: 25px;
     font-weight: 400;
 }
 
-@media(max-width: 767.98px) {
-    .breadcrumb-product {
+@media only screen and (max-width: 600px) {
+    .slogan-ckcare {
         text-align: center;
         background: #789d35;
-        min-height: 25px;
         color: #fff;
     }
-    .breadcrumb-product h5 {
-        font-size: 18px;
-        line-height: 20px;
+    .slogan-ckcare p {
+        font-size: 16px;
+        padding: 10px 5px 10px 5px;
+        margin: 0px 10px 0px 10px;
         font-weight: 400;
+        line-height: 20px;
+        color: #fff;
     }
-}
-
-q {
-    display: inline;
-    line-height: 50px;
 }
 
 q:before {
@@ -976,6 +961,21 @@ q:after {
     -webkit-animation: none;
     animation: none;
     border-radius: 0;
+}
+
+.breadcrumb-about {
+    background-image: url('../img/banner-about.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 55vh;
+}
+
+@media only screen and (max-width: 600px) {
+    .breadcrumb-about {
+        background: url('../img/banner-about-mobile.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
 }
 
 
@@ -1355,18 +1355,6 @@ q:after {
 }
 
 
-/* Card-text */
-
-.card-text:last-child {
-    margin-bottom: 0;
-    text-overflow: ellipsis;
-    overflow: hidden;
-    display: -webkit-box;
-    -webkit-box-orient: vertical;
-    -webkit-line-clamp: 2;
-}
-
-
 /* Accordion Quy trình*/
 
 .accordion-button:not(.collapsed) {
@@ -1434,7 +1422,7 @@ q:after {
 
 .features .card {
     border: 0;
-    padding: 20px 20px 20px;
+    padding: 20px 0 0px 0;
     position: relative;
     width: 100%;
     background-size: cover;
@@ -1491,6 +1479,21 @@ q:after {
 
 
 /* style img-item procedure */
+
+.breadcrumb-procedure {
+    background-image: url('../img/banner-procedure.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 55vh;
+}
+
+@media only screen and (max-width: 600px) {
+    .breadcrumb-procedure {
+        background: url('../img/banner-procedure-mobile.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
 
 .img-media img {
     width: 30%;
@@ -1792,7 +1795,7 @@ q:after {
     background: #fff;
     text-align: center;
     box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.12);
-    border-radius: 5px;
+    border-radius: 15px;
     position: relative;
     overflow: hidden;
 }
@@ -1808,7 +1811,7 @@ q:after {
 } */
 
 .pricing h4 {
-    font-size: 36px;
+    font-size: 30px;
     color: #94c045;
     font-weight: 600;
     font-family: "Segoe UI", "Poppins", sans-serif;
@@ -1823,7 +1826,7 @@ q:after {
 
 .pricing h4 span {
     color: #bababa;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 300;
 }
 
@@ -1882,6 +1885,16 @@ q:after {
 .pricing .featured h3 {
     color: #fff;
     background: #94c045;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 0 3px 7px rgba(148, 192, 69, 0.4);
+}
+
+.featured h5 {
+    color: #fff;
+    background: #94c045;
+    padding: 5px;
+    border-radius: 10px;
     box-shadow: 0 3px 7px rgba(148, 192, 69, 0.4);
 }
 
@@ -1896,6 +1909,29 @@ q:after {
     padding: 1px 0 3px 0;
     background: #94c045;
     color: #fff;
+}
+
+.widget {
+    margin: -20px 40px 20px 40px;
+    line-height: 30px;
+    background-color: #ffc107;
+    color: #fff;
+    border-radius: 0px 0px 7px 7px;
+}
+
+.pricing .trending {
+    margin: 20px -20px -20px -20px;
+    padding: 20px 15px;
+    background: #526a24;
+    text-align: center;
+}
+
+.pricing .text-trending {
+    color: #fff;
+}
+
+.trending {
+    background-color: #789d35;
 }
 
 
@@ -2123,6 +2159,21 @@ q:after {
     background: #aacd6b;
 }
 
+.breadcrumb-contact {
+    background-image: url('../img/banner-contact.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 55vh;
+}
+
+@media only screen and (max-width: 600px) {
+    .breadcrumb-contact {
+        background: url('../img/banner-contact-mobile.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
 @-webkit-keyframes animate-loading {
     0% {
         transform: rotate(0deg);
@@ -2218,6 +2269,36 @@ q:after {
     bottom: 0;
     opacity: 1;
     transition: bottom ease-in-out 0.4s;
+}
+
+.breadcrumb-team {
+    background-image: url('../img/banner-team.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 55vh;
+}
+
+@media only screen and (max-width: 600px) {
+    .breadcrumb-team {
+        background: url('../img/banner-team-mobile.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+.breadcrumb-vision {
+    background-image: url('../img/banner-vision.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 55vh;
+}
+
+@media only screen and (max-width: 600px) {
+    .breadcrumb-vision {
+        background: url('../img/banner-vision-mobile.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
 }
 
 h2 {
@@ -2977,17 +3058,20 @@ h2 {
 
 @media(max-width: 767.98px) {
     .bread-ckcare {
-        display: none;
+        background: url('../img/banner-ckcare-mobile.png');
+        background-repeat: no-repeat;
+        background-size: cover;
     }
     .header-hero {
-        padding: 0;
-        margin-left: 70px;
+        display: none;
     }
 }
 
 @media (max-width: 991.98px) {
     .bread-ckcare {
-        display: none;
+        background: url('../img/banner-ckcare-mobile.png');
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 }
 

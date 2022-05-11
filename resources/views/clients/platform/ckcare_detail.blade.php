@@ -1,11 +1,12 @@
 @extends('layouts.main_detail')
-@section('title', 'CkCare')
+@section('title', 'CKCare')
 @section('content')
 
 <main id="main">
 
     <!-- ======= Breadcrumbs ======= -->
     <section id="breadcrumbs" class="breadcrumbs">
+        <div class="breadcrumb-ckcare"></div>
         <div class="bread-ckcare">
             <div class="container">
                 <div class="header-hero">
@@ -15,17 +16,17 @@
                 </div>
             </div>
         </div>
-        <div class="breadcrumb-product">
-            <h5>
+        <div class="slogan-ckcare">
+            <p class="slogan">
                 <q>Không trẻ em nào bỏ lại phía sau - Hãy bắt đầu theo dõi và sàng lọc cho trẻ ngay từ hôm nay!</q>
-            </h5>
+            </p>
         </div>
         <div class="container">
             <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='currentColor'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item"><a href="{{'/'}}">Trang chủ</a></li>
                     <li class="breadcrumb-item" aria-current="page"><a href="{{route('clients.platform.product')}}">Sản phẩm</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">Ứng dụng CkCare</li>
+                    <li class="breadcrumb-item active" aria-current="page">Ứng dụng CKCare</li>
                 </ol>
             </nav>
         </div>
@@ -121,7 +122,7 @@
                             </a>
                         </div>
                         <div class="col">
-                            <a href="{{route('layouts.procedure.dure_once')}}">
+                            <a href="{{route('layouts.procedure.dure_twice')}}">
                                 <div class="sell card h-100">
                                     <img src="{{asset('assets/img/blog/qt-ph.jpg')}}" class="card-img-top" alt="">
                                     <div class="card-body">
@@ -134,7 +135,7 @@
                             </a>
                         </div>
                         <div class="col">
-                            <a href="{{route('layouts.procedure.dure_once')}}">
+                            <a href="{{route('layouts.procedure.dure_three')}}">
                                 <div class="sell card h-100">
                                     <img src="{{asset('assets/img/blog/qt-hs.jpg')}}" class="card-img-top" alt="">
                                     <div class="card-body">
@@ -147,7 +148,7 @@
                             </a>
                         </div>
                         <div class="col">
-                            <a href="{{route('layouts.procedure.dure_once')}}">
+                            <a href="{{route('layouts.procedure.dure_four')}}">
                                 <div class="sell card h-100">
                                     <img src="{{asset('assets/img/blog/qt-nql.jpg')}}" class="card-img-top" alt="">
                                     <div class="card-body">
@@ -160,11 +161,11 @@
                             </a>
                         </div>
                         <div class="col">
-                            <a href="{{route('layouts.procedure.dure_once')}}">
+                            <a href="{{route('layouts.procedure.dure_five')}}">
                                 <div class="sell card h-100">
                                     <img src="{{asset('assets/img/blog/qt-ncm.jpg')}}" class="card-img-top" alt="">
                                     <div class="card-body">
-                                        <h5 class="card-title text-center">Quy trình nhà <br> chuyên môn</h5>
+                                        <h5 class="card-title text-center">Quy trình nhà chuyên môn</h5>
                                     </div>
                                     <div class="card-footer text-center">
                                         <small>Xem thêm</small>
@@ -176,10 +177,11 @@
                 </div>
             </section>
             <!-- End Features Section -->
+
             @include('layouts.ck_detail.ck_tabs')
 
-
         </div>
+
         <section class="content" data-aos="fade-up">
             <div class="row justify-content-center mt-5">
                 <div class="col-lg-12">
@@ -357,7 +359,9 @@
                 </div>
             </div>
         </section>
+
         @include('layouts.say')
+        
     </section>
 
 

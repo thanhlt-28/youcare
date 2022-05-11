@@ -5,13 +5,8 @@
 <main id="main">
   <!-- ======= Breadcrumbs ======= -->
   <section id="breadcrumbs" class="breadcrumbs">
-    <div class="breadcrumb-hero" style="
-            background-image: url(../assets/img/banner-about.png);
-            background-repeat: no-repeat;
-            background-size: cover;
-            height: 55vh;
-        ">
-    </div>
+    <div class="breadcrumb-about"></div>
+
     <div class="container">
       <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='currentColor'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
         <ol class="breadcrumb">
@@ -40,7 +35,7 @@
         </div>
         <div class="col-md-7 pt-4" data-aos="fade-left">
           <a href="#">
-            <h3>Ứng dụng ChkCare</h3>
+            <h3>Ứng dụng CKCare</h3>
           </a>
           <p class="fst-italic">
             ChkCare là sản phẩm công nghệ:

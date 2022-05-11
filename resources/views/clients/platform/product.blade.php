@@ -11,7 +11,8 @@
                 <div class="header-hero">
                     <a href="{{route('clients.contact')}}">
                         <button type="button" class="btn btn-outline-success rounded-pill">
-                            <i class="bx bx-phone-call"></i> Liên hệ tư vấn</button>
+                            <i class="bx bx-phone-call"></i> Liên hệ tư vấn
+                        </button>
                     </a>
                 </div>
             </div>
@@ -33,21 +34,16 @@
         <div class="container">
             <div class="row row-cols-1 row-cols-md-5 g-4">
                 <div class="col-lg-3 col-md-12">
-                    <div class="box featured" data-aos="fade-up">
+                    <div class="box feature" data-aos="fade-up">
                         <!-- <h3>San Pham 1</h3> -->
                         <a href="{{route('clients.platform.ckcare_detail')}}">
                             <div style="border: none;" class="card h-100">
                                 <img class="card-img-top" src="/assets/img/work/pack.hrm.svg" width="50%" alt="">
                                 <div class="card-body">
-                                    <h5 class="card-title text-dark">Ứng dụng CkCare</h5>
+                                    <h5 class="card-title text-dark">Ứng dụng CKCare</h5>
                                     <p class="text-flow card-text text-dark">
-                                        CkCare là sản phẩm công nghệ
-                                        được ứng dụng trong việc theo dõi,
-                                        sàng lọc và đánh giá nhằm phát
-                                        hiện sớm những vấn đề rối loạn
-                                        phát triển cũng như sức khỏe
-                                        tâm thần của trẻ từ 12 tháng
-                                        tuổi đến 18 tuổi.
+                                        CKCare là sản phẩm công nghệ
+                                        được ứng dụng trong việc theo...
                                     </p>
                                 </div>
                                 <div class="btn-wrap">
@@ -60,7 +56,7 @@
 
 
                 <div class="col-lg-3 col-md-12">
-                    <div class="box featured" data-aos="fade-up">
+                    <div class="box feature" data-aos="fade-up">
                         <!-- <h3>San Pham 2</h3> -->
                         <a href="{{route('clients.platform.pubcare')}}">
                             <div style="border: none;" class="card h-100">
@@ -69,13 +65,7 @@
                                     <h5 class="card-title text-dark">Ứng dụng PubCare</h5>
                                     <p class="text-flow card-text text-dark">
                                         PubCare là sản phẩm công nghệ được
-                                        ứng dụng vào việc sàng lọc miễn phí
-                                        sức khỏe cộng đồng. Giúp những người gặp phải
-                                        vấn đề về tâm lý và
-                                        sức khỏe tâm thần biết được vấn đề
-                                        mình đang gặp phải. Sản phẩm miễn
-                                        phí cho cộng đồng.
-                                    </p>
+                                        ứng dụng vào việc sàng...
                                 </div>
                             </div>
                             <div class="btn-wrap">
@@ -86,7 +76,7 @@
                 </div>
 
                 <div class="col-lg-3 col-md-12">
-                    <div class="box featured" data-aos="fade-up">
+                    <div class="box feature" data-aos="fade-up">
                         <!-- <h3>San Pham 4</h3> -->
                         <a href="{{route('clients.platform.bizcare')}}">
                             <div style="border: none;" class="card h-100">
@@ -95,11 +85,7 @@
                                     <h5 class="card-title text-dark">Ứng dụng BizCare</h5>
                                     <p class="text-flow card-text text-dark">
                                         BizCare là sản phẩm công nghệ được
-                                        ứng dụng vào doanh nghiệp để theo
-                                        dõi và chăm sóc sức khỏe tỉnh thần
-                                        nhân sự. Giúp môi môi trường,
-                                        doanh nghiệp vui vẻ hạnh phúc và
-                                        nâng cao hiệu quả công việc.
+                                        ứng dụng vào doanh...
                                     </p>
                                 </div>
                                 <div class="btn-wrap">
@@ -111,19 +97,16 @@
                 </div>
 
                 <div class="col-lg-3 col-md-12">
-                    <div class="box featured" data-aos="fade-up">
-                        <!-- <h3>San Pham 3</h3> -->
-                        <a href="{{route('clients.platform.psycare')}}">
+                    <div class="box feature" data-aos="fade-up">
+                        <!-- <h3>San Pham 4</h3> -->
+                        <a href="{{route('clients.platform.bizcare')}}">
                             <div style="border: none;" class="card h-100">
-                                <img class="card-img-top" src="/assets/img/work/pack.sales.svg" width="50%" alt="">
+                                <img class="card-img-top" src="/assets/img/work/pack.work.svg" width="50%" alt="">
                                 <div class="card-body">
                                     <h5 class="card-title text-dark">Ứng dụng PsyCare</h5>
                                     <p class="text-flow card-text text-dark">
                                         PsyCare là nền tảng tham vấn và trị liệu
-                                        cá vấn đề về tâm lý và sức khỏe tâm
-                                        thần online. Được kết nối với các chuyên
-                                        gia tâm lý và chuyên gia sức khỏe tâm
-                                        thần hàng đầu.
+                                        cá vấn đề về tâm lý và...
                                     </p>
                                 </div>
                                 <div class="btn-wrap">
