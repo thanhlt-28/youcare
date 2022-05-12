@@ -10,7 +10,7 @@
         <div class="bread-ckcare">
             <div class="container">
                 <div class="header-hero">
-                    <a href="https://ck.youcare.vn/user/login" target="_blank">
+                    <a href="https://app.checkingcare.vn/user/login" target="_blank">
                         <button type="button" class="btn btn-outline-success rounded-pill">Sàng lọc ngay</button>
                     </a>
                 </div>
@@ -363,8 +363,6 @@
         @include('layouts.say')
         
     </section>
-
-
 
 </main>
 @endsection

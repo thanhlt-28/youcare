@@ -53,7 +53,7 @@
                                             <div class="accordion-body">
                                                 <b>Đăng kí/ Đăng nhập</b>
                                                 <p>
-                                                    • Người dùng truy cập đường link  <a href="https://app.checkingcare.vn/user/register" target="_blank">Đăng ký /</a> <a href="https://app.checkingcare.vn/user/login" target="_blank">Đăng nhập</a> trên trình duyệt web
+                                                    • Người dùng truy cập đường link <a href="https://app.checkingcare.vn/user/register" target="_blank">Đăng ký /</a> <a href="https://app.checkingcare.vn/user/login" target="_blank">Đăng nhập</a> trên trình duyệt web
                                                     có kết nối Internet <br>
                                                     • Nhập thông tin đăng ký/ đăng nhập
                                                 </p>
@@ -265,9 +265,8 @@
 
             <div class="text-center">
                 <h3>Cộng đồng</h3>
-                <p> Cộng đồng tâm lý với sứ mệnh thay đổi thói quen và nhận thức của người Việt Nam </br> trong việc chú
-                    trọng sức khoẻ tinh thần và tìm kiếm sự trợ giúp khi cần thiết.</p>
-                <a class="cta-btn" href="#">Tham gia ngay</a>
+                <p> Cộng đồng tâm lý với sứ mệnh thay đổi thói quen và nhận thức của người Việt Nam </br> trong việc chú trọng sức khoẻ tinh thần và tìm kiếm sự trợ giúp khi cần thiết.</p>
+                <a class="cta-btn" target="_blank" href="https://www.facebook.com/congdongtamly/">Tham gia ngay</a>
             </div>
 
         </div>

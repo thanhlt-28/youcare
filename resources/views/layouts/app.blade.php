@@ -1,10 +1,6 @@
 <div class="container">
     <!--==================Hệ sinh thái==================-->
     <div class="row">
-        <!-- <div class="col-lg-6 video-box align-self-baseline position-relative">
-            <img src="assets/img/about.jpg" class="img-fluid" alt="">
-            <a target="_blank" href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="glightbox play-btn mb-4"></a>
-          </div> -->
         <div class="row justify-content-end">
             <div class="col-lg-12">
                 <div class="row justify-content-end">
@@ -16,7 +12,7 @@
                                 <h4 class="text-center text-uppercase"> CKCARE</h4>
                                 <div class="d-flex flex-nowrap">
                                     <p class="box-shade text-justify">
-                                        CkCare là sản phẩm công nghệ
+                                        CKCare là sản phẩm công nghệ
                                         được ứng dụng trong việc theo dõi,
                                         sàng lọc và đánh giá nhằm phát
                                         hiện sớm những vấn đề rối loạn
@@ -65,8 +61,6 @@
                     <div class="col-lg-4 col-md-5 col-6 d-flex align-items-center">
                         <a style=" color:#5a5454;" class="details text-start" href="#">
                             <div class="box-shade count-box pb-5 pt-0 pt-lg-5">
-                                <!-- <i class="bi bi-award"></i> -->
-                                <!-- <span data-purecounter-start="0" data-purecounter-end="3" class="purecounter">3</span> -->
                                 <h4 class="text-center text-uppercase"> BIZCARE</h4>
                                 <div class="d-flex flex-nowrap">
                                     <p class="box-shade text-justify">
@@ -98,8 +92,6 @@
                     <div class="col-lg-4 col-md-5 col-6 align-self-center">
                         <a style=" color:#5a5454;" class="details text-start" href="#">
                             <div class="box-shade count-box py-5">
-                                <!-- <i class="bi bi-journal-richtext"></i> -->
-                                <!-- <span data-purecounter-start="0" data-purecounter-end="4" class="purecounter">4</span> -->
                                 <h4 class="text-center text-uppercase"> PSYCARE</h4>
                                 <div class="d-flex flex-nowrap">
                                     <p class="box-shade text-justify">

@@ -2002,6 +2002,18 @@ q:after {
     color: #fff;
 }
 
+.price-trending {
+    background-color: #789d35;
+    padding: 5px 0px 5px 0px;
+    border-radius: 15px;
+}
+
+.prices {
+    background-color: #ebebeb;
+    padding: 5px 0px 5px 0px;
+    border-radius: 15px;
+}
+
 .trending {
     background-color: #789d35;
 }
@@ -2373,10 +2385,6 @@ q:after {
     }
 }
 
-h2 {
-    font-size: 20px;
-}
-
 .media-29101 {
     text-align: center;
 }
@@ -2396,6 +2404,22 @@ h2 {
 
 .media-29101 h3 a {
     color: #6c757d;
+}
+
+
+/* .bread-media {
+    background-image: url('../img/banner-vision.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 55vh;
+} */
+
+@media only screen and (max-width: 600px) {
+    .bread-media {
+        /* background: url('../img/banner-vision-mobile.png'); */
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
 }
 
 .owl-2-style .owl-nav {
@@ -2437,13 +2461,14 @@ h2 {
 
 /* slider chuyên gia */
 
-h2 {
+
+/* h2 {
     font-size: 20px;
 }
 
 .slider-92911 {
     position: relative;
-}
+} */
 
 
 /* Carousel 4*/

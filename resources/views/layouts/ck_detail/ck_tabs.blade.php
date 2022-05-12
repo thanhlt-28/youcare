@@ -1,3 +1,4 @@
+<!--=========== For == Laptop ===============-->
 <section class="main-content" data-aos="fade-up">
     <div class="container">
         <div class="d-flex bg-white flex-row shadow nav-border">
@@ -26,7 +27,6 @@
                 </div>
                 <div class="tab-content" id="v-pills-tabContent">
                     <div class="tab-pane fade show active pt-4 me-4" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
-                        <!-- <img src="https://htmlcss3tutorials.com/wp-content/themes/htmlcss3TutorialRevamp/assets/img/course/HTMLCSS.jpg" alt="" class="img-cont me-3"> -->
                         <h4>Nhà quản lý</h4>
                         <p>Dễ dàng theo dõi sự phát triển của học sinh trong trường học nhằm phát hiện sớm những vấn đề giúp cho học sinh được phòng ngừa và can thiệp, trị liệu sớm nhất và hiệu quả tốt nhất.</p>
                         <p>Tiết kiệm thời gian và tài chính không cần phải cứ giáo viên đi học sử dụng bộ công cụ.</p>
@@ -73,12 +73,12 @@
     </div>
 </section>
 
+<!--=========== For Mobile ===============-->
 <section class="according-content" data-aos="fade-up">
     <div class="col-lg-12">
         <div class="card-body">
-            <!-- Default Accordion -->
             <div class="accordion" id="accordionExample">
-                
+
                 <div class="accordion-item">
                     <h2 style="font-weight: bold; font-size: 18px" class="accordion-header" id="teacher">
                         <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTeacher" aria-expanded="true" aria-controls="collapseTeacher">
@@ -141,9 +141,9 @@
                     </div>
                 </div>
                 <div class="accordion-item">
-                <h2 class="accordion-header" id="manager">
+                    <h2 class="accordion-header" id="manager">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseManager" aria-expanded="false" aria-controls="collapseManager">
-                             Nhà quản lý
+                            Nhà quản lý
                         </button>
                     </h2>
                     <div id="collapseManager" class="accordion-collapse collapse" aria-labelledby="manager" data-bs-parent="#accordionExample">
@@ -160,9 +160,7 @@
                         </div>
                     </div>
                 </div>
-            </div><!-- End Default Accordion Example -->
-
+            </div>
         </div>
-
     </div>
 </section>

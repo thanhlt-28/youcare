@@ -14,21 +14,15 @@
                 <ul>
                     <li><a href="{{route('clients.about.vision')}}">Tầm nhìn & Sứ mệnh</a></li>
                     <li><a href="{{route('clients.about.team_experts')}}">Đội ngũ chuyên gia</a></li>
-                    <!-- navbar-items -->
-                    <!-- <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
-                <ul> 
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                </ul>
-              </li> -->
+                  
                 </ul>
             </li>
             <li><a href="{{route('clients.platform.product')}}">Sản phẩm</a>
             </li>
             <li class="dropdown"><a href="#"><span>Tài nguyên</span> <i class="bi bi-chevron-down"></i></a>
                 <ul>
-                    <li><a href="{{route('clients.library.overview')}}">Tổng quan</a></li>
-                    <li><a href="{{route('clients.library.docs')}}">Tài liệu</a></li>
+                    <!-- <li><a href="{{route('clients.library.overview')}}">Tổng quan</a></li> -->
+                    <!-- <li><a href="{{route('clients.library.docs')}}">Tài liệu</a></li> -->
                     <li><a href="{{route('clients.library.media')}}">Video</a></li>
                 </ul>
             </li>
@@ -37,8 +31,8 @@
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
 
-
-    </nav><!-- .navbar -->
+    </nav>
+    <!-- .navbar -->
 
     <!-- <div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center py-4 sm:pt-0">
         @if (Route::has('login'))

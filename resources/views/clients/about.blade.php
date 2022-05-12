@@ -31,10 +31,12 @@
 
       <div class="row content">
         <div class="col-md-5" data-aos="fade-right">
-          <img src="assets/img/work-process-1.png" class="img-fluid" alt="">
+          <a href="{{route('clients.platform.ckcare_detail')}}">
+            <img src="assets/img/work-process-1.png" class="img-fluid" alt="">
+          </a>
         </div>
         <div class="col-md-7 pt-4" data-aos="fade-left">
-          <a href="#">
+          <a href="{{route('clients.platform.ckcare_detail')}}">
             <h3>Ứng dụng CKCare</h3>
           </a>
           <p class="fst-italic">
@@ -49,10 +51,12 @@
 
       <div class="row content">
         <div class="col-md-5 order-1 order-md-2" data-aos="fade-left">
-          <img src="assets/img/work-process-2.png" class="img-fluid" alt="">
+          <a href="{{route('clients.platform.pubcare')}}">
+            <img src="assets/img/work-process-2.png" class="img-fluid" alt="">
+          </a>
         </div>
         <div class="col-md-7 pt-5 order-2 order-md-1" data-aos="fade-right">
-          <a href="#">
+          <a href="{{route('clients.platform.pubcare')}}">
             <h3>Ứng dụng PubCare</h3>
           </a>
           <p class="fst-italic">
@@ -70,10 +74,12 @@
 
       <div class="row content">
         <div class="col-md-5" data-aos="fade-right">
-          <img src="assets/img/work-process-3.png" class="img-fluid" alt="">
+          <a href="{{route('clients.platform.psycare')}}">
+            <img src="assets/img/work-process-3.png" class="img-fluid" alt="">
+          </a>
         </div>
         <div class="col-md-7 pt-5" data-aos="fade-left">
-          <a href="#">
+          <a href="{{route('clients.platform.psycare')}}">
             <h3>Ứng dụng PsyCare</h3>
           </a>
           <p>
@@ -89,10 +95,12 @@
 
       <div class="row content">
         <div class="col-md-5 order-1 order-md-2" data-aos="fade-left">
-          <img src="assets/img/work-process-4.png" class="img-fluid" alt="">
+          <a href="{{route('clients.platform.bizcare')}}">
+            <img src="assets/img/work-process-4.png" class="img-fluid" alt="">
+          </a>
         </div>
         <div class="col-md-7 pt-5 order-2 order-md-1" data-aos="fade-right">
-          <a href="#">
+          <a href="{{route('clients.platform.bizcare')}}">
             <h3>Ứng dụng BizCare</h3>
           </a>
           <p class="fst-italic">
@@ -108,14 +116,15 @@
     </div>
   </section><!-- End Work Process Section -->
   @include('layouts.slider_team')
+  
   <!-- ======= Cta Section ======= -->
   <section id="cta" class="cta">
     <div class="container" data-aos="fade-in">
 
       <div class="text-center">
         <h3>Cộng đồng</h3>
-        <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <a class="cta-btn" href="#">Tham gia ngay</a>
+        <p> Cộng đồng tâm lý với sứ mệnh thay đổi thói quen và nhận thức của người Việt Nam </br> trong việc chú trọng sức khoẻ tinh thần và tìm kiếm sự trợ giúp khi cần thiết.</p>
+        <a class="cta-btn" target="_blank" href="https://www.facebook.com/congdongtamly/">Tham gia ngay</a>
       </div>
 
     </div>

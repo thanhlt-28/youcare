@@ -111,11 +111,13 @@ Route::prefix('/')->group(function () {
         return view('clients.library.media');
     })->name('clients.library.media');
 
-    // Tài nguyên
+    // Gia
     Route::get('ckcare-price', function () {
         return view('price.ck_price');
     })->name('price.ck_price');
-    
+    // Route::get('', function () {
+    //     return view('price.ck_price');
+    // })->name('price.ck_price');
 });
 
 // ===== Router Admin ===== //
