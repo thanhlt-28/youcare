@@ -118,8 +118,9 @@
 
 
 <div class="container-wrap">
+    <h3 class="text-center mt-4">ỨNG DỤNG CỦA YOUCARE</h3>
     <!--==================Hệ sinh thái ----- Mobile ==================-->
-    <div class="col-lg-12">
+    <div class="col-lg-12 mt-5">
         <a style="color:#5a5454;" target="_blank" href="{{route('clients.platform.ckcare_detail')}}">
             <div class="box-shade count-box py-4">
                 <h4 class="text-app mb-3"> CKCARE</h4>
@@ -139,7 +140,7 @@
         </a>
     </div>
 
-    <div class="col-lg-12 mt-3">
+    <div class="col-lg-12 mt-5">
         <a style="color:#5a5454;" target="_blank" href="#">
             <div class="box-shade count-box py-4">
                 <h4 class="text-app mb-3"> PUBCARE</h4>
@@ -159,7 +160,7 @@
         </a>
     </div>
 
-    <div class="col-lg-12 mt-3">
+    <div class="col-lg-12 mt-5">
         <a style="color:#5a5454;" target="_blank" href="#">
             <div class="box-shade count-box py-4">
                 <h4 class="text-app mb-3"> BIZCARE</h4>
@@ -178,7 +179,7 @@
         </a>
     </div>
 
-    <div class="col-lg-12 mt-3">
+    <div class="col-lg-12 mt-5">
         <a style="color:#5a5454;" target="_blank" href="#">
             <div class="box-shade count-box py-4">
                 <h4 class="text-app mb-3"> PSYCARE</h4>

@@ -604,10 +604,11 @@ h6 {
 
 @media (max-width: 768px) {
     #hero {
-        height: 100vh;
+        height: 70vh;
     }
     #hero h1 {
-        font-size: 28px;
+        font-size: 21px;
+        font-weight: 500;
         line-height: 36px;
     }
     #hero h2 {
@@ -616,7 +617,11 @@ h6 {
         margin-bottom: 30px;
     }
     #hero .hero-container {
-        padding: 0 15px;
+        margin: auto;
+    }
+    #hero .hero-container p {
+        padding: 10px;
+        font-size: 15px;
     }
 }
 
@@ -2454,7 +2459,7 @@ q:after {
         padding: 20px;
     }
     .about .count-box p {
-        padding: 0px 20px 0px 20px;
+        padding: 0px 30px 0px 30px;
         margin: auto;
         font-family: "Segoe UI", "Raleway", sans-serif;
         font-weight: 400;
@@ -2467,7 +2472,7 @@ q:after {
         text-align: justify;
     }
     .text-app {
-        margin-left: 20px;
+        margin-left: 30px;
     }
 }
 
