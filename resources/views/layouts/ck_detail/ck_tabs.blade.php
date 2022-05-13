@@ -80,12 +80,12 @@
             <div class="accordion" id="accordionExample">
 
                 <div class="accordion-item">
-                    <h2 style="font-weight: bold; font-size: 18px" class="accordion-header" id="teacher">
-                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTeacher" aria-expanded="true" aria-controls="collapseTeacher">
+                    <h2 class="accordion-header" id="teacher">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTeacher" aria-expanded="true" aria-controls="collapseTeacher">
                             Giáo viên
                         </button>
                     </h2>
-                    <div id="collapseTeacher" class="accordion-collapse collapse show" aria-labelledby="teacher" data-bs-parent="#accordionExample">
+                    <div id="collapseTeacher" class="accordion-collapse collapse" aria-labelledby="teacher" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
                             <p>Phát hiện sớm những học sinh có những vấn đề về sức khoẻ tinh thần để thông báo cho phụ huynh kịp thời.
                                 Cho kết quả nhanh và chính xác</p>

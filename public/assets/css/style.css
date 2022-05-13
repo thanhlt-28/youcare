@@ -2474,6 +2474,9 @@ q:after {
     .text-app {
         margin-left: 30px;
     }
+    .text-slider {
+        font-size: 22px;
+    }
 }
 
 
@@ -2511,6 +2514,63 @@ q:after {
 
 
 /* ------------ End Media ----------------- */
+
+
+/*------ Reponsive app Laptop ----------*/
+
+@media screen and (min-width: 1024px) {
+    .slider-teams {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 1366px) {
+    .slider-teams {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 2048) {
+    .slider-teams {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 991.98px) {
+    .slider-teams {
+        display: none;
+    }
+}
+
+
+/*------ Reponsive app mobile ----------*/
+
+@media screen and (min-width: 1024px) {
+    .slider-team {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1366px) {
+    .slider-team {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 2048) {
+    .slider-team {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 991.98px) {
+    .slider-team {
+        display: block;
+    }
+}
+
+
+/* ============================= */
 
 .owl-2-style .owl-nav {
     display: none;
@@ -3286,6 +3346,14 @@ q:after {
 .btn-outline-success:hover {
     background-color: #94c045;
     border: 1px solid #94c045;
+}
+
+@media screen and (max-width: 1366px) {
+    .btn-outline-success {
+        border: 1px solid #94c045;
+        color: #94c045;
+        margin-left: 50px;
+    }
 }
 
 #footer .footer-top {

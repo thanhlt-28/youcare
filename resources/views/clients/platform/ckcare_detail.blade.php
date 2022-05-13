@@ -182,7 +182,8 @@
 
         </div>
 
-        <section class="content" data-aos="fade-up">
+        <!-- Slider team # Laptop -->
+        <section class="slider-teams" data-aos="fade-up">
             <div class="row justify-content-center mt-5">
                 <div class="col-lg-12">
                     <div class="row justify-content-center">
@@ -360,8 +361,102 @@
             </div>
         </section>
 
+        <!-- Slider team # Mobile -->
+        <div class="slider-team">
+            <div class="row justify-content-center mt-5">
+                <div class="col-lg-12">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8 align-self-baseline position-relative">
+                            <div class="content">
+
+                                <div class="site-section bg-left-half mb-5">
+                                    <div class="owl-2-style">
+
+                                        <div class="owl-carousel owl-2">
+
+                                            <div class="media-29101">
+                                                <img src="https://phongkhamtamly.com/wp-content/uploads/2021/11/nguyen-van-dung.png" alt="Image" class="img-fluid">
+                                                <h4><a target="_blank" class="text-slider" href="https://phongkhamtamly.com/thay-thuoc-uu-tu-nguyen-van-dung/">THẦY THUỐC ƯU TÚ BSCC.TS. BSCKII NGUYỄN VĂN DŨNG
+                                                    </a></h4>
+                                                <p>Phó viện trưởng Viện sức khỏe
+                                                    tâm thần - Bệnh viện Bạch Mai</p>
+                                            </div>
+
+                                            <div class="media-29101">
+                                                <img src="https://phongkhamtamly.com/wp-content/uploads/2021/11/pham-van-tu.png" alt="Image" class="img-fluid">
+                                                <h4><a target="_blank" class="text-slider" href="https://phongkhamtamly.com/tien-si-pham-van-tu/">TIẾN SĨ<br /> PHẠM VĂN TƯ</a></h4>
+                                                <p>Phó trưởng Khoa Công tác xã hội,<br> trường Đại học Sư phạm Hà Nội</p>
+                                            </div>
+
+                                            <div class="media-29101">
+                                                <img src="https://phongkhamtamly.com/wp-content/uploads/2022/03/Nguyen-Thi-Tham-280x280.jpg" alt="Image" class="img-fluid">
+                                                <h4><a target="_blank" class="text-slider" href="https://phongkhamtamly.com/tien-si-nguyen-thi-tham/">TIẾN SĨ<br />
+                                                        NGUYỄN THỊ THẮM</a></h4>
+                                                <p>
+                                                    Tiến sĩ ngành: tâm lý – giáo dục
+                                                </p>
+                                            </div>
+
+                                            <div class="media-29101">
+                                                <img src="https://phongkhamtamly.com/wp-content/uploads/2022/03/Nguyen-Mai-Huong-280x280.jpg" alt="Image" class="img-fluid">
+                                                <h4><a target="_blank" class="text-slider" href="https://phongkhamtamly.com/tien-si-nguyen-thi-mai-huong/">TIẾN SĨ<br />
+                                                        NGUYỄN THỊ MAI HƯƠNG</a></h4>
+                                                <p>
+                                                    Tiến sĩ chuyên ngành: Tâm lý học</p>
+                                            </div>
+
+                                            <div class="media-29101">
+                                                <img src="https://phongkhamtamly.com/wp-content/uploads/2022/03/Nguyen-Thanh-Van-280x280.jpg" alt="Image" class="img-fluid">
+                                                <h4><a target="_blank" class="text-slider" href="https://phongkhamtamly.com/thac-si-nguyen-thi-thanh-van/">THẠC SĨ<br />
+                                                        NGUYỄN THỊ THANH VÂN</a></h4>
+                                                <p>
+                                                    Thạc sĩ chuyên ngành: Tâm lý học
+                                                    lâm sàng</p>
+                                            </div>
+
+                                            <div class="media-29101">
+                                                <img src="https://phongkhamtamly.com/wp-content/uploads/2022/03/Nguyen-Thuy-Hang-280x280.jpg" alt="Image" class="img-fluid">
+                                                <h4><a target="_blank" class="text-slider" href="https://phongkhamtamly.com/thac-si-nguyen-thi-thuy-hang/">THẠC SĨ<br />
+                                                        NGUYỄN THỊ THÚY HẰNG</a></h4>
+                                                <p>
+                                                    Thạc sĩ chuyên ngành: Giáo dục học</p>
+                                            </div>
+                                            <div class="media-29101">
+                                                <img src="https://phongkhamtamly.com/wp-content/uploads/2022/03/Nguyen-Hien-Minh-280x280.jpg" alt="Image" class="img-fluid">
+                                                <h4><a target="_blank" class="text-slider" href="https://phongkhamtamly.com/thac-si-nguyen-hien-minh/">THẠC SĨ<br />
+                                                        NGUYỄN HIỀN MINH</a></h4>
+                                                <p>
+                                                    Thạc sĩ chuyên ngành: Công tác xã hội</p>
+                                            </div>
+                                            <div class="media-29101">
+                                                <img src="https://phongkhamtamly.com/wp-content/uploads/2022/03/Le-The-Hanh-280x280.jpg" alt="Image" class="img-fluid">
+                                                <h4><a target="_blank" class="text-slider" href="https://phongkhamtamly.com/thac-si-le-the-hanh/">THẠC SĨ<br />
+                                                        LÊ THẾ HANH</a></h4>
+                                                <p>
+                                                    Thạc sĩ Tâm lý học Lâm sàng</p>
+                                            </div>
+                                            <div class="media-29101">
+                                                <img src="https://phongkhamtamly.com/wp-content/uploads/2022/03/Dang-Minh-Khue-280x280.jpg" alt="Image" class="img-fluid">
+                                                <h4><a target="_blank" class="text-slider" href="https://phongkhamtamly.com/thac-si-dang-minh-khue/">THẠC SĨ<br />
+                                                        ĐẶNG MINH KHUÊ</a></h4>
+                                                <p>
+                                                    Thạc sĩ Tâm lý học Lâm sàng</p>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         @include('layouts.say')
-        
+
     </section>
 
 </main>

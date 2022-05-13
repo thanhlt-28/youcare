@@ -1,6 +1,6 @@
 <div class="container">
     <div class="wrap">
-        <!--==================Hệ sinh thái ----- Laptop ==================-->
+        <!--================== Hệ sinh thái ----- Laptop ==================-->
         <div class="row">
             <div class="row justify-content-end">
                 <div class="col-lg-12">
@@ -119,7 +119,7 @@
 
 <div class="container-wrap">
     <h3 class="text-center mt-4">ỨNG DỤNG CỦA YOUCARE</h3>
-    <!--==================Hệ sinh thái ----- Mobile ==================-->
+    <!--================== Hệ sinh thái ----- Mobile ==================-->
     <div class="col-lg-12 mt-5">
         <a style="color:#5a5454;" target="_blank" href="{{route('clients.platform.ckcare_detail')}}">
             <div class="box-shade count-box py-4">

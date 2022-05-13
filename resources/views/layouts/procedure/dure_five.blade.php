@@ -157,8 +157,8 @@
                                     <div class="card-body tab-content">
                                         <div class="tab-pane active" id="hdsd">
                                             <div class="accordion-body">
-                                                <p>• Chuyên gia lưu ý đọc và giải thích, hướng dẫn rõ ràng với thân chủ về bài đánh giá / sàng lọc trước khi thực hiện bài test.
-                                                    <i>Lưu ý những thông tin:</i>
+                                                <p>• Chuyên gia lưu ý đọc và giải thích, hướng dẫn rõ ràng với thân chủ về bài đánh giá / sàng lọc trước khi thực hiện bài test.<br>
+                                                    <i>Lưu ý những thông tin:</i><br>
                                                     • Đối tượng thực hiện bài test (PH, GV, HS, độ tuổi của HS)<br>
                                                     • Giới hạn thời gian<br>
                                                     • Cách lựa chọn mức điểm cho từng câu hỏi.<br>
@@ -187,11 +187,9 @@
                                     <div class="card-body tab-content">
                                         <div class="tab-pane active" id="result">
                                             <div class="accordion-body">
-                                                <b>Hướng dẫn trả kết quả cho phụ huynh:</b></br>
-                                                • KHÔNG kết luận và gán nhãn học sinh “bị” bệnh.</br>
-                                                • Chỉ chia sẻ những quan sát của GV về biểu hiện của trẻ, sử dụng thang đánh giá / sàng lọc như một công cụ hỗ trợ chỉ ra những dấu hiệu GV lo lắng ở trẻ.</br>
-                                                • Gợi ý phụ huynh đưa trẻ tới cơ sở y khoa / tâm lý để có sự đánh giá chuyên sâu hơn.
-                                                </p>
+                                                <b>Nhận kết quả</b>
+                                                <br>
+                                                Sau khi nhận kết quả, nhà chuyên môn có thể lựa chọn "Tải về" để trực tiếp lưu trữ kết quả trong máy, hoặc nhận kết quả thông qua email.
                                             </div>
                                         </div>
                                     </div>
