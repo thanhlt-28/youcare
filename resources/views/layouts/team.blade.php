@@ -19,7 +19,6 @@
                   <p>- Có nhiều thành tích cao quí được chủ tích nước, tổng bí thư, thủ tướng trao tặng.</p>
                   <p>- Rối loạn thần kinh thực vật; Động kinh; Trầm cảm; Lo âu; Mất ngủ; Stress…</p>
                   <p>- Cai nghiện ma tuý, ma tuý đá, cỏ Mỹ, game online,…</p>
-                  <p>- Cai nghiện ma tuý, ma tuý đá, cỏ Mỹ, game online,…</p>
 
                   <a class="cta-btn" target="_blank" href="https://phongkhamtamly.com/thay-thuoc-uu-tu-nguyen-van-dung/">
                     <button type="button" class="btn btn-outline-success rounded-pill">Xem chi tiết</button></a>

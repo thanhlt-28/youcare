@@ -50,9 +50,9 @@
                                             <div class="accordion-body">
                                                 <b>Đăng kí/ Đăng nhập</b>
                                                 <p>
-                                                    • Người dùng truy cập đường link <a href="https://app.checkingcare.vn/user/register" target="_blank">đăng ký</a> trên trình duyệt web
+                                                    • Người dùng truy cập đường link <a href="https://ck.youcare.vn/user/register" target="_blank">đăng ký</a> trên trình duyệt web
                                                     có kết nối Internet <br>
-                                                    • Nhập thông tin <a href="https://app.checkingcare.vn/user/register" target="_blank">Đăng ký /</a> <a href="https://app.checkingcare.vn/user/login" target="_blank">Đăng nhập</a> và chọn quyền cá nhân <br>
+                                                    • Nhập thông tin <a href="https://ck.youcare.vn/user/register" target="_blank">Đăng ký /</a> <a href="https://ck.youcare.vn/user/login" target="_blank">Đăng nhập</a> và chọn quyền cá nhân <br>
                                                 </p>
                                             </div>
                                         </div>

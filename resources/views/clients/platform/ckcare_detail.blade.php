@@ -10,7 +10,7 @@
         <div class="bread-ckcare">
             <div class="container">
                 <div class="header-hero">
-                    <a href="https://app.checkingcare.vn/user/login" target="_blank">
+                    <a href="https://ck.youcare.vn/user/login" target="_blank">
                         <button type="button" class="btn btn-outline-success rounded-pill">Sàng lọc ngay</button>
                     </a>
                 </div>
@@ -51,7 +51,7 @@
                                 <div class="col-lg-6 col-md-6">
                                     <div class="row">
                                         <div class="col-lg-6 col-md-6 mt-3">
-                                            <a href="https://checkingcare.vn/sang-loc-theo-doi/" target="_blank">
+                                            <a href="https://checkingcare.vn/gioi-thieu-asq-3/" target="_blank">
                                                 <div class="icon-box">
                                                     <i class="bi bi-shop" style="color: #ffbb2c;"></i>
                                                     <h3>ASQ-3</h3>
@@ -113,7 +113,7 @@
                                 <div class="sell card h-100">
                                     <img src="{{asset('assets/img/blog/qt-gv.jpg')}}" class="card-img-top" alt="">
                                     <div class="card-body">
-                                        <h5 class="card-title text-center">Quy trình giáo viên</h5>
+                                        <h5 class="card-title text-center">Dành cho giáo viên</h5>
                                     </div>
                                     <div class="card-footer text-center">
                                         <small>Xem thêm</small>
@@ -126,7 +126,7 @@
                                 <div class="sell card h-100">
                                     <img src="{{asset('assets/img/blog/qt-ph.jpg')}}" class="card-img-top" alt="">
                                     <div class="card-body">
-                                        <h5 class="card-title text-center">Quy trình phụ huynh</h5>
+                                        <h5 class="card-title text-center">Dành cho phụ huynh</h5>
                                     </div>
                                     <div class="card-footer text-center">
                                         <small>Xem thêm</small>
@@ -139,7 +139,7 @@
                                 <div class="sell card h-100">
                                     <img src="{{asset('assets/img/blog/qt-hs.jpg')}}" class="card-img-top" alt="">
                                     <div class="card-body">
-                                        <h5 class="card-title text-center">Quy trình học sinh</h5>
+                                        <h5 class="card-title text-center">Dành cho học sinh</h5>
                                     </div>
                                     <div class="card-footer text-center">
                                         <small>Xem thêm</small>
@@ -152,7 +152,7 @@
                                 <div class="sell card h-100">
                                     <img src="{{asset('assets/img/blog/qt-nql.jpg')}}" class="card-img-top" alt="">
                                     <div class="card-body">
-                                        <h5 class="card-title text-center">Quy trình nhà quản lý</h5>
+                                        <h5 class="card-title text-center">Dành cho nhà quản lý</h5>
                                     </div>
                                     <div class="card-footer text-center">
                                         <small>Xem thêm</small>
@@ -165,7 +165,7 @@
                                 <div class="sell card h-100">
                                     <img src="{{asset('assets/img/blog/qt-ncm.jpg')}}" class="card-img-top" alt="">
                                     <div class="card-body">
-                                        <h5 class="card-title text-center">Quy trình nhà chuyên môn</h5>
+                                        <h5 class="card-title text-center">Dành cho nhà chuyên môn</h5>
                                     </div>
                                     <div class="card-footer text-center">
                                         <small>Xem thêm</small>

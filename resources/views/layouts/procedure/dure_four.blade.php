@@ -40,7 +40,7 @@
                                     <div class="card-body tab-content">
                                         <div class="tab-pane active" id="login">
                                             <div class="accordion-body">
-                                                <b> Người dùng <a href="https://app.checkingcare.vn/user/login" target="_blank">đăng nhập</a> bằng tài khoản đã được cung cấp.</b></br>
+                                                <b> Người dùng <a href="https://ck.youcare.vn/user/login" target="_blank">đăng nhập</a> bằng tài khoản đã được cung cấp.</b></br>
                                                 <b> Nhập dữ liệu học sinh theo lớp.</b></br>
                                                 <b> Làm việc với giáo viên về tính cần thiết của việc thực hiện sàng lọc cho học sinh.</b></br>
                                                 <i>Lưu ý:</i></br>

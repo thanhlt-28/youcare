@@ -43,7 +43,7 @@
         <div class="footer-links mt-3">
           <h4>Ứng dụng</h4>
           <ul>
-            <li><a href="https://ck.youcare.vn/user/login">CkCare</a></li>
+            <li><a href="https://ck.youcare.vn/user/login">CKCare</a></li>
             <li><a target="_blank" href="#">PubCare</a></li>
             <li><a target="_blank" href="#">PsyCare</a></li>
             <li><a target="_blank" href="#">BizCare</a></li>

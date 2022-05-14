@@ -53,7 +53,7 @@
                                             <div class="accordion-body">
                                                 <b>Đăng kí</b>
                                                 <p>
-                                                    • Người dùng truy cập đường link <a href="https://app.checkingcare.vn/user/register" target="_blank">đăng ký</a> trên trình duyệt web
+                                                    • Người dùng truy cập đường link <a href="https://ck.youcare.vn/user/register" target="_blank">đăng ký</a> trên trình duyệt web
                                                     có kết nối Internet <br>
                                                     • Nhập thông tin Đăng ký và chọn quyền Giáo viên <br>
                                                     • Bấm Đăng ký <br>
@@ -61,7 +61,7 @@
 
                                                 <b>Đăng nhập</b>
                                                 <p>
-                                                    • Người dùng truy cập đường link <a href="https://app.checkingcare.vn/user/login" target="_blank">đăng nhập</a> trên trình duyệt kết nối
+                                                    • Người dùng truy cập đường link <a href="https://ck.youcare.vn/user/login" target="_blank">đăng nhập</a> trên trình duyệt kết nối
                                                     internet <br>
                                                     • Nhập thông tin Đăng nhập hoặc Đăng nhập thông qua Facebook/ Google<br>
                                                     • Bấm đăng nhập
