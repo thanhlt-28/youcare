@@ -32,7 +32,7 @@
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="headingOne">
                                 <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" style="font-size: 18px;">
-                                    Bước 1: Chuẩn bị sàng lọc
+                                   <b> Bước 1: Chuẩn bị sàng lọc</b>
                                 </button>
                             </h2>
                             <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
@@ -123,11 +123,11 @@
                                                     <i class="bi bi-check"></i> <i>Sàng lọc ASQ-3</i> <br />
                                                 </div>
                                                 <div class="row">
-                                                    <div class="col-md-4">
+                                                    <div class="col-md-6">
                                                         • Dành cho trẻ từ 12 tháng đến 6 tuổi <br />
                                                         • Đánh giá chuyển sâu để có những hỗ trợ tốt cho trẻ <br />
                                                     </div>
-                                                    <div class="col-md-4">
+                                                    <div class="col-md-6">
                                                         • Giúp sàng lọc các vấn đề liên quan đến trẻ mầm non phát hiện sớm các lĩnh vực trẻ phát
                                                         triển chậm hơn so với độ tuổi <br />
                                                     </div>
@@ -137,7 +137,7 @@
                                                     <i class="bi bi-check"></i> <i>Sàng lọc ADHD</i> <br />
                                                 </div>
                                                 <div class="row">
-                                                    <div class="col-md-4">
+                                                    <div class="col-md-8">
                                                         • Dành cho trẻ từ 0-6 tuổi và 6-12 tuổi <br />
                                                         • Biết được rối loạn phát triển thần kinh liên quan đến vấn đề tăng động giảm tập trung của
                                                         trẻ <br />
@@ -148,7 +148,7 @@
                                                     <i class="bi bi-check"></i> <i>Sàng lọc M-CHAT-R</i> <br />
                                                 </div>
                                                 <div class="row">
-                                                    <div class="col-md-4">
+                                                    <div class="col-md-8">
                                                         • Dành cho độ tuổi từ 0-36 tháng <br />
                                                         • Giúp sàng lọc về các vấn đề rối loạn phổ tự kỷ xem trẻ có nguy cơ có tự kỷ hay không
                                                     </div>
@@ -165,7 +165,7 @@
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="headingTwo">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" style="font-size: 18px;">
-                                    Bước 2: Thực hiện đánh giá
+                                    <b>Bước 2: Thực hiện đánh giá</b>
                                 </button>
                             </h2>
                             <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
@@ -204,7 +204,7 @@
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="headingThree">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" style="font-size: 18px;">
-                                    Bước 3: Nhận kết quả
+                                    <b>Bước 3: Nhận kết quả</b>
                                 </button>
                             </h2>
                             <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
@@ -240,7 +240,7 @@
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="headingFour">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour" style="font-size: 18px;">
-                                    Bước 4: Hỗ trợ chuyên sâu
+                                  <b>  Bước 4: Hỗ trợ chuyên sâu</b>
                                 </button>
                             </h2>
                             <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">

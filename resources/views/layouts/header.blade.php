@@ -62,7 +62,7 @@
   <!-- End About Section -->
 
   <!-- ======= Cta Section ======= -->
-  <section id="cta" class="cta">
+  <section id="cta" class="cta slider-teams">
     <div class="container-app" data-aos="fade-in">
       <div class="text-center">
         <h3>Cộng đồng</h3>
@@ -74,8 +74,8 @@
     </div>
   </section>
 
-  <!-- ======= Cta Section ======= -->
-  <!-- <section id="cta" class="cta">
+  <!-- ======= Cta Section Mobile ======= -->
+  <section id="cta" class="cta slider-team">
     <div class="container-mobile" data-aos="fade-in">
       <div class="text-center">
         <h3>Cộng đồng</h3>
@@ -84,7 +84,7 @@
       </div>
 
     </div>
-  </section> -->
+  </section>
   
   <!-- End Cta Section -->
 

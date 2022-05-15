@@ -1,5 +1,5 @@
 @extends('layouts.main_detail')
-@section('title', 'CkCare')
+@section('title', 'CKCare')
 @section('content')
 
 
@@ -10,7 +10,7 @@
         <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='currentColor'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
             <ol class="breadcrumb">
                 <li class="breadcrumb-item"><a href="{{'/'}}">Trang chủ</a></li>
-                <li class="breadcrumb-item" aria-current="page"><a href="{{route('clients.platform.product')}}">Ứng dụng Ckcare</a></li>
+                <li class="breadcrumb-item" aria-current="page"><a href="{{route('clients.platform.product')}}">Ứng dụng CKcare</a></li>
                 <li class="breadcrumb-item active" aria-current="page">Giá</li>
             </ol>
         </nav>
@@ -95,7 +95,7 @@
                 <div class="accordion-body">
                     <div class="row">
                         <div class="col-lg-3 col-md-6 mt-5">
-                            <div class="box" data-aos="fade">
+                            <div class="box slider-teams" data-aos="fade">
                                 <h3> 6 tháng</h3>
                                 <h6>ĐƠN GIÁ</h6>
                                 <h5>6.000.000đ</h5>
@@ -130,7 +130,7 @@
                         </div>
 
                         <div class="col-lg-3 col-md-6 mt-5">
-                            <div class="box" data-aos="fade" data-aos-delay="200">
+                            <div class="box slider-teams" data-aos="fade" data-aos-delay="200">
                                 <h3>2 năm</h3>
                                 <h5><del>24.000.000</del>đ</h5>
                                 <h6>GIẢM CÒN</h6>
@@ -145,7 +145,7 @@
                         </div>
 
                         <div class="col-lg-3 col-md-6 mt-5">
-                            <div class="box" data-aos="fade" data-aos-delay="300">
+                            <div class="box slider-teams" data-aos="fade" data-aos-delay="300">
                                 <span class="advanced">Mới</span>
                                 <h3> 3 năm</h3>
                                 <h5><del>36.000.000</del>đ</h5>
@@ -167,7 +167,7 @@
                 <div class="accordion-body">
                     <div class="row">
                         <div class="col-lg-3 col-md-6 mt-5">
-                            <div class="box" data-aos="fade">
+                            <div class="box slider-teams" data-aos="fade">
                                 <h3> 6 tháng</h3>
                                 <h6>ĐƠN GIÁ</h6>
                                 <h5>8.000.000đ</h5>
@@ -203,7 +203,7 @@
                         </div>
 
                         <div class="col-lg-3 col-md-6 mt-5">
-                            <div class="box" data-aos="fade" data-aos-delay="200">
+                            <div class="box slider-teams" data-aos="fade" data-aos-delay="200">
                                 <h3>2 năm</h3>
                                 <h5><del>32.000.000</del>đ</h5>
                                 <h6>GIẢM CÒN</h6>
@@ -218,7 +218,7 @@
                         </div>
 
                         <div class="col-lg-3 col-md-6 mt-5">
-                            <div class="box" data-aos="fade" data-aos-delay="300">
+                            <div class="box slider-teams" data-aos="fade" data-aos-delay="300">
                                 <span class="advanced">Mới</span>
                                 <h3> 3 năm</h3>
                                 <h5><del>48.000.000</del>đ</h5>
@@ -240,7 +240,7 @@
                 <div class="accordion-body">
                     <div class="row">
                         <div class="col-lg-3 col-md-6 mt-5">
-                            <div class="box" data-aos="fade">
+                            <div class="box slider-teams" data-aos="fade">
                                 <h3> 6 tháng</h3>
                                 <h6>ĐƠN GIÁ</h6>
                                 <h5>18.000.000đ</h5>
@@ -276,7 +276,7 @@
                         </div>
 
                         <div class="col-lg-3 col-md-6 mt-5">
-                            <div class="box" data-aos="fade" data-aos-delay="200">
+                            <div class="box slider-teams" data-aos="fade" data-aos-delay="200">
                                 <h3>2 năm</h3>
                                 <h5><del>72.000.000</del>đ</h5>
                                 <h6>GIẢM CÒN</h6>
@@ -291,7 +291,7 @@
                         </div>
 
                         <div class="col-lg-3 col-md-6 mt-5">
-                            <div class="box" data-aos="fade" data-aos-delay="300">
+                            <div class="box slider-teams" data-aos="fade" data-aos-delay="300">
                                 <span class="advanced">Mới</span>
                                 <h3> 3 năm</h3>
                                 <h5><del>144.000.000</del>đ</h5>
@@ -313,7 +313,7 @@
                 <div class="accordion-body">
                     <div class="row">
                         <div class="col-lg-3 col-md-6 mt-5">
-                            <div class="box" data-aos="fade">
+                            <div class="box slider-teams" data-aos="fade">
                                 <h3> 6 tháng</h3>
                                 <h6>ĐƠN GIÁ</h6>
                                 <h5>36.000.000đ</h5>
@@ -349,7 +349,7 @@
                         </div>
 
                         <div class="col-lg-3 col-md-6 mt-5">
-                            <div class="box" data-aos="fade" data-aos-delay="200">
+                            <div class="box slider-teams" data-aos="fade" data-aos-delay="200">
                                 <h3>2 năm</h3>
                                 <h5><del>144.000.000</del>đ</h5>
                                 <h6>GIẢM CÒN</h6>
@@ -364,7 +364,7 @@
                         </div>
 
                         <div class="col-lg-3 col-md-6 mt-5">
-                            <div class="box" data-aos="fade" data-aos-delay="300">
+                            <div class="box slider-teams" data-aos="fade" data-aos-delay="300">
                                 <span class="advanced">Mới</span>
                                 <h3> 3 năm</h3>
                                 <h5><del>216.000.000</del>đ</h5>
@@ -386,7 +386,7 @@
                 <div class="accordion-body">
                     <div class="row">
                         <div class="col-lg-3 col-md-6 mt-5">
-                            <div class="box" data-aos="fade">
+                            <div class="box slider-teams" data-aos="fade">
                                 <h3> 6 tháng</h3>
                                 <h6>ĐƠN GIÁ</h6>
                                 <h5>54.000.000đ</h5>
@@ -422,7 +422,7 @@
                         </div>
 
                         <div class="col-lg-3 col-md-6 mt-5">
-                            <div class="box" data-aos="fade" data-aos-delay="200">
+                            <div class="box slider-teams" data-aos="fade" data-aos-delay="200">
                                 <h3>2 năm</h3>
                                 <h5><del>216.000.000</del>đ</h5>
                                 <h6>GIẢM CÒN</h6>
@@ -437,7 +437,7 @@
                         </div>
 
                         <div class="col-lg-3 col-md-6 mt-5">
-                            <div class="box" data-aos="fade" data-aos-delay="300">
+                            <div class="box slider-teams" data-aos="fade" data-aos-delay="300">
                                 <span class="advanced">Mới</span>
                                 <h3> 3 năm</h3>
                                 <h5><del>324.000.000</del>đ</h5>
@@ -459,7 +459,7 @@
                 <div class="accordion-body">
                     <div class="row">
                         <div class="col-lg-3 col-md-6 mt-5">
-                            <div class="box" data-aos="fade">
+                            <div class="box slider-teams" data-aos="fade">
                                 <h3> 6 tháng</h3>
                                 <h6>ĐƠN GIÁ</h6>
                                 <h5>72.000.000đ</h5>
@@ -495,7 +495,7 @@
                         </div>
 
                         <div class="col-lg-3 col-md-6 mt-5">
-                            <div class="box" data-aos="fade" data-aos-delay="200">
+                            <div class="box slider-teams" data-aos="fade" data-aos-delay="200">
                                 <h3>2 năm</h3>
                                 <h5><del>288.000.000</del>đ</h5>
                                 <h6>GIẢM CÒN</h6>
@@ -510,7 +510,7 @@
                         </div>
 
                         <div class="col-lg-3 col-md-6 mt-5">
-                            <div class="box" data-aos="fade" data-aos-delay="300">
+                            <div class="box slider-teams" data-aos="fade" data-aos-delay="300">
                                 <span class="advanced">Mới</span>
                                 <h3> 3 năm</h3>
                                 <h5><del>432.000.000</del>đ</h5>

@@ -105,15 +105,19 @@
             </div>
             <!-- ======= Features Section ======= -->
 
+
             <section class="container-fluild" data-aos="fade-up">
                 <div class="container">
                     <div class="row row-cols-1 row-cols-md-5 g-4">
                         <div class="col">
                             <a href="{{route('layouts.procedure.dure_once')}}">
                                 <div class="sell card h-100">
-                                    <img src="{{asset('assets/img/blog/qt-gv.jpg')}}" class="card-img-top" alt="">
                                     <div class="card-body">
-                                        <h5 class="card-title text-center">Dành cho giáo viên</h5>
+                                        <div class="text-center">
+                                            <b class="fw-light">DÀNH CHO</b></br>
+                                        </div>
+
+                                        <h5 class="card-title text-center">GIÁO VIÊN</h5>
                                     </div>
                                     <div class="card-footer text-center">
                                         <small>Xem thêm</small>
@@ -124,9 +128,12 @@
                         <div class="col">
                             <a href="{{route('layouts.procedure.dure_twice')}}">
                                 <div class="sell card h-100">
-                                    <img src="{{asset('assets/img/blog/qt-ph.jpg')}}" class="card-img-top" alt="">
                                     <div class="card-body">
-                                        <h5 class="card-title text-center">Dành cho phụ huynh</h5>
+                                        <div class="text-center">
+                                            <b class="fw-light">DÀNH CHO</b></br>
+                                        </div>
+
+                                        <h5 class="card-title text-center">PHỤ HUYNH</h5>
                                     </div>
                                     <div class="card-footer text-center">
                                         <small>Xem thêm</small>
@@ -137,9 +144,12 @@
                         <div class="col">
                             <a href="{{route('layouts.procedure.dure_three')}}">
                                 <div class="sell card h-100">
-                                    <img src="{{asset('assets/img/blog/qt-hs.jpg')}}" class="card-img-top" alt="">
                                     <div class="card-body">
-                                        <h5 class="card-title text-center">Dành cho học sinh</h5>
+                                        <div class="text-center">
+                                            <b class="fw-light">DÀNH CHO</b></br>
+                                        </div>
+
+                                        <h5 class="card-title text-center">HỌC SINH</h5>
                                     </div>
                                     <div class="card-footer text-center">
                                         <small>Xem thêm</small>
@@ -150,9 +160,12 @@
                         <div class="col">
                             <a href="{{route('layouts.procedure.dure_four')}}">
                                 <div class="sell card h-100">
-                                    <img src="{{asset('assets/img/blog/qt-nql.jpg')}}" class="card-img-top" alt="">
                                     <div class="card-body">
-                                        <h5 class="card-title text-center">Dành cho nhà quản lý</h5>
+                                        <div class="text-center">
+                                            <b class="fw-light">DÀNH CHO</b></br>
+                                        </div>
+
+                                        <h5 class="card-title text-center">NHÀ QUẢN LÝ</h5>
                                     </div>
                                     <div class="card-footer text-center">
                                         <small>Xem thêm</small>
@@ -163,9 +176,12 @@
                         <div class="col">
                             <a href="{{route('layouts.procedure.dure_five')}}">
                                 <div class="sell card h-100">
-                                    <img src="{{asset('assets/img/blog/qt-ncm.jpg')}}" class="card-img-top" alt="">
                                     <div class="card-body">
-                                        <h5 class="card-title text-center">Dành cho nhà chuyên môn</h5>
+                                        <div class="text-center">
+                                            <b class="fw-light">DÀNH CHO</b>
+                                        </div>
+
+                                        <h5 class="card-title text-center">NHÀ CHUYÊN MÔN</h5>
                                     </div>
                                     <div class="card-footer text-center">
                                         <small>Xem thêm</small>
