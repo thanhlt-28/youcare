@@ -9,7 +9,7 @@
   @endif
 
   <div class="hero-container" data-aos="fade-up">
-    <h1 class="mb-5">NỀN TẢNG CHĂM SÓC SỨC KHỎE TINH THẦN TOÀN DIỆN</h1>
+    <h1>NỀN TẢNG CHĂM SÓC SỨC KHỎE TINH THẦN TOÀN DIỆN</h1>
     <p style="color:#ffffff;">YouCare ứng dụng công nghệ vào việc theo dõi, sàng lọc, đánh giá, trị
       liệu và chăm sóc sức khỏe tinh thần cho cộng đồng.
 
@@ -61,7 +61,7 @@
   </section>
   <!-- End About Section -->
 
-  <!-- ======= Cta Section ======= -->
+  <!-- ======= Cta Section Laptop ======= -->
   <section id="cta" class="cta slider-teams">
     <div class="container-app" data-aos="fade-in">
       <div class="text-center">

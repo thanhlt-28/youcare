@@ -107,7 +107,7 @@
                 <div class="text">
                   <h4><a target="_blank" href="https://phongkhamtamly.com/thac-si-nguyen-hien-minh/">NGUYỀN HIỀN MINH</a></h4>
                   <strong>Chuyên gia tư vấn trị liệu tâm lý</strong>
-                  <p>- Hơn 20 năm là chuyên gia tham vấn và trị liệu tâm lý cho trẻ em.</p>
+                  <p>- Hơn 15 năm là chuyên gia tham vấn và trị liệu tâm lý cho trẻ em.</p>
                   <p>- Chuyên gia cao cấp hỗ trợ các phòng tham vấn học đường thuộc các trường nổi tiếng của Việt Nam.</p>
                   <p>- Chuyên gia tư vấn cho giáo viên các trường về xây dựng trường học hành phúc; tư vấn cho phụ huỳnh đồng hành cùng con.</p>
                   <p>- Chuyên gia cao cấp cho các tổ chức phi chính phủ trong hoạt động tư vấn tâm lý và giáo dục kĩ năng sống cho trẻ em.</p>

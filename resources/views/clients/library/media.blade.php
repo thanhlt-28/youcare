@@ -2,7 +2,7 @@
 @section('title', 'Video')
 @section('content')
 
-<main id="main">
+<main id="main-media">
 
     <!-- ======= Breadcrumbs ======= -->
     <section id="breadcrumbs" class="breadcrumbs">
@@ -25,16 +25,16 @@
                 <h3 class="text-center text-uppercase">VIDEO CKCARE</h3>
             </div>
             <div class="row">
-                <div class="row justify-content-end">
+                <div class="row justify-content-end mt-5">
                     <div class="col-lg-4">
                         <div class="row justify-content-center">
                             <div class="col-lg-12 video-box align-self-baseline position-relative">
-                                <img src="assets/img/CKCare.png" class="img-fluid" alt="">
-                                <a href="https://youtu.be/K8IANESmZkg" class="glightbox play-btn mb-4"></a>
+                                <img src="assets/img/blog/GV.png" class="img-fluid" alt="">
+                                <a href="https://youtu.be/7Dth98I6New" class="glightbox play-btn mb-4"></a>
                             </div>
                             <div class="col-inner">
                                 <div class="box-text text-center pt-3">
-                                    <h5>HƯỚNG DẪN GIÁO VIÊN SỬ DỤNG BỘ CÔNG CỤ ĐÁNH GIÁ & SÀNG LỌC</h5>
+                                    <h6>HƯỚNG DẪN GIÁO VIÊN SỬ DỤNG BỘ CÔNG CỤ ĐÁNH GIÁ & SÀNG LỌC</h6>
                                 </div>
                             </div>
                         </div>
@@ -42,12 +42,12 @@
                     <div class="col-lg-4">
                         <div class="row justify-content-center">
                             <div class="col-lg-12 video-box align-self-baseline position-relative">
-                                <img src="assets/img/CKCare.png" class="img-fluid" alt="">
-                                <a href="https://youtu.be/dkfT8lOrRI0" class="glightbox play-btn mb-4"></a>
+                                <img src="assets/img/blog/PH.png" class="img-fluid" alt="">
+                                <a href="https://youtu.be/4tiag3PI6I0" class="glightbox play-btn mb-4"></a>
                             </div>
                             <div class="col-inner">
                                 <div class="box-text text-center pt-3">
-                                    <h5>HƯỚNG DẪN PHỤ HUYNH SỬ DỤNG BỘ CÔNG CỤ ĐÁNH GIÁ & SÀNG LỌC</h5>
+                                    <h6>HƯỚNG DẪN PHỤ HUYNH SỬ DỤNG BỘ CÔNG CỤ ĐÁNH GIÁ & SÀNG LỌC</h6>
                                 </div>
                             </div>
                         </div>
@@ -55,12 +55,40 @@
                     <div class="col-lg-4">
                         <div class="row justify-content-center">
                             <div class="col-lg-12 video-box align-self-baseline position-relative">
-                                <img src="assets/img/CKCare.png" class="img-fluid" alt="">
-                                <a href="https://youtu.be/DEI1sUiEyzs" class="glightbox play-btn mb-4"></a>
+                                <img src="assets/img/blog/CN.png" class="img-fluid" alt="">
+                                <a href="https://youtu.be/JK0AAtEsu6M" class="glightbox play-btn mb-4"></a>
                             </div>
                             <div class="col-inner">
                                 <div class="box-text text-center pt-3">
-                                    <h5>HƯỚNG DẪN CÁ NHÂN SỬ DỤNG BỘ CÔNG CỤ ĐÁNH GIÁ & SÀNG LỌC</h5>
+                                    <h6>HƯỚNG DẪN CÁ NHÂN SỬ DỤNG BỘ CÔNG CỤ ĐÁNH GIÁ & SÀNG LỌC</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center mt-5">
+                    <div class="col-lg-4">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-12 video-box align-self-baseline position-relative">
+                                <img src="assets/img/blog/NQL.png" class="img-fluid" alt="">
+                                <a href="https://youtu.be/4tiag3PI6I0" class="glightbox play-btn mb-4"></a>
+                            </div>
+                            <div class="col-inner">
+                                <div class="box-text text-center pt-3">
+                                    <h6>HƯỚNG DẪN NHÀ QUẢN LÝ SỬ DỤNG BỘ CÔNG CỤ ĐÁNH GIÁ & SÀNG LỌC</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-12 video-box align-self-baseline position-relative">
+                                <img src="assets/img/blog/YOUCARE.png" class="img-fluid" alt="">
+                                <a href="https://youtu.be/JK0AAtEsu6M" class="glightbox play-btn mb-4"></a>
+                            </div>
+                            <div class="col-inner">
+                                <div class="box-text text-center pt-3">
+                                    <h6>HƯỚNG DẪN NGƯỜI DÙNG NỀN TẢNG CHĂM SÓC SỨC KHỎE TINH THẦN TOÀN DIỆN</h6>
                                 </div>
                             </div>
                         </div>
@@ -71,7 +99,7 @@
         </div>
     </section>
     <!-- ========End Section Video========= -->
-    
+
 
     <!-- ======= Cta Section ======= -->
     <section id="cta" class="cta">
