@@ -26,7 +26,7 @@
             <p>CKCare - Công cụ đánh giá & sàng lọc chuyên biệt đầu tiên</p>
         </div>
         <div class="price-sub">
-            <h3 class="text-uppercase"> Dành cho nhà trường</h3>
+            <h3 class="text-uppercase text-center"> Dành cho nhà trường</h3>
             <div class="row">
                 <div class="col-lg-3 d-flex justify-content-end">
                     <h5>Chọn số lượng</h5>

@@ -34,8 +34,8 @@
                 </div>
                 <div class="carousel-item">
                     <div class="testimonial4_slide">
-                        <h5 style="color:#94c045" class="text-uppercase">Công cụ sàng lọc M – Chart</h5>
-                        <p>Mẹ cháu Y chia sẻ“Ngắn gọn, dễ làm là 2 điều tôi thích ở công cụ sàng lọc M – Chart. Những câu hỏi ngắn Có/không giúp tôi tiết kiệm được thời gian hơn, tôi nghĩ điều này sẽ phù hợp với những bố, mẹ bận rộn. Tôi hiện đang là bà mẹ đơn thân của con gái 2 tuổi, thêm cả việc gia đình, việc ở công ty nên tôi khá bận. Sau khi phát hiện thấy những sự chậm trễ của con (chưa nói “baba, mẹ, bà, không có sự chú ý khi nghe âm thanh xung quanh...) tôi mới nhìn nhận lại được rằng: Mình giành quá ít thời gian bên con, hầu như tôi đang phó mặc con cho bà ngoại, bà cũng tuổi già nên ít có thời gian tương tác với con. Cảm ơn công cụ M – Chart đã giúp tôi chắc chắn hơn về nhận định của mình, tôi không bỏ lỡ giai đoạn vàng của con trong việc đưa con đi can thiệp”.</p>
+                        <h5 style="color:#94c045" class="text-uppercase">Công cụ sàng lọc M–Chat-R</h5>
+                        <p>Mẹ cháu Y chia sẻ“Ngắn gọn, dễ làm là 2 điều tôi thích ở công cụ sàng lọc M–Chat-R. Những câu hỏi ngắn Có/không giúp tôi tiết kiệm được thời gian hơn, tôi nghĩ điều này sẽ phù hợp với những bố, mẹ bận rộn. Tôi hiện đang là bà mẹ đơn thân của con gái 2 tuổi, thêm cả việc gia đình, việc ở công ty nên tôi khá bận. Sau khi phát hiện thấy những sự chậm trễ của con (chưa nói “baba, mẹ, bà, không có sự chú ý khi nghe âm thanh xung quanh...) tôi mới nhìn nhận lại được rằng: Mình giành quá ít thời gian bên con, hầu như tôi đang phó mặc con cho bà ngoại, bà cũng tuổi già nên ít có thời gian tương tác với con. Cảm ơn công cụ M – Chart đã giúp tôi chắc chắn hơn về nhận định của mình, tôi không bỏ lỡ giai đoạn vàng của con trong việc đưa con đi can thiệp”.</p>
                         <div class="row d-lex justify-content-center">
                             <div class="col-lg-6 d-flex justify-content-start">
                                 <img src="{{asset('assets/img/blog/Chi Hoa.png')}}" class="img-circle img-responsive" />
@@ -93,11 +93,11 @@
                                     </div>
 
                                     <div class="media-29102">
-                                        <h5 style="color:#94c045" class="text-uppercase">Công cụ sàng lọc M–Chat</h5>
+                                        <h5 style="color:#94c045" class="text-uppercase">Công cụ sàng lọc M–Chat-R</h5>
                                         <img src="{{asset('assets/img/blog/Chi Hoa.png')}}" class="img-circle img-responsive" />
                                         <div id="page-wrap">
                                             <div class="sidebar-box black">
-                                                <p>Mẹ cháu Y chia sẻ “Ngắn gọn, dễ làm là 2 điều tôi thích ở công cụ sàng lọc M – Chart. Những câu hỏi ngắn Có/không giúp tôi tiết kiệm được thời gian hơn, tôi nghĩ điều này sẽ phù hợp với những bố, mẹ bận rộn. Tôi hiện đang là bà mẹ đơn thân của con gái 2 tuổi, thêm cả việc gia đình, việc ở công ty nên tôi khá bận. Sau khi phát hiện thấy những sự chậm trễ của con (chưa nói “baba, mẹ, bà, không có sự chú ý khi nghe âm thanh xung quanh...) tôi mới nhìn nhận lại được rằng: Mình giành quá ít thời gian bên con, hầu như tôi đang phó mặc con cho bà ngoại, bà cũng tuổi già nên ít có thời gian tương tác với con. Cảm ơn công cụ M – Chart đã giúp tôi chắc chắn hơn về nhận định của mình, tôi không bỏ lỡ giai đoạn vàng của con trong việc đưa con đi can thiệp”.</p>
+                                                <p>Mẹ cháu Y chia sẻ “Ngắn gọn, dễ làm là 2 điều tôi thích ở công cụ sàng lọc M–Chat-R. Những câu hỏi ngắn Có/không giúp tôi tiết kiệm được thời gian hơn, tôi nghĩ điều này sẽ phù hợp với những bố, mẹ bận rộn. Tôi hiện đang là bà mẹ đơn thân của con gái 2 tuổi, thêm cả việc gia đình, việc ở công ty nên tôi khá bận. Sau khi phát hiện thấy những sự chậm trễ của con (chưa nói “baba, mẹ, bà, không có sự chú ý khi nghe âm thanh xung quanh...) tôi mới nhìn nhận lại được rằng: Mình giành quá ít thời gian bên con, hầu như tôi đang phó mặc con cho bà ngoại, bà cũng tuổi già nên ít có thời gian tương tác với con. Cảm ơn công cụ M – Chart đã giúp tôi chắc chắn hơn về nhận định của mình, tôi không bỏ lỡ giai đoạn vàng của con trong việc đưa con đi can thiệp”.</p>
                                                 <p class="read-more"><a href="#" class="button text-white">Xem thêm</a></p>
                                             </div>
                                             <h5>Mẹ cháu Y chia sẻ</h5>

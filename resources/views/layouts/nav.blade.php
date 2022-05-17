@@ -23,7 +23,7 @@
                 <ul>
                     <!-- <li><a href="{{route('clients.library.overview')}}">Tổng quan</a></li> -->
                     <!-- <li><a href="{{route('clients.library.docs')}}">Tài liệu</a></li> -->
-                    <li><a href="{{route('clients.library.media')}}">Video</a></li>
+                    <li><a href="{{route('clients.library.media')}}">Video hướng dẫn</a></li>
                 </ul>
             </li>
             <li><a href="{{route('clients.contact')}}">Liên hệ</a></li>

@@ -32,12 +32,12 @@
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="headingOne">
                                 <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" style="font-size: 18px;">
-                                   <b> Bước 1: Chuẩn bị sàng lọc</b>
+                                    <b> Bước 1: Chuẩn bị sàng lọc</b>
                                 </button>
                             </h2>
                             <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    <ul class="nav nav-tabs card-header-tabs" data-bs-tabs="tabs">
+                                    <!-- <ul class="nav nav-tabs card-header-tabs" data-bs-tabs="tabs">
                                         <li class="nav-item">
                                             <a class="nav-link active" aria-current="true" data-bs-toggle="tab" href="#login">Đăng kí/ Đăng nhập <i class="bi bi-arrow-right"></i></a>
                                         </li>
@@ -47,42 +47,29 @@
                                         <li class="nav-item">
                                             <a class="nav-link" data-bs-toggle="tab" href="#success">Thực hiện sàng lọc</a>
                                         </li>
-                                    </ul>
+                                    </ul> -->
                                     <div class="card-body tab-content">
                                         <div class="tab-pane active" id="login">
                                             <div class="accordion-body">
-                                                <b>Đăng kí</b>
+                                                <b>1. Đăng kí/ Đăng nhập</b>
                                                 <p>
-                                                    • Người dùng truy cập đường link <a href="https://ck.youcare.vn/user/register" target="_blank">đăng ký</a> trên trình duyệt web
+                                                    • Người dùng truy cập đường link <b><a href="https://ck.youcare.vn/user/register" target="_blank">đăng kí</a>/ <a href="https://ck.youcare.vn/user/login" target="_blank">đăng nhập</a></b> trên trình duyệt web
                                                     có kết nối Internet <br>
-                                                    • Nhập thông tin Đăng ký và chọn quyền Giáo viên <br>
-                                                    • Bấm Đăng ký <br>
+                                                    • Nhập thông tin đăng nhập, đăng kí hoặc đăng nhập thông qua Facebook/ Google<br>
+                                                    • Bấm <b><a href="https://ck.youcare.vn/user/login" target="_blank">đăng nhập</a>/ <a href="https://ck.youcare.vn/user/register" target="_blank">đăng kí</a></b>
                                                 </p>
 
-                                                <b>Đăng nhập</b>
+                                                <b>2. Nhập thông tin trẻ</b>
                                                 <p>
-                                                    • Người dùng truy cập đường link <a href="https://ck.youcare.vn/user/login" target="_blank">đăng nhập</a> trên trình duyệt kết nối
-                                                    internet <br>
-                                                    • Nhập thông tin Đăng nhập hoặc Đăng nhập thông qua Facebook/ Google<br>
-                                                    • Bấm đăng nhập
+                                                    • GV nhập thông tin trẻ tại menu “Quản lý trẻ em”. </br>
+                                                    • Thông qua thông tin của trẻ, hệ thống sẽ tự động hỗ trợ đề xuất những bài đánh giá phù hợp độ tuổi.
                                                 </p>
 
-                                            </div>
-                                        </div>
-                                        <div class="tab-pane" id="infor">
-                                            <div class="accordion-body">
-                                                • GV nhập thông tin trẻ tại menu “Quản lý trẻ em”. </br>
-                                                • Thông qua thông tin của trẻ, hệ thống sẽ tự động hỗ trợ đề xuất những bài đánh giá phù hợp độ tuổi.
-                                            </div>
-                                        </div>
-                                        <div class="tab-pane" id="success">
-                                            <div class="accordion-body">
-                                                <b>Thêm trẻ</b>
+                                                <b>3. Thực hiện sàng lọc (thêm trẻ)</b>
                                                 <p>
-                                                    • Người dùng bấm vào menu “Quản lý trẻ em” hệ thống hiển thị màn hình:
-                                                </p>
-                                                <p>
-                                                    • Người dùng thực hiện các bước sau: <b> <i> B1. Click vào “Thêm”</i>
+                                                    • Người dùng bấm vào menu “Quản lý trẻ em” hệ thống hiển thị màn hình, sau đó thực hiện các bước sau: <b>
+                                                        <br>
+                                                        <i> B1. Click vào “Thêm”</i>
                                                         <i class="bi bi-arrow-right"> B2. Nhập đầy đủ thông tin trẻ </i>
                                                         <i class="bi bi-arrow-right"> B3. Click thêm</i></b>
                                                 </p>
@@ -153,9 +140,6 @@
                                                         • Giúp sàng lọc về các vấn đề rối loạn phổ tự kỷ xem trẻ có nguy cơ có tự kỷ hay không
                                                     </div>
                                                 </div>
-
-
-                                                <br />
                                             </div>
                                         </div>
                                     </div>
@@ -170,17 +154,18 @@
                             </h2>
                             <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    <ul class="nav nav-tabs card-header-tabs" data-bs-tabs="tabs">
+                                    <!-- <ul class="nav nav-tabs card-header-tabs" data-bs-tabs="tabs">
                                         <li class="nav-item">
                                             <a class="nav-link active" aria-current="true" data-bs-toggle="tab" href="#hd">Đọc hướng dẫn <i class="bi bi-arrow-right"></i></a>
                                         </li>
                                         <li class="nav-item">
                                             <a class="nav-link" data-bs-toggle="tab" href="#action">Thực hiện đánh giá/ sàng lọc</a>
                                         </li>
-                                    </ul>
+                                    </ul> -->
                                     <div class="card-body tab-content">
                                         <div class="tab-pane active" id="hd">
                                             <div class="accordion-body">
+                                                <b>1. Đọc hướng dẫn</b>
                                                 <b>GV đọc kỹ hướng dẫn trước mỗi bài đánh giá / sàng lọc. </b>
                                                 <br>
                                                 <p><i>Lưu ý những thông tin:</i></p>
@@ -188,13 +173,12 @@
                                                     • Giới hạn thời gian <br>
                                                     • Cách lựa chọn mức điểm cho từng câu hỏi.
                                                 </p>
-
-                                            </div>
-                                        </div>
-                                        <div class="tab-pane" id="action">
-                                            <div class="accordion-body">
-                                                • Đọc kỹ và trả lời các câu hỏi theo như hướng dẫn và quan sát, đánh giá của giáo viên.<br>
-                                                • Lưu ý: Không nên cân nhắc câu trả lời quá lâu vì điều này có thể gây ảnh hưởng tới độ chính xác của kết quả.
+                                                <b>2. Thực hiện đánh giá/ sàng lọc</b>
+                                                <b>GV đọc kỹ hướng dẫn trước mỗi bài đánh giá / sàng lọc. </b>
+                                                <p>
+                                                    • Đọc kỹ và trả lời các câu hỏi theo như hướng dẫn và quan sát, đánh giá của giáo viên.<br>
+                                                    • Lưu ý: Không nên cân nhắc câu trả lời quá lâu vì điều này có thể gây ảnh hưởng tới độ chính xác của kết quả.
+                                                </p>
                                             </div>
                                         </div>
                                     </div>
@@ -209,25 +193,23 @@
                             </h2>
                             <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    <ul class="nav nav-tabs card-header-tabs" data-bs-tabs="tabs">
+                                    <!-- <ul class="nav nav-tabs card-header-tabs" data-bs-tabs="tabs">
                                         <li class="nav-item">
                                             <a class="nav-link active" aria-current="true" data-bs-toggle="tab" href="#result">Nhận kết quả <i class="bi bi-arrow-right"></i></a>
                                         </li>
                                         <li class="nav-item">
                                             <a class="nav-link" data-bs-toggle="tab" href="#working">Làm việc với phụ huynh và nhà trường để có hướng hỗ trợ trẻ tốt nhất</a>
                                         </li>
-                                    </ul>
+                                    </ul> -->
                                     <div class="card-body tab-content">
                                         <div class="tab-pane active" id="result">
                                             <div class="accordion-body">
+                                                <b>1. Nhận kết quả</b>
                                                 <p>• Sau khi nhận kết quả, GV có thể lựa chọn Tải về để trực tiếp lưu trữ kết quả trong máy, hoặc nhận kết quả thông qua email.<br>
                                                     <i> • Lưu ý: Các bảng hỏi không nhằm mục đích điều tra học sinh và không có giá trị chẩn đoán vấn đề, mà giúp chuyên gia và giáo viên định vị những dấu hiệu bất thường và có hướng hỗ trợ tốt nhất cho học sinh. Để có thể kết luận một trẻ mắc một rối loạn, cần có sự đánh giá lâm sàng chuyên nghiệp từ một bác sĩ / nhà tâm lý có chuyên môn.</i>
                                                 </p>
-                                            </div>
-                                        </div>
-                                        <div class="tab-pane" id="working">
-                                            <div class="accordion-body">
-                                                <b>Hướng dẫn trả kết quả cho phụ huynh:</b></br>
+
+                                                <b>2. Làm việc với phụ huynh và nhà trường để có hướng hỗ trợ trẻ tốt nhất</b></br>
                                                 • KHÔNG kết luận và gán nhãn học sinh “bị” bệnh.</br>
                                                 • Chỉ chia sẻ những quan sát của GV về biểu hiện của trẻ, sử dụng thang đánh giá / sàng lọc như một công cụ hỗ trợ chỉ ra những dấu hiệu GV lo lắng ở trẻ.</br>
                                                 • Gợi ý phụ huynh đưa trẻ tới cơ sở y khoa / tâm lý để có sự đánh giá chuyên sâu hơn.
@@ -240,7 +222,7 @@
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="headingFour">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour" style="font-size: 18px;">
-                                  <b>  Bước 4: Hỗ trợ chuyên sâu</b>
+                                    <b> Bước 4: Hỗ trợ chuyên sâu</b>
                                 </button>
                             </h2>
                             <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">

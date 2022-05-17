@@ -68,7 +68,7 @@ h6 {
     width: 40px;
     height: 40px;
     border-radius: 4px;
-    transition: all 0.4s;
+    transition: all 0.01s;
 }
 
 .back-to-top i {
@@ -2612,7 +2612,7 @@ q:after {
         padding: 10px 0px 0px 0px;
     }
     .card-header-tabs {
-        margin-left: 20px;
+        margin-left: auto;
     }
 }
 
@@ -3469,7 +3469,7 @@ q:after {
     }
 }
 
-@media screen and (width: 2048px) {
+@media screen and (min-width: 1366px) and (width: 2048px) {
     .header-hero {
         line-height: 40;
         margin: auto;

@@ -3,7 +3,7 @@
 
         <!-- ======= Pricing Section ======= -->
         <div class="price-sub">
-            <h3 class="text-uppercase"> Dành cho gia đình</h3>
+            <h3 class="text-uppercase text-center"> Dành cho gia đình</h3>
 
             <div class="row">
                 <div class="col-lg-3 d-flex justify-content-end">

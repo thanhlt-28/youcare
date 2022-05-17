@@ -17,6 +17,7 @@
                 </div>
             </div>
         </div>
+
         <div class="container">
             <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='currentColor'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
                 <ol class="breadcrumb">
@@ -209,7 +210,7 @@
                     <a href="https://checkingcare.vn/cham-noi/" target="_blank">
                         <div class="icon-box">
                             <i class="bi bi-calendar-check-fill" style="color: #e80368;"></i>
-                            <h3>Chậm nói</h3>
+                            <h3>CHẬM NÓI</h3>
                         </div>
                     </a>
                 </div>
@@ -217,7 +218,7 @@
                     <a href="https://checkingcare.vn/m-chart/" target="_blank">
                         <div class="icon-box">
                             <i class="bi bi-paint-bucket" style="color: #e361ff;"></i>
-                            <h3>M-Char-R</h3>
+                            <h3>M-CHAT-R</h3>
                         </div>
                     </a>
                 </div>
@@ -225,7 +226,7 @@
                     <a href="https://checkingcare.vn/raven/" target="_blank">
                         <div class="icon-box">
                             <i class="bi bi-card-list" style="color: #11dbcf;"></i>
-                            <h3>Raven</h3>
+                            <h3>RAVEN</h3>
                         </div>
                     </a>
                 </div>
