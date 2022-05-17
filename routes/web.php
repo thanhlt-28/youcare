@@ -118,6 +118,44 @@ Route::prefix('/')->group(function () {
     // Route::get('', function () {
     //     return view('price.ck_price');
     // })->name('price.ck_price');
+
+    // Chuyên gia - chi tiết
+    Route::get('thay-thuoc-uu-tu-nguyen-van-dung', function () {
+        return view('layouts.profile.bsdung');
+    })->name('layouts.profile.bsdung');
+
+    Route::get('tien-si-pham-van-tu', function () {
+        return view('layouts.profile.tspvtu');
+    })->name('layouts.profile.tspvtu');
+
+    Route::get('tien-si-nguyen-thi-tham', function () {
+        return view('layouts.profile.tsnttham');
+    })->name('layouts.profile.tsnttham');
+
+    Route::get('tien-si-nguyen-thi-mai-huong', function () {
+        return view('layouts.profile.tsntmhuong');
+    })->name('layouts.profile.tsntmhuong');
+
+    Route::get('thac-si-nguyen-thi-thanh-van', function () {
+        return view('layouts.profile.thsnttvan');
+    })->name('layouts.profile.thsnttvan');
+
+    Route::get('thac-si-nguyen-thi-thuy-hang', function () {
+        return view('layouts.profile.thsntthang');
+    })->name('layouts.profile.thsntthang');
+
+    Route::get('thac-si-nguyen-hien-minh', function () {
+        return view('layouts.profile.thsnhminh');
+    })->name('layouts.profile.thsnhminh');
+    
+    Route::get('thac-si-le-the-hanh', function () {
+        return view('layouts.profile.thslthanh');
+    })->name('layouts.profile.thslthanh');
+
+    Route::get('thac-si-dang-minh-khue', function () {
+        return view('layouts.profile.thsdmkhue');
+    })->name('layouts.profile.thsdmkhue');
+    
 });
 
 // ===== Router Admin ===== //

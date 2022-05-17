@@ -35,7 +35,7 @@
             <div class="row row-cols-1 row-cols-md-4 g-4">
                 <div class="col">
                     <div style="border:none;" class="card h-100 hover-shadow">
-                        <a class="text-center" href="https://phongkhamtamly.com/thay-thuoc-uu-tu-nguyen-van-dung/" target="_blank">
+                        <a class="text-center" href="{{route('layouts.profile.bsdung')}}" target="_blank">
                             <div class="team-6">
                                 <div class="team-img">
                                     <img src="https://phongkhamtamly.com/wp-content/uploads/2021/11/nguyen-van-dung.png" class="img-top" alt="Team Image">
@@ -51,14 +51,14 @@
                         </a>
                         <div class="btn-footer">
                             <div class="d-grid mx-auto">
-                                <a href="https://phongkhamtamly.com/thay-thuoc-uu-tu-nguyen-van-dung/" target="_blank" type="button" class="btn btn-outline-success rounded-pill">Xem chi tiết <span class='bi bi-arrow-right'></span></a>
+                                <a href="{{route('layouts.profile.bsdung')}}" target="_blank" type="button" class="btn btn-outline-success rounded-pill">Xem chi tiết <span class='bi bi-arrow-right'></span></a>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col">
                     <div style="border:none;" class="card h-100 hover-shadow">
-                        <a target="_blank" class="text-center" href="https://phongkhamtamly.com/tien-si-pham-van-tu/">
+                        <a target="_blank" class="text-center" href="{{route('layouts.profile.tspvtu')}}">
                             <div class="team-6">
                                 <div class="team-img">
                                     <img src="https://phongkhamtamly.com/wp-content/uploads/2021/11/pham-van-tu.png" class="img-top" alt="...">
@@ -75,14 +75,14 @@
                         </a>
                         <div class="btn-footer">
                             <div class="d-grid mx-auto">
-                                <a href="https://phongkhamtamly.com/tien-si-pham-van-tu/" target="_blank" type="button" class="btn btn-outline-success rounded-pill">Xem chi tiết <span class='bi bi-arrow-right'></span></a>
+                                <a href="{{route('layouts.profile.tspvtu')}}" target="_blank" type="button" class="btn btn-outline-success rounded-pill">Xem chi tiết <span class='bi bi-arrow-right'></span></a>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col">
                     <div style="border:none;" class="card h-100 hover-shadow">
-                        <a target="_blank" class="text-center" href="https://phongkhamtamly.com/tien-si-nguyen-thi-tham/">
+                        <a target="_blank" class="text-center" href="{{route('layouts.profile.tsnttham')}}">
                             <div class="team-6">
                                 <div class="team-img">
                                     <img src="https://phongkhamtamly.com/wp-content/uploads/2022/03/Nguyen-Thi-Tham-280x280.jpg" class="img-top" alt="...">
@@ -98,14 +98,14 @@
                         </a>
                         <div class="btn-footer">
                             <div class="d-grid mx-auto">
-                                <a href="https://phongkhamtamly.com/tien-si-nguyen-thi-tham/" target="_blank" type="button" class="btn btn-outline-success rounded-pill">Xem chi tiết <span class='bi bi-arrow-right'></span></a>
+                                <a href="{{route('layouts.profile.tsnttham')}}" target="_blank" type="button" class="btn btn-outline-success rounded-pill">Xem chi tiết <span class='bi bi-arrow-right'></span></a>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col">
                     <div style="border:none;" class="card h-100 hover-shadow">
-                        <a target="_blank" class="text-center" href="https://phongkhamtamly.com/tien-si-nguyen-thi-mai-huong/">
+                        <a target="_blank" class="text-center" href="{{route('layouts.profile.tsntmhuong')}}">
                             <div class="team-6">
                                 <div class="team-img">
                                     <img src="https://phongkhamtamly.com/wp-content/uploads/2022/03/Nguyen-Mai-Huong-280x280.jpg" class="img-top" alt="...">
@@ -121,7 +121,7 @@
                         </a>
                         <div class="btn-footer">
                             <div class="d-grid mx-auto">
-                                <a href="https://phongkhamtamly.com/tien-si-nguyen-thi-mai-huong/" target="_blank" type="button" class="btn btn-outline-success rounded-pill">Xem chi tiết <span class='bi bi-arrow-right'></span></a>
+                                <a href="{{route('layouts.profile.tsntmhuong')}}" target="_blank" type="button" class="btn btn-outline-success rounded-pill">Xem chi tiết <span class='bi bi-arrow-right'></span></a>
                             </div>
                         </div>
                     </div>
@@ -130,7 +130,7 @@
             <div class="row row-cols-1 justify-content-center row-cols-md-4 g-4 mt-2">
                 <div class="col">
                     <div style="border:none;" class="card h-100 hover-shadow">
-                        <a target="_blank" class="text-center" href="https://phongkhamtamly.com/thac-si-nguyen-thi-thanh-van/">
+                        <a target="_blank" class="text-center" href="{{route('layouts.profile.thsnttvan')}}">
                             <div class="team-6">
                                 <div class="team-img">
                                     <img src="https://phongkhamtamly.com/wp-content/uploads/2022/03/Nguyen-Thanh-Van-280x280.jpg" class="img-top" alt="...">
@@ -147,14 +147,14 @@
                         </a>
                         <div class="btn-footer">
                             <div class="d-grid mx-auto">
-                                <a href="https://phongkhamtamly.com/thac-si-nguyen-thi-thanh-van/" target="_blank" type="button" class="btn btn-outline-success rounded-pill">Xem chi tiết <span class='bi bi-arrow-right'></span></a>
+                                <a href="{{route('layouts.profile.thsnttvan')}}" target="_blank" type="button" class="btn btn-outline-success rounded-pill">Xem chi tiết <span class='bi bi-arrow-right'></span></a>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col">
                     <div style="border:none;" class="card h-100 hover-shadow">
-                        <a target="_blank" class="text-center" href="https://phongkhamtamly.com/thac-si-nguyen-thi-thuy-hang/">
+                        <a target="_blank" class="text-center" href="{{route('layouts.profile.thsntthang')}}">
                             <div class="team-6">
                                 <div class="team-img">
                                     <img src="https://phongkhamtamly.com/wp-content/uploads/2022/03/Nguyen-Thuy-Hang-280x280.jpg" class="img-top" alt="...">
@@ -171,14 +171,14 @@
                         </a>
                         <div class="btn-footer">
                             <div class="d-grid mx-auto">
-                                <a href="https://phongkhamtamly.com/thac-si-nguyen-thi-thuy-hang/" target="_blank" type="button" class="btn btn-outline-success rounded-pill">Xem chi tiết <span class='bi bi-arrow-right'></span></a>
+                                <a href="{{route('layouts.profile.thsntthang')}}" target="_blank" type="button" class="btn btn-outline-success rounded-pill">Xem chi tiết <span class='bi bi-arrow-right'></span></a>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col">
                     <div style="border:none;" class="card h-100 hover-shadow">
-                        <a target="_blank" class="text-center" href="https://phongkhamtamly.com/thac-si-nguyen-hien-minh/">
+                        <a target="_blank" class="text-center" href="{{route('layouts.profile.thsnhminh')}}">
                             <div class="team-6">
                                 <div class="team-img">
                                     <img src="https://phongkhamtamly.com/wp-content/uploads/2022/03/Nguyen-Hien-Minh-280x280.jpg" class="img-top" alt="...">
@@ -195,7 +195,7 @@
                         </a>
                         <div class="btn-footer">
                             <div class="d-grid mx-auto">
-                                <a href="https://phongkhamtamly.com/thac-si-nguyen-hien-minh/" target="_blank" type="button" class="btn btn-outline-success rounded-pill">Xem chi tiết <span class='bi bi-arrow-right'></span></a>
+                                <a href="{{route('layouts.profile.thsnhminh')}}" target="_blank" type="button" class="btn btn-outline-success rounded-pill">Xem chi tiết <span class='bi bi-arrow-right'></span></a>
                             </div>
                         </div>
                     </div>
@@ -206,7 +206,7 @@
                 <div class="col"></div>
                 <div class="col">
                     <div style="border:none;" class="card h-100 hover-shadow">
-                        <a target="_blank" class="text-center" href="https://phongkhamtamly.com/thac-si-le-the-hanh/">
+                        <a target="_blank" class="text-center" href="{{route('layouts.profile.thslthanh')}}">
                             <div class="team-6">
                                 <div class="team-img">
                                     <img src="https://phongkhamtamly.com/wp-content/uploads/2022/03/Le-The-Hanh-280x280.jpg" class="img-top" alt="...">
@@ -223,14 +223,14 @@
                         </a>
                         <div class="btn-footer">
                             <div class="d-grid mx-auto">
-                                <a href="https://phongkhamtamly.com/thac-si-le-the-hanh/" target="_blank" type="button" class="btn btn-outline-success rounded-pill">Xem chi tiết <span class='bi bi-arrow-right'></span></a>
+                                <a href="{{route('layouts.profile.thslthanh')}}" target="_blank" type="button" class="btn btn-outline-success rounded-pill">Xem chi tiết <span class='bi bi-arrow-right'></span></a>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col">
                     <div style="border:none;" class="card h-100 hover-shadow">
-                        <a target="_blank" class="text-center" href="https://phongkhamtamly.com/thac-si-dang-minh-khue/">
+                        <a target="_blank" class="text-center" href="{{route('layouts.profile.thsdmkhue')}}">
                             <div class="team-6">
                                 <div class="team-img">
                                     <img src="https://phongkhamtamly.com/wp-content/uploads/2022/03/Dang-Minh-Khue-280x280.jpg" class="img-top" alt="...">
@@ -247,7 +247,7 @@
                         </a>
                         <div class="btn-footer">
                             <div class="d-grid mx-auto">
-                                <a href="https://phongkhamtamly.com/thac-si-dang-minh-khue/" target="_blank" type="button" class="btn btn-outline-success rounded-pill">Xem chi tiết <span class='bi bi-arrow-right'></span></a>
+                                <a href="{{route('layouts.profile.thsdmkhue')}}" target="_blank" type="button" class="btn btn-outline-success rounded-pill">Xem chi tiết <span class='bi bi-arrow-right'></span></a>
                             </div>
                         </div>
                     </div>
