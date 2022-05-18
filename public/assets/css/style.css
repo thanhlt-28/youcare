@@ -1457,24 +1457,27 @@ q:after {
 .card-footer {
     padding: 0.5rem 1rem;
     background-color: rgba(0, 0, 0, .03);
-    border-top: 1px solid rgba(0, 0, 0, .125);
-}
-
-.card-footer {
-    padding: 0.5rem 1rem;
-    background-color: rgba(0, 0, 0, .03);
-    border-top: 1px solid rgba(0, 0, 0, .125);
+    border-top: 1px solid rgba(255, 255, 255, 0.125);
 }
 
 .sell {
-    margin-top: 5px;
-    box-shadow: -10px -10px 5px -5px #789d35;
-    border-radius: 30px;
+    border-radius: 20px;
+    color: #fff;
+    background-color: #789d35;
+    margin-top: 15px;
+    border: 1px solid #789d35;
+    box-shadow: 5px 5px 5px #789d35;
+    -moz-box-shadow: 5px 5px 5px #789d35;
+    -webkit-box-shadow: 5px 5px 5px #789d35;
 }
 
 .sell:hover {
-    background-color: #789d35;
-    color: #fff;
+    background-color: #fff;
+    border: 1px solid #94c045;
+    color: #789d35;
+    box-shadow: 5px 5px 5px #94c045;
+    -moz-box-shadow: 5px 5px 5px #94c045;
+    -webkit-box-shadow: 5px 5px 5px #94c045;
 }
 
 
@@ -3962,7 +3965,7 @@ q:after {
 .container-fluild .card-body {
     padding: 0;
     padding-top: 20px;
-    padding-bottom: 10px;
+    /* padding-bottom: 10px; */
 }
 
 
