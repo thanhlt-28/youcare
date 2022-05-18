@@ -82,7 +82,7 @@
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="teacher">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTeacher" aria-expanded="true" aria-controls="collapseTeacher">
-                            Giáo viên
+                            <b>Giáo viên</b>
                         </button>
                     </h2>
                     <div id="collapseTeacher" class="accordion-collapse collapse" aria-labelledby="teacher" data-bs-parent="#accordionExample">
@@ -100,7 +100,7 @@
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="parent">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseParent" aria-expanded="false" aria-controls="collapseParent">
-                            Phụ huynh
+                        <b> Phụ huynh</b>
                         </button>
                     </h2>
                     <div id="collapseParent" class="accordion-collapse collapse" aria-labelledby="parent" data-bs-parent="#accordionExample">
@@ -115,7 +115,7 @@
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="student">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseStudent" aria-expanded="false" aria-controls="collapseStudent">
-                            Học sinh
+                        <b>Học sinh</b>
                         </button>
                     </h2>
                     <div id="collapseStudent" class="accordion-collapse collapse" aria-labelledby="student" data-bs-parent="#accordionExample">
@@ -129,7 +129,7 @@
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="special">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSpecial" aria-expanded="false" aria-controls="collapseSpecial">
-                            Nhà chuyên môn
+                        <b>Nhà chuyên môn</b>
                         </button>
                     </h2>
                     <div id="collapseSpecial" class="accordion-collapse collapse" aria-labelledby="special" data-bs-parent="#accordionExample">
@@ -143,7 +143,7 @@
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="manager">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseManager" aria-expanded="false" aria-controls="collapseManager">
-                            Nhà quản lý
+                        <b> Nhà quản lý</b>
                         </button>
                     </h2>
                     <div id="collapseManager" class="accordion-collapse collapse" aria-labelledby="manager" data-bs-parent="#accordionExample">
