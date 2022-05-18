@@ -32,43 +32,28 @@
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="headingOne">
                                 <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" style="font-size: 18px;">
-                                   <b> Bước 1: Chuẩn bị sàng lọc </b>
+                                    <b> Bước 1: Chuẩn bị sàng lọc </b>
                                 </button>
                             </h2>
                             <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    <ul class="nav nav-tabs card-header-tabs" data-bs-tabs="tabs">
-                                        <li class="nav-item">
-                                            <a class="nav-link active" aria-current="true" data-bs-toggle="tab" href="#login">Đăng kí/ Đăng nhập <i class="bi bi-arrow-right"></i></a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" data-bs-toggle="tab" href="#infor">Nhập thông tin trẻ <i class="bi bi-arrow-right"></i></a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" data-bs-toggle="tab" href="#choose">Chọn công cụ</a>
-                                        </li>
-                                    </ul>
                                     <div class="card-body tab-content">
                                         <div class="tab-pane active" id="login">
                                             <div class="accordion-body">
-                                                <b>Đăng kí/ Đăng nhập</b>
+                                                <b>1. Đăng kí/ Đăng nhập</b>
                                                 <p>
-                                                    • Người dùng truy cập đường link <a href="https://ck.youcare.vn/user/register" target="_blank">đăng ký</a> trên trình duyệt web có kết nối Internet <br>
-                                                    • Nhập thông tin <a href="https://ck.youcare.vn/user/register" target="_blank">Đăng ký /</a> <a href="https://ck.youcare.vn/user/login" target="_blank">Đăng nhập</a> và chọn quyền phụ huynh <br>
+                                                    • Người dùng truy cập đường link <a href="https://ck.youcare.vn/user/register" target="_blank">đăng kí</a>/ <a href="https://ck.youcare.vn/user/login" target="_blank">đăng nhập</a> trên trình duyệt web có kết nối Internet <br>
+                                                    • Nhập thông tin <a href="https://ck.youcare.vn/user/register" target="_blank">đăng kí /</a> <a href="https://ck.youcare.vn/user/login" target="_blank">đăng nhập</a> hoặc đăng nhập qua Facebook/ Google và chọn quyền "phụ huynh" <br>
                                                 </p>
-                                            </div>
-                                        </div>
-                                        <div class="tab-pane" id="infor">
-                                            <div class="accordion-body">
-                                                <b>Nhập thông tin trẻ</b>
+
+                                                <b>2. Nhập thông tin trẻ</b>
                                                 <p>
                                                     • PH nhập thông tin trẻ tại menu “Quản lý trẻ em”.<br>
                                                     • Thông qua thông tin của trẻ, hệ thống sẽ tự động hỗ trợ đề xuất những bài đánh giá phù hợp độ tuổi.
                                                 </p>
-                                            </div>
-                                        </div>
-                                        <div class="tab-pane" id="choose">
-                                            <div class="accordion-body">
+
+                                                <b>3. Chọn công cụ</b>
+                                                <br>
                                                 <b>Bấm vào menu “Bộ công cụ” và lựa chọn thang đo phù hợp:</b>
                                                 <br>
                                                 <i class="bi bi-check"></i> <i>Sàng lọc CBCL</i>
@@ -140,22 +125,16 @@
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="headingTwo">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" style="font-size: 18px;">
-                                   <b> Bước 2: Thực hiện đánh giá </b>
+                                    <b> Bước 2: Thực hiện đánh giá </b>
                                 </button>
                             </h2>
                             <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    <ul class="nav nav-tabs card-header-tabs" data-bs-tabs="tabs">
-                                        <li class="nav-item">
-                                            <a class="nav-link active" aria-current="true" data-bs-toggle="tab" href="#hd">Đọc hướng dẫn <i class="bi bi-arrow-right"></i></a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" data-bs-toggle="tab" href="#action">Thực hiện đánh giá/ sàng lọc</a>
-                                        </li>
-                                    </ul>
                                     <div class="card-body tab-content">
                                         <div class="tab-pane active" id="hd">
                                             <div class="accordion-body">
+                                                <b>1. Đọc hướng dẫn</b>
+                                                <br>
                                                 <b>Phụ huynh đọc kỹ hướng dẫn trước mỗi bài đánh giá / sàng lọc. </b>
                                                 <br>
                                                 <p><i>Lưu ý những thông tin:</i></p>
@@ -164,10 +143,8 @@
                                                     • Cách lựa chọn mức điểm cho từng câu hỏi.
                                                 </p>
 
-                                            </div>
-                                        </div>
-                                        <div class="tab-pane" id="action">
-                                            <div class="accordion-body">
+                                                <b>2. Thực hiện đánh giá/ sàng lọc</b>
+                                                <br>
                                                 • Đọc kỹ và trả lời các câu hỏi theo như hướng dẫn và quan sát, đánh giá của phụ huynh.<br>
                                                 • Lưu ý: Không nên cân nhắc câu trả lời quá lâu vì điều này có thể gây ảnh hưởng tới độ chính xác của kết quả.
                                             </div>
@@ -179,7 +156,7 @@
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="headingThree">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" style="font-size: 18px;">
-                                   <b> Bước 3: Nhận kết quả </b>
+                                    <b> Bước 3: Nhận kết quả </b>
                                 </button>
                             </h2>
                             <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
@@ -199,7 +176,7 @@
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="headingFour">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour" style="font-size: 18px;">
-                                   <b> Bước 4: Hỗ trợ chuyên sâu </b>
+                                    <b> Bước 4: Hỗ trợ chuyên sâu </b>
                                 </button>
                             </h2>
                             <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
@@ -207,6 +184,9 @@
                                     <div class="card-body tab-content">
                                         <div class="tab-pane active" id="hd">
                                             <div class="accordion-body">
+                                                • Đối với trẻ từ dưới 6 tuổi cần hỗ trợ vui lòng truy cập <a href="https://checkingcare.vn/" target="_blank">checkingcare.vn </a> để biết thêm chi tiết<br>
+
+                                                • Đối với trẻ từ 6-18 tuổi vui lòng truy cập <a href="https://phongkhamtamly.com/" target="_blank">phongkhamtamly.com </a> để biết thêm chi tiết<br>
                                                 <b>Phụ huynh có thể liên hệ Trung tâm Braincare để được tư vấn kỹ hơn về kết quả sàng lọc và hướng hỗ trợ trẻ.</b>
                                                 <br>
                                                 • Địa chỉ: Tầng 7, Toà nhà 59 Võ Chí Công, P. Nghĩa Đô, Q. Cầu Giấy, Tp. Hà Nội, Việt Nam <br>
@@ -237,14 +217,14 @@
                     <a class="d-flex align-item-start" href="{{route('layouts.procedure.dure_once')}}">
                         <div class="icon-box">
                             <i class="bi bi-arrow-left-circle-fill" style="color: #94c045;"></i>
-                            <h3>Quy trình giáo viên &nbsp;</h3>
+                            <h3>Dành cho giáo viên &nbsp;</h3>
                         </div>
                     </a>
                 </div>
                 <div class="col-lg-6 col-md-6">
                     <a class="d-flex justify-content-end" href="{{route('layouts.procedure.dure_three')}}">
                         <div class="icon-box">
-                            <h3>Quy trình học sinh &nbsp;</h3>
+                            <h3>Dành cho học sinh &nbsp;</h3>
                             <i class="bi bi-arrow-right-circle-fill" style="color: #94c045;"></i>
                         </div>
                     </a>

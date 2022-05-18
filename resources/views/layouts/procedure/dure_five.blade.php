@@ -32,41 +32,29 @@
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="headingOne">
                                 <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" style="font-size: 18px;">
-                                   <b> Bước 1: Chuẩn bị sàng lọc </b>
+                                    <b> Bước 1: Chuẩn bị sàng lọc </b>
                                 </button>
                             </h2>
                             <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    <ul class="nav nav-tabs card-header-tabs" data-bs-tabs="tabs">
-                                        <li class="nav-item">
-                                            <a class="nav-link active" aria-current="true" data-bs-toggle="tab" href="#login">Đăng kí/ Đăng nhập <i class="bi bi-arrow-right"></i></a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" data-bs-toggle="tab" href="#infor">Nhập thông tin trẻ <i class="bi bi-arrow-right"></i></a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" data-bs-toggle="tab" href="#success">Thực hiện sàng lọc</a>
-                                        </li>
-                                    </ul>
                                     <div class="card-body tab-content">
                                         <div class="tab-pane active" id="login">
                                             <div class="accordion-body">
-                                                <b>Đăng kí/ Đăng nhập</b>
+                                                <b>1. Đăng kí/ đăng nhập</b>
                                                 <p>
                                                     • Người dùng truy cập đường link <a href="https://ck.youcare.vn/user/register" target="_blank">Đăng ký /</a> <a href="https://ck.youcare.vn/user/login" target="_blank">Đăng nhập</a> trên trình duyệt web
                                                     có kết nối Internet <br>
                                                     • Nhập thông tin đăng ký/ đăng nhập
                                                 </p>
-                                            </div>
-                                        </div>
-                                        <div class="tab-pane" id="infor">
-                                            <div class="accordion-body">
-                                                • Chuyên gia nhập thông tin trẻ tại menu “Quản lý trẻ em”. </br>
-                                                • Thông qua thông tin của trẻ, hệ thống sẽ tự động hỗ trợ đề xuất những bài đánh giá phù hợp độ tuổi.
-                                            </div>
-                                        </div>
-                                        <div class="tab-pane" id="success">
-                                            <div class="accordion-body">
+                                                <b>2. Nhập thông tin trẻ</b>
+                                                <br>
+                                                <p>
+                                                    • Chuyên gia nhập thông tin trẻ tại menu “Quản lý trẻ em”. </br>
+                                                    • Thông qua thông tin của trẻ, hệ thống sẽ tự động hỗ trợ đề xuất những bài đánh giá phù hợp độ tuổi.
+                                                </p>
+
+                                                <b>3. Thực hiện sàng lọc</b>
+                                                <br>
                                                 <b>Bấm vào menu “Bộ công cụ” và lựa chọn thang đo phù hợp:</b>
                                                 <br />
                                                 <div class="mt-2">
@@ -141,35 +129,30 @@
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="headingTwo">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" style="font-size: 18px;">
-                                   <b> Bước 2: Thực hiện đánh giá </b>
+                                    <b> Bước 2: Thực hiện đánh giá </b>
                                 </button>
                             </h2>
                             <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    <ul class="nav nav-tabs card-header-tabs" data-bs-tabs="tabs">
-                                        <li class="nav-item">
-                                            <a class="nav-link active" aria-current="true" data-bs-toggle="tab" href="#hdsd">Hướng dẫn và đọc kỹ hướng dẫn <i class="bi bi-arrow-right"></i></a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" data-bs-toggle="tab" href="#actions">Thực hiện đánh giá/ sàng lọc</a>
-                                        </li>
-                                    </ul>
                                     <div class="card-body tab-content">
                                         <div class="tab-pane active" id="hdsd">
                                             <div class="accordion-body">
-                                                <p>• Chuyên gia lưu ý đọc và giải thích, hướng dẫn rõ ràng với thân chủ về bài đánh giá / sàng lọc trước khi thực hiện bài test.<br>
+                                                <b>1. Hướng dẫn và đọc kĩ hướng dẫn</b>
+                                                <p>
+                                                    • Chuyên gia lưu ý đọc và giải thích, hướng dẫn rõ ràng với thân chủ về bài đánh giá / sàng lọc trước khi thực hiện bài test.<br>
                                                     <i>Lưu ý những thông tin:</i><br>
                                                     • Đối tượng thực hiện bài test (PH, GV, HS, độ tuổi của HS)<br>
                                                     • Giới hạn thời gian<br>
                                                     • Cách lựa chọn mức điểm cho từng câu hỏi.<br>
                                                     <i>• Lưu ý: Không nên cân nhắc câu trả lời quá lâu vì điều này có thể gây ảnh hưởng tới độ chính xác của kết quả.</i>
                                                 </p>
-                                            </div>
-                                        </div>
-                                        <div class="tab-pane" id="actions">
-                                            <div class="accordion-body">
-                                                • Với những bài đánh giá được thực hiện bởi thân chủ, nhà chuyên môn hỗ trợ để đảm bảo thân chủ hiểu rõ các mệnh đề, đồng thời thu thập thêm thông tin.<br>
-                                                • Thân chủ có thể đánh giá các vấn đề không chính xác so với thực tế (nhẹ hơn hoặc nặng hơn). Nhà chuyên môn cần chú ý quan sát và sử dụng kỹ năng lâm sàng để đảm bảo thu được thông tin chính xác.
+
+                                                <b>2. Thực hiện đánh giá/ sàng lọc</b>
+                                                <p>
+                                                    • Với những bài đánh giá được thực hiện bởi thân chủ, nhà chuyên môn hỗ trợ để đảm bảo thân chủ hiểu rõ các mệnh đề, đồng thời thu thập thêm thông tin.<br>
+                                                    • Thân chủ có thể đánh giá các vấn đề không chính xác so với thực tế (nhẹ hơn hoặc nặng hơn). <br>
+                                                    • Nhà chuyên môn cần chú ý quan sát và sử dụng kỹ năng lâm sàng để đảm bảo thu được thông tin chính xác.
+                                                </p>
                                             </div>
                                         </div>
                                     </div>
@@ -179,7 +162,7 @@
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="headingThree">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" style="font-size: 18px;">
-                                   <b> Bước 3: Nhận kết quả </b>
+                                    <b> Bước 3: Nhận kết quả </b>
                                 </button>
                             </h2>
                             <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
@@ -199,7 +182,7 @@
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="headingFour">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour" style="font-size: 18px;">
-                                   <b> Bước 4: Hỗ trợ chuyên sâu </b>
+                                    <b> Bước 4: Hỗ trợ chuyên sâu </b>
                                 </button>
                             </h2>
                             <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
@@ -210,6 +193,9 @@
                                                 <b>Nếu gặp các khó khăn trong quá trình thao tác ứng dụng, nhà chuyên môn có thể liên hệ Trung tâm Braincare để được tư vấn kỹ và hỗ trợ kỹ thuật.
                                                 </b>
                                                 <br>
+                                                • Đối với trẻ từ dưới 6 tuổi cần hỗ trợ vui lòng truy cập <a href="https://checkingcare.vn/" target="_blank">checkingcare.vn </a> để biết thêm chi tiết<br>
+
+                                                • Đối với trẻ từ 6-18 tuổi vui lòng truy cập <a href="https://phongkhamtamly.com/" target="_blank">phongkhamtamly.com </a> để biết thêm chi tiết<br>
                                                 • Địa chỉ: Tầng 7, Toà nhà 59 Võ Chí Công, P. Nghĩa Đô, Q. Cầu Giấy, Tp. Hà Nội, Việt Nam <br>
                                                 • Tổng đài tư vấn: <a href="tel:1900 3307">1900 3307</a> hoặc hotline: <a href="tel:(024) 4455 3307">(024) 4455 3307</a><br>
                                                 • Email: <a href="mailto:lienhe@braincare.vn">lienhe@braincare.vn</a> <br>
@@ -238,14 +224,14 @@
                     <a class="d-flex align-item-start" href="{{route('layouts.procedure.dure_four')}}">
                         <div class="icon-box">
                             <i class="bi bi-arrow-left-circle-fill" style="color: #94c045;"></i>
-                            <h3>Quy trình nhà quản lý &nbsp;</h3>
+                            <h3>Dành cho nhà quản lý &nbsp;</h3>
                         </div>
                     </a>
                 </div>
                 <div class="col-lg-6 col-md-6">
                     <a class="d-flex justify-content-end" href="{{route('layouts.procedure.dure_once')}}">
                         <div class="icon-box">
-                            <h3>Quy trình giáo viên &nbsp;</h3>
+                            <h3>Dành cho giáo viên &nbsp;</h3>
                             <i class="bi bi-arrow-right-circle-fill" style="color: #94c045;"></i>
                         </div>
                     </a>

@@ -38,12 +38,12 @@
                         <a class="text-center" href="{{route('layouts.profile.bsdung')}}" target="_blank">
                             <div class="team-6">
                                 <div class="team-img">
-                                    <img src="https://phongkhamtamly.com/wp-content/uploads/2021/11/nguyen-van-dung.png" class="img-top" alt="Team Image">
+                                    <img src="https://phongkhamtamly.com/wp-content/uploads/2022/05/chu-dung-1-400x400.jpg" class="img-top" alt="Team Image">
                                 </div>
                             </div>
                             <div class="card-body">
 
-                                <h5 class="card-title">THẦY THUỐC ƯU TÚ BSCC.TS.BSCKII - </br>NGUYỄN VĂN DŨNG</h5>
+                                <h5 class="card-title">BSCC.TS.BSCKII </br>NGUYỄN VĂN DŨNG</h5>
 
                                 <p  style="color:#5a5454;" class="card-text text-center">Phó viện trưởng Viện sức khỏe
                                     </br>tâm thần – Bệnh viện Bạch Mai</p>
@@ -61,7 +61,7 @@
                         <a target="_blank" class="text-center" href="{{route('layouts.profile.tspvtu')}}">
                             <div class="team-6">
                                 <div class="team-img">
-                                    <img src="https://phongkhamtamly.com/wp-content/uploads/2021/11/pham-van-tu.png" class="img-top" alt="...">
+                                    <img src="https://phongkhamtamly.com/wp-content/uploads/2022/05/pham-van-tu-400x400.jpg" class="img-top" alt="...">
                                 </div>
                             </div>
                             <div class="card-body">
@@ -69,11 +69,10 @@
                                 <h5 class="card-title">TIẾN SĨ</br>
                                     PHẠM VĂN TƯ</h5>
 
-                                <p style="color:#5a5454;" class="card-text text-center">Phó trưởng Khoa Công tác xã hội,
-                                    trường Đại học Sư phạm Hà Nội</p>
+                                <p style="color:#5a5454;" class="card-text text-center">Tiến sĩ Tâm lý học</p>
                             </div>
                         </a>
-                        <div class="btn-footer">
+                        <div class="btn-footer mt-4">
                             <div class="d-grid mx-auto">
                                 <a href="{{route('layouts.profile.tspvtu')}}" target="_blank" type="button" class="btn btn-outline-success rounded-pill">Xem chi tiết <span class='bi bi-arrow-right'></span></a>
                             </div>
@@ -92,11 +91,10 @@
                                 <h5  class="card-title">TIẾN SĨ</br>
                                     NGUYỄN THỊ THẮM</h5>
 
-                                <p style="color:#5a5454;" class="card-text text-center">Tiến sĩ ngành:
-                                    tâm lý – giáo dục</p>
+                                <p style="color:#5a5454;" class="card-text text-center">Tiến sĩ ngành Tâm lý – giáo dục</p>
                             </div>
                         </a>
-                        <div class="btn-footer">
+                        <div class="btn-footer mt-4">
                             <div class="d-grid mx-auto">
                                 <a href="{{route('layouts.profile.tsnttham')}}" target="_blank" type="button" class="btn btn-outline-success rounded-pill">Xem chi tiết <span class='bi bi-arrow-right'></span></a>
                             </div>
@@ -115,11 +113,10 @@
                                 <h5 class="card-title">TIẾN SĨ</br>
                                     NGUYỄN THỊ MAI HƯƠNG</h5>
 
-                                <p style="color:#5a5454;" class="card-text text-center">Tiến sĩ chuyên ngành:
-                                    Tâm lý học</p>
+                                <p style="color:#5a5454;" class="card-text text-center">Tiến sĩ ngành Tâm lý học</p>
                             </div>
                         </a>
-                        <div class="btn-footer">
+                        <div class="btn-footer mt-4">
                             <div class="d-grid mx-auto">
                                 <a href="{{route('layouts.profile.tsntmhuong')}}" target="_blank" type="button" class="btn btn-outline-success rounded-pill">Xem chi tiết <span class='bi bi-arrow-right'></span></a>
                             </div>
@@ -141,8 +138,7 @@
                                 <h5 class="card-title">THẠC SĨ</br>
                                     NGUYỄN THỊ THANH VÂN</h5>
 
-                                <p style="color:#5a5454;" class="card-text text-center">Thạc sĩ chuyên ngành:
-                                </br> Tâm lý học lâm sàng</p>
+                                <p style="color:#5a5454;" class="card-text text-center">Thạc sĩ tham vấn & trị liệu tâm lý</p>
                             </div>
                         </a>
                         <div class="btn-footer">
@@ -165,8 +161,7 @@
                                 <h5 class="card-title">THẠC SĨ</br>
                                     NGUYỄN THỊ THÚY HẰNG</h5>
 
-                                <p style="color:#5a5454;" class="card-text text-center">Thạc sĩ chuyên ngành:
-                                    Giáo dục học</p>
+                                <p style="color:#5a5454;" class="card-text text-center">Thạc sĩ ngành Giáo dục học</p>
                             </div>
                         </a>
                         <div class="btn-footer">
@@ -189,8 +184,7 @@
                                 <h5 class="card-title">THẠC SĨ</br>
                                     NGUYỄN HIỀN MINH</h5>
 
-                                <p style="color:#5a5454;" class="card-text text-center">Thạc sĩ chuyên ngành:
-                                    Công tác xã hội</p>
+                                <p style="color:#5a5454;" class="card-text text-center">Thạc sĩ ngành Công tác xã hội</p>
                             </div>
                         </a>
                         <div class="btn-footer">

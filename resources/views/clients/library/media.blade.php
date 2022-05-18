@@ -71,7 +71,7 @@
                         <div class="row justify-content-center">
                             <div class="col-lg-12 video-box align-self-baseline position-relative">
                                 <img src="assets/img/blog/NQL.png" class="img-fluid" alt="">
-                                <a href="https://youtu.be/4tiag3PI6I0" class="glightbox play-btn mb-4"></a>
+                                <a href="https://youtu.be/CUTzrA5yx38" class="glightbox play-btn mb-4"></a>
                             </div>
                             <div class="col-inner">
                                 <div class="box-text text-center pt-3">
@@ -84,7 +84,7 @@
                         <div class="row justify-content-center">
                             <div class="col-lg-12 video-box align-self-baseline position-relative">
                                 <img src="assets/img/blog/YOUCARE.png" class="img-fluid" alt="">
-                                <a href="https://youtu.be/JK0AAtEsu6M" class="glightbox play-btn mb-4"></a>
+                                <a href="https://youtu.be/JTdorN7Belk" class="glightbox play-btn mb-4"></a>
                             </div>
                             <div class="col-inner">
                                 <div class="box-text text-center pt-3">

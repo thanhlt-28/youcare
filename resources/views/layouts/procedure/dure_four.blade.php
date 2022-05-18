@@ -40,9 +40,10 @@
                                     <div class="card-body tab-content">
                                         <div class="tab-pane active" id="login">
                                             <div class="accordion-body">
-                                                <b> Người dùng <a href="https://ck.youcare.vn/user/login" target="_blank">đăng nhập</a> bằng tài khoản đã được cung cấp.</b></br>
-                                                <b> Nhập dữ liệu học sinh theo lớp.</b></br>
-                                                <b> Làm việc với giáo viên về tính cần thiết của việc thực hiện sàng lọc cho học sinh.</b></br>
+                                                <p><b>1. Đăng nhập</b></p>
+                                                <b> • Nhà quản lý <a href="https://ck.youcare.vn/user/login" target="_blank">đăng nhập</a> bằng tài khoản đã được cung cấp.</b></br>
+                                                <b> • Nhập dữ liệu học sinh theo lớp.</b></br>
+                                                <b> • Làm việc với giáo viên về tính cần thiết của việc thực hiện sàng lọc cho học sinh.</b></br>
                                                 <i>Lưu ý:</i></br>
 
                                                 <p>
@@ -50,6 +51,8 @@
                                                     • Đảm bảo bảo mật thông tin học sinh
 
                                                 </p>
+
+                                                <p><b>2. Chọn công cụ:</b></p>
                                                 <b> Lựa chọn bộ công cụ phù hợp với lứa tuổi học sinh cần thực hiện sàng lọc</b>
 
                                                 <br />
@@ -135,7 +138,7 @@
                                     <div class="card-body tab-content">
                                         <div class="tab-pane active" id="hd">
                                             <div class="accordion-body">
-                                                <b> Nhà quản lý thao tác những chức năng của tài khoản được hướng dẫn trong hướng dẫn sử dụng <a href=""> (not link)</a></b>
+                                                <b> Nhà quản lý thao tác những chức năng của tài khoản theo hướng dẫn trong <a href="https://youtu.be/CUTzrA5yx38" class="glightbox play-btn mb-4">video hướng dẫn sử dụng</a> dành cho nhà quản lý.</b>
                                             </div>
                                         </div>
                                     </div>
@@ -154,8 +157,10 @@
                                         <div class="tab-pane active" id="result">
                                             <div class="accordion-body">
                                                 <b>Nhận kết quả:</b>
-                                                <p>• Sau khi các bài sàng lọc được hoàn thành, nhà quản lý có thể lựa chọn "Tải về" để trực tiếp lưu trữ kết quả trong máy, hoặc nhận kết quả thông qua email. <br>
-                                                    • Kết quả sàng lọc sẽ cho nhà quản lý một cái nhìn bao quát nhất về những nhóm vấn đề học sinh đang gặp khó khăn. Dựa vào kết quả, nhà quản lý có thể có những phương hướng thích hợp để hỗ trợ, cải thiện những vấn đề học sinh gặp phải.
+                                                <p>
+                                                    • Sau khi các bài sàng lọc được hoàn thành, nhà quản lý có thể lựa chọn "Tải về" để trực tiếp lưu trữ kết quả trong máy, hoặc nhận kết quả thông qua email. <br>
+                                                    • Kết quả sàng lọc sẽ cho nhà quản lý một cái nhìn bao quát nhất về những nhóm vấn đề học sinh đang gặp khó khăn. <br>
+                                                    • Dựa vào kết quả, nhà quản lý có thể có những phương hướng thích hợp để hỗ trợ, cải thiện những vấn đề học sinh gặp phải.
                                                 </p>
                                             </div>
                                         </div>
@@ -176,6 +181,9 @@
                                             <div class="accordion-body">
                                                 <b>Nhà quản lý có thể liên hệ Trung tâm Braincare để được tư vấn chi tiết về kết quả sàng lọc và hướng hỗ trợ trẻ. </b>
                                                 <br>
+                                                • Đối với trẻ từ dưới 6 tuổi cần hỗ trợ vui lòng truy cập <a href="https://checkingcare.vn/" target="_blank">checkingcare.vn </a> để biết thêm chi tiết<br>
+
+                                                • Đối với trẻ từ 6-18 tuổi vui lòng truy cập <a href="https://phongkhamtamly.com/" target="_blank">phongkhamtamly.com </a> để biết thêm chi tiết<br>
                                                 • Địa chỉ: Tầng 7, Toà nhà 59 Võ Chí Công, P. Nghĩa Đô, Q. Cầu Giấy, Tp. Hà Nội, Việt Nam <br>
                                                 • Tổng đài tư vấn: <a href="tel:1900 3307">1900 3307</a> hoặc hotline: <a href="tel:(024) 4455 3307">(024) 4455 3307</a><br>
                                                 • Email: <a href="mailto:lienhe@braincare.vn">lienhe@braincare.vn</a> <br>
@@ -204,14 +212,14 @@
                     <a class="d-flex align-item-start" href="{{route('layouts.procedure.dure_three')}}">
                         <div class="icon-box">
                             <i class="bi bi-arrow-left-circle-fill" style="color: #94c045;"></i>
-                            <h3>Quy trình học sinh &nbsp;</h3>
+                            <h3>Dành cho học sinh &nbsp;</h3>
                         </div>
                     </a>
                 </div>
                 <div class="col-lg-6 col-md-6">
                     <a class="d-flex justify-content-end" href="{{route('layouts.procedure.dure_five')}}">
                         <div class="icon-box">
-                            <h3>Quy trình nhà chuyên môn &nbsp;</h3>
+                            <h3>Dành cho nhà chuyên môn &nbsp;</h3>
                             <i class="bi bi-arrow-right-circle-fill" style="color: #94c045;"></i>
                         </div>
                     </a>

@@ -83,6 +83,10 @@
                                         </div>
                                     </div>
                                 </div>
+                                <div class="section-title mt-5">
+                                    <h5>DANH HIỆU CAO QUÍ NHÀ NƯỚC CHXHCN VIỆT NAM TRAO TẶNG</h5>
+                                </div>
+                                @include('layouts.danh_hieu')
                             </div>
                         </div>
                     </div>

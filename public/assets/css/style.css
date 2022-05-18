@@ -1466,6 +1466,12 @@ q:after {
     border-top: 1px solid rgba(0, 0, 0, .125);
 }
 
+.sell {
+    margin-top: 5px;
+    box-shadow: -10px -10px 5px -5px #789d35;
+    border-radius: 30px;
+}
+
 .sell:hover {
     background-color: #789d35;
     color: #fff;
@@ -2630,7 +2636,8 @@ q:after {
         display: none;
     }
     .accordion-body {
-        padding: 10px 0px 0px 10px;
+        padding: 10px 0px 0px 0px;
+        text-align: justify;
     }
     .card-header-tabs {
         margin-left: 20px;

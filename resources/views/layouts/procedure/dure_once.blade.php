@@ -37,17 +37,6 @@
                             </h2>
                             <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    <!-- <ul class="nav nav-tabs card-header-tabs" data-bs-tabs="tabs">
-                                        <li class="nav-item">
-                                            <a class="nav-link active" aria-current="true" data-bs-toggle="tab" href="#login">Đăng kí/ Đăng nhập <i class="bi bi-arrow-right"></i></a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" data-bs-toggle="tab" href="#infor">Nhập thông tin trẻ <i class="bi bi-arrow-right"></i></a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" data-bs-toggle="tab" href="#success">Thực hiện sàng lọc</a>
-                                        </li>
-                                    </ul> -->
                                     <div class="card-body tab-content">
                                         <div class="tab-pane active" id="login">
                                             <div class="accordion-body">
@@ -55,7 +44,7 @@
                                                 <p>
                                                     • Người dùng truy cập đường link <b><a href="https://ck.youcare.vn/user/register" target="_blank">đăng kí</a>/ <a href="https://ck.youcare.vn/user/login" target="_blank">đăng nhập</a></b> trên trình duyệt web
                                                     có kết nối Internet <br>
-                                                    • Nhập thông tin đăng nhập, đăng kí hoặc đăng nhập thông qua Facebook/ Google<br>
+                                                    • Nhập thông tin đăng nhập, đăng kí hoặc đăng nhập thông qua Facebook/ Google và chọn quyền "giáo viên".<br>
                                                     • Bấm <b><a href="https://ck.youcare.vn/user/login" target="_blank">đăng nhập</a>/ <a href="https://ck.youcare.vn/user/register" target="_blank">đăng kí</a></b>
                                                 </p>
 
@@ -154,14 +143,6 @@
                             </h2>
                             <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    <!-- <ul class="nav nav-tabs card-header-tabs" data-bs-tabs="tabs">
-                                        <li class="nav-item">
-                                            <a class="nav-link active" aria-current="true" data-bs-toggle="tab" href="#hd">Đọc hướng dẫn <i class="bi bi-arrow-right"></i></a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" data-bs-toggle="tab" href="#action">Thực hiện đánh giá/ sàng lọc</a>
-                                        </li>
-                                    </ul> -->
                                     <div class="card-body tab-content">
                                         <div class="tab-pane active" id="hd">
                                             <div class="accordion-body">
@@ -193,14 +174,6 @@
                             </h2>
                             <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    <!-- <ul class="nav nav-tabs card-header-tabs" data-bs-tabs="tabs">
-                                        <li class="nav-item">
-                                            <a class="nav-link active" aria-current="true" data-bs-toggle="tab" href="#result">Nhận kết quả <i class="bi bi-arrow-right"></i></a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" data-bs-toggle="tab" href="#working">Làm việc với phụ huynh và nhà trường để có hướng hỗ trợ trẻ tốt nhất</a>
-                                        </li>
-                                    </ul> -->
                                     <div class="card-body tab-content">
                                         <div class="tab-pane active" id="result">
                                             <div class="accordion-body">
@@ -230,9 +203,12 @@
                                     <div class="card-body tab-content">
                                         <div class="tab-pane active" id="hd">
                                             <div class="accordion-body">
-                                                <b>Giáo viên đọc kỹ hướng dẫn trước mỗi bài đánh giá / sàng lọc. </b>
+                                                <b>Giáo viên đọc kỹ hướng dẫn trước mỗi bài đánh giá / sàng lọc: </b>
                                                 <br>
-                                                • Giáo viên có thể liên hệ Trung tâm Braincare để được tư vấn kỹ hơn về kết quả sàng lọc và hướng hỗ trợ trẻ.<br>
+                                                • Đối với trẻ từ dưới 6 tuổi cần hỗ trợ vui lòng truy cập <a href="https://checkingcare.vn/" target="_blank">checkingcare.vn </a> để biết thêm chi tiết<br>
+
+                                                • Đối với trẻ từ 6-18 tuổi vui lòng truy cập <a href="https://phongkhamtamly.com/" target="_blank">phongkhamtamly.com </a> để biết thêm chi tiết<br>
+                                                <b>• Giáo viên có thể liên hệ Trung tâm Braincare để được tư vấn kỹ hơn về kết quả sàng lọc và hướng hỗ trợ trẻ.</b><br>
                                                 • Địa chỉ: Tầng 7, Toà nhà 59 Võ Chí Công, P. Nghĩa Đô, Q. Cầu Giấy, Tp. Hà Nội, Việt Nam <br>
                                                 • Tổng đài tư vấn: <a href="tel:1900 3307">1900 3307</a> hoặc hotline: <a href="tel:(024) 4455 3307">(024) 4455 3307</a><br>
                                                 • Email: <a href="mailto:lienhe@braincare.vn">lienhe@braincare.vn</a> <br>
@@ -261,14 +237,14 @@
                     <a class="d-flex align-item-start" href="{{route('layouts.procedure.dure_five')}}">
                         <div class="icon-box">
                             <i class="bi bi-arrow-left-circle-fill" style="color: #94c045;"></i>
-                            <h3>Quy trình nhà chuyên môn&nbsp;</h3>
+                            <h3>Dành cho nhà chuyên môn&nbsp;</h3>
                         </div>
                     </a>
                 </div>
                 <div class="col-lg-6 col-md-6">
                     <a class="d-flex justify-content-end" href="{{route('layouts.procedure.dure_twice')}}">
                         <div class="icon-box">
-                            <h3>Quy trình phụ huynh &nbsp;</h3>
+                            <h3>Dành cho phụ huynh &nbsp;</h3>
                             <i class="bi bi-arrow-right-circle-fill" style="color: #94c045;"></i>
                         </div>
                     </a>

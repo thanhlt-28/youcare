@@ -37,27 +37,16 @@
                             </h2>
                             <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    <ul class="nav nav-tabs card-header-tabs" data-bs-tabs="tabs">
-                                        <li class="nav-item">
-                                            <a class="nav-link active" aria-current="true" data-bs-toggle="tab" href="#login">Đăng kí/ Đăng nhập <i class="bi bi-arrow-right"></i></a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" data-bs-toggle="tab" href="#choose">Chọn công cụ</a>
-                                        </li>
-                                    </ul>
                                     <div class="card-body tab-content">
                                         <div class="tab-pane active" id="login">
                                             <div class="accordion-body">
-                                                <b>Đăng kí/ Đăng nhập</b>
+                                                <b>1. Đăng kí/ Đăng nhập</b>
                                                 <p>
-                                                    • Người dùng truy cập đường link <a href="https://ck.youcare.vn/user/register" target="_blank">đăng ký</a> trên trình duyệt web
-                                                    có kết nối Internet <br>
-                                                    • Nhập thông tin <a href="https://ck.youcare.vn/user/register" target="_blank">Đăng ký /</a> <a href="https://ck.youcare.vn/user/login" target="_blank">Đăng nhập</a> và chọn quyền cá nhân <br>
+                                                    • Người dùng truy cập đường link <a href="https://ck.youcare.vn/user/register" target="_blank">đăng kí</a>/ <a href="https://ck.youcare.vn/user/login" target="_blank">đăng nhập</a> trên trình duyệt web có kết nối Internet <br>
+                                                    • Nhập thông tin <a href="https://ck.youcare.vn/user/register" target="_blank">đăng kí /</a> <a href="https://ck.youcare.vn/user/login" target="_blank">đăng nhập</a> hoặc đăng nhập qua Facebook/ Google và chọn quyền "cá nhân" <br>
                                                 </p>
-                                            </div>
-                                        </div>
-                                        <div class="tab-pane" id="choose">
-                                            <div class="accordion-body">
+
+                                                <b>2. Chọn công cụ:</b><br>
                                                 <b>Bấm vào menu “Bộ công cụ” và lựa chọn <i>Sàng lọc CBCL:</i></b>
                                                 <br>
 
@@ -99,28 +88,19 @@
                             </h2>
                             <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    <ul class="nav nav-tabs card-header-tabs" data-bs-tabs="tabs">
-                                        <li class="nav-item">
-                                            <a class="nav-link active" aria-current="true" data-bs-toggle="tab" href="#hd">Đọc hướng dẫn <i class="bi bi-arrow-right"></i></a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" data-bs-toggle="tab" href="#action">Thực hiện đánh giá/ sàng lọc</a>
-                                        </li>
-                                    </ul>
                                     <div class="card-body tab-content">
                                         <div class="tab-pane active" id="hd">
                                             <div class="accordion-body">
-                                                <b>Người đọc kỹ hướng dẫn trước mỗi bài đánh giá/ sàng lọc. </b>
+                                                <b>1. Đọc hướng dẫn</b>
                                                 <br>
-                                                <p><i>Lưu ý những thông tin:</i></p>
                                                 <p>
+                                                    Người đọc kỹ hướng dẫn trước mỗi bài đánh giá/ sàng lọc. <br>
+                                                    <i>Lưu ý những thông tin:</i><br>
                                                     • Giới hạn thời gian <br>
                                                     • Cách lựa chọn mức điểm cho từng câu hỏi.
                                                 </p>
-                                            </div>
-                                        </div>
-                                        <div class="tab-pane" id="action">
-                                            <div class="accordion-body">
+
+                                                <b>2. Thực hiện đánh giá/ sàng lọc</b>
                                                 • Đọc kỹ và trả lời các câu hỏi theo như hướng dẫn <br>
                                                 • Lưu ý: Không nên cân nhắc câu trả lời quá lâu vì điều này có thể gây ảnh hưởng tới độ chính xác của kết quả.
                                             </div>
@@ -145,7 +125,6 @@
                                                     <i> • Lưu ý: Các bảng hỏi không nhằm mục đích điều tra và không có giá trị chẩn đoán vấn đề, mà giúp chuyên gia và PH xác định những dấu hiệu bất thường, từ đó có hướng hỗ trợ tốt nhất cho trẻ. Để có thể kết luận một trẻ mắc một rối loạn, cần có sự đánh giá lâm sàng chuyên nghiệp từ một bác sĩ / nhà tâm lý có chuyên môn.</i>
                                                 </p>
                                                 <b>Làm việc với phụ huynh để có hướng hỗ trợ tốt nhất.</b>
-
                                             </div>
                                         </div>
                                     </div>
@@ -165,6 +144,9 @@
                                             <div class="accordion-body">
                                                 <b>Người dùng có thể liên hệ Trung tâm Braincare để được tư vấn kỹ hơn về kết quả sàng lọc.</b>
                                                 <br>
+                                                • Đối với trẻ từ dưới 6 tuổi cần hỗ trợ vui lòng truy cập <a href="https://checkingcare.vn/" target="_blank">checkingcare.vn </a> để biết thêm chi tiết<br>
+
+                                                • Đối với trẻ từ 6-18 tuổi vui lòng truy cập <a href="https://phongkhamtamly.com/" target="_blank">phongkhamtamly.com </a> để biết thêm chi tiết<br>
                                                 • Địa chỉ: Tầng 7, Toà nhà 59 Võ Chí Công, P. Nghĩa Đô, Q. Cầu Giấy, Tp. Hà Nội, Việt Nam <br>
                                                 • Tổng đài tư vấn: <a href="tel:1900 3307">1900 3307</a> hoặc hotline: <a href="tel:(024) 4455 3307">(024) 4455 3307</a><br>
                                                 • Email: <a href="mailto:lienhe@braincare.vn">lienhe@braincare.vn</a> <br>
@@ -193,14 +175,14 @@
                     <a class="d-flex align-item-start" href="{{route('layouts.procedure.dure_twice')}}">
                         <div class="icon-box">
                             <i class="bi bi-arrow-left-circle-fill" style="color: #94c045;"></i>
-                            <h3>Quy trình phụ huynh &nbsp;</h3>
+                            <h3>Dành cho phụ huynh &nbsp;</h3>
                         </div>
                     </a>
                 </div>
                 <div class="col-lg-6 col-md-6">
                     <a class="d-flex justify-content-end" href="{{route('layouts.procedure.dure_four')}}">
                         <div class="icon-box">
-                            <h3>Quy trình nhà quản lý &nbsp;</h3>
+                            <h3>Dành cho nhà quản lý &nbsp;</h3>
                             <i class="bi bi-arrow-right-circle-fill" style="color: #94c045;"></i>
                         </div>
                     </a>
