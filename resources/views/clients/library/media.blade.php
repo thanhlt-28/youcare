@@ -94,6 +94,20 @@
                         </div>
                     </div>
 
+                    <div class="col-lg-4">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-12 video-box align-self-baseline position-relative">
+                                <img src="assets/img/blog/banner-asq-3.png" class="img-fluid" alt="">
+                                <a href="https://youtu.be/Ejw-9R9UvxE" class="glightbox play-btn mb-4"></a>
+                            </div>
+                            <div class="col-inner">
+                                <div class="box-text text-center pt-3">
+                                    <h6>10 PHÚT ĐỂ HIỂU TRẺ - CHIA SẺ SỬ DỤNG PHẦN MỀM THANG ĐO ASQ-3</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>

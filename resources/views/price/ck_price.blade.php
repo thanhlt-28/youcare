@@ -23,7 +23,7 @@
     <div class="container">
         <div class="text-center mb-5">
             <h1>BẢNG GIÁ</h1>
-            <p>CKCare - Công cụ đánh giá & sàng lọc chuyên biệt đầu tiên</p>
+            <p>CKCare - Công cụ đánh giá & sàng lọc chuẩn hóa đầu tiên</p>
         </div>
         <div class="price-sub">
             <h3 class="text-uppercase text-center"> Dành cho nhà trường</h3>
