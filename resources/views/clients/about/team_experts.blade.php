@@ -7,7 +7,7 @@
     <!-- ======= Breadcrumbs ======= -->
     <section id="breadcrumbs" class="breadcrumbs">
         <div class="breadcrumb-team"></div>
-        
+
         <div class="container">
             <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='currentColor'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
                 <ol class="breadcrumb">
@@ -45,7 +45,7 @@
 
                                 <h5 class="card-title">BSCC.TS.BSCKII </br>NGUYỄN VĂN DŨNG</h5>
 
-                                <p  style="color:#5a5454;" class="card-text text-center">Phó viện trưởng Viện sức khỏe
+                                <p style="color:#5a5454;" class="card-text text-center">Phó viện trưởng Viện sức khỏe
                                     </br>tâm thần – Bệnh viện Bạch Mai</p>
                             </div>
                         </a>
@@ -88,7 +88,7 @@
                                 </div>
                             </div>
                             <div class="card-body">
-                                <h5  class="card-title">TIẾN SĨ</br>
+                                <h5 class="card-title">TIẾN SĨ</br>
                                     NGUYỄN THỊ THẮM</h5>
 
                                 <p style="color:#5a5454;" class="card-text text-center">Tiến sĩ ngành Tâm lý – giáo dục</p>
@@ -254,20 +254,7 @@
 
     </section>
 
-
-    <!-- ======= Cta Section ======= -->
-    <section id="cta" class="cta">
-        <div class="container" data-aos="fade-in">
-
-            <div class="text-center">
-                <h3>Cộng đồng</h3>
-                <p> Cộng đồng tâm lý với sứ mệnh thay đổi thói quen và nhận thức của người Việt Nam </br> trong việc chú trọng sức khoẻ tinh thần và tìm kiếm sự trợ giúp khi cần thiết.</p>
-                <a class="cta-btn" target="_blank" href="https://www.facebook.com/congdongtamly/">Tham gia ngay</a>
-            </div>
-
-        </div>
-    </section>
-    <!-- End Cta Section -->
+    @include('clients.about.group')
 
 </main>
 

@@ -1575,7 +1575,7 @@ q:after {
 
 .features .card {
     border: 0;
-    padding: 20px 0 0px 0;
+    padding: 20px 10px 20px 10px;
     position: relative;
     width: 100%;
     background-size: cover;

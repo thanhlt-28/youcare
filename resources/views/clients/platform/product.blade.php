@@ -61,7 +61,7 @@
                         <!-- <h3>San Pham 2</h3> -->
                         <a href="{{route('clients.platform.pubcare')}}">
                             <div style="border: none;" class="card h-100">
-                                <img class="card-img-top" src="/assets/img/work/pack.info.svg" width="50%" alt="">
+                                <img class="card-img-top" src="/assets/img/work/visual.hrm.svg" width="50%" alt="">
                                 <div class="card-body">
                                     <h5 class="card-title text-dark">Ứng dụng PubCare</h5>
                                     <p class="text-flow card-text text-dark">
@@ -102,7 +102,7 @@
                         <!-- <h3>San Pham 4</h3> -->
                         <a href="{{route('clients.platform.bizcare')}}">
                             <div style="border: none;" class="card h-100">
-                                <img class="card-img-top" src="/assets/img/work/pack.work.svg" width="50%" alt="">
+                                <img class="card-img-top" src="/assets/img/work/pack.sales.svg" width="50%" alt="">
                                 <div class="card-body">
                                     <h5 class="card-title text-dark">Ứng dụng PsyCare</h5>
                                     <p class="text-flow card-text text-dark">

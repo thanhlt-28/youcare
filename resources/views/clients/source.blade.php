@@ -179,19 +179,7 @@
     </section>
     <!-- =====End kiến thức===== -->
 
-    <!-- ======= Cộng đồng ======= -->
-    <section id="cta" class="cta mb-5">
-        <div class="container" data-aos="fade-in">
-
-            <div class="text-center">
-                <h3>Cộng đồng</h3>
-                <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <a class="cta-btn" href="#">Tham gia ngay</a>
-            </div>
-
-        </div>
-    </section>
-    <!--===== End CĐ Section ======-->
+    @include('clients.about.group')
 
     <!-- =====Tài liệu===== -->
     <section class="container-fluild" data-aos="fade-in">
