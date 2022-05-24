@@ -29,11 +29,19 @@
                 <div class="image" style="background-image: url('assets/img/team/Pham Van Tu.png');"></div>
                 <div class="text">
                   <h4><a target="_blank" href="{{route('layouts.profile.tspvtu')}}">PHẠM VĂN TƯ</a></h4>
-                  <strong>Tiến sĩ Tâm lý học</strong>
-                  <p>- Hơn 20 năm là chuyên gia tham vấn và trị liệu tâm lý cho trẻ em.</p>
-                  <p>- Chuyên gia cao cấp hỗ trợ các phòng tham vấn học đường thuộc các trường nổi tiếng của Việt Nam.</p>
-                  <p>- Chuyên gia tư vấn cho giáo viên các trường về xây dựng trường học hành phúc; tư vấn cho phụ huỳnh đồng hành cùng con.</p>
-                  <p>- Chuyên gia cao cấp cho các tổ chức phi chính phủ trong hoạt động tư vấn tâm lý và giáo dục kĩ năng sống cho trẻ em.</p>
+
+                  <div class="elementor-widget-container mb-3">
+                    <div class="elementor-text-editor elementor-clearfix">
+                      <p><strong>Tiến sĩ Tâm lý học</strong></span></p>
+                      <p><strong>– Phó trưởng Khoa Công tác xã hội, trường Đại học Sư phạm Hà Nội</strong></span></p>
+                      <p>
+                        &nbsp;Khoa Công tác xã hội, Trường Đại học Sư phạm Hà Nội, Giảng viên, trưởng bộ môn Cơ sở Công tác xã hội.</span>
+                      </p>
+                      <p>
+                        <strong>– </strong>Tập huấn thường niên cho trường Bồi dưỡng cán bộ giáo dục Hà Nội về các chuyên đề “tư vấn học đường” dành cho cán bộ quản lý và giáo viên các trường phổ thông làm công tác tư vấn tâm lí trong trường học.</span>
+                      </p>
+                    </div>
+                  </div>
 
                   <a class="cta-btn" target="_blank" href="{{route('layouts.profile.tspvtu')}}">
                     <button type="button" class="btn btn-outline-success rounded-pill">Xem chi tiết</button></a>
@@ -44,10 +52,14 @@
                 <div class="image" style="background-image: url('assets/img/team/Nguyen Thi Tham.png');"></div>
                 <div class="text">
                   <h4><a target="_blank" href="{{route('layouts.profile.tsnttham')}}">NGUYỄN THỊ THẮM</a></h4>
-                  <strong>Tiến sĩ tâm lý – giáo dục: Lĩnh vực đánh giá, trị liệu cho trẻ em</strong>
-                  <p>- Chuyên gia chẩn đoán, đánh giá và xây dựng kế hoạch can thiệp cho trẻ em có rối loạn phát triển (trẻ tự kỉ, tăng động giảm tập trung, khó khăn ngôn ngữ, khó khăn học tập,…).</p>
-                  <p>- 15 năm kinh nghiệm đánh giá và trị liệu tâm lý, chuyên gia cao cấp hỗ trợ phòng tham vấn học đường ở các trường nổi tiếng của Việt Nam.</p>
-                  <p>- Chuyên gia cao cấp tư vấn, hướng dẫn giáo viên, phụ huynh đồng hành cùng trẻ em, phát triển các kĩ năng sống, giá trị sống cho trẻ em.</p>
+
+                  <div class="elementor-widget-container mb-3">
+                    <div class="elementor-text-editor elementor-clearfix">
+                      <p><span style="font-size: 120%; color: #54595f;"><strong>Tiến sĩ ngành tâm lý – giáo dục</strong></span></p>
+                      <p><span style="color: #54595f;"><strong> Bằng khen của Hội khuyến học Việt Nam, Hội khoa học Tâm lý – Giáo dục Việt Nam</strong> về có nhiều đóng góp trong việc hỗ trợ, can thiệp tâm lý cho trẻ em có nhu cầu đặc biệt.</span></p>
+                      <p><span style="color: #54595f;"><strong>– Tham gia nhiều khoá học về lĩnh vực tâm lý trị liệu ở trong và ngoài nước</strong>&nbsp;như: Trầm cảm sau sang chấn, rối loạn hành vi cảm xúc, Giáo dục kĩ năng sống, giá trị sống cho trẻ em, bạo lực học đường, bạo lực gia đình, Tham vấn cá nhân, tham vấn nhóm, Tư duy tích cực; Chẩn đoán đánh giá các rối nhiều tâm lý ở trẻ em,….</span></p>
+                    </div>
+                  </div>
 
                   <a class="cta-btn" target="_blank" href="{{route('layouts.profile.tsnttham')}}">
                     <button type="button" class="btn btn-outline-success rounded-pill">Xem chi tiết</button></a>
@@ -58,12 +70,15 @@
                 <div class="image" style="background-image: url('assets/img/team/Nguyen Mai Huong.png');"></div>
                 <div class="text">
                   <h4><a target="_blank" href="{{route('layouts.profile.tsntmhuong')}}">NGUYỄN THỊ MAI HƯƠNG</a></h4>
-                  <strong>Tiến sĩ Tâm lý học</strong>
-                  <p>- Hơn 15 năm giảng dạy ở các trường Cao đẳng, Đại học về lĩnh vực tham vấn, trị liệu tâm lý cho trẻ em, giáo dục kĩ năng sống, giá trị sống.</p>
-                  <p>– Chuyên gia cao cấp đánh giá và trị liệu tâm lý cho học sinh ở phòng tham vấn học đường trong trường học.</p>
-                  <p>- Diễn giả, chuyên gia tư vấn cho giáo viên, phụ huynh về các vấn đề liên quan đến đồng hành cùng trẻ em có vấn đề tâm lý, trường học hạnh phúc.</p>
-                  <p>– Chuyên gia tổ chức các hoạt động giáo dục giá trị sống, kĩ năng sống.</p>
 
+                  <div class="elementor-widget-container mb-3">
+                    <div class="elementor-text-editor elementor-clearfix">
+                      <p><span style="font-size: 120%;"><strong>Tiến sĩ chuyên ngành: Tâm lý học</strong></span></p>
+                      <p>– Cử nhân, chuyên ngành Sư phạm Tâm lý giáo dục, Đại học Sư phạm Hà Nội năm 2006.</p>
+                      <p>– Thạc sĩ, chuyên ngành Tâm lý học, Đại học Sư phạm Hà Nội, 2010.</p>
+                      <p>– Tiến sĩ, chuyên ngành Tâm lý học, Đại học Sư phạm Hà Nội, 2020…&nbsp;</p>
+                    </div>
+                  </div>
 
                   <a class="cta-btn" target="_blank" href="{{route('layouts.profile.tsntmhuong')}}">
                     <button type="button" class="btn btn-outline-success rounded-pill">Xem chi tiết</button></a>
@@ -74,12 +89,17 @@
                 <div class="image" style="background-image: url('assets/img/team/Nguyen Thanh Van.png');"></div>
                 <div class="text">
                   <h4><a target="_blank" href="{{route('layouts.profile.thsnttvan')}}">NGUYỄN THỊ THANH VÂN</a></h4>
-                  <strong>Chuyên gia Tham vấn & trị liệu tâm lý</strong>
-                  <p>– Chuyên gia tham vấn cao cấp về hôn nhân gia đình, nuôi dạy con, mối quan hệ cặp đôi.</p>
-                  <p>– Chuyên gia tham vấn cao cấp về hôn nhân gia đình, nuôi dạy con, mối quan hệ cặp đôi.</p>
-                  <p>– Chuyên gia tư vấn định hướng phát triển bản thân, tư vấn nghề nghiệp và sức khoẻ tinh thần trong công việc.</p>
-                  <p>- Chuyên gia tham vấn tâm lý cho thanh thiếu niên về các khó khăn trong học tập, mối quan hệ, cuộc sống. Master Coach NLP và Thôi miên Trị liệu
-                  </p>
+
+                  <div class="elementor-widget-container mb-3">
+                    <div class="elementor-text-editor elementor-clearfix">
+                      <p><span style="font-size: 120%;"><strong>Thạc sĩ tham vấn &amp; trị liệu tâm lý</strong></span></p>
+                      <p>–  Thạc sĩ tham vấn và trị liệu tâm lý/Masters Counselling and Psychotherapy – IBAM (Ấn Độ)<br>
+                      –  Chuyên gia tham vấn cao cấp về hôn nhân gia đình, nuôi dạy con, mối quan hệ cặp đôi.<br>
+                      –   Chuyên gia tư vấn định hướng phát triển bản thân, tư vấn nghề nghiệp và sức khoẻ tinh thần trong công việc<br>
+                      –   Chuyên gia tham vấn tâm lý cho thanh thiếu niên về các khó khăn trong học tập, mối quan hệ, cuộc sống.<br>
+                      –   Master Coach NLP và Thôi miên Trị liệu</p>
+                    </div>
+                  </div>
 
                   <a class="cta-btn" target="_blank" href="{{route('layouts.profile.thsnttvan')}}">
                     <button type="button" class="btn btn-outline-success rounded-pill">Xem chi tiết</button></a>
@@ -91,11 +111,16 @@
                 <div class="image" style="background-image: url('assets/img/team/Nguyen Thuy Hang.png');"></div>
                 <div class="text">
                   <h4><a target="_blank" href="{{route('layouts.profile.thsntthang')}}">NGUYỄN THỊ THÚY HẰNG</a></h4>
-                  <strong>Chuyên gia Tâm lý - Giáo dục</strong>
-                  <p>– Trưởng phòng, Chuyên viên Tham vấn học đường trường Marie Curie Hà Nội.</p>
-                  <p>– Quản lý, Chuyên viên Tham vấn học đường trường THCS Nguyễn Trường Tộ Hà Nội.</p>
-                  <p>– Trên 15 năm kinh nghiệm làm việc chuyên sâu trong lĩnh vực đánh giá, tham vấn tâm lý cho trẻ em, vị thành niên và tham vấn hôn nhân gia đình.</p>
-                  <p>- Chuyên viên điều trị chứng nghiện, đặc biệt là nghiện Game/Internet.</p>
+
+                  <div class="elementor-widget-container mb-3">
+                    <div class="elementor-text-editor elementor-clearfix">
+                      <p><span style="font-size: 120%;"><strong>Thạc sĩ chuyên ngành:&nbsp; Giáo dục học</strong></span></p>
+                      <p>– Sinh viên giỏi, sinh viên xuất sắc cấp khoa, Sinh viên nghiên cứu khoa học cấp trường</p>
+                      <p>– Tham gia nhiều hoạt động thiện nguyện cho trẻ em: Dạy học tình nguyện, Tình nguyện viên cho làng trẻ mồ côi SOS, giảng dạy KNS tại tổ chức Nghị lực sống cho người khuyết tật, Dự án hỗ trợ phụ nữ và trẻ em ung thư…</p>
+                      <p>– Giảng viên thỉnh giảng cho một số trường Đại học: Đại học Văn hóa, ĐH Công đoàn, ĐH Lao động – xã hội, ĐH Hòa Bình…&nbsp;</p>
+                    </div>
+                  </div>
+
                   <a class="cta-btn" target="_blank" href="{{route('layouts.profile.thsntthang')}}">
                     <button type="button" class="btn btn-outline-success rounded-pill">Xem chi tiết</button></a>
                 </div>
@@ -105,11 +130,15 @@
                 <div class="image" style="background-image: url('assets/img/team/Nguyen Hien Minh.png');"></div>
                 <div class="text">
                   <h4><a target="_blank" href="{{route('layouts.profile.thsnhminh')}}">NGUYỀN HIỀN MINH</a></h4>
-                  <strong>Chuyên gia tư vấn trị liệu tâm lý</strong>
-                  <p>– Quản lý ca và thực hành tham vấn hỗ trợ tâm lý trị liệu với hơn 300 thân chủ tại hai nhà tạm lánh dành cho nạn nhân bị buôn bán và bạo lực gia đình từ 2006 – 2014.</p>
-                  <p>– Quản lý ca với trên 100 thân chủ là những phụ nữ bán dâm và nghiện ma túy, bị bạo lực gai đình, di cư từ tháng 4/2014 đến tháng 11/2015.</p>
-                  <p>– Tham gia xây dựng và thiết kế bộ hồ sơ quản lý ca của hai nhà tạm lánh – Trung tâm Phụ nữ và Phát triển từ 2006 đến 2011.</p>
-                  <p> <br> </p>
+
+                  <div class="elementor-widget-container mb-3">
+                    <div class="elementor-text-editor elementor-clearfix">
+                      <p><span style="font-size: 120%;"><strong>Thạc sĩ chuyên ngành:&nbsp; Công tác xã hội</strong></span></p>
+                      <p>– Quản lý ca và thực hành tham vấn hỗ trợ tâm lý trị liệu với hơn 300 thân chủ tại hai nhà tạm lánh dành cho nạn nhân bị buôn bán và bạo lực gia đình từ 2006 – 2014.</p>
+                      <p>– Quản lý ca với trên 100 thân chủ là những phụ nữ bán dâm và nghiện ma túy, bị bạo lực gai đình, di cư từ tháng 4/2014 đến tháng 11/2015.</p>
+                      <p>– Tham gia xây dựng và thiết kế bộ hồ sơ quản lý ca của hai nhà tạm lánh – Trung tâm Phụ nữ và Phát triển từ 2006 đến 2011.</p>
+                    </div>
+                  </div>
 
                   <a class="cta-btn" target="_blank" href="{{route('layouts.profile.thsnhminh')}}">
                     <button type="button" class="btn btn-outline-success rounded-pill">Xem chi tiết</button></a>
@@ -120,12 +149,15 @@
                 <div class="image" style="background-image: url('assets/img/team/Le The Hanh.png');"></div>
                 <div class="text">
                   <h4><a target="_blank" href="{{route('layouts.profile.thslthanh')}}">LÊ THẾ HANH</a></h4>
-                  <strong>Thạc sĩ Tâm lý học lâm sàng</strong>
-                  <p>– Chuyên gia tham vấn trị liệu tâm lý cho thanh thiếu niên.</p>
-                  <p>– Chuyên gia tâm lý trong lĩnh vực hàn gắn các mối quan hệ, trị liệu các rối loạn tâm thần.</p>
-                  <p>– Chuyên gia đào tạo tập huấn chương trình dự phòng sang chấn tâm lý tại trường học, tổ chức.</p>
-                  <p>– Chuyên viên điều trị chứng nghiện, đặc biệt là nghiện Game/Internet <br><br></p>
 
+                  <div class="elementor-widget-container mb-3">
+                    <div class="elementor-text-editor elementor-clearfix">
+                      <p><span style="font-size: 120%;"><strong>Thạc sĩ Tâm lý học Lâm sàng</strong></span></p>
+                      <p>– Chuyên gia giám sát thực hành ca tại dự án “Đường dây nóng Ngày Mai” – hỗ trợ tâm lý cho người trầm cảm (2021).</p>
+                      <p>– Chuyên gia giám sát thực hành ca tại dự án “Ô cửa màu xanh” – hỗ trợ tâm lý cho người khuyết tật bị ảnh hưởng do dịch Covid 19. (2021)</p>
+                      <p>– Quản lý chuyên môn phòng tham vấn học đường tại trường THCS Nguyễn Trường Tộ, Đống Đa, Hà Nội (2020)</p>
+                    </div>
+                  </div>
 
                   <a class="cta-btn" target="_blank" href="{{route('layouts.profile.thslthanh')}}">
                     <button type="button" class="btn btn-outline-success rounded-pill">Xem chi tiết</button></a>
@@ -135,11 +167,16 @@
                 <div class="image" style="background-image: url('assets/img/team/Dang Minh Khue.png');"></div>
                 <div class="text">
                   <h4><a target="_blank" href="{{route('layouts.profile.thsdmkhue')}}">ĐẶNG MINH KHUÊ</a></h4>
-                  <strong>Thạc sĩ Tâm lý học lâm sàng</strong>
-                  <p>– Chuyên gia tham vấn trị liệu tậm lý lâm sàng Trẻ em và Vị thành niên.</p>
-                  <p>– Chuyên viên tư vấn đào tạo, phát triển chương trình Chăm sóc sức khoẻ tinh thần cộng đồng, giáo dục kĩ năng sống, giá trị sống.</p>
-                  <p>– Nhà tham vấn, trị liệu cho dự án Nâng cao nhận thức về sức khỏe tinh thần thông qua xây dựng và vận hành phòng tham vấn học đường Speak Out – GNI (2019 – 2020).</p>
-                  <p>- Quản lý chuỗi dự án phát triển giáo dục tại Trung tâm Nghiên cứu và Truyền thông vì sự phát triển bền vững (2020 - 2021).</p>
+
+                  <div class="elementor-widget-container mb-3">
+                    <div class="elementor-text-editor elementor-clearfix">
+                      <p><span style="font-size: 120%;"><strong>Thạc sĩ Tâm lý học Lâm sàng</strong></span></p>
+                      <p>– Chuyên gia tham vấn trị liệu tậm lý lâm sàng Trẻ em và Vị thành niên</p>
+                      <p>– Chuyên viên tư vấn đào tạo, phát triển chương trình Chăm sóc sức khoẻ tinh thần cộng đồng, giáo dục kĩ năng sống, giá trị sống.</p>
+                      <p>– Nhà tham vấn, trị liệu cho dự án Nâng cao nhận thức về sức khỏe tinh thần thông qua xây dựng và vận hành phòng tham vấn học đường Speak Out – GNI (2019 – 2020)</p>
+                      <p>&nbsp;</p>
+                    </div>
+                  </div>
 
                   <a class="cta-btn" target="_blank" href="{{route('layouts.profile.thsdmkhue')}}">
                     <button type="button" class="btn btn-outline-success rounded-pill">Xem chi tiết</button></a>
