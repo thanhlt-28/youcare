@@ -38,7 +38,7 @@
                         <a class="text-center" href="{{route('layouts.profile.bsdung')}}" target="_blank">
                             <div class="team-6">
                                 <div class="team-img">
-                                    <img src="https://phongkhamtamly.com/wp-content/uploads/2022/05/chu-dung-1-400x400.jpg" class="img-top" alt="Team Image">
+                                    <img src="{{asset('assets/img/team/team-detail/chu-dung.png')}}" class="img-top" alt="Team Image">
                                 </div>
                             </div>
                             <div class="card-body">
@@ -61,7 +61,7 @@
                         <a target="_blank" class="text-center" href="{{route('layouts.profile.tspvtu')}}">
                             <div class="team-6">
                                 <div class="team-img">
-                                    <img src="https://phongkhamtamly.com/wp-content/uploads/2022/05/pham-van-tu-400x400.jpg" class="img-top" alt="...">
+                                    <img src="{{asset('assets/img/team/team-detail/pham-van-tu.png')}}" class="img-top" alt="...">
                                 </div>
                             </div>
                             <div class="card-body">
@@ -84,7 +84,7 @@
                         <a target="_blank" class="text-center" href="{{route('layouts.profile.tsnttham')}}">
                             <div class="team-6">
                                 <div class="team-img">
-                                    <img src="https://phongkhamtamly.com/wp-content/uploads/2022/03/Nguyen-Thi-Tham-280x280.jpg" class="img-top" alt="...">
+                                    <img src="{{asset('assets/img/team/team-detail/nguyen-thi-tham.jpg')}}" class="img-top" alt="...">
                                 </div>
                             </div>
                             <div class="card-body">
@@ -106,7 +106,7 @@
                         <a target="_blank" class="text-center" href="{{route('layouts.profile.tsntmhuong')}}">
                             <div class="team-6">
                                 <div class="team-img">
-                                    <img src="https://phongkhamtamly.com/wp-content/uploads/2022/03/Nguyen-Mai-Huong-280x280.jpg" class="img-top" alt="...">
+                                    <img src="{{asset('assets/img/team/team-detail/nguyen mai huong.png')}}" class="img-top" alt="...">
                                 </div>
                             </div>
                             <div class="card-body">
@@ -130,7 +130,7 @@
                         <a target="_blank" class="text-center" href="{{route('layouts.profile.thsnttvan')}}">
                             <div class="team-6">
                                 <div class="team-img">
-                                    <img src="https://phongkhamtamly.com/wp-content/uploads/2022/03/Nguyen-Thanh-Van-280x280.jpg" class="img-top" alt="...">
+                                    <img src="{{asset('assets/img/team/team-detail/nguyen-thanh-van.png')}}" class="img-top" alt="...">
                                 </div>
                             </div>
                             <div class="card-body">
@@ -153,7 +153,7 @@
                         <a target="_blank" class="text-center" href="{{route('layouts.profile.thsntthang')}}">
                             <div class="team-6">
                                 <div class="team-img">
-                                    <img src="https://phongkhamtamly.com/wp-content/uploads/2022/03/Nguyen-Thuy-Hang-280x280.jpg" class="img-top" alt="...">
+                                    <img src="{{asset('assets/img/team/team-detail/nguyen-thuy-hang.gif')}}" class="img-top" alt="...">
                                 </div>
                             </div>
                             <div class="card-body">
@@ -176,7 +176,7 @@
                         <a target="_blank" class="text-center" href="{{route('layouts.profile.thsnhminh')}}">
                             <div class="team-6">
                                 <div class="team-img">
-                                    <img src="https://phongkhamtamly.com/wp-content/uploads/2022/03/Nguyen-Hien-Minh-280x280.jpg" class="img-top" alt="...">
+                                    <img src="{{asset('assets/img/team/team-detail/nguyen-hien-minh.png')}}" class="img-top" alt="...">
                                 </div>
                             </div>
                             <div class="card-body">
@@ -203,7 +203,7 @@
                         <a target="_blank" class="text-center" href="{{route('layouts.profile.thslthanh')}}">
                             <div class="team-6">
                                 <div class="team-img">
-                                    <img src="https://phongkhamtamly.com/wp-content/uploads/2022/03/Le-The-Hanh-280x280.jpg" class="img-top" alt="...">
+                                    <img src="{{asset('assets/img/team/team-detail/le-the-hanh.png')}}" class="img-top" alt="...">
                                 </div>
                             </div>
                             <div class="card-body">
@@ -227,7 +227,7 @@
                         <a target="_blank" class="text-center" href="{{route('layouts.profile.thsdmkhue')}}">
                             <div class="team-6">
                                 <div class="team-img">
-                                    <img src="https://phongkhamtamly.com/wp-content/uploads/2022/03/Dang-Minh-Khue-280x280.jpg" class="img-top" alt="...">
+                                    <img src="{{asset('assets/img/team/team-detail/dang-minh-khue.png')}}" class="img-top" alt="...">
                                 </div>
                             </div>
                             <div class="card-body">

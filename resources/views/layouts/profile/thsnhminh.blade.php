@@ -22,7 +22,7 @@
             <div class="row justify-content-center">
                 <div class="col-md-7 col-lg-5 mb-5 mb-lg-0 wow fadeIn">
                     <div class="card border-0 shadow">
-                        <img class="" src="https://braincare.vn/wp-content/uploads/2022/03/IMG_3516-1536x1024.jpg" alt="...">
+                        <img class="" src="https://braincare.vn/wp-content/uploads/2022/05/Nguyen-Hien-Minh.png" alt="...">
                         <div class="card-body">
                             <div class="mb-4 p-2-9 p-xl-2">
                                 <h4>NGUYỄN HIỀN MINH</h4>

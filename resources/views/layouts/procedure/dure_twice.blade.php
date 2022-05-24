@@ -6,6 +6,26 @@
     <!-- ======= Breadcrumbs ======= -->
     <section id="breadcrumbs" class="breadcrumbs">
         <div class="breadcrumb-procedure">
+            <div class="container-wraper">
+                <div class="row">
+                    <div class="col-lg-6"></div>
+                    <div class="col-lg-6 p-5">
+                        <div class="about-knowledge">
+                            <div class="row d-flex align-items-center">
+                                <div class="col-lg-10 video-box align-self-baseline position-relative">
+                                    <div class="border border-secondary rounded-3 shadow p-3 mb-5 bg-body rounded">
+                                        <img src="assets/img/blog/PH.png" class="img-fluid" alt="">
+                                        <a href="https://youtu.be/4tiag3PI6I0" class="glightbox play-btn"></a>
+                                        <div class="box-text text-center pt-3">
+                                            <h6>HD PHỤ HUYNH SỬ DỤNG BỘ CÔNG CỤ ĐÁNH GIÁ & SÀNG LỌC</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
         <div class="container">
             <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='currentColor'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
