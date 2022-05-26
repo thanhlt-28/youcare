@@ -15,7 +15,7 @@
 
     </p>
     <p style="color:#ffffff;">YouCare ứng dụng công nghệ để lan tỏa những trí tuệ của các chuyên
-      gia hàng đầu trong lĩnh vực chăm sóc sức khỏe tỉnh thần.</p>
+      gia hàng đầu trong lĩnh vực chăm sóc sức khỏe tinh thần.</p>
     <a href="{{route('clients.platform.product')}}" class="btn-get-started scrollto">Tìm hiểu ngay!</a>
 
     <div class="mouse-icon">

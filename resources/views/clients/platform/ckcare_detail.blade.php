@@ -18,7 +18,7 @@
         </div>
         <div class="slogan-ckcare">
             <p class="slogan">
-                <q>Không trẻ em nào bỏ lại phía sau - Hãy bắt đầu theo dõi và sàng lọc cho trẻ ngay từ hôm nay!</q>
+                <q>Không trẻ em nào bị bỏ lại phía sau - Hãy bắt đầu theo dõi và sàng lọc cho trẻ ngay từ hôm nay!</q>
             </p>
         </div>
         <div class="container">

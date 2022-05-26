@@ -1,4 +1,4 @@
-<section id="pricing" class="pricing">
+<section id="pricing" class="pricing slider-teams">
     <div class="container">
 
         <!-- ======= Pricing Section ======= -->

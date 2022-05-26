@@ -89,14 +89,14 @@
                                                     </div>
                                                     <div class="col-md-4">
                                                         • Cơ thể, thể chất <br />
-                                                        • Xã hội, mỗi quan hệ <br />
+                                                        • Xã hội, mối quan hệ <br />
                                                     </div>
                                                     <div class="col-md-4">
                                                         • Suy nghĩ, nhận thức <br />
                                                         • Tập trung, chú ý <br />
                                                     </div>
                                                     <div class="col-md-4">
-                                                        • Hành vi say phạm (chống đối) <br />
+                                                        • Hành vi sai phạm (chống đối) <br />
                                                     </div>
                                                     <div class="col-md-4">
                                                         • Hành vi thái quá (hung tính) <br />
@@ -110,7 +110,7 @@
                                                 <div class="row">
                                                     <div class="col-md-6">
                                                         • Dành cho trẻ từ 01 tháng đến 5 tuổi rưỡi (66 tháng) <br />
-                                                        • Đánh giá chuyển sâu để có những hỗ trợ tốt cho trẻ <br />
+                                                        • Đánh giá chuyên sâu để có những hỗ trợ tốt cho trẻ <br />
                                                     </div>
                                                     <div class="col-md-6">
                                                         • Giúp sàng lọc các vấn đề liên quan đến trẻ mầm non phát hiện sớm các lĩnh vực trẻ phát triển chậm hơn so với độ tuổi <br /> <br />

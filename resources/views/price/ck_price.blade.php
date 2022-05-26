@@ -19,7 +19,7 @@
 <!-- End Breadcrumbs -->
 
 <!-- ======= Pricing Section ======= -->
-<section id="pricing" class="pricing">
+<section id="pricing" class="pricing slider-teams">
     <div class="container">
         <div class="text-center mb-5">
             <h1>BẢNG GIÁ</h1>
@@ -531,6 +531,246 @@
 
     </div>
 </section>
+<!-- ======= Pricing Section Mobile ======= -->
+<section class="section-mobile slider-team">
+    <div class="text-center mb-3">
+        <h1>BẢNG GIÁ</h1>
+        <p>CKCare - Công cụ đánh giá & sàng lọc <br /> chuẩn hóa đầu tiên</p>
+    </div>
+    <div class="price-sub">
+        <!-- <h5 class="text-uppercase text-center"> Dành cho nhà trường</h5> -->
+        <div class="d-flex justify-content-center">
+            <h6>Chọn số lượng</h6>
+        </div>
+    </div>
+    <div class="container responsive-tabs">
+        <div id="content" class="tab-content" role="tablist">
+            <div id="pane-A" class="card tab-pane fade mb-2 show active" role="tabpanel" aria-labelledby="tab-A">
+                <a class="tab-act" data-bs-toggle="collapse" href="#collapse-A" aria-expanded="true" aria-controls="collapse-A">
+                    <div class="card-header" role="tab" id="heading-A">
+                        <h5 class="text-center mb-0">
+                            50 người
+                        </h5>
+                    </div>
+                </a>
+                <div id="collapse-A" class="collapse show" data-bs-parent="#content" role="tabpanel" aria-labelledby="heading-A">
+                    <div class="card-body">
+                        <div id="pricing" class="pricing">
+                            <!-- ======= Pricing 50 ======= -->
+                            <div class="accordion-body">
+                                <div class="box" data-aos="fade" data-aos-delay="100" style="background-color: #526a24; color: #fff; border-radius: 20px;">
+                                    <div class="widget">
+                                        <span class="heading-title">Khuyên dùng</span>
+                                    </div>
+                                    <div class="text-trending">
+                                        <h3>1 năm</h3>
+                                        <h5><del>12.000.000</del>đ</h5>
+                                        <h6>GIẢM CÒN</h6>
+                                        <h4 class="price-trending text-trending">8.000.000đ<span></span></h4>
+                                        <ul class="text-trending">
+                                            <li>Giảm giá 33%</li>
+                                        </ul>
+                                    </div>
+                                    <div class="trending">
+                                        <a href="{{route('clients.contact')}}" class="btn-buy">Mua ngay</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div id="pane-B" class="card tab-pane fade mb-2" role="tabpanel" aria-labelledby="tab-B">
+                <a class="tab-act" data-bs-toggle="collapse" href="#collapse-B" aria-expanded="true" aria-controls="collapse-B">
+                    <div class="card-header" role="tab" id="heading-B">
+                        <h5 class="text-center mb-0">
+                            100 người
+                        </h5>
+                    </div>
+                </a>
+                <div id="collapse-B" class="collapse" data-bs-parent="#content" role="tabpanel" aria-labelledby="heading-B">
+                    <div class="card-body">
+                        <div id="pricing" class="pricing">
+                            <!-- ======= Pricing 50 ======= -->
+                            <div class="accordion-body">
+                                <div class="box" data-aos="fade" data-aos-delay="100" style="background-color: #526a24; color: #fff; border-radius: 20px;">
+                                    <div class="widget">
+                                        <span class="heading-title">Khuyên dùng</span>
+                                    </div>
+                                    <div class="text-trending">
+                                        <h3>1 năm</h3>
+                                        <h5><del>16.000.000</del>đ</h5>
+                                        <h6>GIẢM CÒN</h6>
+                                        <h4 class="price-trending text-trending">10.000.000đ<span></span></h4>
+                                        <ul class="text-trending">
+                                            <li>Giảm giá 37.5%</li>
+                                        </ul>
+                                    </div>
+                                    <div class="trending">
+                                        <a href="{{route('clients.contact')}}" class="btn-buy">Mua ngay</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div id="pane-C" class="card tab-pane fade mb-2" role="tabpanel" aria-labelledby="tab-C">
+                <a class="tab-act" data-bs-toggle="collapse" href="#collapse-C" aria-expanded="true" aria-controls="collapse-C">
+                    <div class="card-header" role="tab" id="heading-C">
+                        <h5 class="text-center mb-0">
+                            200 người
+                        </h5>
+                    </div>
+                </a>
+                <div id="collapse-C" class="collapse" data-bs-parent="#content" role="tabpanel" aria-labelledby="heading-C">
+                    <div class="card-body">
+                        <div id="pricing" class="pricing">
+                            <!-- ======= Pricing 200 ======= -->
+                            <div class="accordion-body">
+                                <div class="box" data-aos="fade" data-aos-delay="100" style="background-color: #526a24; color: #fff; border-radius: 20px;">
+                                    <div class="widget">
+                                        <span class="heading-title">Khuyên dùng</span>
+                                    </div>
+                                    <div class="text-trending">
+                                        <h3>1 năm</h3>
+                                        <h5><del>36.000.000</del>đ</h5>
+                                        <h6>GIẢM CÒN</h6>
+                                        <h4 class="price-trending text-trending">20.000.000đ<span></span></h4>
+                                        <ul class="text-trending">
+                                            <li>Giảm giá 37.5%</li>
+                                        </ul>
+                                    </div>
+                                    <div class="trending">
+                                        <a href="{{route('clients.contact')}}" class="btn-buy">Mua ngay</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div id="pane-D" class="card tab-pane fade mb-2" role="tabpanel" aria-labelledby="tab-D">
+                <a class="tab-act" data-bs-toggle="collapse" href="#collapse-D" aria-expanded="true" aria-controls="collapse-D">
+                    <div class="card-header" role="tab" id="heading-D">
+                        <h5 class="text-center mb-0">
+                            500 người
+                        </h5>
+                    </div>
+                </a>
+                <div id="collapse-D" class="collapse" data-bs-parent="#content" role="tabpanel" aria-labelledby="heading-D">
+                    <div class="card-body">
+                        <div id="pricing" class="pricing">
+                            <!-- ======= Pricing 500 ======= -->
+                            <div class="accordion-body">
+                                <div class="box" data-aos="fade" data-aos-delay="100" style="background-color: #526a24; color: #fff; border-radius: 20px;">
+                                    <div class="widget">
+                                        <span class="heading-title">Khuyên dùng</span>
+                                    </div>
+                                    <div class="text-trending">
+                                        <h3>1 năm</h3>
+                                        <h5><del>72.000.000</del>đ</h5>
+                                        <h6>GIẢM CÒN</h6>
+                                        <h4 class="price-trending text-trending">40.000.000đ<span></span></h4>
+                                        <ul class="text-trending">
+                                            <li>Giảm giá 37.5%</li>
+                                        </ul>
+                                    </div>
+                                    <div class="trending">
+                                        <a href="{{route('clients.contact')}}" class="btn-buy">Mua ngay</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div id="pane-E" class="card tab-pane fade mb-2" role="tabpanel" aria-labelledby="tab-E">
+                <a class="tab-act" data-bs-toggle="collapse" href="#collapse-E" aria-expanded="true" aria-controls="collapse-E">
+                    <div class="card-header" role="tab" id="heading-E">
+                        <h5 class="text-center mb-0">
+                            1000 người
+                        </h5>
+                    </div>
+                </a>
+                <div id="collapse-E" class="collapse" data-bs-parent="#content" role="tabpanel" aria-labelledby="heading-E">
+                    <div class="card-body">
+                        <div id="pricing" class="pricing">
+                            <!-- ======= Pricing 1000 ======= -->
+                            <div class="accordion-body">
+                                <div class="box" data-aos="fade" data-aos-delay="100" style="background-color: #526a24; color: #fff; border-radius: 20px;">
+                                    <div class="widget">
+                                        <span class="heading-title">Khuyên dùng</span>
+                                    </div>
+                                    <div class="text-trending">
+                                        <h3>1 năm</h3>
+                                        <h5><del>108.000.000</del>đ</h5>
+                                        <h6>GIẢM CÒN</h6>
+                                        <h4 class="price-trending text-trending">60.000.000đ<span></span></h4>
+                                        <ul class="text-trending">
+                                            <li>Giảm giá 37.5%</li>
+                                        </ul>
+                                    </div>
+                                    <div class="trending">
+                                        <a href="{{route('clients.contact')}}" class="btn-buy">Mua ngay</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div id="pane-F" class="card tab-pane fade mb-2" role="tabpanel" aria-labelledby="tab-F">
+                <a class="tab-act" data-bs-toggle="collapse" href="#collapse-F" aria-expanded="true" aria-controls="collapse-F">
+                    <div class="card-header" role="tab" id="heading-F">
+                        <h5 class="text-center mb-0">
+                            2000 người
+                        </h5>
+                    </div>
+                </a>
+                <div id="collapse-F" class="collapse" data-bs-parent="#content" role="tabpanel" aria-labelledby="heading-F">
+                    <div class="card-body">
+                        <div id="pricing" class="pricing">
+                            <!-- ======= Pricing 2000 ======= -->
+                            <div class="accordion-body">
+                                <div class="box" data-aos="fade" data-aos-delay="100" style="background-color: #526a24; color: #fff; border-radius: 20px;">
+                                    <div class="widget">
+                                        <span class="heading-title">Khuyên dùng</span>
+                                    </div>
+                                    <div class="text-trending">
+                                        <h3>1 năm</h3>
+                                        <h5><del>144.000.000</del>đ</h5>
+                                        <h6>GIẢM CÒN</h6>
+                                        <h4 class="price-trending text-trending">80.000.000đ<span></span></h4>
+                                        <ul class="text-trending">
+                                            <li>Giảm giá 37.5%</li>
+                                        </ul>
+                                    </div>
+                                    <div class="trending">
+                                        <a href="{{route('clients.contact')}}" class="btn-buy">Mua ngay</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
 
 @include('layouts.ck_price_person')
 <!-- End Pricing Section -->

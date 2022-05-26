@@ -82,14 +82,14 @@
                                                     </div>
                                                     <div class="col-md-4">
                                                         • Cơ thể, thể chất <br />
-                                                        • Xã hội, mỗi quan hệ <br />
+                                                        • Xã hội, mối quan hệ <br />
                                                     </div>
                                                     <div class="col-md-4">
                                                         • Suy nghĩ, nhận thức <br />
                                                         • Tập trung, chú ý <br />
                                                     </div>
                                                     <div class="col-md-4">
-                                                        • Hành vi say phạm (chống đối) <br />
+                                                        • Hành vi sai phạm (chống đối) <br />
                                                     </div>
                                                     <div class="col-md-4">
                                                         • Hành vi thái quá (hung tính) <br />
