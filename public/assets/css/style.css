@@ -1478,9 +1478,9 @@ q:after {
     background-color: #789d35;
     margin-top: 15px;
     border: 1px solid #789d35;
-    box-shadow: 5px 5px 5px #789d35;
-    -moz-box-shadow: 5px 5px 5px #789d35;
-    -webkit-box-shadow: 5px 5px 5px #789d35;
+    box-shadow: 5px 5px 5px #274812;
+    -moz-box-shadow: 5px 5px 5px #274812;
+    -webkit-box-shadow: 5px 5px 5px #274812;
 }
 
 .sell:hover {
