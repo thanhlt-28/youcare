@@ -15,7 +15,7 @@
 <body>
 
     <header id="header" class="fixed-top d-flex align-items-center">
-        @include('layouts.nav_detail')
+        @include('layouts.nav')
     </header>
 
     <main id="main">

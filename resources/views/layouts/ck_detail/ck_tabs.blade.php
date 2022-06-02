@@ -63,6 +63,7 @@
                         <p>Được đội ngũ chuyên gia nhiều năm kinh nghiệm hỗ trợ và đồng hành cùng khi cần hỗ trợ.</p>
                     </div>
                     <div class="tab-pane fade pt-4 me-4" id="v-pills-teams" role="tabpanel" aria-labelledby="v-pills-teams-tab">
+                        <h4>Nhà chuyên môn</h4>
                         <p>Là hệ thống đầy đủ các bộ công cụ theo dõi, đánh giá, sàng lọc được tính toán xử lý tự động.</p>
                         <p>Các bộ công cụ đã được sử dụng nhiều nước trên thế giới và được chuẩn hóa phù hợp với người Việt Nam. Nhà chuyên môn không phải tập huấn sử dụng bộ công cụ. Kết quả chính xác và quản lý trẻ em, thân chủ đơn giản và thuận tiện.</p>
                         <p>Được hỗ trợ của các chuyên gia đầu ngành về sức khỏe tinh thần.</p>
@@ -100,7 +101,7 @@
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="parent">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseParent" aria-expanded="false" aria-controls="collapseParent">
-                        <b> Phụ huynh</b>
+                            <b> Phụ huynh</b>
                         </button>
                     </h2>
                     <div id="collapseParent" class="accordion-collapse collapse" aria-labelledby="parent" data-bs-parent="#accordionExample">
@@ -115,7 +116,7 @@
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="student">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseStudent" aria-expanded="false" aria-controls="collapseStudent">
-                        <b>Học sinh</b>
+                            <b>Học sinh</b>
                         </button>
                     </h2>
                     <div id="collapseStudent" class="accordion-collapse collapse" aria-labelledby="student" data-bs-parent="#accordionExample">
@@ -129,7 +130,7 @@
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="special">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSpecial" aria-expanded="false" aria-controls="collapseSpecial">
-                        <b>Nhà chuyên môn</b>
+                            <b>Nhà chuyên môn</b>
                         </button>
                     </h2>
                     <div id="collapseSpecial" class="accordion-collapse collapse" aria-labelledby="special" data-bs-parent="#accordionExample">
@@ -143,7 +144,7 @@
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="manager">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseManager" aria-expanded="false" aria-controls="collapseManager">
-                        <b> Nhà quản lý</b>
+                            <b> Nhà quản lý</b>
                         </button>
                     </h2>
                     <div id="collapseManager" class="accordion-collapse collapse" aria-labelledby="manager" data-bs-parent="#accordionExample">
