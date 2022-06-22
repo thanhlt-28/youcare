@@ -1,4 +1,4 @@
-@extends('layouts.main_detail')
+@extends('layouts.main')
 @section('title', 'CKCare')
 @section('content')
 
@@ -38,163 +38,196 @@
     <!-- ======= Pricing Section ======= -->
     <section id="pricing" class="pricing">
         <div class="container">
-
+            <!-- Section About GP -->
             <div class="section-title" data-aos="fade-up">
-                <h2 class="text-uppercase">Giới thiệu bộ công cụ</h2>
+                <h2 class="text-uppercase">Giới thiệu giải pháp</h2>
+                <h6 class="mt-3">
+                    Tâm lý học đường 4.0 là giải pháp toàn diện phối hợp chặt chẽ giữa nhà trường - phụ huynh - học sinh
+                </h6>
             </div>
-            <!-- ======= Features Section ======= -->
-            <section id="features" class="features" data-aos="fade-up">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="row">
-                                <div class="col-lg-6 col-md-6">
-                                    <div class="row">
-                                        <div class="col-lg-6 col-md-6 mt-3">
-                                            <a href="https://checkingcare.vn/gioi-thieu-asq-3/" target="_blank">
-                                                <div class="icon-box">
-                                                    <i class="bi bi-shop" style="color: #ffbb2c;"></i>
-                                                    <h3>ASQ-3</h3>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="col-lg-6 col-md-6 mt-3">
-                                            <a href="https://checkingcare.vn/cbcl/" target="_blank">
-                                                <div class="icon-box">
-                                                    <i class="bi bi-calendar-check-fill" style="color: #e80368;"></i>
-                                                    <h3>CBCL</h3>
-                                                </div>
-                                            </a>
-                                        </div>
+
+            <!-- Section Timeline -->
+            <div class="row" data-aos="fade-up">
+
+                <div class="col-md-5 slider-teams">
+                    <img width="100%" src="{{asset('assets/img/work/Roadmap.png')}}" alt="Image">
+                </div>
+
+                <div class="col-md-7">
+                    @include('layouts.ck_detail.ckcare_motion')
+                </div>
+            </div>
+        </div>
+        <!-- End Section Timeline -->
+
+        <div class="section-title" data-aos="fade-up">
+            <h2 class="text-uppercase">Giá trị CKCare mang lại</h2>
+        </div>
+
+        <div class="wrapper_value">
+            <div class="value-items">
+
+            @include('layouts.ck_detail.ckcare_value')
+
+            </div>
+        </div>
+
+        <div class="section-title mt-5" data-aos="fade-up">
+            <h2 class="text-uppercase">Giới thiệu bộ công cụ</h2>
+        </div>
+        <!-- ======= Features Section ======= -->
+        <section id="features" class="features" data-aos="fade-up">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6">
+                                <div class="row">
+                                    <div class="col-lg-6 col-md-6 mt-3">
+                                        <a href="https://checkingcare.vn/gioi-thieu-asq-3/" target="_blank">
+                                            <div class="icon-box">
+                                                <i class="bi bi-shop" style="color: #ffbb2c;"></i>
+                                                <h3>ASQ-3</h3>
+                                            </div>
+                                        </a>
                                     </div>
-                                    <div class="row">
-                                        <div class="col-lg-6 col-md-6 mt-3">
-                                            <a href="https://checkingcare.vn/adhd/" target="_blank">
-                                                <div class="icon-box">
-                                                    <i class="bi bi-bar-chart-line" style="color: #5578ff;"></i>
-                                                    <h3>ADHD</h3>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="col-lg-6 col-md-6 mt-3">
-                                            <a href="https://checkingcare.vn/m-chart/" target="_blank">
-                                                <div class="icon-box">
-                                                    <i class="bi bi-paint-bucket" style="color: #e361ff;"></i>
-                                                    <h3>M-CHAT-R</h3>
-                                                </div>
-                                            </a>
-                                        </div>
+                                    <div class="col-lg-6 col-md-6 mt-3">
+                                        <a href="https://checkingcare.vn/cbcl/" target="_blank">
+                                            <div class="icon-box">
+                                                <i class="bi bi-calendar-check-fill" style="color: #e80368;"></i>
+                                                <h3>CBCL</h3>
+                                            </div>
+                                        </a>
                                     </div>
                                 </div>
-                                <div class="col-lg-6 col-md-6">
-                                    <div class="col-lg-12 col-md-12">
-                                        <div data-aos="fade-up">
-                                            <img class="card" src="{{asset('assets/img/clients/ck-detail.png')}}" alt="">
-                                        </div>
+                                <div class="row">
+                                    <div class="col-lg-6 col-md-6 mt-3">
+                                        <a href="https://checkingcare.vn/adhd/" target="_blank">
+                                            <div class="icon-box">
+                                                <i class="bi bi-bar-chart-line" style="color: #5578ff;"></i>
+                                                <h3>ADHD</h3>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 mt-3">
+                                        <a href="https://checkingcare.vn/m-chart/" target="_blank">
+                                            <div class="icon-box">
+                                                <i class="bi bi-paint-bucket" style="color: #e361ff;"></i>
+                                                <h3>M-CHAT-R</h3>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6">
+                                <div class="col-lg-12 col-md-12">
+                                    <div data-aos="fade-up">
+                                        <img class="card" src="{{asset('assets/img/clients/ck-detail.png')}}" alt="">
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </section>
-            <!-- End Features Section -->
-
-            <div class="section-title" data-aos="fade-up">
-                <h2 class="text-uppercase">Quy trình sàng lọc</h2>
             </div>
-            <!-- ======= Features Section ======= -->
+        </section>
+        <!-- End Features Section -->
+
+        <div class="section-title" data-aos="fade-up">
+            <h2 class="text-uppercase">Quy trình sàng lọc</h2>
+        </div>
+        <!-- ======= Features Section ======= -->
 
 
-            <section class="container-fluild" data-aos="fade-up">
-                <div class="container">
-                    <div class="row row-cols-1 row-cols-md-5 g-4">
-                        <div class="col">
-                            <a href="{{route('layouts.procedure.dure_once')}}">
-                                <div class="sell card h-100">
-                                    <div class="card-body">
-                                        <div class="text-center">
-                                            <b class="fw-light">DÀNH CHO</b></br>
-                                        </div>
-
-                                        <h5 class="card-title text-center">GIÁO VIÊN</h5>
+        <section class="container-fluild" data-aos="fade-up">
+            <div class="container">
+                <div class="row row-cols-1 row-cols-md-5 g-4">
+                    <div class="col">
+                        <a href="{{route('layouts.procedure.dure_once')}}">
+                            <div class="sell card h-100">
+                                <div class="card-body">
+                                    <div class="text-center">
+                                        <b class="fw-light">DÀNH CHO</b></br>
                                     </div>
-                                    <div class="card-footer text-center">
-                                        <small>Xem thêm</small>
-                                    </div>
+
+                                    <h5 class="card-title text-center">GIÁO VIÊN</h5>
                                 </div>
-                            </a>
-                        </div>
-                        <div class="col">
-                            <a href="{{route('layouts.procedure.dure_twice')}}">
-                                <div class="sell card h-100">
-                                    <div class="card-body">
-                                        <div class="text-center">
-                                            <b class="fw-light">DÀNH CHO</b></br>
-                                        </div>
-
-                                        <h5 class="card-title text-center">PHỤ HUYNH</h5>
-                                    </div>
-                                    <div class="card-footer text-center">
-                                        <small>Xem thêm</small>
-                                    </div>
+                                <div class="card-footer text-center">
+                                    <small>Xem thêm</small>
                                 </div>
-                            </a>
-                        </div>
-                        <div class="col">
-                            <a href="{{route('layouts.procedure.dure_three')}}">
-                                <div class="sell card h-100">
-                                    <div class="card-body">
-                                        <div class="text-center">
-                                            <b class="fw-light">DÀNH CHO</b></br>
-                                        </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a href="{{route('layouts.procedure.dure_twice')}}">
+                            <div class="sell card h-100">
+                                <div class="card-body">
+                                    <div class="text-center">
+                                        <b class="fw-light">DÀNH CHO</b></br>
+                                    </div>
 
-                                        <h5 class="card-title text-center">HỌC SINH</h5>
-                                    </div>
-                                    <div class="card-footer text-center">
-                                        <small>Xem thêm</small>
-                                    </div>
+                                    <h5 class="card-title text-center">PHỤ HUYNH</h5>
                                 </div>
-                            </a>
-                        </div>
-                        <div class="col">
-                            <a href="{{route('layouts.procedure.dure_four')}}">
-                                <div class="sell card h-100">
-                                    <div class="card-body">
-                                        <div class="text-center">
-                                            <b class="fw-light">DÀNH CHO</b></br>
-                                        </div>
+                                <div class="card-footer text-center">
+                                    <small>Xem thêm</small>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a href="{{route('layouts.procedure.dure_three')}}">
+                            <div class="sell card h-100">
+                                <div class="card-body">
+                                    <div class="text-center">
+                                        <b class="fw-light">DÀNH CHO</b></br>
+                                    </div>
 
-                                        <h5 class="card-title text-center">NHÀ QUẢN LÝ</h5>
-                                    </div>
-                                    <div class="card-footer text-center">
-                                        <small>Xem thêm</small>
-                                    </div>
+                                    <h5 class="card-title text-center">HỌC SINH</h5>
                                 </div>
-                            </a>
-                        </div>
-                        <div class="col">
-                            <a href="{{route('layouts.procedure.dure_five')}}">
-                                <div class="sell card h-100">
-                                    <div class="card-body">
-                                        <div class="text-center">
-                                            <b class="fw-light">DÀNH CHO</b>
-                                        </div>
+                                <div class="card-footer text-center">
+                                    <small>Xem thêm</small>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a href="{{route('layouts.procedure.dure_four')}}">
+                            <div class="sell card h-100">
+                                <div class="card-body">
+                                    <div class="text-center">
+                                        <b class="fw-light">DÀNH CHO</b></br>
+                                    </div>
 
-                                        <h5 class="card-title text-center">NHÀ CHUYÊN MÔN</h5>
-                                    </div>
-                                    <div class="card-footer text-center">
-                                        <small>Xem thêm</small>
-                                    </div>
+                                    <h5 class="card-title text-center">NHÀ QUẢN LÝ</h5>
                                 </div>
-                            </a>
-                        </div>
+                                <div class="card-footer text-center">
+                                    <small>Xem thêm</small>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a href="{{route('layouts.procedure.dure_five')}}">
+                            <div class="sell card h-100">
+                                <div class="card-body">
+                                    <div class="text-center">
+                                        <b class="fw-light">DÀNH CHO</b>
+                                    </div>
+
+                                    <h5 class="card-title text-center">NHÀ CHUYÊN MÔN</h5>
+                                </div>
+                                <div class="card-footer text-center">
+                                    <small>Xem thêm</small>
+                                </div>
+                            </div>
+                        </a>
                     </div>
                 </div>
-            </section>
-            <!-- End Features Section -->
+            </div>
+        </section>
+        <!-- End Features Section -->
 
-            @include('layouts.ck_detail.ck_tabs')
+        @include('layouts.ck_detail.ck_tabs')
 
         </div>
 
