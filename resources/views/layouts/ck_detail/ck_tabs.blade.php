@@ -58,7 +58,7 @@
                     </div>
                     <div class="tab-pane fade pt-4 me-4" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
                         <h4>Học sinh</h4>
-                        <p>Biết được tình trạng của mình và tìm kiếm sự hỗ trợ khi cần thiết chỉ đơn giản bằng lick chuột.</p>
+                        <p>Biết được tình trạng của mình và tìm kiếm sự hỗ trợ khi cần thiết chỉ đơn giản bằng click chuột.</p>
                         <p>Dễ dàng kiểm tra sức khoẻ tâm thần của mình mà không cần kiến thức chuyên môn.</p>
                         <p>Được đội ngũ chuyên gia nhiều năm kinh nghiệm hỗ trợ và đồng hành cùng khi cần hỗ trợ.</p>
                     </div>

@@ -1,8 +1,14 @@
 <div class="container">
     <ul class="m-0 nav nav-fill nav-justified nav-tabs" id="myTab" role="tablist">
-        <li class="nav-item" role="presentation"> <button class="active nav-link" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true"> <i class="fas fa-envelope-open"></i> Phụ huynh </button> </li>
-        <li class="nav-item" role="presentation"> <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false"> <i class="fas fa-user-astronaut"></i> Học sinh </button> </li>
-        <li class="nav-item" role="presentation"> <button class="nav-link" id="messages-tab" data-bs-toggle="tab" data-bs-target="#messages" type="button" role="tab" aria-controls="messages" aria-selected="false"> <i class="far fa-home"></i> Nhà trường </button> </li>
+        <li class="nav-item" role="presentation"> <button class="active nav-link" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">
+                <h6> <i class="fas fa-envelope-open"></i> Phụ huynh</h6>
+            </button> </li>
+        <li class="nav-item" role="presentation"> <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">
+                <h6> <i class="fas fa-user-astronaut"></i> Học sinh </h6>
+            </button> </li>
+        <li class="nav-item" role="presentation"> <button class="nav-link" id="messages-tab" data-bs-toggle="tab" data-bs-target="#messages" type="button" role="tab" aria-controls="messages" aria-selected="false">
+                <h6> <i class="fas fa-home"></i> Nhà trường </h6>
+            </button> </li>
     </ul>
     <div class="border-grey bg-white p-3 tab-content">
         <div class="tab-pane active" id="home" role="tabpanel" aria-labelledby="home-tab">

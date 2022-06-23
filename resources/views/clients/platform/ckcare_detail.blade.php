@@ -33,48 +33,46 @@
     </section>
     <!-- End Breadcrumbs -->
 
+    <div class="container">
+        <!-- Section About GP -->
+        <div class="section-title" data-aos="fade-up">
+            <h2 class="text-uppercase">Giới thiệu giải pháp</h2>
+            <h6 class="mt-3">
+                Tâm lý học đường 4.0 là giải pháp toàn diện phối hợp chặt chẽ giữa nhà trường - phụ huynh - học sinh
+            </h6>
+        </div>
 
+        <!-- Section Timeline -->
+        <div class="row" data-aos="fade-up">
+
+            <div class="col-md-5 slider-teams">
+                <img width="100%" src="{{asset('assets/img/work/Roadmap.png')}}" alt="Image">
+            </div>
+
+            <div class="col-md-7">
+                @include('layouts.ck_detail.ckcare_motion')
+            </div>
+        </div>
+    </div>
+    <!-- End Section Timeline -->
+
+    <div class="section-title" data-aos="fade-up">
+        <h2 class="text-uppercase">Giá trị CKCare mang lại</h2>
+    </div>
+
+    <div class="wrapper_value">
+        <div class="value-items" data-aos="fade-up">
+            @include('layouts.ck_detail.ckcare_value')
+        </div>
+    </div>
 
     <!-- ======= Pricing Section ======= -->
     <section id="pricing" class="pricing">
-        <div class="container">
-            <!-- Section About GP -->
-            <div class="section-title" data-aos="fade-up">
-                <h2 class="text-uppercase">Giới thiệu giải pháp</h2>
-                <h6 class="mt-3">
-                    Tâm lý học đường 4.0 là giải pháp toàn diện phối hợp chặt chẽ giữa nhà trường - phụ huynh - học sinh
-                </h6>
-            </div>
-
-            <!-- Section Timeline -->
-            <div class="row" data-aos="fade-up">
-
-                <div class="col-md-5 slider-teams">
-                    <img width="100%" src="{{asset('assets/img/work/Roadmap.png')}}" alt="Image">
-                </div>
-
-                <div class="col-md-7">
-                    @include('layouts.ck_detail.ckcare_motion')
-                </div>
-            </div>
-        </div>
-        <!-- End Section Timeline -->
-
-        <div class="section-title" data-aos="fade-up">
-            <h2 class="text-uppercase">Giá trị CKCare mang lại</h2>
-        </div>
-
-        <div class="wrapper_value">
-            <div class="value-items">
-
-            @include('layouts.ck_detail.ckcare_value')
-
-            </div>
-        </div>
 
         <div class="section-title mt-5" data-aos="fade-up">
             <h2 class="text-uppercase">Giới thiệu bộ công cụ</h2>
         </div>
+
         <!-- ======= Features Section ======= -->
         <section id="features" class="features" data-aos="fade-up">
             <div class="container">
@@ -226,10 +224,17 @@
             </div>
         </section>
         <!-- End Features Section -->
+        <div class="section-title mt-5" data-aos="fade-up">
+            <h2 class="text-uppercase">Hỗ trợ và đồng hành</h2>
+            <h6 class="mt-3">
+                CKCare xây dựng chương trình chăm sóc sức khỏe tinh thần toàn diện
+            </h6>
+        </div>
 
         @include('layouts.ck_detail.ck_tabs')
 
         </div>
+
 
         <!-- Slider team # Laptop -->
         <section class="slider-teams" data-aos="fade-up">
