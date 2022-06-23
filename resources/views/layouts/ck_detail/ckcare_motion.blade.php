@@ -6,25 +6,26 @@
                 <ul class="timeline-3">
                     <li>
                         <!-- Timeline item 1 content-->
-                        <div class="timeline timeline-five px-3 px-sm-0">
+                        <div class="timeline timeline-five px-5 px-sm-0">
                             <!-- Item 1 -->
                             <div class="row">
-                                <div class="d-flex col-12 col-lg-12 col-xl-11 my-4">
+                                <div class="card-ht d-flex col-12 col-lg-12 col-xl-12 my-5">
                                     <div class="bw-md border-white">
                                         <div class="card-body">
-
-                                            <div class="d-flex bg-soft-primime">
-                                                <h5 class="d-flex bg-soft-prime card-title">Hành trình 1</h5>
-                                            </div>
-                                            <h6 class="d-flex card-text">Phòng ngừa các rối loạn phát triển và rối nhiễu tâm lý</h6>
-                                            <button class="btn btn-sm btn-tertiary d-flex" type="button" data-target="#t1_details" data-toggle="collapse">Xem thêm... <i class="fas fa-angle-down toggle-arrow ml-1"></i></button>
-                                            <div class="collapse" id="t1_details">
-                                                <div class="mt-3">
-                                                    <p class="d-flex justify-content-start">
-                                                        CKCare là ứng dụng theo dõi, sàng lọc và đánh giá nhằm phát hiện sớm các vấn đề liên quan đến rối loạn phát triển và sức khỏe tinh thần của trẻ (từ 12 tháng đến 18 tuổi).
-                                                    </p>
+                                            <a href="{{route('layouts.ck_detail.ckcare_once')}}">
+                                                <div class="d-flex bg-soft-primime">
+                                                    <h5 class="d-flex text-dark card-title">Hành trình 1</h5>
                                                 </div>
-                                            </div>
+                                                <h4 class="d-flex card-text">Phòng ngừa các rối loạn phát triển và rối nhiễu tâm lý</h4>
+                                                <button class="btn btn-sm btn-tertiary d-flex" type="button" data-target="#t1_details" data-toggle="collapse">Xem thêm <i class="bi bi-arrow-right-short"></i></button>
+                                                <!-- <div class="collapse" id="t1_details">
+                                                    <div class="mt-3">
+                                                        <p class="d-flex justify-content-start">
+                                                            CKCare là ứng dụng theo dõi, sàng lọc và đánh giá nhằm phát hiện sớm các vấn đề liên quan đến rối loạn phát triển và sức khỏe tinh thần của trẻ (từ 12 tháng đến 18 tuổi).
+                                                        </p>
+                                                    </div>
+                                                </div> -->
+                                            </a>
                                         </div>
                                     </div>
                                 </div>
@@ -36,33 +37,35 @@
                             <!-- Timeline Item 3 -->
                             <div class="row">
                                 <!-- Timeline item 3 content -->
-                                <div class="d-flex col-12 col-lg-12 col-xl-11 my-4">
+                                <div class="card-ht d-flex col-12 col-lg-12 col-xl-12 my-5">
                                     <div class="bw-md border-white">
                                         <div class="card-body">
-                                            <div class="d-flex bg-soft-primime">
-                                                <h5 class="d-flex bg-soft-prime card-title">Hành trình 2</h5>
-                                            </div>
-
-                                            <h6 class="d-flex card-text">Sự đồng hành của các chuyên gia</h6>
-                                            <button class="btn btn-sm btn-tertiary d-flex" type="button" data-target="#t2_details" data-toggle="collapse">Xem thêm... <i class="fas fa-angle-down toggle-arrow ml-1"></i></button>
-                                            <div class="collapse" id="t2_details">
-                                                <div class="mt-3">
-                                                    <p class="d-flex justify-content-start">
-                                                        CKCare xây dựng chương trình chăm sóc sức khỏe tinh thần toàn diện,
-                                                        hỗ trợ và đồng hành cùng phụ huynh, giáo viên và học sinh.
-                                                    </p>
-                                                    <p>
-                                                        (Hỗ trợ chuyên sâu: (024) 4455 3307)
-                                                    </p>
+                                            <a href="{{route('layouts.ck_detail.ckcare_twice')}}">
+                                                <div class="d-flex bg-soft-primime">
+                                                    <h5 class="d-flex text-dark card-title">Hành trình 2</h5>
                                                 </div>
-                                            </div>
+
+                                                <h4 class="d-flex card-text">Sự đồng hành của các chuyên gia</h4>
+                                                <button class="btn btn-sm btn-tertiary d-flex" type="button" data-target="#t2_details" data-toggle="collapse">Xem thêm <i class="bi bi-arrow-right-short"></i></button>
+                                                <!-- <div class="collapse" id="t2_details">
+                                                    <div class="mt-3">
+                                                        <p class="d-flex justify-content-start">
+                                                            CKCare xây dựng chương trình chăm sóc sức khỏe tinh thần toàn diện,
+                                                            hỗ trợ và đồng hành cùng phụ huynh, giáo viên và học sinh.
+                                                        </p>
+                                                        <p>
+                                                            (Hỗ trợ chuyên sâu: (024) 4455 3307)
+                                                        </p>
+                                                    </div>
+                                                </div> -->
+                                            </a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </li>
-
+                    <!-- li -->
                     <li> </li>
                 </ul>
             </div>
@@ -76,20 +79,36 @@
         position: relative;
     }
 
+    .card-ht {
+        border: 1px solid #d4d9df;
+        border-radius: 10px;
+        box-shadow: 5px 5px 5px #789d35;
+        -moz-box-shadow: 5px 5px 5px #789d35;
+        -webkit-box-shadow: 5px 5px 5px #789d35;
+    }
+
+    .card-ht:hover {
+        border: 1px solid #d4d9df;
+        border-radius: 10px;
+        box-shadow: 5px 5px 5px #274812;
+        -moz-box-shadow: 5px 5px 5px #274812;
+        -webkit-box-shadow: 5px 5px 5px #274812;
+    }
+
     ul.timeline-3:before {
         content: ' ';
         background: #d4d9df;
         display: inline-block;
         position: absolute;
-        left: 29px;
+        left: 9px;
         width: 2px;
         height: 100%;
         z-index: 400;
     }
 
     ul.timeline-3>li {
-        margin: 0px 20px;
-        padding-left: 20px;
+        margin: 0px 0px;
+        padding-left: 0px;
     }
 
     ul.timeline-3>li:before {
@@ -99,7 +118,7 @@
         position: absolute;
         border-radius: 50%;
         border: 3px solid #94c045;
-        left: 20px;
+        left: 0px;
         width: 20px;
         height: 20px;
         z-index: 400;

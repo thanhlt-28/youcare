@@ -43,15 +43,20 @@
         border-end-start-radius: 5px;
         border-end-end-radius: 5px;
         border-top: none;
-        border-color: #dee2e6
+        border-color: #dee2e6;
     }
 
     #myTab {
-        background-color: #dee2e6
+        background-color: #94c045;
     }
 
+
     .nav-link {
-        color: #666
+        color: #fff;
+    }
+
+    .nav-link:hover {
+        color: #fff
     }
 </style>
 

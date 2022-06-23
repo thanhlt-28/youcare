@@ -62,7 +62,7 @@ Route::prefix('/')->group(function () {
         return view('clients.platform.product');
     })->name('clients.platform.product');
 
-    
+
     Route::get('ckcare', function () {
         return view('clients.platform.ckcare_detail');
     })->name('clients.platform.ckcare_detail');
@@ -115,9 +115,14 @@ Route::prefix('/')->group(function () {
     Route::get('ckcare-price', function () {
         return view('price.ck_price');
     })->name('price.ck_price');
-    // Route::get('', function () {
-    //     return view('price.ck_price');
-    // })->name('price.ck_price');
+
+    //CKCare 4.0
+    Route::get('hanh-trinh-1', function () {
+        return view('layouts.ck_detail.ckcare_once');
+    })->name('layouts.ck_detail.ckcare_once');
+    Route::get('hanh-trinh-2', function () {
+        return view('layouts.ck_detail.ckcare_twice');
+    })->name('layouts.ck_detail.ckcare_twice');
 
     // Chuyên gia - chi tiết
     Route::get('thay-thuoc-uu-tu-nguyen-van-dung', function () {
@@ -147,7 +152,7 @@ Route::prefix('/')->group(function () {
     Route::get('thac-si-nguyen-hien-minh', function () {
         return view('layouts.profile.thsnhminh');
     })->name('layouts.profile.thsnhminh');
-    
+
     Route::get('thac-si-le-the-hanh', function () {
         return view('layouts.profile.thslthanh');
     })->name('layouts.profile.thslthanh');
@@ -155,7 +160,6 @@ Route::prefix('/')->group(function () {
     Route::get('thac-si-dang-minh-khue', function () {
         return view('layouts.profile.thsdmkhue');
     })->name('layouts.profile.thsdmkhue');
-    
 });
 
 // ===== Router Admin ===== //
