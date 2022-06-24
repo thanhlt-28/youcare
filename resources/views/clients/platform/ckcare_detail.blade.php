@@ -45,8 +45,8 @@
         <!-- Section Timeline -->
         <div class="row" data-aos="fade-up">
 
-            <div class="col-md-5 slider-teams">
-                <img width="100%" src="{{asset('assets/img/work/Roadmap.png')}}" alt="Image">
+            <div class="col-md-5 slider-teams d-flex align-items-center justify-content-center">
+                <img width="80%" src="{{asset('assets/img/work/Roadmap.png')}}" alt="Image">
             </div>
 
             <div class="col-md-7">

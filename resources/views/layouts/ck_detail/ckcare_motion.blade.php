@@ -6,7 +6,7 @@
                 <ul class="timeline-3">
                     <li>
                         <!-- Timeline item 1 content-->
-                        <div class="timeline timeline-five px-5 px-sm-0">
+                        <div class="timeline timeline-five px-3 px-sm-0">
                             <!-- Item 1 -->
                             <div class="row">
                                 <div class="card-ht d-flex col-12 col-lg-12 col-xl-12 my-5">
@@ -95,34 +95,6 @@
         -webkit-box-shadow: 5px 5px 5px #274812;
     }
 
-    ul.timeline-3:before {
-        content: ' ';
-        background: #d4d9df;
-        display: inline-block;
-        position: absolute;
-        left: 9px;
-        width: 2px;
-        height: 100%;
-        z-index: 400;
-    }
-
-    ul.timeline-3>li {
-        margin: 0px 0px;
-        padding-left: 0px;
-    }
-
-    ul.timeline-3>li:before {
-        content: ' ';
-        background: white;
-        display: inline-block;
-        position: absolute;
-        border-radius: 50%;
-        border: 3px solid #94c045;
-        left: 0px;
-        width: 20px;
-        height: 20px;
-        z-index: 400;
-    }
 
 
     .bg-soft-prime {
