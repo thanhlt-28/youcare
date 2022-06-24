@@ -126,6 +126,11 @@
         </div>
     </div>
 
+    <!-- <div class="sidebar-box black">
+        <p>Mẹ cháu Y chia sẻ “Ngắn gọn, dễ làm là 2 điều tôi thích ở công cụ sàng lọc M–Chat-R. Những câu hỏi ngắn Có/không giúp tôi tiết kiệm được thời gian hơn, tôi nghĩ điều này sẽ phù hợp với những bố, mẹ bận rộn. Tôi hiện đang là bà mẹ đơn thân của con gái 2 tuổi, thêm cả việc gia đình, việc ở công ty nên tôi khá bận. Sau khi phát hiện thấy những sự chậm trễ của con (chưa nói “baba, mẹ, bà, không có sự chú ý khi nghe âm thanh xung quanh...) tôi mới nhìn nhận lại được rằng: Mình giành quá ít thời gian bên con, hầu như tôi đang phó mặc con cho bà ngoại, bà cũng tuổi già nên ít có thời gian tương tác với con. Cảm ơn công cụ M – Chart đã giúp tôi chắc chắn hơn về nhận định của mình, tôi không bỏ lỡ giai đoạn vàng của con trong việc đưa con đi can thiệp”.</p>
+        <p class="read-more"><a href="#" class="button text-white">Xem thêm</a></p>
+    </div> -->
+
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
