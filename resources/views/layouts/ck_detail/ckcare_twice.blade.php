@@ -44,14 +44,12 @@
         <div class="content-items" data-aos="fade-up">
             <div class="content-wrap nav-border">
                 <div class="row">
-                    <div class="col-12 col-lg-3">
-                        <div class="img-content d-flex align-items-center justify-content-center">
-                            <img width="70%" src="{{asset('assets/img/work/mental-ht2.png')}}" alt="Image">
-                        </div>
-                    </div>
-                    <div class="col-12 col-lg-9">
-                        <div class="content-body d-flex align-items-center justify-content-start">
+
+                    <div class="col-12 col-lg-7">
+                        <div class="content-body d-flex align-items-center">
                             <div>
+                                <i><i class="bi bi-circle-square"></i> BrainCare xây dựng chương trình chăm sóc sức khỏe tinh thần toàn diện cho trẻ em, phối hợp giữa nhà trường, phụ huynh và học sinh.</i>
+                                <br />
                                 <b> Sau khi đánh giá, sàng lọc ra các vấn đề của trẻ như: </b>
                                 <br>
                                 <i class="bi bi-chevron-double-right"></i> Rối loạn phát triển <br>
@@ -63,10 +61,14 @@
                                     <i class="bi bi-chevron-double-right"></i> Hotline: <span>(024) 4455 3307</span> <br>
                                     <i class="bi bi-chevron-double-right"></i> Tổng đài tư vấn: <span>1900 3307</span> <br>
                                     <i class="bi bi-chevron-double-right"></i> Website: <a href="https://braincare.vn" target="_blank">braincare.vn</a> <br>
-                                    <!-- <i> BrainCare xây dựng chương trình chăm sóc sức khỏe tinh thần toàn diện cho trẻ em, phối hợp giữa nhà trường, phụ huynh và học sinh.</i> -->
 
                                 </div>
                             </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-5 d-flex align-items-center justify-content-center">
+                        <div class="img-content d-flex justify-content-center">
+                            <img width="70%" src="{{asset('assets/img/work/mental-ht2.png')}}" alt="Image">
                         </div>
                     </div>
                 </div>
@@ -74,7 +76,7 @@
             <div class="content-section mt-5">
                 <ul class="m-0 nav nav-fill nav-justified nav-tabs" id="myTab" role="tablist">
                     <li class="nav-item" role="presentation"> <button class="active nav-link" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">
-                            <h6> <i class="fas fa-home"></i> Giáo viên & nhà trường</h6>
+                            <h6> <i class="fas fa-home"></i> Giáo viên</h6>
                         </button> </li>
                     <li class="nav-item" role="presentation"> <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">
                             <h6><i class="fas fa-envelope-open"></i> Phụ huynh </h6>
