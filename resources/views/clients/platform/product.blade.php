@@ -219,7 +219,7 @@
                     <a href="https://checkingcare.vn/m-chart/" target="_blank">
                         <div class="icon-box">
                             <i class="bi bi-paint-bucket" style="color: #e361ff;"></i>
-                            <h3>M-CHAT-R</h3>
+                            <h3>M-CHAT</h3>
                         </div>
                     </a>
                 </div>
