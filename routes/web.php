@@ -41,7 +41,7 @@ Route::get('lien-he', function () {
     return view('clients.contact');
 })->name('clients.contact');
 
-// ===== Router Clients ===== //
+// ========== Router Clients ============================ //
 Route::prefix('/')->group(function () {
     // Giới thiệu
     Route::get('gioi-thieu', function () {
@@ -56,7 +56,7 @@ Route::prefix('/')->group(function () {
         return view('clients.about.team_experts');
     })->name('clients.about.team_experts');
 
-    // =================Sản phẩm===================== //
+    // =================Sản phẩm========================== //
     // Route::prefix('platform/')->group(function () {
     Route::get('san-pham', function () {
         return view('clients.platform.product');
@@ -76,7 +76,7 @@ Route::prefix('/')->group(function () {
         return view('clients.platform.bizcare');
     })->name('clients.platform.bizcare');
 
-    // ========= Quy trình =============//
+    // ========= Quy trình =============================//
     Route::get('quy-trinh-giao-vien', function () {
         return view('layouts.procedure.dure_once');
     })->name('layouts.procedure.dure_once');
@@ -94,7 +94,7 @@ Route::prefix('/')->group(function () {
     })->name('layouts.procedure.dure_five');
 
 
-    // Tài nguyên
+    // ====== Tài nguyên ============================ //
     Route::get('tai-nguyen', function () {
         return view('clients.source');
     })->name('clients.source');
@@ -124,6 +124,20 @@ Route::prefix('/')->group(function () {
         return view('layouts.ck_detail.ckcare_twice');
     })->name('layouts.ck_detail.ckcare_twice');
 
+    Route::get('asq-3', function () {
+        return view('clients.ckcare.asq3');
+    })->name('clients.ckcare.asq3');
+    Route::get('cbcl', function () {
+        return view('clients.ckcare.cbcl');
+    })->name('clients.ckcare.cbcl');
+    Route::get('adhd', function () {
+        return view('clients.ckcare.adhd');
+    })->name('clients.ckcare.adhd');
+    Route::get('m-chat', function () {
+        return view('clients.ckcare.mchat');
+    })->name('clients.ckcare.mchat');
+
+    // ============================================================== //
     // Chuyên gia - chi tiết
     Route::get('thay-thuoc-uu-tu-nguyen-van-dung', function () {
         return view('layouts.profile.bsdung');
@@ -162,7 +176,7 @@ Route::prefix('/')->group(function () {
     })->name('layouts.profile.thsdmkhue');
 });
 
-// ===== Router Admin ===== //
+// ============== Router Admin ================================== //
 Route::prefix('admin')->middleware('check_admin_role')->group(function () {
     // Dashboard
     Route::get('/', function () {

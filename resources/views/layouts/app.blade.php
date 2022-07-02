@@ -13,13 +13,7 @@
                                     <h4 class="text-center text-uppercase"> CKCARE</h4>
                                     <div class="d-flex flex-nowrap">
                                         <p class="box-shade text-justify">
-                                            CKCare là sản phẩm công nghệ
-                                            được ứng dụng trong việc theo dõi,
-                                            sàng lọc và đánh giá nhằm phát
-                                            hiện sớm những vấn đề rối loạn
-                                            phát triển cũng như sức khỏe
-                                            tâm thần của trẻ từ 12 tháng
-                                            tuổi đến 18 tuổi.
+                                            Là phần mềm ứng dụng sàng lọc và phát hiện sớm các vấn đề trong phát triển và vấn đề tâm lý của trẻ từ 1 tháng đến 18 tuổi.
                                         </p>
                                     </div>
                                     <p class="text-white">Chi tiết<span class='bi bi-arrow-right'></span></p>
@@ -126,13 +120,7 @@
                 <h4 class="text-app mb-3"> CKCARE</h4>
                 <div class="d-flex flex-nowrap">
                     <p class="box-shade">
-                        CKCare là sản phẩm công nghệ
-                        được ứng dụng trong việc theo dõi,
-                        sàng lọc và đánh giá nhằm phát
-                        hiện sớm những vấn đề rối loạn
-                        phát triển cũng như sức khỏe
-                        tâm thần của trẻ từ 12 tháng
-                        tuổi đến 18 tuổi.
+                        Là phần mềm ứng dụng sàng lọc và phát hiện sớm các vấn đề trong phát triển và vấn đề tâm lý của trẻ từ 1 tháng đến 18 tuổi.
                     </p>
                 </div>
                 <p class="text-white mt-3">Chi tiết<span class='bi bi-arrow-right'></span></p>

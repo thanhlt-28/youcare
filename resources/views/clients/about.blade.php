@@ -40,11 +40,13 @@
             <h3>Ứng dụng CKCare</h3>
           </a>
           <p class="fst-italic">
-            ChkCare là sản phẩm công nghệ:
+            CKCare là phầm mềm ứng dụng:
           </p>
           <ul>
-            <li><i class="bi bi-check"></i> Được ứng dụng trong việc theo dõi, sàng lọc và đánh giá.</li>
-            <li><i class="bi bi-check"></i> Nhằm phát hiện sớm những vấn đề rối loạn phát triển, cũng như sức khỏe tâm thần của trẻ từ 12 tháng tuổi đến 18 tuổi.</li>
+            <li><i class="bi bi-check"></i> Được ứng dụng trong việc sàng lọc và phát hiện sớm các vấn đề trong phát triển và vấn đề tâm lý của trẻ từ 1 tháng đến 18 tuổi.</li>
+            <li><i class="bi bi-check"></i> Nhằm giúp cha mẹ, thầy cô giáo, các nhà chuyên môn và chính trẻ đánh giá được các năng lực phát triển vượt trội hoặc các rối nhiễu trong quá trình phát triển của trẻ. </li>
+            <li><i class="bi bi-check"></i> Đặc biệt là phát hiện sớm các rối nhiễu về tâm lý ở trẻ để có biện pháp phòng ngừa tác động tiêu cực cũng như có phương hướng hỗ trợ, thúc đẩy phát triển và can thiệp kịp thời khi cần thiết.</li>
+            <li><i class="bi bi-check"></i> Sản phẩm là công cụ phục vụ cho cộng đồng trong việc hỗ trợ chăm sóc sự phát triển và tạo điều kiện phát triển tốt nhất cho trẻ em.</li>
           </ul>
         </div>
       </div>
@@ -116,7 +118,7 @@
     </div>
   </section><!-- End Work Process Section -->
   @include('layouts.slider_team')
-  
+
   @include('clients.about.group')
 
   <section id="contact" class="contact-ft">

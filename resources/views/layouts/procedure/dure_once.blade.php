@@ -167,7 +167,7 @@
                                     <div class="card-body tab-content">
                                         <div class="tab-pane active" id="hd">
                                             <div class="accordion-body">
-                                                <b>1. Đọc hD</b>
+                                                <b>1. Đọc HD</b>
                                                 <b>GV đọc kỹ hướng dẫn trước mỗi bài đánh giá / sàng lọc. </b>
                                                 <br>
                                                 <p><i>Lưu ý những thông tin:</i></p>
