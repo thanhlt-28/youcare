@@ -22,10 +22,6 @@
         @yield('content')
     </main>
 
-    <footer id="footer">
-        @include('layouts.footer')
-    </footer>
-
     @include('layouts.script')
 
     @yield('page-script')
