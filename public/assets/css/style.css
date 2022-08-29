@@ -666,7 +666,8 @@ h6 {
     font-weight: 600;
     z-index: 1000;
 }
-.hero-image__wrapper{
+
+.hero-image__wrapper {
     display: none;
 }
 
@@ -690,28 +691,33 @@ h6 {
         z-index: 1000;
         overflow-y: hidden;
     }
-    .hero-content{
+
+    .hero-content {
         top: 15%;
     }
+
     /* .hero-image-wrap{
         display: none;
     } */
-    .hero-image__wrapper{
+    .hero-image__wrapper {
         display: block;
     }
+
     .hero-image-wrap {
         margin-top: 20%;
     }
-    .img-hero{
+
+    .img-hero {
         width: 110%;
         height: 520px;
         top: -40px;
     }
-    #hero h2{
+
+    #hero h2 {
         font-size: 45.2px;
         line-height: 60px;
     }
-    
+
 }
 
 @media (max-width: 768px) {
@@ -740,7 +746,8 @@ h6 {
         padding: 10px;
         font-size: 15px;
     }
-    .hero-image__wrapper{
+
+    .hero-image__wrapper {
         display: none;
     }
 }
@@ -774,7 +781,7 @@ section {
     font-weight: 600;
     padding-bottom: 0;
     font-family: "Segoe UI", "Poppins", sans-serif;
-    color: #646c55;
+    color: #1d6495;
 }
 
 .section-title p {
@@ -792,7 +799,7 @@ section {
         font-weight: 500;
         padding-bottom: 0;
         font-family: "Segoe UI", "Poppins", sans-serif;
-        color: #646c55;
+        color: #67ac2f;
     }
 
     .section-title p {
@@ -862,20 +869,69 @@ section {
 
 .slogan-ckcare {
     text-align: center;
-    background: #789d35;
+    background: #67ac2f;
     line-height: 50px;
     color: #fff;
 }
 
 .slogan-ckcare p {
-    font-size: 18px;
-    font-weight: 400;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.container__ckcare{
+    margin-top: -4%;
+}
+
+.ckcare__total{
+    margin-top: 30px;
+}
+
+.total__image .total__image_item{
+    width: 40%;
+}
+.total__title_family .total_click{
+    font-size: 20px;
+    color: #01CC9B;
+    font-weight: bold;
+}
+
+.total__title_school .total_click{
+    position: relative;
+    font-size: 20px;
+    color: #1d6495;
+    font-weight: bold;
+    margin-top: -90px;
+    left: -8%;
+}
+.total__title_organization .total_click{
+    position: relative;
+    font-size: 20px;
+    color: #67ac2f;
+    font-weight: bold;
+    margin-top: -80px;
+    right: -8%;
+}
+
+
+
+.value_image{
+    margin-top: -2%;
+}
+.img_value_number{
+    width: 75%;
+}
+
+.img_value_desc{
+    width: 90%;
+    margin-left: -20px;
+    margin-right: -20px;
 }
 
 @media only screen and (max-width: 600px) {
     .slogan-ckcare {
         text-align: center;
-        background: #789d35;
+        background: #67ac2f;
         color: #fff;
     }
 
@@ -1127,10 +1183,18 @@ q:after {
 /* Button Knowledge
  */
 
+.ck__content_item {
+    font-size: 20px;
+    color: #000;
+    font-weight: 500;
+    text-align: justify;
+}
+
+
 .about-knowledge .play-btn {
-    width: 94px;
-    height: 94px;
-    background: radial-gradient(#94c045 50%, rgba(148, 192, 69, 0.4) 52%);
+    width: 84px;
+    height: 84px;
+    background: radial-gradient(#ffffff 50%, #ffffff94 52%);
     border-radius: 50%;
     display: block;
     position: absolute;
@@ -1149,16 +1213,16 @@ q:after {
     height: 0;
     border-top: 10px solid transparent;
     border-bottom: 10px solid transparent;
-    border-left: 15px solid #fff;
+    border-left: 15px solid #67ac2f;
     z-index: 100;
-    transition: all 400ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    transition: all 300ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
 }
 
 .about-knowledge .play-btn::before {
     content: "";
     position: absolute;
-    width: 120px;
-    height: 120px;
+    width: 110px;
+    height: 110px;
     -webkit-animation-delay: 0s;
     animation-delay: 0s;
     -webkit-animation: pulsate-btn 2s;
@@ -1178,7 +1242,7 @@ q:after {
 }
 
 .about-knowledge .play-btn:hover::after {
-    border-left: 15px solid #94c045;
+    border-left: 15px solid #95c0458f;
     transform: scale(20);
 }
 
@@ -1583,9 +1647,9 @@ q:after {
 .sell {
     border-radius: 20px;
     color: #fff;
-    background-color: #789d35;
+    background-color: #67ac2f;
     margin-top: 15px;
-    border: 1px solid #789d35;
+    border: 1px solid #67ac2f;
     box-shadow: 5px 5px 5px #274812;
     -moz-box-shadow: 5px 5px 5px #274812;
     -webkit-box-shadow: 5px 5px 5px #274812;
@@ -1594,7 +1658,7 @@ q:after {
 .sell:hover {
     background-color: #fff;
     border: 1px solid #94c045;
-    color: #789d35;
+    color: #67ac2f;
     box-shadow: 5px 5px 5px #94c045;
     -moz-box-shadow: 5px 5px 5px #94c045;
     -webkit-box-shadow: 5px 5px 5px #94c045;
@@ -1855,7 +1919,7 @@ q:after {
 }
 
 .features .icon-box:hover h3 a {
-    color: #789d35;
+    color: #67ac2f;
 }
 
 /*--------------------------------------------------------------
@@ -2192,7 +2256,7 @@ q:after {
 }
 
 .price-trending {
-    background-color: #789d35;
+    background-color: #67ac2f;
     padding: 5px 0px 5px 0px;
     border-radius: 15px;
 }
@@ -2204,7 +2268,7 @@ q:after {
 }
 
 .trending {
-    background-color: #789d35;
+    background-color: #67ac2f;
 }
 
 /*--------------------------------------------------------------
@@ -3520,11 +3584,11 @@ q:after {
 /* ckcare-detail */
 
 .bread-ckcare {
-    background: url("../img/banner-ckcare.png") top center;
+    background: url("../img/svg/ckcare-cover.svg") top center;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 32rem;
+    height: 42rem;
     margin: auto;
     padding: 0;
     z-index: 1;
@@ -3535,11 +3599,20 @@ q:after {
     margin: auto;
 }
 
+.header-hero__slogan {
+    position: relative;
+    top: 220px;
+    left: 0;
+    color: #ffffff;
+    font-size: 40px;
+}
+
 @media (max-width: 767.98px) {
     .bread-ckcare {
-        background: url("../img/banner-ckcare-mobile.png");
+        background: url("../img/svg/mobile/ckcare-cover-mobile.svg");
         background-repeat: no-repeat;
         background-size: cover;
+        height: 243.57px;
     }
 
     .header-hero {
@@ -3549,7 +3622,7 @@ q:after {
 
 @media (max-width: 991.98px) {
     .bread-ckcare {
-        background: url("../img/banner-ckcare-mobile.png");
+        background: url("../img/svg/mobile/ckcare-cover-mobile.svg");
         background-repeat: no-repeat;
         background-size: cover;
     }
@@ -3571,13 +3644,16 @@ q:after {
 }
 
 .btn-outline-success {
-    border: 1px solid #94c045;
-    color: #94c045;
+    border: 1px solid #67ac2f;
+    background-color: #67ac2f;
+    color: #fff;
+    font-size: 18px;
 }
 
 .btn-outline-success:hover {
-    background-color: #94c045;
-    border: 1px solid #94c045;
+    background-color: #fff;
+    border: 1px solid #67ac2f;
+    color: #67ac2f;
 }
 
 @media screen and (max-width: 1366px) {
@@ -3733,7 +3809,7 @@ q:after {
 }
 
 #footer .footer-top .footer-newsletter input[type="submit"]:hover {
-    background: #789d35;
+    background: #67ac2f;
 }
 
 #footer .powered {
@@ -3772,9 +3848,9 @@ q:after {
 }
 
 .nav-pills .nav-link.active {
-    background: -webkit-linear-gradient(30deg, #94c045, #789d35);
-    background: -o-linear-gradient(30deg, #94c045, #789d35);
-    background: linear-gradient(120deg, #94c045, #789d35);
+    background: -webkit-linear-gradient(30deg, #94c045, #67ac2f);
+    background: -o-linear-gradient(30deg, #94c045, #67ac2f);
+    background: linear-gradient(120deg, #94c045, #67ac2f);
     color: #fff;
     box-shadow: 0 2px 15px rgb(0 0 0 / 10%);
 }
@@ -3787,7 +3863,7 @@ q:after {
     height: 50px;
     width: 50px;
     border-radius: 50px;
-    border: 2px solid #789d35;
+    border: 2px solid #67ac2f;
     background: #fff;
     color: #94c045;
     font-size: 22px;
@@ -3831,7 +3907,7 @@ q:after {
 }
 
 .section-header h2 {
-    color: #646c55;
+    color: #67ac2f;
     font-size: 40px;
     font-weight: 100;
 }
@@ -3857,7 +3933,7 @@ q:after {
 
 .heading {
     text-align: center;
-    color: #646c55;
+    color: #67ac2f;
     font-size: 30px;
     font-weight: 700;
     position: relative;
@@ -3867,7 +3943,7 @@ q:after {
 }
 
 .white-heading {
-    color: #646c55;
+    color: #67ac2f;
 }
 
 /*-----Testimonial-------*/
@@ -3923,7 +3999,7 @@ q:after {
     margin: 2px 3px;
     cursor: pointer;
     display: inline-block;
-    background: #646c55;
+    background: #67ac2f;
     -webkit-border-radius: 100%;
     border-radius: 100%;
 }
@@ -3964,7 +4040,7 @@ q:after {
     text-align: center;
     position: absolute;
     background: transparent;
-    border: 2px solid #646c55;
+    border: 2px solid #67ac2f;
     text-transform: uppercase;
     -webkit-border-radius: 100%;
     border-radius: 100%;
@@ -4005,7 +4081,7 @@ q:after {
 }
 
 .testimonial4_header h4 {
-    color: #646c55;
+    color: #67ac2f;
     font-size: 30px;
     font-weight: 600;
     position: relative;
@@ -4046,7 +4122,7 @@ q:after {
 }
 
 .testimonial4_slide p {
-    color: #646c55;
+    color: #67ac2f;
     font-size: 16px;
     line-height: 1.4;
     text-align: justify;
@@ -4054,7 +4130,7 @@ q:after {
 }
 
 .testimonial4_slide h4 {
-    color: #646c55;
+    color: #67ac2f;
     font-size: 22px;
 }
 

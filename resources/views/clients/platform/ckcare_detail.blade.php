@@ -10,6 +10,9 @@
         <div class="bread-ckcare">
             <div class="container">
                 <div class="header-hero">
+                    <div class="header-hero__slogan">
+                        <h2>Hãy bắt đầu theo dõi & sàng lọc <br /> cho trẻ ngay từ hôm nay!</h2>
+                    </div>
                     <a href="https://ck.youcare.vn/user/login" target="_blank">
                         <button type="button" class="btn btn-outline-success rounded-pill">Sàng lọc ngay</button>
                     </a>
@@ -18,7 +21,7 @@
         </div>
         <div class="slogan-ckcare">
             <p class="slogan">
-                <q>Không trẻ em nào bị bỏ lại phía sau - Hãy bắt đầu theo dõi và sàng lọc cho trẻ ngay từ hôm nay!</q>
+                <q>Không trẻ em nào bị bỏ lại phía sau</q>
             </p>
         </div>
         <div class="container">
@@ -34,39 +37,97 @@
     <!-- End Breadcrumbs -->
 
     <div class="container">
-        <!-- Section About GP -->
         <div class="section-title" data-aos="fade-up">
-            <h2 class="text-uppercase">Giới thiệu giải pháp</h2>
-            <h6 class="mt-3">
-                Tâm lý học đường 4.0 là giải pháp toàn diện phối hợp chặt chẽ giữa nhà trường - phụ huynh - học sinh
-            </h6>
+            <h2 class="ck_header">CKCARE LÀ GÌ?</h2>
         </div>
+        <div class="container__ckcare">
+            <div class="row" data-aos="fade-up">
+                <div class="col-md-5 slider-teams d-flex align-items-center justify-content-center">
+                    <div class="ck__content">
+                        <p class="ck__content_item">
+                            CKCare là sản phẩm công nghệ được ứng dụng trong việc theo dõi, sàng lọc và đánh giá nhằm phát hiện sớm những vấn đề rối loạn phát triển cũng như sức khỏe tâm thần của trẻ từ 12 tháng tuổi đến 18 tuổi.
+                        </p>
+                    </div>
+                </div>
 
-        <!-- Section Timeline -->
-        <div class="row" data-aos="fade-up">
-
-            <div class="col-md-5 slider-teams d-flex align-items-center justify-content-center">
-                <img width="80%" src="{{asset('assets/img/work/Roadmap.png')}}" alt="Image">
+                <div class="col-md-7">
+                    <div class="about-knowledge">
+                        <div class="container aos-init aos-animate" data-aos="fade-in">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-12 video-box align-self-baseline position-relative">
+                                    <img src="assets/img/blog/GV.png" class="img-fluid" alt="">
+                                    <a href="https://youtu.be/7Dth98I6New" class="glightbox play-btn mb-4"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
 
-            <div class="col-md-7">
-                @include('layouts.ck_detail.ckcare_motion')
+            <div class="ckcare__total">
+                <div class="ckcare__total__content">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="total__title_family d-flex justify-content-center">
+                                <a class="total_click" href="#">Gia đình</a>
+                            </div>
+                            <div class="total__image d-flex justify-content-center mt-3">
+                                <img class="total__image_item" src="{{asset('assets/img/svg/ckcare-total.svg')}}" alt="">
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="total__title_school d-flex justify-content-end">
+                                <a class="total_click" href="#">Nhà trường</a>
+                            </div>
+                        </div>
+                        <div class="col-md-4"></div>
+                        <div class="col-md-4">
+                            <div class="total__title_organization d-flex justify-content-start">
+                                <a class="total_click" href="#">Tổ chức</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div class="wrapper_value mt-5">
+            <div class="section-title" data-aos="fade-up">
+                <h2 class="text-uppercase">GIẢI PHÁP THỔNG THỂ CKCARE</h2>
+            </div>
+            <div class="value_items" data-aos="fade-up">
+                <div class="row">
+                    <div class="value_number d-flex justify-content-center">
+                        <img class="img_value_number" src="{{asset('assets/img/svg/gp-ckcare-number.svg')}}" alt="">
+                    </div>
+                    <div class="value_image d-flex justify-content-center">
+                        <img class="img_value_number" src="{{asset('assets/img/svg/gp-ckcare-image.svg')}}" alt="">
+                    </div>
+                    <div class="row">
+                        <div class="col-value d-flex justify-content-center">
+                            <div class="col-md-2">
+                                <a href="#"><img class="img_value_desc" src="{{asset('assets/img/svg/sang-loc-theo-doi.svg')}}"></a>
+                            </div>
+                            <div class="col-md-2">
+                                <a href="#"><img class="img_value_desc" src="{{asset('assets/img/svg/danh-gia-chuyen-sau.svg')}}"></a>
+                            </div>
+                            <div class="col-md-2">
+                                <a href="#"><img class="img_value_desc" src="{{asset('assets/img/svg/can-thiep-tri-lieu.svg')}}"></a>
+                            </div>
+                            <div class="col-md-2">
+                                <a href="#"><img class="img_value_desc" src="{{asset('assets/img/svg/ho-tro-dong-hanh.svg')}}"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
     </div>
-    <!-- End Section Timeline -->
 
-    <div class="section-title" data-aos="fade-up">
-        <h2 class="text-uppercase">Giá trị CKCare mang lại</h2>
-    </div>
-
-    <div class="wrapper_value">
-        <div class="value-items" data-aos="fade-up">
-            @include('layouts.ck_detail.ckcare_value')
-        </div>
-    </div>
-
-    <!-- ======= Pricing Section ======= -->
     <section id="pricing" class="pricing">
 
         <!-- Slider team # Laptop -->
