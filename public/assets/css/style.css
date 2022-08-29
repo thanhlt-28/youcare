@@ -163,7 +163,7 @@ h6 {
     font-family: "Segoe UI", "Raleway", sans-serif;
     font-size: 15px;
     font-weight: 600;
-    color: #565e49;
+    color: #1d6495;
     white-space: nowrap;
     transition: 0.3s;
 }
@@ -525,11 +525,11 @@ h6 {
 
 #hero {
     width: 100%;
-    height: 967px;
+    height: 587px;
     top: 0px;
     left: 0px;
-    /* background: url("../img/svg/Trang\ chủ.svg") center center; */
-    background-color: #000;
+    background: url("../img/svg/Home youcare.svg") center center;
+    /* background-color: #000; */
     background-size: cover;
     position: absolute;
     margin-bottom: -140px;
@@ -540,10 +540,10 @@ h6 {
 
 .hero-content {
     position: absolute;
-    width: 73%;
+    width: 80%;
     height: 514px;
-    left: 10px;
-    top: 3px;
+    left: 1%;
+    top: 5%;
 }
 
 .hero-left {
@@ -601,26 +601,32 @@ h6 {
 }
 
 /* right button*/
-.hero-right{
+.hero-right {
     width: 100%;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
+
 .img-hero {
     position: absolute;
-    width: 100%;
-    height: 331px;
+    width: 110%;
+    height: 365px;
 }
-.hero-image-wrap{
-    margin-top: 104px;
+
+.hero-image-wrap {
+    margin-top: 15%;
     position: relative;
+    left: -5%;
+    top: 5%;
     width: 50%;
 }
+
 .hero-right .hero-f-1 .btn-show {
     position: absolute;
     width: 50%;
     height: 137px;
-    right: 80%;
+    right: 75%;
     top: -30px;
 }
 
@@ -629,7 +635,7 @@ h6 {
     position: absolute;
     width: 50%;
     height: 137px;
-    left: 80%;
+    left: 87%;
     top: -30px;
 }
 
@@ -637,33 +643,75 @@ h6 {
     position: absolute;
     width: 50%;
     height: 137px;
-    right: 80%;
-    top: 240px;
+    right: 75%;
+    top: 270px;
 }
 
 .hero-right .hero-f-4 .btn-show {
     position: absolute;
     width: 50%;
     height: 137px;
-    left: 80%;
-    top: 240px;
+    left: 87%;
+    top: 270px;
 
 }
-.hero-image-text{
+
+.hero-image-text {
     position: relative;
     top: 20px;
     left: -16%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     color: #fff;
     font-size: 30px;
     font-weight: 600;
     z-index: 1000;
 }
+.hero-image__wrapper{
+    display: none;
+}
 
-@media (min-width: 1024px) {
+
+
+@media (min-width: 1920px) {
     #hero {
         background-attachment: fixed;
     }
+
+    #hero {
+        width: 100%;
+        height: 867px;
+        top: 0px;
+        left: 0px;
+        background: url("../img/svg/Home youcare.svg") center center;
+        /* background-color: #000; */
+        background-size: cover;
+        position: absolute;
+        margin-bottom: -140px;
+        z-index: 1000;
+        overflow-y: hidden;
+    }
+    .hero-content{
+        top: 15%;
+    }
+    /* .hero-image-wrap{
+        display: none;
+    } */
+    .hero-image__wrapper{
+        display: block;
+    }
+    .hero-image-wrap {
+        margin-top: 20%;
+    }
+    .img-hero{
+        width: 110%;
+        height: 520px;
+        top: -40px;
+    }
+    #hero h2{
+        font-size: 45.2px;
+        line-height: 60px;
+    }
+    
 }
 
 @media (max-width: 768px) {
@@ -691,6 +739,9 @@ h6 {
     #hero .hero-container p {
         padding: 10px;
         font-size: 15px;
+    }
+    .hero-image__wrapper{
+        display: none;
     }
 }
 
