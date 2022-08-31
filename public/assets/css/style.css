@@ -671,7 +671,9 @@ h6 {
     display: none;
 }
 
-
+/* .image__team{
+    background-color: #67ac2f;
+} */
 
 @media (min-width: 1920px) {
     #hero {
@@ -696,11 +698,9 @@ h6 {
         top: 15%;
     }
 
-    /* .hero-image-wrap{
-        display: none;
-    } */
+
     .hero-image__wrapper {
-        display: block;
+        display: none;
     }
 
     .hero-image-wrap {
@@ -778,7 +778,7 @@ section {
 
 .section-title h2 {
     font-size: 30px;
-    font-weight: 600;
+    font-weight: 700;
     padding-bottom: 0;
     font-family: "Segoe UI", "Poppins", sans-serif;
     color: #1d6495;
@@ -879,24 +879,25 @@ section {
     font-weight: 600;
 }
 
-.container__ckcare{
-    margin-top: -4%;
+.container__ckcare {
+    margin-top: -2%;
 }
 
-.ckcare__total{
+.ckcare__total {
     margin-top: 30px;
 }
 
-.total__image .total__image_item{
+.total__image .total__image_item {
     width: 40%;
 }
-.total__title_family .total_click{
+
+.total__title_family .total_click {
     font-size: 20px;
     color: #01CC9B;
     font-weight: bold;
 }
 
-.total__title_school .total_click{
+.total__title_school .total_click {
     position: relative;
     font-size: 20px;
     color: #1d6495;
@@ -904,7 +905,8 @@ section {
     margin-top: -90px;
     left: -8%;
 }
-.total__title_organization .total_click{
+
+.total__title_organization .total_click {
     position: relative;
     font-size: 20px;
     color: #67ac2f;
@@ -915,14 +917,15 @@ section {
 
 
 
-.value_image{
+.value_image {
     margin-top: -2%;
 }
-.img_value_number{
+
+.img_value_number {
     width: 75%;
 }
 
-.img_value_desc{
+.img_value_desc {
     width: 90%;
     margin-left: -20px;
     margin-right: -20px;
@@ -1295,7 +1298,7 @@ q:after {
 .cta {
     width: 100%;
     padding: 50px 0;
-    background: url("../img/brain-writes.png") center center;
+    background: url("../img/svg/group.svg") center center;
     background-size: cover;
     position: relative;
     z-index: 1;
@@ -2915,9 +2918,9 @@ q:after {
 
 .testimony-29101 .text {
     width: 75%;
-    height: 40rem;
-    padding: 5rem 1rem;
-    background: #ececec;
+    height: 30rem;
+    padding: 50px 50px;
+    background: #67ac2f;
 }
 
 @media screen and (max-width: 991.98px) {
@@ -2932,7 +2935,7 @@ q:after {
         width: 100%;
         height: 40rem;
         padding: 20px 20px;
-        background: #ececec;
+        /* background: #ececec; */
         text-align: justify;
     }
 
@@ -2991,7 +2994,7 @@ q:after {
 
 .slide-one-item .owl-dots {
     position: absolute;
-    bottom: 20px;
+    bottom: -40px;
     width: 100%;
     text-align: center;
     z-index: 2;
@@ -3002,19 +3005,20 @@ q:after {
 }
 
 .slide-one-item .owl-dots .owl-dot>span {
-    -webkit-transition: 0.3s all cubic-bezier(0.32, 0.71, 0.53, 0.53);
-    -o-transition: 0.3s all cubic-bezier(0.32, 0.71, 0.53, 0.53);
-    transition: 0.3s all cubic-bezier(0.32, 0.71, 0.53, 0.53);
+    -webkit-transition: 0.5s all cubic-bezier(0.32, 0.71, 0.53, 0.53);
+    -o-transition: 0.5s all cubic-bezier(0.32, 0.71, 0.53, 0.53);
+    transition: 0.5s all cubic-bezier(0.32, 0.71, 0.53, 0.53);
     display: inline-block;
-    width: 15px;
-    height: 3px;
-    background: #e2e2e2;
-    margin: 3px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #d9d9d9;
+    margin: 0px 0px 0px 15px;
 }
 
 .slide-one-item .owl-dots .owl-dot.active>span {
-    width: 15px;
-    background: #94c045;
+    width: 12px;
+    background: #525c63;
 }
 
 .thumbnail {
@@ -3588,8 +3592,8 @@ q:after {
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 42rem;
-    margin: auto;
+    height: 68rem;
+    margin: -135px 0px 0px 0px;
     padding: 0;
     z-index: 1;
 }
@@ -3599,12 +3603,38 @@ q:after {
     margin: auto;
 }
 
-.header-hero__slogan {
+.header-hero__slogan h2 {
     position: relative;
-    top: 220px;
+    top: 22rem;
     left: 0;
     color: #ffffff;
-    font-size: 40px;
+    font-size: 50px;
+}
+
+.header__btn__cta a {
+    top: 200px;
+}
+.btn__{
+    margin-top: 30px;
+}
+.btn__cta{
+    background-color: #1d6495;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 22px;
+    padding: 10px 20px 10px 20px;
+}
+
+.btn__cta:hover{
+    background-color: #fff;
+    border: 1px solid #1d6495;
+    color: #1d6495;
+}
+
+@media screen and (max-width: 1366px) {
+    .header-hero__slogan h2 {
+        font-size: 40px;
+    }
 }
 
 @media (max-width: 767.98px) {
@@ -3613,6 +3643,7 @@ q:after {
         background-repeat: no-repeat;
         background-size: cover;
         height: 243.57px;
+        margin: 0px;
     }
 
     .header-hero {
@@ -3625,6 +3656,7 @@ q:after {
         background: url("../img/svg/mobile/ckcare-cover-mobile.svg");
         background-repeat: no-repeat;
         background-size: cover;
+        margin: 0px;
     }
 }
 
@@ -3647,7 +3679,9 @@ q:after {
     border: 1px solid #67ac2f;
     background-color: #67ac2f;
     color: #fff;
-    font-size: 18px;
+    padding: 10px 25px 10px 25px;
+    font-size: 20px;
+    margin-top: 10rem;
 }
 
 .btn-outline-success:hover {
@@ -3655,6 +3689,77 @@ q:after {
     border: 1px solid #67ac2f;
     color: #67ac2f;
 }
+
+.slide-one-item {
+    background-color: #67ac2f;
+    width: 100%;
+    height: 760px;
+    display: inline-block;
+    border-radius: 40px;
+    position: relative;
+}
+
+.slider__img {
+    width: 100%;
+}
+.slider__img img {
+    width: 100%;
+    height: auto;
+}
+
+.slider__text {
+    width: 99%;
+    text-align: justify;
+    padding: 100px 20px 0px 5px;
+}
+
+.btn__team {
+    border: 1px solid #1d6495;
+    background-color: #1d6495;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 15px;
+    padding: 10px 15px 10px 15px;
+    margin-top: 1rem;
+}
+
+.btn__team:hover {
+    background-color: #fff;
+    border: 1px solid #fff;
+    color: #1d6495;
+}
+
+/* Customer */
+
+.slider__customer{
+    background: #1d6495;
+}
+
+.img-circle{
+    width: 110%;
+    height: 83px;
+    border-radius: 50%;
+}
+.card__title{
+    color: #67ac2f;
+    font-size: 20px;
+    font-weight: 600;
+}
+.card__text{
+    color: #fff;
+    text-align: justify;
+}
+
+.text__group{
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.text__content{
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+}
+
 
 @media screen and (max-width: 1366px) {
     .header-hero {

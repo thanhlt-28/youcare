@@ -34,6 +34,7 @@
 
 .owl-carousel .owl-stage-outer {
     position: relative;
+    margin: 0px;
     overflow: hidden;
     -webkit-transform: translate3d(0, 0, 0)
 }
@@ -57,7 +58,14 @@
 
 .owl-carousel .owl-item img {
     display: block;
-    width: 100%
+    width: 100%;
+    margin: 0px auto;
+    margin-top: 0px;
+    max-width: 720px;
+    position: relative;
+    overflow: hidden;
+    padding: 3%;
+    border-radius: 60px;
 }
 
 .owl-carousel .owl-dots.disabled,
