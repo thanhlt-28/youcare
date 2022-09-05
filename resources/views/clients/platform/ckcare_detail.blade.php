@@ -79,7 +79,7 @@
                         </div>
                         <div class="col-md-4">
                             <div class="total__title_school d-flex justify-content-end">
-                                <a class="total_click" href="#">Nhà trường</a>
+                                <a class="total_click" href="{{route('layouts.ck_detail.ckcare_school')}}">Nhà trường</a>
                             </div>
                         </div>
                         <div class="col-md-4"></div>
@@ -93,41 +93,8 @@
             </div>
         </div>
 
+        @include('layouts.ck_detail.ckcare_motion')
 
-
-
-        <div class="wrapper_value mt-5">
-            <div class="section-title" data-aos="fade-up">
-                <h2 class="text-uppercase">GIẢI PHÁP THỔNG THỂ CKCARE</h2>
-            </div>
-            <div class="value_items" data-aos="fade-up">
-                <div class="row">
-                    <div class="value_number d-flex justify-content-center">
-                        <img class="img_value_number" src="{{asset('assets/img/svg/gp-ckcare-number.svg')}}" alt="">
-                    </div>
-                    <div class="value_image d-flex justify-content-center">
-                        <img class="img_value_number" src="{{asset('assets/img/svg/gp-ckcare-image.svg')}}" alt="">
-                    </div>
-                    <div class="row">
-                        <div class="col-value d-flex justify-content-center">
-                            <div class="col-md-2">
-                                <a href="#"><img class="img_value_desc" src="{{asset('assets/img/svg/sang-loc-theo-doi.svg')}}"></a>
-                            </div>
-                            <div class="col-md-2">
-                                <a href="#"><img class="img_value_desc" src="{{asset('assets/img/svg/danh-gia-chuyen-sau.svg')}}"></a>
-                            </div>
-                            <div class="col-md-2">
-                                <a href="#"><img class="img_value_desc" src="{{asset('assets/img/svg/can-thiep-tri-lieu.svg')}}"></a>
-                            </div>
-                            <div class="col-md-2">
-                                <a href="#"><img class="img_value_desc" src="{{asset('assets/img/svg/ho-tro-dong-hanh.svg')}}"></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
     </div>
 
     <section id="pricing" class="pricing">
@@ -398,6 +365,7 @@
                         </div>
                     </div>
                 </div>
+            </div>
         </section>
 
         <!-- Slider team # Mobile -->
@@ -410,7 +378,6 @@
 
                                 <div class="site-section bg-left-half mb-5">
                                     <div class="owl-2-style">
-
                                         <div class="owl-carousel owl-2">
 
                                             <div class="media-29101">
@@ -483,9 +450,7 @@
                                             </div>
 
                                         </div>
-
                                     </div>
-
                                 </div>
                             </div>
                         </div>
@@ -496,9 +461,8 @@
 
         @include('layouts.say')
 
-
-
     </section>
+
     <!-- ======= Group Section Laptop ======= -->
     <section id="cta" class="cta slider-teams">
         <div class="container-app" data-aos="fade-in">
@@ -516,7 +480,7 @@
     <section id="cta" class="cta slider-team">
         <div class="container-mobile" data-aos="fade-in">
             <div class="text-center">
-            <h3 class="text__group">Cộng đồng</h3>
+                <h3 class="text__group">Cộng đồng</h3>
                 <p class="text__content mt-3"> Cộng đồng tâm lý với sứ mệnh thay đổi thói quen và nhận thức của người Việt Nam
                     trong việc chú trọng sức khoẻ tinh thần và tìm kiếm sự trợ giúp khi cần thiết.</p>
                 <a class="btn__cta" target="_blank" href="https://www.facebook.com/congdongtamly/">Tham gia ngay</a>

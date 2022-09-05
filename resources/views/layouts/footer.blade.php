@@ -18,7 +18,6 @@
       <div class="col-lg-3 col-md-6 footer-links">
         <h4>Tài nguyên</h4>
         <ul>
-          <li><a target="_blank" href="{{route('clients.library.overview')}}">Tổng quan</a></li>
           <li><a target="_blank" href="{{route('clients.library.docs')}}">Tài liệu</a></li>
           <li><a target="_blank" href="{{route('clients.library.media')}}">Video</a></li>
         </ul>

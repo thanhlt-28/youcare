@@ -21,7 +21,6 @@
             </li>
             <li class="dropdown"><a href="#"><span>Tài nguyên</span> <i class="bi bi-chevron-down"></i></a>
                 <ul>
-                    <!-- <li><a href="{{route('clients.library.overview')}}">Tổng quan</a></li> -->
                     <!-- <li><a href="{{route('clients.library.docs')}}">Tài liệu</a></li> -->
                     <li><a href="{{route('clients.library.media')}}">Video hướng dẫn</a></li>
                 </ul>

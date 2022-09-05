@@ -887,8 +887,44 @@ section {
     margin-top: 30px;
 }
 
+.ckcare__total_school {
+    margin-top: 5rem;
+}
+
+.ckcare__pre_school {
+    margin-top: 5rem;
+}
+
 .total__image .total__image_item {
     width: 40%;
+}
+
+.total__school .total__school_item {
+    width: 100%;
+}
+
+.pre__school .pre__school_road {
+    width: 70%;
+    margin-top: 5rem;
+}
+
+.pre__school .pre__school_total {
+    width: 90%;
+    margin-top: -5%;
+}
+
+.pre_proxy_1 img {
+    position: relative;
+    width: 53%;
+    margin-top: -70%;
+    left: 5%;
+}
+
+.pre_proxy_2 img {
+    position: relative;
+    width: 58%;
+    margin-top: -151%;
+    right: -13%;
 }
 
 .total__title_family .total_click {
@@ -915,10 +951,61 @@ section {
     right: -8%;
 }
 
+.btn__pre .total_click {
+    position: relative;
+    background: #1D6495;
+    margin-top: 1%;
+    left: -5%;
+    color: #fff;
+    font-weight: 600;
+    font-size: 30px;
+    padding: 10px 100px 10px 100px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
 
+.btn__pre .total_click:hover {
+    background: #ffffff;
+    color: #1D6495;
+    box-shadow: 0px 4px 4px #1d6495;
+}
+
+
+.btn__high .total_click {
+    background-color: #67ac2f;
+    position: relative;
+    margin-top: 42%;
+    left: -5%;
+    color: #fff;
+    font-weight: 600;
+    font-size: 30px;
+    padding: 10px 100px 10px 100px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.btn__high .total_click:hover {
+    background: #ffffff;
+    color: #67ac2f;
+    box-shadow: 0px 4px 4px #67ac2f;
+}
+
+.wrapper_value {
+    margin-top: 5rem;
+}
+
+.value__ckcare{
+    margin-top: 5rem;
+}
 
 .value_image {
     margin-top: -2%;
+}
+
+.value_desc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .img_value_number {
@@ -3598,6 +3685,28 @@ q:after {
     z-index: 1;
 }
 
+.bread-ckcare__school {
+    background: url("../img/svg/ckcare-school.svg") top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 68rem;
+    margin: -112px 0px 0px 0px;
+    padding: 0;
+    z-index: 1;
+}
+
+.bread-pre-school {
+    background: url("../img/svg/pre-school.svg") top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 68rem;
+    margin: -112px 0px 0px 0px;
+    padding: 0;
+    z-index: 1;
+}
+
 .header-hero {
     line-height: 40;
     margin: auto;
@@ -3614,10 +3723,12 @@ q:after {
 .header__btn__cta a {
     top: 200px;
 }
-.btn__{
+
+.btn__ {
     margin-top: 30px;
 }
-.btn__cta{
+
+.btn__cta {
     background-color: #1d6495;
     border-radius: 10px;
     color: #fff;
@@ -3625,7 +3736,7 @@ q:after {
     padding: 10px 20px 10px 20px;
 }
 
-.btn__cta:hover{
+.btn__cta:hover {
     background-color: #fff;
     border: 1px solid #1d6495;
     color: #1d6495;
@@ -3635,11 +3746,46 @@ q:after {
     .header-hero__slogan h2 {
         font-size: 40px;
     }
+
+
+    .bread-ckcare__school {
+        background: url("../img/svg/ckcare-school.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 48rem;
+        margin: 0px;
+    }
+
+    .bread-pre-school {
+        background: url("../img/svg/pre-school.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 48rem;
+        margin: 0px;
+    }
 }
 
 @media (max-width: 767.98px) {
     .bread-ckcare {
         background: url("../img/svg/mobile/ckcare-cover-mobile.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 243.57px;
+        margin: 0px;
+    }
+
+    .bread-ckcare__school {
+        background: url("../img/svg/ckcare-school.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 243.57px;
+        margin: 0px;
+    }
+
+    .bread-pre-school {
+        background: url("../img/svg/pre-school.svg");
         background-repeat: no-repeat;
         background-size: cover;
         height: 243.57px;
@@ -3658,6 +3804,21 @@ q:after {
         background-size: cover;
         margin: 0px;
     }
+
+    .bread-ckcare__school {
+        background: url("../img/svg/ckcare-school.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 0px;
+    }
+
+    .bread-pre-school {
+        background: url("../img/svg/pre-school.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 0px;
+    }
+
 }
 
 /*--------------------------------------------------------------
@@ -3702,6 +3863,7 @@ q:after {
 .slider__img {
     width: 100%;
 }
+
 .slider__img img {
     width: 100%;
     height: auto;
@@ -3709,8 +3871,13 @@ q:after {
 
 .slider__text {
     width: 99%;
-    text-align: justify;
     padding: 100px 20px 0px 5px;
+}
+
+.elementor-text-editor {
+    width: 99%;
+    text-align: justify;
+    padding: 0px 20px 0px 5px;
 }
 
 .btn__team {
@@ -3731,30 +3898,33 @@ q:after {
 
 /* Customer */
 
-.slider__customer{
+.slider__customer {
     background: #1d6495;
 }
 
-.img-circle{
+.img-circle {
     width: 110%;
     height: 83px;
     border-radius: 50%;
 }
-.card__title{
+
+.card__title {
     color: #67ac2f;
     font-size: 20px;
     font-weight: 600;
 }
-.card__text{
+
+.card__text {
     color: #fff;
     text-align: justify;
 }
 
-.text__group{
+.text__group {
     font-size: 30px;
     text-transform: uppercase;
 }
-.text__content{
+
+.text__content {
     color: #fff;
     font-size: 20px;
     text-align: center;

@@ -62,6 +62,10 @@ Route::prefix('/')->group(function () {
         return view('clients.platform.product');
     })->name('clients.platform.product');
 
+    // Route::get('cong-dong', function () {
+    //     return view('clients.about.group');
+    // })->name('clients.about.group');
+
 
     Route::get('ckcare', function () {
         return view('clients.platform.ckcare_detail');
@@ -98,10 +102,7 @@ Route::prefix('/')->group(function () {
     Route::get('tai-nguyen', function () {
         return view('clients.source');
     })->name('clients.source');
-    // Tổng quan
-    Route::get('tong-quan', function () {
-        return view('clients.library.overview');
-    })->name('clients.library.overview');
+    
     // Tài liệu
     Route::get('tai-lieu', function () {
         return view('clients.library.docs');
@@ -117,12 +118,17 @@ Route::prefix('/')->group(function () {
     })->name('price.ck_price');
 
     //CKCare 4.0
-    Route::get('hanh-trinh-1', function () {
-        return view('layouts.ck_detail.ckcare_once');
-    })->name('layouts.ck_detail.ckcare_once');
-    Route::get('hanh-trinh-2', function () {
-        return view('layouts.ck_detail.ckcare_twice');
-    })->name('layouts.ck_detail.ckcare_twice');
+
+    Route::get('ckcare-school', function () {
+        return view('layouts.ck_detail.ckcare_school');
+    })->name('layouts.ck_detail.ckcare_school');
+
+    Route::get('truong-mam-non', function () {
+        return view('layouts.ck_detail.ckcare_preschool');
+    })->name('layouts.ck_detail.ckcare_preschool');
+    Route::get('truong-pho-thong', function () {
+        return view('layouts.ck_detail.ckcare_highschool');
+    })->name('layouts.ck_detail.ckcare_highschool');
 
     Route::get('asq-3', function () {
         return view('clients.ckcare.asq3');
