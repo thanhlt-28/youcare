@@ -903,6 +903,15 @@ section {
     width: 100%;
 }
 
+
+/* HƯỚNG DẪN */
+/* Mầm non
+ */
+
+.pre__card {
+    margin-top: 4%;
+}
+
 .pre__school .pre__school_road {
     width: 70%;
     margin-top: 5rem;
@@ -928,83 +937,58 @@ section {
 }
 
 
-/* HƯỚNG DẪN */
-
-.pre__box_1 {
-    background-image: url(../../assets/img/clients/pre-danh-cho-giao-vien.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    padding: 20px;
-    min-height: 16.2rem;
-}
-
-.pre__box_2 {
-    background-image: url(../../assets/img/clients/pre-danh-cho-quan-ly.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    padding: 20px;
-    min-height: 16.2rem;
-}
-
-.pre__box_3 {
-    background-image: url(../../assets/img/clients/pre-danh-cho-cha-me.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    padding: 20px;
-    min-height: 16.2rem;
-}
-
-.pre__box__content {
+.pre__box__content{
     position: relative;
-    top: 85.333px;
-    color: #FFFFFF;
-    font-size: 30px;
+    top: -130.20px;
+    color: #fff;
     font-weight: 700;
+    font-size: 23px;
     text-align: center;
 }
 
-.pre__box a .pre__box__content:hover {
-    transition: width 2s;
-    color: #1d6495;
-    background-color: #ffffffcc;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 10px;
+
+.pre__img img {
+    position: relative;
+    width: 100%;
 }
-/* .pre__box:hover {
-    transition: width 2s;
-    color: #1d6495;
-    background-color: #ffffffcc;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 20px;
-} */
+
+.pre__img img:hover {
+    width: 100.5%;
+    background-color: rgba(148, 192, 69, 0.7);
+    transition: width 0.1s;
+}
+
+
+
+/* Phổ thông
+ */
+
+.high__card {
+    margin-top: 4%;
+}
+
+.high__img img {
+    position: relative;
+    width: 100%;
+}
+
+.high__img img:hover {
+    width: 100.5%;
+    background-color: rgba(148, 192, 69, 0.7);
+    transition: width 0.1s;
+}
+
+.high__box__content{
+    position: relative;
+    top: -100.20px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 23px;
+    text-align: center;
+}
 
 @media screen and (max-width: 1366px) {
-    .pre__box_1 {
-        width: 100%;
-        min-height: 14.02rem;
-    }
-
-    .pre__box_2 {
-        width: 100%;
-        min-height: 14.02rem;
-    }
-
-    .pre__box_3 {
-        width: 100%;
-        min-height: 14.02rem;
-    }
-
-    .pre__box__content {
-        top: 70.333px;
-    }
 }
-
-
 
 .total__title_family .total_click {
     font-size: 20px;
@@ -1092,9 +1076,9 @@ section {
 }
 
 .img_value_desc {
-    width: 90%;
-    margin-left: -20px;
-    margin-right: -20px;
+    width: 95%;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -1882,10 +1866,6 @@ q:after {
     font-size: 20px;
 }
 
-
-.pre__card {
-    margin-top: 4%;
-}
 
 @media screen and (min-width: 1024px) {
     .according-content {

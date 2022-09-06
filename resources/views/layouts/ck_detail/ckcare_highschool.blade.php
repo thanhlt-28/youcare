@@ -102,10 +102,10 @@
                 <div class="container">
                     <ul class="m-0 nav nav-fill nav-justified nav-tabs" id="myTab" role="tablist">
                         <li class="nav-item" role="presentation"> <button class="nav-link" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">
-                                <h6> <i class="fas fa-envelope-open"></i> Cha mẹ</h6>
+                                <h6> <i class="fas fa-envelope-open"></i> Phụ huynh</h6>
                             </button> </li>
                         <li class="nav-item" role="presentation"> <button class="nav-link active" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">
-                                <h6> <i class="fas fa-user-astronaut"></i> Trẻ em</h6>
+                                <h6> <i class="fas fa-user-astronaut"></i> Học sinh</h6>
                             </button> </li>
                         <li class="nav-item" role="presentation"> <button class="nav-link" id="messages-tab" data-bs-toggle="tab" data-bs-target="#messages" type="button" role="tab" aria-controls="messages" aria-selected="false">
                                 <h6> <i class="fas fa-home"></i> Nhà trường</h6>
@@ -207,35 +207,56 @@
 
     <div class="container-fluild aos-init aos-animate">
         <div class="container">
-            <div class="pre__card">
-                <div class="pre__card__hd">
+            <div class="high__card">
+                <div class="high__card__hd">
                     <div class="section-title">
                         <h2 class="ck_header">HƯỚNG DẪN </h2>
                     </div>
-                    <div class="row row-cols-1 row-cols-md-3 g-4">
-                        <div class="col pre__box">
+                    <div class="row row-cols-1 row-cols-md-4 g-2">
+                        <div class="col high__box">
                             <a target="_blank" href="{{route('layouts.procedure.teacher')}}">
-                                <div class="pre__box_1">
-                                    <div class="pre__box__content">
-                                        <div class="d-flex justify-content-center">DÀNH CHO GIÁO VIÊN</div>
+                                <div class="high__box_1">
+                                    <div class="high__img">
+                                        <img src="{{asset('assets/img/clients/pre-danh-cho-giao-vien.jpg')}}" alt="">
+                                    </div>
+                                    <div class="high__box__content">
+                                        DÀNH CHO GIÁO VIÊN
                                     </div>
                                 </div>
                             </a>
                         </div>
-                        <div class="col pre__box">
+                        <div class="col high__box">
                             <a target="_blank" href="{{route('layouts.procedure.manager')}}">
-                                <div class="pre__box_2">
-                                    <div class="pre__box__content">
+                                <div class="high__box_2">
+                                    <div class="high__img">
+                                        <img src="{{asset('assets/img/clients/pre-danh-cho-quan-ly.jpg')}}" alt="">
+                                    </div>
+                                    <div class="high__box__content">
                                         DÀNH CHO QUẢN LÝ
                                     </div>
                                 </div>
                             </a>
                         </div>
-                        <div class="col pre__box">
+                        <div class="col high__box">
                             <a target="_blank" href="{{route('layouts.procedure.parents')}}">
-                                <div class="pre__box_3">
-                                    <div class="pre__box__content">
-                                        DÀNH CHO CHA MẸ
+                                <div class="high__box_3">
+                                    <div class="high__img">
+                                        <img src="{{asset('assets/img/clients/pre-danh-cho-cha-me.jpg')}}" alt="">
+                                    </div>
+                                    <div class="high__box__content">
+                                        DÀNH CHO PHỤ HUYNH
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col high__box">
+                            <a target="_blank" href="{{route('layouts.procedure.parents')}}">
+                                <div class="high__box_4">
+                                    <div class="high__img">
+                                        <img src="{{asset('assets/img/clients/pre-danh-cho-hoc-sinh.jpg')}}" alt="">
+                                    </div>
+                                    <div class="high__box__content">
+                                        DÀNH CHO HỌC SINH
                                     </div>
                                 </div>
                             </a>

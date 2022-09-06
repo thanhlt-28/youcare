@@ -216,8 +216,11 @@
                         <div class="col pre__box">
                             <a target="_blank" href="{{route('layouts.procedure.teacher')}}">
                                 <div class="pre__box_1">
+                                    <div class="pre__img">
+                                        <img src="{{asset('assets/img/clients/pre-danh-cho-giao-vien.jpg')}}" alt="">
+                                    </div>
                                     <div class="pre__box__content">
-                                        <div class="d-flex justify-content-center">DÀNH CHO GIÁO VIÊN</div>
+                                        DÀNH CHO GIÁO VIÊN
                                     </div>
                                 </div>
                             </a>
@@ -225,6 +228,9 @@
                         <div class="col pre__box">
                             <a target="_blank" href="{{route('layouts.procedure.manager')}}">
                                 <div class="pre__box_2">
+                                    <div class="pre__img">
+                                        <img src="{{asset('assets/img/clients/pre-danh-cho-quan-ly.jpg')}}" alt="">
+                                    </div>
                                     <div class="pre__box__content">
                                         DÀNH CHO QUẢN LÝ
                                     </div>
@@ -234,6 +240,9 @@
                         <div class="col pre__box">
                             <a target="_blank" href="{{route('layouts.procedure.parents')}}">
                                 <div class="pre__box_3">
+                                    <div class="pre__img">
+                                        <img src="{{asset('assets/img/clients/pre-danh-cho-cha-me.jpg')}}" alt="">
+                                    </div>
                                     <div class="pre__box__content">
                                         DÀNH CHO CHA MẸ
                                     </div>
