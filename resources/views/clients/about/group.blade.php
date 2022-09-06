@@ -1,6 +1,6 @@
 <!-- ======= Group Section Laptop ======= -->
 <section id="cta" class="cta slider-teams">
-  <div class="container-app" data-aos="fade-in">
+  <div class="container-app">
     <div class="text-center">
       <h3 class="text__group">Cộng đồng</h3>
       <p class="text__content mt-3"> Cộng đồng tâm lý với sứ mệnh thay đổi thói quen và nhận thức của người Việt Nam <br>
@@ -15,7 +15,7 @@
 
 <!-- ======= Group Section Mobile ======= -->
 <section id="cta" class="cta slider-team">
-  <div class="container-mobile" data-aos="fade-in">
+  <div class="container-mobile">
     <div class="text-center">
       <h3 class="text__group">Cộng đồng</h3>
       <p class="text__content mt-3"> Cộng đồng tâm lý với sứ mệnh thay đổi thói quen và nhận thức của người Việt Nam

@@ -927,6 +927,85 @@ section {
     right: -13%;
 }
 
+
+/* HƯỚNG DẪN */
+
+.pre__box_1 {
+    background-image: url(../../assets/img/clients/pre-danh-cho-giao-vien.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding: 20px;
+    min-height: 16.2rem;
+}
+
+.pre__box_2 {
+    background-image: url(../../assets/img/clients/pre-danh-cho-quan-ly.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding: 20px;
+    min-height: 16.2rem;
+}
+
+.pre__box_3 {
+    background-image: url(../../assets/img/clients/pre-danh-cho-cha-me.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding: 20px;
+    min-height: 16.2rem;
+}
+
+.pre__box__content {
+    position: relative;
+    top: 85.333px;
+    color: #FFFFFF;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.pre__box a .pre__box__content:hover {
+    transition: width 2s;
+    color: #1d6495;
+    background-color: #ffffffcc;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+/* .pre__box:hover {
+    transition: width 2s;
+    color: #1d6495;
+    background-color: #ffffffcc;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+} */
+
+@media screen and (max-width: 1366px) {
+    .pre__box_1 {
+        width: 100%;
+        min-height: 14.02rem;
+    }
+
+    .pre__box_2 {
+        width: 100%;
+        min-height: 14.02rem;
+    }
+
+    .pre__box_3 {
+        width: 100%;
+        min-height: 14.02rem;
+    }
+
+    .pre__box__content {
+        top: 70.333px;
+    }
+}
+
+
+
 .total__title_family .total_click {
     font-size: 20px;
     color: #01CC9B;
@@ -994,7 +1073,7 @@ section {
     margin-top: 5rem;
 }
 
-.value__ckcare{
+.value__ckcare {
     margin-top: 5rem;
 }
 
@@ -1385,7 +1464,7 @@ q:after {
 .cta {
     width: 100%;
     padding: 50px 0;
-    background: url("../img/svg/group.svg") center center;
+    background: url("../img/clients/group.jpg") center center;
     background-size: cover;
     position: relative;
     z-index: 1;
@@ -1792,6 +1871,21 @@ q:after {
 }
 
 /* Accordion thay cho tabs */
+
+.tabs__content {
+    margin-left: 5%;
+    font-size: 18px;
+}
+
+.tabs__content i {
+    line-height: 35px;
+    font-size: 20px;
+}
+
+
+.pre__card {
+    margin-top: 4%;
+}
 
 @media screen and (min-width: 1024px) {
     .according-content {
@@ -3675,7 +3769,7 @@ q:after {
 /* ckcare-detail */
 
 .bread-ckcare {
-    background: url("../img/svg/ckcare-cover.svg") top center;
+    background: url("../img/clients/cover.jpg") top center;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -3686,7 +3780,7 @@ q:after {
 }
 
 .bread-ckcare__school {
-    background: url("../img/svg/ckcare-school.svg") top center;
+    background: url("../img/clients/ckcare-school.jpg") top center;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -3697,7 +3791,7 @@ q:after {
 }
 
 .bread-pre-school {
-    background: url("../img/svg/pre-school.svg") top center;
+    background: url("../img/clients/ckcare-mam-non.jpg") top center;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -3749,18 +3843,12 @@ q:after {
 
 
     .bread-ckcare__school {
-        background: url("../img/svg/ckcare-school.svg");
-        background-repeat: no-repeat;
-        background-size: cover;
         width: 100%;
         height: 48rem;
         margin: 0px;
     }
 
     .bread-pre-school {
-        background: url("../img/svg/pre-school.svg");
-        background-repeat: no-repeat;
-        background-size: cover;
         width: 100%;
         height: 48rem;
         margin: 0px;
@@ -3769,7 +3857,7 @@ q:after {
 
 @media (max-width: 767.98px) {
     .bread-ckcare {
-        background: url("../img/svg/mobile/ckcare-cover-mobile.svg");
+        background: url("../img/clients/mobile/ckcare-cover-mobile.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         height: 243.57px;
@@ -3777,17 +3865,12 @@ q:after {
     }
 
     .bread-ckcare__school {
-        background: url("../img/svg/ckcare-school.svg");
-        background-repeat: no-repeat;
-        background-size: cover;
         height: 243.57px;
         margin: 0px;
     }
 
     .bread-pre-school {
-        background: url("../img/svg/pre-school.svg");
-        background-repeat: no-repeat;
-        background-size: cover;
+
         height: 243.57px;
         margin: 0px;
     }
@@ -3799,21 +3882,21 @@ q:after {
 
 @media (max-width: 991.98px) {
     .bread-ckcare {
-        background: url("../img/svg/mobile/ckcare-cover-mobile.svg");
+        background: url("../img/clients/mobile/ckcare-cover-mobile.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         margin: 0px;
     }
 
     .bread-ckcare__school {
-        background: url("../img/svg/ckcare-school.svg");
+        background: url("../img/clients/ckcare-school.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         margin: 0px;
     }
 
     .bread-pre-school {
-        background: url("../img/svg/pre-school.svg");
+        background: url("../img/clients/ckcare-mam-non.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         margin: 0px;

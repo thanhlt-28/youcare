@@ -37,10 +37,10 @@
     <!-- End Breadcrumbs -->
 
     <div class="container">
-        <div class="section-title" data-aos="fade-up">
+        <div class="section-title">
             <h2 class="ck_header">CKSCHOOL LÀ GÌ?</h2>
         </div>
-        <div class="container__ckcare" data-aos="fade-up">
+        <div class="container__ckcare">
             <div class="row">
                 <div class="col-md-5 slider-teams d-flex align-items-center justify-content-center">
                     <div class="ck__content">
@@ -52,7 +52,7 @@
 
                 <div class="col-md-7">
                     <div class="about-knowledge">
-                        <div class="container aos-init aos-animate" data-aos="fade-in">
+                        <div class="container aos-init aos-animate">
                             <div class="row justify-content-center">
                                 <div class="col-lg-12 video-box align-self-baseline position-relative">
                                     <img src="assets/img/blog/GV.png" class="img-fluid" alt="">
@@ -65,7 +65,7 @@
             </div>
 
             <div class="ckcare__pre_school">
-                <div class="section-title mb-5" data-aos="fade-up">
+                <div class="section-title mb-5">
                     <h2 class="ck_header">GIẢI PHÁP TOÀN DIỆN CHO TRẺ 12 - 66 THÁNG TUỔI</h2>
                 </div>
                 <div class="ckcare__pre_school_content">
@@ -95,10 +95,10 @@
 
         <div class="value__ckcare">
 
-            <div class="section-title" data-aos="fade-up">
+            <div class="section-title">
                 <h2 class="ck_header">GIÁ TRỊ CKCARE PRE MANG LẠI</h2>
             </div>
-            <div class="value__items aos-init aos-animate" data-aos="fade-up">
+            <div class="value__items aos-init aos-animate">
                 <div class="container">
                     <ul class="m-0 nav nav-fill nav-justified nav-tabs" id="myTab" role="tablist">
                         <li class="nav-item" role="presentation"> <button class="nav-link" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">
@@ -113,26 +113,26 @@
                     </ul>
                     <div class="border-grey bg-white p-3 tab-content">
                         <div class="tab-pane" id="home" role="tabpanel" aria-labelledby="home-tab">
-                            <p>
-                                <i class="bi bi-play-circle"></i> Hiểu rõ vấn đề tâm sinh lý của con.<br>
-                                <i class="bi bi-play-circle"></i> Đồng hành kịp thời cùng con.<br>
-                                <i class="bi bi-play-circle"></i> Cùng con khắc phục và khơi dậy tiềm năng cho con.
+                            <p class=tabs__content>
+                                <i style="color:#67ac2f" class="bi bi-check-circle-fill"></i> Hiểu rõ vấn đề tâm sinh lý của con.<br>
+                                <i style="color:#67ac2f" class="bi bi-check-circle-fill"></i> Đồng hành kịp thời cùng con.<br>
+                                <i style="color:#67ac2f" class="bi bi-check-circle-fill"></i> Cùng con khắc phục và khơi dậy tiềm năng cho con.
                             </p>
                         </div>
                         <div class="tab-pane active" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-                            <p>
-                                <i class="bi bi-play-circle"></i> Hiểu về tâm sinh lý của mình.<br>
-                                <i class="bi bi-play-circle"></i> Hiểu được năng lực sở trường của mình.<br>
-                                <i class="bi bi-play-circle"></i> Hỗ trợ, đồng hành từ gia đình và chuyên gia.
+                            <p class=tabs__content>
+                                <i style="color:#67ac2f" class="bi bi-check-circle-fill"></i> Hiểu về tâm sinh lý của mình.<br>
+                                <i style="color:#67ac2f" class="bi bi-check-circle-fill"></i> Hiểu được năng lực sở trường của mình.<br>
+                                <i style="color:#67ac2f" class="bi bi-check-circle-fill"></i> Hỗ trợ, đồng hành từ gia đình và chuyên gia.
                             </p>
                         </div>
                         <div class="tab-pane" id="messages" role="tabpanel" aria-labelledby="messages-tab">
-                            <p>
-                                <i class="bi bi-play-circle"></i> Theo dõi và phát hiện sớm các vấn đề.<br>
-                                <i class="bi bi-play-circle"></i> Tư vấn, hỗ trợ giáo viên trong việc đồng hành cùng học sinh.<br>
-                                <i class="bi bi-play-circle"></i> Giám sát và báo cáo kịp thời các vấn đề liên quan cho phụ huynh.<br>
-                                <i class="bi bi-play-circle"></i> Được chuyên gia tư vấn, hỗ trợ xây dựng và triển khai các chương trình phòng ngừa.<br>
-                                <i class="bi bi-play-circle"></i> Hỗ trợ xây dựng kế hoạch phát triển toàn diện cho học sinh.
+                            <p class=tabs__content>
+                                <i style="color:#67ac2f" class="bi bi-check-circle-fill"></i> Theo dõi và phát hiện sớm các vấn đề.<br>
+                                <i style="color:#67ac2f" class="bi bi-check-circle-fill"></i> Tư vấn, hỗ trợ giáo viên trong việc đồng hành cùng học sinh.<br>
+                                <i style="color:#67ac2f" class="bi bi-check-circle-fill"></i> Giám sát và báo cáo kịp thời các vấn đề liên quan cho phụ huynh.<br>
+                                <i style="color:#67ac2f" class="bi bi-check-circle-fill"></i> Được chuyên gia tư vấn, hỗ trợ xây dựng và triển khai các chương trình phòng ngừa.<br>
+                                <i style="color:#67ac2f" class="bi bi-check-circle-fill"></i> Hỗ trợ xây dựng kế hoạch phát triển toàn diện cho học sinh.
                             </p>
                         </div>
                     </div>
@@ -152,23 +152,38 @@
 
                 #myTab {
                     background-color: #67ac2f;
-                    border-top-left-radius: 20px;
-                    border-top-right-radius: 20px;
+                    border-top-left-radius: 5px;
+                    border-top-right-radius: 5px;
                 }
 
                 .nav-tabs .nav-link {
                     margin-bottom: 0px;
                     background: 0 0;
                     border: 1px solid transparent;
-                    border-top-left-radius: 0.25rem;
-                    border-top-right-radius: 0.25rem;
+                }
+
+                .nav-tabs .nav-item.show .nav-link {
+                    border-top-left-radius: 20px;
+                    border-top-right-radius: 20px;
                 }
 
                 .nav-tabs .nav-item.show .nav-link,
                 .nav-tabs .nav-link.active {
                     color: #67ac2f;
                     background-color: #fff;
-                    border-color: #dee2e6 #dee2e6 #fff;
+                    border-color: #67ac2f #67ac2f #67ac2f;
+                }
+
+                .nav-tabs .nav-link:focus,
+                .nav-tabs .nav-link {
+                    border-color: #67ac2f #67ac2f #67ac2f;
+                    isolation: none;
+                }
+
+                .nav-tabs .nav-link:focus,
+                .nav-tabs .nav-link:hover {
+                    border-color: #67ac2f #67ac2f #67ac2f;
+                    isolation: none;
                 }
 
                 .nav-link {
@@ -187,9 +202,50 @@
                 firstTab.show()
             </script>
         </div>
-
     </div>
 
+
+    <div class="container-fluild aos-init aos-animate">
+        <div class="container">
+            <div class="pre__card">
+                <div class="pre__card__hd">
+                    <div class="section-title">
+                        <h2 class="ck_header">HƯỚNG DẪN </h2>
+                    </div>
+                    <div class="row row-cols-1 row-cols-md-3 g-4">
+                        <div class="col pre__box">
+                            <a target="_blank" href="{{route('layouts.procedure.teacher')}}">
+                                <div class="pre__box_1">
+                                    <div class="pre__box__content">
+                                        <div class="d-flex justify-content-center">DÀNH CHO GIÁO VIÊN</div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col pre__box">
+                            <a target="_blank" href="{{route('layouts.procedure.manager')}}">
+                                <div class="pre__box_2">
+                                    <div class="pre__box__content">
+                                        DÀNH CHO QUẢN LÝ
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col pre__box">
+                            <a target="_blank" href="{{route('layouts.procedure.parents')}}">
+                                <div class="pre__box_3">
+                                    <div class="pre__box__content">
+                                        DÀNH CHO CHA MẸ
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
 
     @include('layouts.team')
     @include('layouts.say')

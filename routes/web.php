@@ -81,19 +81,19 @@ Route::prefix('/')->group(function () {
     })->name('clients.platform.bizcare');
 
     // ========= Quy trình =============================//
-    Route::get('quy-trinh-giao-vien', function () {
-        return view('layouts.procedure.dure_once');
-    })->name('layouts.procedure.dure_once');
-    Route::get('quy-trinh-phu-huynh', function () {
-        return view('layouts.procedure.dure_twice');
-    })->name('layouts.procedure.dure_twice');
-    Route::get('quy-trinh-hoc-sinh', function () {
-        return view('layouts.procedure.dure_three');
-    })->name('layouts.procedure.dure_three');
-    Route::get('quy-trinh-nha-quan-ly', function () {
-        return view('layouts.procedure.dure_four');
-    })->name('layouts.procedure.dure_four');
-    Route::get('quy-trinh-nha-chuyen-mon', function () {
+    Route::get('danh-cho-giao-vien', function () {
+        return view('layouts.procedure.teacher');
+    })->name('layouts.procedure.teacher');
+    Route::get('danh-cho-cha-me', function () {
+        return view('layouts.procedure.parents');
+    })->name('layouts.procedure.parents');
+    Route::get('danh-cho-hoc-sinh', function () {
+        return view('layouts.procedure.students');
+    })->name('layouts.procedure.students');
+    Route::get('danh-cho-quan-ly', function () {
+        return view('layouts.procedure.manager');
+    })->name('layouts.procedure.manager');
+    Route::get('danh-cho-nha-chuyen-mon', function () {
         return view('layouts.procedure.dure_five');
     })->name('layouts.procedure.dure_five');
 
