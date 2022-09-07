@@ -525,7 +525,7 @@ h6 {
 
 #hero {
     width: 100%;
-    height: 587px;
+    height: 657px;
     top: 0px;
     left: 0px;
     background: url("../img/svg/Home youcare.svg") center center;
@@ -3756,6 +3756,48 @@ q:after {
     z-index: 1;
 }
 
+.bread-person-school {
+    background: url("../img/clients/ckcare-ca-nhan.jpg") top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 68rem;
+    margin: -112px 0px 0px 0px;
+    padding: 0;
+    z-index: 1;
+}
+
+/* Cá nhân 
+*/
+.person__img {
+    width: 85%;
+    margin-top: 18%;
+    margin-left: 8%;
+}
+
+.person_slogan {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.person__title h2 {
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 30px;
+    padding-bottom: 0;
+    font-family: "Segoe UI", "Poppins", sans-serif;
+    color: #1d6495;
+}
+
+.person__content__img {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
 .header-hero {
     line-height: 40;
     margin: auto;
@@ -3819,6 +3861,12 @@ q:after {
         height: 48rem;
         margin: 0px;
     }
+
+    .bread-person-school {
+        width: 100%;
+        height: 45rem;
+        margin: 0px;
+    }
 }
 
 @media (max-width: 767.98px) {
@@ -3846,6 +3894,11 @@ q:after {
     }
 
     .bread-org-school {
+        height: 243.57px;
+        margin: 0px;
+    }
+
+    .bread-person-school {
         height: 243.57px;
         margin: 0px;
     }
@@ -3886,6 +3939,13 @@ q:after {
 
     .bread-org-school {
         background: url("../img/clients/ckcare-to-chuc.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 0px;
+    }
+
+    .bread-person-school {
+        background: url("../img/clients/ckcare-ca-nhan.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         margin: 0px;
@@ -4175,6 +4235,7 @@ q:after {
 
 .nav-shadow {
     /* box-shadow: 0 2px 15px rgb(0 0 0 / 5%) !important; */
+    border-right: 1px solid #67ac2f;
 }
 
 .nav-border {
@@ -4605,6 +4666,7 @@ q:after {
 
 .btn__tabs {
     margin-top: 10%;
+    margin-bottom: 3%;
     overflow-y: none;
     overflow-x: none;
     border-radius: 0px;
@@ -4628,14 +4690,5 @@ q:after {
 }
 
 .btn__sign {
-    background: #67ac2f;
-    color: #fff;
-    border-radius: 10px;
-    font-size: 20px;
-    font-weight: 700;
-}
-
-.btn__sign:hover {
-    background-color: #fff;
-    color: #67ac2f;
+    margin-left: 3%;
 }

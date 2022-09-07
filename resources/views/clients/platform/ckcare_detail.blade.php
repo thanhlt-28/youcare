@@ -71,7 +71,7 @@
                     <div class="row">
                         <div class="col-md-12">
                             <div class="total__title_family d-flex justify-content-center">
-                                <a class="total_click" href="#">Gia đình</a>
+                                <a class="total_click" href="{{route('layouts.ck_detail.ckcare_person')}}">Gia đình</a>
                             </div>
                             <div class="total__image d-flex justify-content-center mt-3">
                                 <img class="total__image_item" src="{{asset('assets/img/svg/ckcare-total.svg')}}" alt="">

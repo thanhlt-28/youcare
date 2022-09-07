@@ -1,5 +1,5 @@
-<div class="row ">
-    <div class="col-md-6">
+<div class="row">
+    <div class="col-md-11 d-flex justify-content-center">
         <button type="button" class="btn__modal" data-bs-toggle="modal" data-bs-target="#MM">
             HƯỚNG DẪN
         </button>
@@ -33,12 +33,15 @@
                 </div>
             </div>
         </div>
-    </div>
-    <div class="col-md-6">
-        <a target="_blank" href="https://ck.youcare.vn/user/login" class="btn__sign"><button type="button" class="btn__modal">
+        <div class="btn__sign">
+            <a target="_blank" href="https://ck.youcare.vn/user/login">
+            <button type="button" class="btn__modal">
                 ĐĂNG KÝ
-            </button></a>
+            </button>
+        </a>
+        </div>
     </div>
+
 </div>
 
 <script>

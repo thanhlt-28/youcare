@@ -102,7 +102,7 @@ Route::prefix('/')->group(function () {
     Route::get('tai-nguyen', function () {
         return view('clients.source');
     })->name('clients.source');
-    
+
     // Tài liệu
     Route::get('tai-lieu', function () {
         return view('clients.library.docs');
@@ -120,21 +120,31 @@ Route::prefix('/')->group(function () {
 
 
     //CKCare 4.0
-
+    // CKCare School
     Route::get('ckcare-school', function () {
         return view('layouts.ck_detail.ckcare_school');
     })->name('layouts.ck_detail.ckcare_school');
+
+    // CKCare tổ chức
     Route::get('ckcare-org', function () {
         return view('layouts.ck_detail.ckcare_org');
     })->name('layouts.ck_detail.ckcare_org');
 
+    // CKCare cá nhân 
+    Route::get('ckcare-person', function () {
+        return view('layouts.ck_detail.ckcare_person');
+    })->name('layouts.ck_detail.ckcare_person');
+    // CKCare mầm non
     Route::get('truong-mam-non', function () {
         return view('layouts.ck_detail.ckcare_preschool');
     })->name('layouts.ck_detail.ckcare_preschool');
+
+    // CKCare phổ thông
     Route::get('truong-pho-thong', function () {
         return view('layouts.ck_detail.ckcare_highschool');
     })->name('layouts.ck_detail.ckcare_highschool');
 
+    // Bộ công cụ
     Route::get('asq-3', function () {
         return view('clients.ckcare.asq3');
     })->name('clients.ckcare.asq3');
