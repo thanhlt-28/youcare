@@ -1,28 +1,25 @@
 <!--=========== For == Laptop ===============-->
+
 <section class="main-content" data-aos="fade-up">
     <div class="container">
         <div class="d-flex bg-white flex-row shadow nav-border">
             <div class="d-flex align-items-start">
                 <div class="nav flex-column nav-pills me-3 nav-shadow pb-5" id="v-pills-tab" role="tablist" aria-orientation="vertical">
                     <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">
-                        <div class="circle-icon d-flex align-items-center justify-content-center me-3"> <i class="fa fa-home"></i> </div>
-                        Nhà quản lý
+                        <div class="circle-icon d-flex align-items-center justify-content-center me-3"><img width="50%" src="{{asset('assets/img/svg/medical/so-hospital-o.ico')}}" alt=""> </div>
+                        BỆNH VIỆN
                     </button>
                     <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">
-                        <div class="circle-icon d-flex align-items-center justify-content-center me-3"> <i class="fa fa-user"></i> </div>
-                        Giáo viên
+                        <div class="circle-icon d-flex align-items-center justify-content-center me-3"> <img width="50%" src="{{asset('assets/img/svg/medical/so-hospital-green.ico')}}" alt=""> </div>
+                        TRUNG TÂM ĐÁNH GIÁ
                     </button>
                     <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">
-                        <div class="circle-icon d-flex align-items-center justify-content-center me-3"> <i class="fa fa-envelope"></i> </div>
-                        Phụ huynh
+                        <div class="circle-icon d-flex align-items-center justify-content-center me-3"> <img width="50%" src="{{asset('assets/img/svg/medical/so-hospital-lighblue.ico')}}" alt=""> </div>
+                        TRUNG TÂM TÂM LÝ
                     </button>
                     <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">
-                        <div class="circle-icon d-flex align-items-center justify-content-center me-3"> <i class="bi bi-lightbulb-fill"></i> </div>
-                        Học sinh
-                    </button>
-                    <button class="nav-link" id="v-pills-teams-tab" data-bs-toggle="pill" data-bs-target="#v-pills-teams" type="button" role="tab" aria-controls="v-pills-teams" aria-selected="false">
-                        <div class="circle-icon d-flex align-items-center justify-content-center me-3"> <i class="bi bi-people-fill"></i> </div>
-                        Nhà chuyên môn
+                        <div class="circle-icon d-flex align-items-center justify-content-center me-3"> <img width="50%" src="{{asset('assets/img/svg/medical/so-hospital-blue.ico')}}" alt=""> </div>
+                        TRUNG TÂM KỸ NĂNG SỐNG
                     </button>
                 </div>
                 <div class="tab-content" id="v-pills-tabContent">
@@ -33,10 +30,6 @@
 
                         <p>Ứng dụng được xây dựng trên nền tảng công nghệ hiện đại giúp việc theo dõi và sàng lọc vấn đề của trẻ cho kết quả chính xác và nhanh chóng.</p>
                         <p>Các bộ công cụ đã được sử dụng nhiều nước trên thế giới và được chuẩn hóa phù hợp với người Việt Nam.</p>
-                        <p>Có thể sàng lọc và đánh giá cho 5000 học sinh trong thời gian 10 phút cho kết quả phân tích thống kê của cả trường học. Dễ dàng tra cứu, quản lý các đợt đánh giá, kết quả đánh giá đến từng học sinh</p>
-                        <p>Hệ thống tự động gửi email cho phụ huynh kết quả đánh giá sàng lọc.</p>
-                        <p>Từ kết quả đánh giá sẽ xây dựng các chương trình ngoại khóa phù hợp với vấn đề của học sinh để phòng ngừa các rối loạn như lo lâu, trầm cảm, rối loạn cảm xúc, chống đôi, tự tự, xâm hại...</p>
-                        <p> Được sự hỗ trợ của các chuyên gia đầu ngành về sức khỏe tâm thần của học sinh khi gặp phải vấn đề.</p>
 
                     </div>
                     <div class="tab-pane fade pt-4 me-4" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
@@ -68,11 +61,15 @@
                         <p>Các bộ công cụ đã được sử dụng nhiều nước trên thế giới và được chuẩn hóa phù hợp với người Việt Nam. Nhà chuyên môn không phải tập huấn sử dụng bộ công cụ. Kết quả chính xác và quản lý trẻ em, thân chủ đơn giản và thuận tiện.</p>
                         <p>Được hỗ trợ của các chuyên gia đầu ngành về sức khỏe tinh thần.</p>
                     </div>
+                    <div class="btn__tabs">
+                        @include('layouts.modal')
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 </section>
+
 
 <!--=========== For Mobile ===============-->
 <section class="according-content" data-aos="fade-up">
@@ -165,3 +162,9 @@
         </div>
     </div>
 </section>
+
+<script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+
+<script>
+    $('.modal').appendTo("body").modal('show');
+</script>

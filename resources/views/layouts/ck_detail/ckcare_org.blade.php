@@ -1,12 +1,12 @@
 @extends('layouts.main')
-@section('title', 'CKSchool')
+@section('title', 'Tổ chức')
 @section('content')
 
 <main id="main">
     <!-- ======= Breadcrumbs ======= -->
     <section id="breadcrumbs" class="breadcrumbs">
         <div class="breadcrumb-ckcare"></div>
-        <div class="bread-ckcare__school">
+        <div class="bread-org-school">
             <div class="container">
                 <div class="header-hero">
                     <div class="header-hero__slogan">
@@ -29,8 +29,8 @@
             <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='currentColor'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item"><a href="{{'/'}}">Trang chủ</a></li>
-                    <li class="breadcrumb-item" aria-current="page"><a href="{{route('clients.platform.ckcare_detail')}}">CKCare</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">CKSchool</li>
+                    <li class="breadcrumb-item" aria-current="page"><a href="{{route('layouts.ck_detail.ckcare_school')}}">CKSchool</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Tổ chức</li>
                 </ol>
             </nav>
         </div>
@@ -38,10 +38,10 @@
     <!-- End Breadcrumbs -->
 
     <div class="container">
-        <div class="section-title" data-aos="fade-up">
+        <div class="section-title">
             <h2 class="ck_header">CKSCHOOL LÀ GÌ?</h2>
         </div>
-        <div class="container__ckcare" data-aos="fade-up">
+        <div class="container__ckcare">
             <div class="row">
                 <div class="col-md-5 slider-teams d-flex align-items-center justify-content-center">
                     <div class="ck__content">
@@ -53,7 +53,7 @@
 
                 <div class="col-md-7">
                     <div class="about-knowledge">
-                        <div class="container aos-init aos-animate" data-aos="fade-in">
+                        <div class="container aos-init aos-animate">
                             <div class="row justify-content-center">
                                 <div class="col-lg-12 video-box align-self-baseline position-relative">
                                     <img src="assets/img/blog/GV.png" class="img-fluid" alt="">
@@ -64,37 +64,19 @@
                     </div>
                 </div>
             </div>
-
-            <div class="ckcare__total_school">
-                <div class="ckcare__total_school_content">
-                    <div class="row">
-                        <div class="col-md-7">
-                            <div class="total__school d-flex justify-content-start">
-                                <img class="total__school_item" src="{{asset('assets/img/svg/ckcare-school-total.svg')}}" alt="">
-                            </div>
-                        </div>
-                        <div class="col-md-5">
-                            <div class="btn__pre d-flex">
-                                <a class="total_click" target="_blank" href="{{route('layouts.ck_detail.ckcare_preschool')}}">Trường Mầm Non</a>
-                            </div>
-
-                            <div class="btn__high d-flex">
-                                <a class="total_click" target="_blank" href="{{route('layouts.ck_detail.ckcare_highschool')}}">Trường Phổ Thông</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
         </div>
-        @include('layouts.ck_detail.ckcare_motion')
+
+        @include('layouts.ck_detail.ck_tabs')
 
     </div>
 
+
     @include('layouts.team')
     @include('layouts.say')
-
 </main>
 
+
 @include('clients.about.group')
+
 
 @endsection

@@ -117,11 +117,16 @@ Route::prefix('/')->group(function () {
         return view('price.ck_price');
     })->name('price.ck_price');
 
+
+
     //CKCare 4.0
 
     Route::get('ckcare-school', function () {
         return view('layouts.ck_detail.ckcare_school');
     })->name('layouts.ck_detail.ckcare_school');
+    Route::get('ckcare-org', function () {
+        return view('layouts.ck_detail.ckcare_org');
+    })->name('layouts.ck_detail.ckcare_org');
 
     Route::get('truong-mam-non', function () {
         return view('layouts.ck_detail.ckcare_preschool');

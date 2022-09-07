@@ -51,7 +51,7 @@ h6 {
 #main {
     margin-top: 70px;
     z-index: 3;
-    position: relative;
+    /* position: relative; */
 }
 
 /*--------------------------------------------------------------
@@ -682,14 +682,13 @@ h6 {
 
     #hero {
         width: 100%;
-        height: 867px;
+        height: 899px;
         top: 0px;
         left: 0px;
         background: url("../img/svg/Home youcare.svg") center center;
         /* background-color: #000; */
         background-size: cover;
         position: absolute;
-        margin-bottom: -140px;
         z-index: 1000;
         overflow-y: hidden;
     }
@@ -937,7 +936,7 @@ section {
 }
 
 
-.pre__box__content{
+.pre__box__content {
     position: relative;
     top: -130.20px;
     color: #fff;
@@ -978,7 +977,7 @@ section {
     transition: width 0.1s;
 }
 
-.high__box__content{
+.high__box__content {
     position: relative;
     top: -100.20px;
     color: #fff;
@@ -987,8 +986,7 @@ section {
     text-align: center;
 }
 
-@media screen and (max-width: 1366px) {
-}
+@media screen and (max-width: 1366px) {}
 
 .total__title_family .total_click {
     font-size: 20px;
@@ -1495,51 +1493,6 @@ q:after {
     }
 }
 
-/* mobile */
-
-/* @media screen and (max-width: 768px) {
-    .container-mobile {
-        display: block;
-    }
-}
-
-@media screen and (max-width: 991.98px) {
-    .container-mobile {
-        display: none;
-    }
-}
-
-@media screen and (max-width: 1366px) {
-    .container-mobile {
-        display: none;
-    }
-}
-
-@media screen and (max-width: 2048) {
-    .cta {
-        display: none;
-    }
-} */
-
-/* laptop */
-
-/* @media screen and (min-width: 1024px) {
-    .container-app {
-        display: block;
-    }
-}
-
-@media screen and (max-width: 1366px) {
-    .container-app {
-        display: none;
-    }
-}
-
-@media screen and (max-width: 2048) {
-    .container-app {
-        display: none;
-    }
-} */
 
 /*--------------------------------------------------------------
 # Services
@@ -3781,6 +3734,28 @@ q:after {
     z-index: 1;
 }
 
+.bread-high-school {
+    background: url("../img/clients/ckcare-pho-thong.jpg") top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 68rem;
+    margin: -112px 0px 0px 0px;
+    padding: 0;
+    z-index: 1;
+}
+
+.bread-org-school {
+    background: url("../img/clients/ckcare-to-chuc.jpg") top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 68rem;
+    margin: -112px 0px 0px 0px;
+    padding: 0;
+    z-index: 1;
+}
+
 .header-hero {
     line-height: 40;
     margin: auto;
@@ -3821,7 +3796,6 @@ q:after {
         font-size: 40px;
     }
 
-
     .bread-ckcare__school {
         width: 100%;
         height: 48rem;
@@ -3829,6 +3803,18 @@ q:after {
     }
 
     .bread-pre-school {
+        width: 100%;
+        height: 48rem;
+        margin: 0px;
+    }
+
+    .bread-high-school {
+        width: 100%;
+        height: 48rem;
+        margin: 0px;
+    }
+
+    .bread-org-school {
         width: 100%;
         height: 48rem;
         margin: 0px;
@@ -3850,7 +3836,16 @@ q:after {
     }
 
     .bread-pre-school {
+        height: 243.57px;
+        margin: 0px;
+    }
 
+    .bread-high-school {
+        height: 243.57px;
+        margin: 0px;
+    }
+
+    .bread-org-school {
         height: 243.57px;
         margin: 0px;
     }
@@ -3877,6 +3872,20 @@ q:after {
 
     .bread-pre-school {
         background: url("../img/clients/ckcare-mam-non.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 0px;
+    }
+
+    .bread-pre-school {
+        background: url("../img/clients/ckcare-pho-thong.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 0px;
+    }
+
+    .bread-org-school {
+        background: url("../img/clients/ckcare-to-chuc.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         margin: 0px;
@@ -4165,30 +4174,35 @@ q:after {
 /* Tabs */
 
 .nav-shadow {
-    box-shadow: 0 2px 15px rgb(0 0 0 / 5%) !important;
+    /* box-shadow: 0 2px 15px rgb(0 0 0 / 5%) !important; */
 }
 
 .nav-border {
-    border-right: 3px solid #94c045;
+    border: 2px solid #94c045;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 
 .nav-pills .nav-link {
     padding: 20px;
-    width: 300px;
+    width: 333px;
     height: 100%;
     border: none;
     display: flex;
     flex-direction: row;
     align-items: center;
-    background: #fff;
+    background: rgba(255, 255, 255, 0);
     color: #333;
-    transition: all 0.3s;
+    /* transition: all 0.3s; */
 }
 
 .nav-pills .nav-link.active {
     background: -webkit-linear-gradient(30deg, #94c045, #67ac2f);
     background: -o-linear-gradient(30deg, #94c045, #67ac2f);
     background: linear-gradient(120deg, #94c045, #67ac2f);
+    border-top-left-radius: 16px;
     color: #fff;
     box-shadow: 0 2px 15px rgb(0 0 0 / 10%);
 }
@@ -4198,12 +4212,12 @@ q:after {
 }
 
 .nav-link .circle-icon {
-    height: 50px;
-    width: 50px;
-    border-radius: 50px;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
     border: 2px solid #67ac2f;
     background: #fff;
-    color: #94c045;
+    color: #67ac2f;
     font-size: 22px;
 }
 
@@ -4283,6 +4297,8 @@ q:after {
 .white-heading {
     color: #67ac2f;
 }
+
+
 
 /*-----Testimonial-------*/
 
@@ -4585,4 +4601,41 @@ q:after {
         opacity: 1;
         border: none;
     }
+}
+
+.btn__tabs {
+    margin-top: 10%;
+    overflow-y: none;
+    overflow-x: none;
+    border-radius: 0px;
+}
+
+.btn__modal {
+    padding: 10px 20px 10px 20px;
+    background: #67ac2f;
+    color: #fff;
+    border-radius: 10px;
+    border: 2px solid #67ac2f;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.btn__modal:focus,
+.btn__modal:hover {
+    background-color: #fff;
+    color: #67ac2f;
+    border: 2px solid #67ac2f;
+}
+
+.btn__sign {
+    background: #67ac2f;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.btn__sign:hover {
+    background-color: #fff;
+    color: #67ac2f;
 }

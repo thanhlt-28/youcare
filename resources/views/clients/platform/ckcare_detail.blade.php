@@ -85,7 +85,7 @@
                         <div class="col-md-4"></div>
                         <div class="col-md-4">
                             <div class="total__title_organization d-flex justify-content-start">
-                                <a class="total_click" href="#">Tổ chức</a>
+                                <a class="total_click" href="{{route('layouts.ck_detail.ckcare_org')}}">Tổ chức</a>
                             </div>
                         </div>
                     </div>
