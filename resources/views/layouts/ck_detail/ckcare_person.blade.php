@@ -1,5 +1,5 @@
 @extends('layouts.main')
-@section('title', 'Tổ chức')
+@section('title', 'Cá nhân')
 @section('content')
 
 <main id="main">
@@ -76,6 +76,200 @@
 
 
     @include('layouts.team')
+
+    <div class="container-fluild aos-init aos-animate">
+        <div class="container">
+            <div class="pre__card">
+                <div class="pre__card__hd">
+                    <div class="section-title">
+                        <h2 class="ck_header">VIDEO TRUYỀN THÔNG - SỰ KIỆN</h2>
+                    </div>
+                    <div class="row row-cols-1 row-cols-md-3 g-2">
+                        <div class="col-md-8">
+                            <div class="about-knowledge">
+                                <div class="container aos-init aos-animate">
+                                    <div class="row justify-content-center">
+                                        <div class="col-lg-12 video-box align-self-baseline position-relative">
+                                            <img src="assets/img/blog/GV.png" class="img-fluid" alt="">
+                                            <a href="https://youtu.be/7Dth98I6New" class="glightbox play-btn mb-4"></a>
+                                        </div>
+                                    </div>
+                                    <div class="col-inner">
+                                        <div class="box-text pt-3">
+                                            <h6>HƯỚNG DẪN GIÁO VIÊN SỬ DỤNG BỘ CÔNG CỤ ĐÁNH GIÁ &amp; SÀNG LỌC</h6>
+                                            <time>20 thg 6, 2022</time>
+                                            <p class="box-text-graph">
+                                                BrainCare hướng tới trở thành một trong những đơn vị dẫn đầu về lĩnh vực chăm sóc sức khoẻ tinh thần tại Việt Nam, làm thay đổi thói quen và nhận thức của người Việt Nam trong việc chú trọng sức khoẻ tinh thần và tìm kiếm sự trợ giúp khi cần thiết.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="container">
+                            <div id="testimonial4" class="carousel slide testimonial4_indicators testimonial4_control_button thumb_scroll_x swipe_x" data-ride="carousel" data-pause="hover" data-interval="3000" data-duration="2000">
+                                <div class="carousel-inner" role="listbox">
+                                    <div class="row">
+                                        <div class="col-lg-4 col-md-4"></div>
+                                        <div class="col-lg-4 col-md-4"></div>
+                                        <div class="col-lg-4 col-md-4"></div>
+                                    </div>
+                                    <div class="carousel-item active">
+                                        <div class="row row-cols-1 row-cols-md-1 g-1">
+                                            <div class="col pre__box">
+                                                <div class="about-knowledge">
+                                                    <div class="container aos-init aos-animate">
+                                                        <div class="row">
+                                                            <div class="col-lg-11 video-box align-self-baseline position-relative">
+                                                                <img src="assets/img/blog/GV.png" class="img-fluid" alt="">
+                                                                <a href="https://youtu.be/7Dth98I6New" class="glightbox play-btn mb-4"></a>
+                                                            </div>
+                                                            <div class="col-inner">
+                                                                <div class="box-text pt-3">
+                                                                    <h6>Bộ công cụ: ĐÁNH GIÁ &amp; SÀNG LỌC 1</h6>
+                                                                    <time>20 thg 6, 2022</time>
+                                                                    <p class="box-text-graph">
+                                                                        BrainCare hướng tới trở thành một...
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col pre__box">
+                                                <div class="about-knowledge">
+                                                    <div class="container aos-init aos-animate">
+                                                        <div class="row">
+                                                            <div class="col-lg-11 video-box align-self-baseline position-relative">
+                                                                <img src="assets/img/blog/GV.png" class="img-fluid" alt="">
+                                                                <a href="https://youtu.be/7Dth98I6New" class="glightbox play-btn mb-4"></a>
+                                                            </div>
+                                                            <div class="col-inner">
+                                                                <div class="box-text pt-3">
+                                                                    <h6>Bộ công cụ: ĐÁNH GIÁ &amp; SÀNG LỌC 2</h6>
+                                                                    <time>20 thg 6, 2022</time>
+                                                                    <p class="box-text-graph">
+                                                                        BrainCare hướng tới trở thành một...
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="carousel-item">
+                                        <div class="row row-cols-1 row-cols-md-1 g-1">
+                                            <div class="col pre__box">
+                                                <div class="about-knowledge">
+                                                    <div class="container aos-init aos-animate">
+                                                        <div class="row">
+                                                            <div class="col-lg-11 video-box align-self-baseline position-relative">
+                                                                <img src="assets/img/blog/GV.png" class="img-fluid" alt="">
+                                                                <a href="https://youtu.be/7Dth98I6New" class="glightbox play-btn mb-4"></a>
+                                                            </div>
+                                                            <div class="col-inner">
+                                                                <div class="box-text pt-3">
+                                                                    <h6>Bộ công cụ: ĐÁNH GIÁ &amp; SÀNG LỌC 3</h6>
+                                                                    <time>20 thg 6, 2022</time>
+                                                                    <p class="box-text-graph">
+                                                                        BrainCare hướng tới trở thành một...
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col pre__box">
+                                                <div class="about-knowledge">
+                                                    <div class="container aos-init aos-animate">
+                                                        <div class="row">
+                                                            <div class="col-lg-11 video-box align-self-baseline position-relative">
+                                                                <img src="assets/img/blog/GV.png" class="img-fluid" alt="">
+                                                                <a href="https://youtu.be/7Dth98I6New" class="glightbox play-btn mb-4"></a>
+                                                            </div>
+                                                            <div class="col-inner">
+                                                                <div class="box-text pt-3">
+                                                                    <h6>Bộ công cụ: ĐÁNH GIÁ &amp; SÀNG LỌC 4</h6>
+                                                                    <time>20 thg 6, 2022</time>
+                                                                    <p class="box-text-graph">
+                                                                        BrainCare hướng tới trở thành một...
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="carousel-item">
+                                        <div class="row row-cols-1 row-cols-md-1 g-1">
+                                            <div class="col pre__box">
+                                                <div class="about-knowledge">
+                                                    <div class="container aos-init aos-animate">
+                                                        <div class="row">
+                                                            <div class="col-lg-11 video-box align-self-baseline position-relative">
+                                                                <img src="assets/img/blog/GV.png" class="img-fluid" alt="">
+                                                                <a href="https://youtu.be/7Dth98I6New" class="glightbox play-btn mb-4"></a>
+                                                            </div>
+                                                            <div class="col-inner">
+                                                                <div class="box-text pt-3">
+                                                                    <h6>Bộ công cụ: ĐÁNH GIÁ &amp; SÀNG LỌC 5</h6>
+                                                                    <time>20 thg 6, 2022</time>
+                                                                    <p class="box-text-graph">
+                                                                        BrainCare hướng tới trở thành một...
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col pre__box">
+                                                <div class="about-knowledge">
+                                                    <div class="container aos-init aos-animate">
+                                                        <div class="row">
+                                                            <div class="col-lg-11 video-box align-self-baseline position-relative">
+                                                                <img src="assets/img/blog/GV.png" class="img-fluid" alt="">
+                                                                <a href="https://youtu.be/7Dth98I6New" class="glightbox play-btn mb-4"></a>
+                                                            </div>
+                                                            <div class="col-inner">
+                                                                <div class="box-text pt-3">
+                                                                    <h6>Bộ công cụ: ĐÁNH GIÁ &amp; SÀNG LỌC 6</h6>
+                                                                    <time>20 thg 6, 2022</time>
+                                                                    <p class="box-text-graph">
+                                                                        BrainCare hướng tới trở thành một...
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- <a style="color:#5a5454; font-size: 35px;" class="carousel-control-prev" href="#testimonial4" data-slide="prev">
+                                    <span class="carousel-control-prev-icon"><i class="bi bi-chevron-left"></i></span>
+                                </a>
+                                <a style="color:#5a5454; font-size: 35px;" class="carousel-control-next" href="#testimonial4" data-slide="next">
+                                    <span class="carousel-control-next-icon"><i class="bi bi-chevron-right"></i></span>
+                                </a> -->
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     @include('layouts.say')
 </main>

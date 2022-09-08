@@ -1,7 +1,7 @@
 <section id="pricing" class="pricing">
 
     <!-- Slider team # Laptop -->
-    <section class="slider-teams" data-aos="fade-up">
+    <section class="slider-teams">
         <div class="row justify-content-center mt-5">
             <div class="col-lg-12">
                 <div class="row justify-content-center">

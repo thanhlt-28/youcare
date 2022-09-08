@@ -3,7 +3,7 @@
 <section class="main-content" data-aos="fade-up">
     <div class="container">
         <div class="d-flex bg-white flex-row shadow nav-border">
-            <div class="d-flex align-items-start">
+            <div class="border-right d-flex align-items-start">
                 <div class="nav flex-column nav-pills me-3 nav-shadow pb-5" id="v-pills-tab" role="tablist" aria-orientation="vertical">
                     <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">
                         <div class="circle-icon d-flex align-items-center justify-content-center me-3"><img width="50%" src="{{asset('assets/img/svg/medical/so-hospital-o.ico')}}" alt=""> </div>
@@ -23,35 +23,35 @@
                     </button>
                 </div>
                 <div class="tab-content" id="v-pills-tabContent">
-                    <div class="tab-pane fade show active pt-4 me-4" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+                    <div class="tab-pane tab-content-items fade show active pt-4 me-4" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
                         <h4>Bệnh viện</h4>
-                        <p>Dễ dàng theo dõi sự phát triển của học sinh trong trường học nhằm phát hiện sớm những vấn đề giúp cho học sinh được phòng ngừa và can thiệp, trị liệu sớm nhất và hiệu quả tốt nhất.</p>
-                        <p>Tiết kiệm thời gian và tài chính không cần phải cứ giáo viên đi học sử dụng bộ công cụ.</p>
+                        <p> <i style="color:#E65925" class="bi bi-check-circle-fill"></i> Dễ dàng theo dõi sự phát triển của học sinh trong trường học nhằm phát hiện sớm những vấn đề giúp cho học sinh được phòng ngừa và can thiệp, trị liệu sớm nhất và hiệu quả tốt nhất.</p>
+                        <p> <i style="color:#E65925" class="bi bi-check-circle-fill"></i> Tiết kiệm thời gian và tài chính không cần phải cứ giáo viên đi học sử dụng bộ công cụ.</p>
 
-                        <p>Ứng dụng được xây dựng trên nền tảng công nghệ hiện đại giúp việc theo dõi và sàng lọc vấn đề của trẻ cho kết quả chính xác và nhanh chóng.</p>
-                        <p>Các bộ công cụ đã được sử dụng nhiều nước trên thế giới và được chuẩn hóa phù hợp với người Việt Nam.</p>
+                        <p> <i style="color:#E65925" class="bi bi-check-circle-fill"></i> Ứng dụng được xây dựng trên nền tảng công nghệ hiện đại giúp việc theo dõi và sàng lọc vấn đề của trẻ cho kết quả chính xác và nhanh chóng.</p>
+                        <p> <i style="color:#E65925" class="bi bi-check-circle-fill"></i> Các bộ công cụ đã được sử dụng nhiều nước trên thế giới và được chuẩn hóa phù hợp với người Việt Nam.</p>
 
                     </div>
-                    <div class="tab-pane fade pt-4 me-4" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+                    <div class="tab-pane tab-content-items fade pt-4 me-4" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
                         <h4>Trung tâm đánh giá</h4>
-                        <p>Phát hiện sớm những học sinh có những vấn đề về sức khoẻ tinh thần để thông báo cho phụ huynh kịp thời.
+                        <p> <i style="color:#67ac2f" class="bi bi-check-circle-fill"></i> Phát hiện sớm những học sinh có những vấn đề về sức khoẻ tinh thần để thông báo cho phụ huynh kịp thời.
                             Cho kết quả nhanh và chính xác</p>
-                        <p>Dễ dàng theo dõi sự phát triển của trẻ em nhằm phát hiện sớm những vấn đề giúp cho học sinh được hỗ trợ kịp thời.</p>
-                        <p>Không cần phải đi tập huấn, đào tạo về sử dụng công cụ đánh giá. Đơn giản chỉ bằng click chuột.</p>
-                        <p>Các bộ công cụ đã được sử dụng nhiều nước trên thế giới và được chuẩn hóa phù hợp với người Việt Nam.</p>
+                        <p> <i style="color:#67ac2f" class="bi bi-check-circle-fill"></i> Dễ dàng theo dõi sự phát triển của trẻ em nhằm phát hiện sớm những vấn đề giúp cho học sinh được hỗ trợ kịp thời.</p>
+                        <p> <i style="color:#67ac2f" class="bi bi-check-circle-fill"></i> Không cần phải đi tập huấn, đào tạo về sử dụng công cụ đánh giá. Đơn giản chỉ bằng click chuột.</p>
+                        <p> <i style="color:#67ac2f" class="bi bi-check-circle-fill"></i> Các bộ công cụ đã được sử dụng nhiều nước trên thế giới và được chuẩn hóa phù hợp với người Việt Nam.</p>
                     </div>
-                    <div class="tab-pane fade pt-4 me-4" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+                    <div class="tab-pane tab-content-items fade pt-4 me-4" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
                         <h4>Trung tâm tâm lý</h4>
-                        <p> Dễ dàng theo dõi và đánh giá được sức khoẻ tâm thần của con mà không cần kiến thức chuyên môn chỉ bằng click chuột.</p>
-                        <p> Sớm phát hiện vấn đề của con gặp phải để có phương án hỗ trợ cho con.</p>
-                        <p> Được đội ngũ chuyên gia nhiều năm kinh nghiệm hỗ trợ và đồng hành cùng con khi cần thiết.</p>
-                        <p> Các bộ công cụ đã được sử dụng nhiều nước trên thế giới và được chuẩn hóa phù hợp với người Việt Nam.</p>
+                        <p> <i style="color:#01CC9B" class="bi bi-check-circle-fill"></i> Dễ dàng theo dõi và đánh giá được sức khoẻ tâm thần của con mà không cần kiến thức chuyên môn chỉ bằng click chuột.</p>
+                        <p> <i style="color:#01CC9B" class="bi bi-check-circle-fill"></i> Sớm phát hiện vấn đề của con gặp phải để có phương án hỗ trợ cho con.</p>
+                        <p> <i style="color:#01CC9B" class="bi bi-check-circle-fill"></i> Được đội ngũ chuyên gia nhiều năm kinh nghiệm hỗ trợ và đồng hành cùng con khi cần thiết.</p>
+                        <p> <i style="color:#01CC9B" class="bi bi-check-circle-fill"></i> Các bộ công cụ đã được sử dụng nhiều nước trên thế giới và được chuẩn hóa phù hợp với người Việt Nam.</p>
                     </div>
-                    <div class="tab-pane fade pt-4 me-4" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+                    <div class="tab-pane tab-content-items fade pt-4 me-4" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
                         <h4>Trung tâm kỹ năng sống</h4>
-                        <p>Biết được tình trạng của mình và tìm kiếm sự hỗ trợ khi cần thiết chỉ đơn giản bằng click chuột.</p>
-                        <p>Dễ dàng kiểm tra sức khoẻ tâm thần của mình mà không cần kiến thức chuyên môn.</p>
-                        <p>Được đội ngũ chuyên gia nhiều năm kinh nghiệm hỗ trợ và đồng hành cùng khi cần hỗ trợ.</p>
+                        <p> <i style="color:#1D6495" class="bi bi-check-circle-fill"></i> Biết được tình trạng của mình và tìm kiếm sự hỗ trợ khi cần thiết chỉ đơn giản bằng click chuột.</p>
+                        <p> <i style="color:#1D6495" class="bi bi-check-circle-fill"></i> Dễ dàng kiểm tra sức khoẻ tâm thần của mình mà không cần kiến thức chuyên môn.</p>
+                        <p> <i style="color:#1D6495" class="bi bi-check-circle-fill"></i> Được đội ngũ chuyên gia nhiều năm kinh nghiệm hỗ trợ và đồng hành cùng khi cần hỗ trợ.</p>
                     </div>
                     <div class="btn__tabs">
                         @include('layouts.modal')
