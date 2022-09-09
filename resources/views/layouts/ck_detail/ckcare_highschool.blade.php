@@ -1,5 +1,5 @@
 @extends('layouts.main')
-@section('title', 'High-School')
+@section('title', 'Phổ thông')
 @section('content')
 
 <main id="main">

@@ -71,7 +71,7 @@
                     <div class="row">
                         <div class="col-md-12">
                             <div class="total__title_family d-flex justify-content-center">
-                                <a class="total_click" href="{{route('layouts.ck_detail.ckcare_person')}}">Gia đình</a>
+                                <a class="total_click" target="_blank" href="{{route('layouts.ck_detail.ckcare_person')}}">Gia đình</a>
                             </div>
                             <div class="total__image d-flex justify-content-center mt-3">
                                 <img class="total__image_item" src="{{asset('assets/img/svg/ckcare-total.svg')}}" alt="">
@@ -79,13 +79,13 @@
                         </div>
                         <div class="col-md-4">
                             <div class="total__title_school d-flex justify-content-end">
-                                <a class="total_click" href="{{route('layouts.ck_detail.ckcare_school')}}">Nhà trường</a>
+                                <a class="total_click" target="_blank" href="{{route('layouts.ck_detail.ckcare_school')}}">Nhà trường</a>
                             </div>
                         </div>
                         <div class="col-md-4"></div>
                         <div class="col-md-4">
                             <div class="total__title_organization d-flex justify-content-start">
-                                <a class="total_click" href="{{route('layouts.ck_detail.ckcare_org')}}">Tổ chức</a>
+                                <a class="total_click" target="_blank" href="{{route('layouts.ck_detail.ckcare_org')}}">Tổ chức</a>
                             </div>
                         </div>
                     </div>
@@ -464,7 +464,7 @@
     </section>
 
     <!-- ======= Group Section Laptop ======= -->
-    <section id="cta" class="cta slider-teams">
+    <section id="cta" class="cta slider-teams mt-5">
         <div class="container-app" data-aos="fade-in">
             <div class="text-center">
                 <h3 class="text__group">Cộng đồng</h3>
@@ -477,7 +477,7 @@
     </section>
 
     <!-- ======= Group Section Mobile ======= -->
-    <section id="cta" class="cta slider-team">
+    <section id="cta" class="cta slider-team mt-5">
         <div class="container-mobile" data-aos="fade-in">
             <div class="text-center">
                 <h3 class="text__group">Cộng đồng</h3>
@@ -491,4 +491,5 @@
 
     <!-- End Group Section -->
 </main>
+
 @endsection

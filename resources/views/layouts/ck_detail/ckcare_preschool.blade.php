@@ -1,5 +1,5 @@
 @extends('layouts.main')
-@section('title', 'Pre-School')
+@section('title', 'Mầm non')
 @section('content')
 
 <main id="main">
@@ -70,7 +70,7 @@
                     <h2 class="ck_header">GIẢI PHÁP TOÀN DIỆN CHO TRẺ 12 - 66 THÁNG TUỔI</h2>
                 </div>
                 <div class="ckcare__pre_school_content">
-                    <div class="row">
+                    <div class="row pre__card_box">
                         <div class="col-md-6">
                             <div class="pre__school">
                                 <img class="pre__school_road" src="{{asset('assets/img/svg/pre-road.svg')}}" alt="">
@@ -92,7 +92,8 @@
             </div>
         </div>
 
-        @include('layouts.ck_detail.ckcare_motion')
+            @include('layouts.ck_detail.ckcare_motion')
+       
 
         <div class="value__ckcare">
 
@@ -103,13 +104,13 @@
                 <div class="container">
                     <ul class="m-0 nav nav-fill nav-justified nav-tabs" id="myTab" role="tablist">
                         <li class="nav-item" role="presentation"> <button class="nav-link" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">
-                                <h6> <i class="fas fa-envelope-open"></i> Cha mẹ</h6>
+                                <h6 style="font-size: 22px;"> <i class="fas fa-envelope-open"></i> Cha mẹ</h6>
                             </button> </li>
                         <li class="nav-item" role="presentation"> <button class="nav-link active" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">
-                                <h6> <i class="fas fa-user-astronaut"></i> Trẻ em</h6>
+                                <h6 style="font-size: 22px;"> <i class="fas fa-user-astronaut"></i> Trẻ em</h6>
                             </button> </li>
                         <li class="nav-item" role="presentation"> <button class="nav-link" id="messages-tab" data-bs-toggle="tab" data-bs-target="#messages" type="button" role="tab" aria-controls="messages" aria-selected="false">
-                                <h6> <i class="fas fa-home"></i> Nhà trường</h6>
+                                <h6 style="font-size: 22px;"> <i class="fas fa-home"></i> Nhà trường</h6>
                             </button> </li>
                     </ul>
                     <div class="border-grey bg-white p-3 tab-content">
@@ -213,42 +214,44 @@
                     <div class="section-title">
                         <h2 class="ck_header">HƯỚNG DẪN </h2>
                     </div>
-                    <div class="row row-cols-1 row-cols-md-3 g-4">
-                        <div class="col pre__box">
-                            <a target="_blank" href="{{route('layouts.procedure.teacher')}}">
-                                <div class="pre__box_1">
-                                    <div class="pre__img">
-                                        <img src="{{asset('assets/img/clients/pre-danh-cho-giao-vien.jpg')}}" alt="">
+                    <div class="pre__card_box">
+                        <div class="row row-cols-1 row-cols-md-3 g-4">
+                            <div class="col pre__box">
+                                <a target="_blank" href="{{route('layouts.procedure.teacher')}}">
+                                    <div class="pre__box_1">
+                                        <div class="pre__img">
+                                            <img src="{{asset('assets/img/clients/pre-danh-cho-giao-vien.jpg')}}" alt="">
+                                        </div>
+                                        <div class="pre__box__content">
+                                            DÀNH CHO GIÁO VIÊN
+                                        </div>
                                     </div>
-                                    <div class="pre__box__content">
-                                        DÀNH CHO GIÁO VIÊN
+                                </a>
+                            </div>
+                            <div class="col pre__box">
+                                <a target="_blank" href="{{route('layouts.procedure.manager')}}">
+                                    <div class="pre__box_2">
+                                        <div class="pre__img">
+                                            <img src="{{asset('assets/img/clients/pre-danh-cho-quan-ly.jpg')}}" alt="">
+                                        </div>
+                                        <div class="pre__box__content">
+                                            DÀNH CHO QUẢN LÝ
+                                        </div>
                                     </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col pre__box">
-                            <a target="_blank" href="{{route('layouts.procedure.manager')}}">
-                                <div class="pre__box_2">
-                                    <div class="pre__img">
-                                        <img src="{{asset('assets/img/clients/pre-danh-cho-quan-ly.jpg')}}" alt="">
+                                </a>
+                            </div>
+                            <div class="col pre__box">
+                                <a target="_blank" href="{{route('layouts.procedure.parents')}}">
+                                    <div class="pre__box_3">
+                                        <div class="pre__img">
+                                            <img src="{{asset('assets/img/clients/pre-danh-cho-cha-me.jpg')}}" alt="">
+                                        </div>
+                                        <div class="pre__box__content">
+                                            DÀNH CHO CHA MẸ
+                                        </div>
                                     </div>
-                                    <div class="pre__box__content">
-                                        DÀNH CHO QUẢN LÝ
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col pre__box">
-                            <a target="_blank" href="{{route('layouts.procedure.parents')}}">
-                                <div class="pre__box_3">
-                                    <div class="pre__img">
-                                        <img src="{{asset('assets/img/clients/pre-danh-cho-cha-me.jpg')}}" alt="">
-                                    </div>
-                                    <div class="pre__box__content">
-                                        DÀNH CHO CHA MẸ
-                                    </div>
-                                </div>
-                            </a>
+                                </a>
+                            </div>
                         </div>
                     </div>
 

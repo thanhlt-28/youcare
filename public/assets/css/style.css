@@ -265,6 +265,12 @@ h6 {
     .navbar .dropdown .dropdown:hover>ul {
         left: -100%;
     }
+
+    .slide-one-item {
+        width: 100%;
+        height: 645px;
+        border-radius: 40px;
+    }
 }
 
 /**
@@ -773,7 +779,7 @@ h6 {
 --------------------------------------------------------------*/
 
 section {
-    padding-bottom: 60px;
+    /* padding-bottom: 60px; */
     overflow: hidden;
 }
 
@@ -890,11 +896,12 @@ section {
 }
 
 .container__ckcare {
-    margin-top: -2%;
+    margin-top: 0%;
+    margin-bottom: 2%;
 }
 
 .ckcare__total {
-    margin-top: 30px;
+    margin-top: 4%;
 }
 
 .ckcare__total_school {
@@ -920,6 +927,10 @@ section {
 
 .pre__card {
     margin-top: 4%;
+}
+
+.pre__card_box {
+    margin-bottom: -3%;
 }
 
 .pre__school .pre__school_road {
@@ -963,9 +974,10 @@ section {
 }
 
 .pre__img img:hover {
-    width: 100.5%;
-    background-color: rgba(148, 192, 69, 0.7);
-    transition: width 0.1s;
+    background: #67ac2f;
+    text-decoration: none;
+    border-radius: 20px;
+    /* box-shadow: 0 2px 15px #67ac2f !important; */
 }
 
 
@@ -974,7 +986,7 @@ section {
  */
 
 .high__card {
-    margin-top: 4%;
+    margin-top: 5%;
 }
 
 .high__img img {
@@ -997,30 +1009,29 @@ section {
     text-align: center;
 }
 
-@media screen and (max-width: 1366px) {}
 
 .total__title_family .total_click {
-    font-size: 20px;
+    font-size: 30px;
     color: #01CC9B;
     font-weight: bold;
 }
 
 .total__title_school .total_click {
     position: relative;
-    font-size: 20px;
+    font-size: 30px;
     color: #1d6495;
     font-weight: bold;
-    margin-top: -90px;
-    left: -8%;
+    margin-top: -100px;
+    left: -14%;
 }
 
 .total__title_organization .total_click {
     position: relative;
-    font-size: 20px;
+    font-size: 30px;
     color: #67ac2f;
     font-weight: bold;
-    margin-top: -80px;
-    right: -8%;
+    margin-top: -90px;
+    right: -14%;
 }
 
 .btn__pre .total_click {
@@ -1063,11 +1074,11 @@ section {
 }
 
 .wrapper_value {
-    margin-top: 5rem;
+    margin-top: 4rem;
 }
 
 .value__ckcare {
-    margin-top: 5rem;
+    margin-top: 3rem;
 }
 
 .value_image {
@@ -1078,6 +1089,7 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 30px;
 }
 
 .img_value_number {
@@ -1457,6 +1469,7 @@ q:after {
 .cta {
     width: 100%;
     padding: 50px 0;
+    margin-top: 3%;
     background: url("../img/clients/group.jpg") center center;
     background-size: cover;
     position: relative;
@@ -1804,6 +1817,10 @@ q:after {
     border-bottom: 2px solid #4154f1;
 }
 
+.main__content {
+    top: 2%;
+}
+
 @media screen and (max-width: 768px) {
     .main-content {
         display: none;
@@ -1831,7 +1848,7 @@ q:after {
 }
 
 .tab-content {
-    margin-left: 10px;
+    margin-left: 0px;
 }
 
 .tab-content-items {
@@ -3026,7 +3043,7 @@ q:after {
 }
 
 .owl-2-style .owl-dots .owl-dot.active span {
-    background: #4c6322;
+    background: #1D6495;
 }
 
 .owl-2-style .owl-dots .owl-dot:active,
@@ -3082,8 +3099,8 @@ q:after {
     }
 
     .btn-outline-success {
-        border: 1px solid #94c045;
-        color: #94c045;
+        border: 1px solid #67ac2f;
+        color: #67ac2f;
         margin-left: 0px;
     }
 }
@@ -3136,7 +3153,7 @@ q:after {
 
 .slide-one-item .owl-dots {
     position: absolute;
-    bottom: -40px;
+    bottom: 0px;
     width: 100%;
     text-align: center;
     z-index: 2;
@@ -3160,7 +3177,7 @@ q:after {
 
 .slide-one-item .owl-dots .owl-dot.active>span {
     width: 12px;
-    background: #525c63;
+    background: #1d6495;
 }
 
 .thumbnail {
@@ -3813,7 +3830,7 @@ q:after {
     font-size: 40px;
     font-weight: 700;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 40px;
     padding-bottom: 0;
     font-family: "Segoe UI", "Poppins", sans-serif;
     color: #1d6495;
@@ -3822,7 +3839,8 @@ q:after {
 .person__content__img {
     width: 90%;
     display: flex;
-    margin-top: 5%;
+    margin-top: 3%;
+    margin-bottom: 20px;
     align-items: center;
     text-align: center;
 }
@@ -3864,31 +3882,47 @@ q:after {
 }
 
 @media screen and (max-width: 1366px) {
+    .slider__text {
+        margin-top: -20%;
+    }
+
+
     .header-hero__slogan h2 {
         font-size: 40px;
+        top: 10rem;
+    }
+
+    .header__btn__cta a .btn-outline-success {
+        margin-top: -20%;
+    }
+
+    .bread-ckcare {
+        width: 100%;
+        height: 47rem;
+        margin: 0px;
     }
 
     .bread-ckcare__school {
         width: 100%;
-        height: 48rem;
+        height: 47rem;
         margin: 0px;
     }
 
     .bread-pre-school {
         width: 100%;
-        height: 48rem;
+        height: 47rem;
         margin: 0px;
     }
 
     .bread-high-school {
         width: 100%;
-        height: 48rem;
+        height: 47rem;
         margin: 0px;
     }
 
     .bread-org-school {
         width: 100%;
-        height: 48rem;
+        height: 47rem;
         margin: 0px;
     }
 
@@ -4039,7 +4073,7 @@ q:after {
 
 .slider__text {
     width: 99%;
-    padding: 100px 20px 0px 5px;
+    padding: 100px 2px 0px 10px;
 }
 
 .elementor-text-editor {

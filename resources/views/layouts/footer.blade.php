@@ -37,12 +37,12 @@
       </div>
 
 
-      <div class="col-lg-3 col-md-6 footer-contact">
+      <div class="col-lg-3 col-md-6 footer-links">
         <h4 style="font-size: 20px;">Liên hệ</h4>
-        <p style="font-size: 18px;">
-          <b>Tổng đài tư vấn:</b> 1900 3307<br>
-          <b>Hotline:</b> (024) 4455 3307<br>
-        </p>
+        <ul>
+          <li><b style="font-size: 18px;">Tổng đài tư vấn:</b><a style="font-size: 18px;" href="tel: 19003307"> 1900 3307</a></li>
+          <li><b style="font-size: 18px;">Hotline:</b> <a style="font-size: 18px;" href="tel: 02444553307">(024) 4455 3307</a></li>
+        </ul>
 
         <div class="footer-links mt-5">
           <h4 style="font-size: 20px;">Ứng dụng</h4>

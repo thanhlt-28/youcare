@@ -84,6 +84,7 @@
                     <div class="section-title">
                         <h2 class="ck_header">VIDEO TRUYỀN THÔNG - SỰ KIỆN</h2>
                     </div>
+                    <!-- video main -->
                     <div class="row row-cols-1 row-cols-md-3 g-2">
                         <div class="col-md-8">
                             <div class="about-knowledge">
@@ -107,6 +108,7 @@
                             </div>
                         </div>
 
+                        <!-- video right -->
                         <div class="container">
                             <div id="testimonial4" class="carousel slide testimonial4_indicators testimonial4_control_button thumb_scroll_x swipe_x" data-ride="carousel" data-pause="hover" data-interval="3000" data-duration="2000">
                                 <div class="carousel-inner" role="listbox">
@@ -121,17 +123,13 @@
                                                 <div class="about-knowledge">
                                                     <div class="container aos-init aos-animate">
                                                         <div class="row">
-                                                            <div class="col-lg-11 video-box align-self-baseline position-relative">
+                                                            <div class="col-lg-12 video-box align-self-baseline position-relative">
                                                                 <img src="assets/img/blog/GV.png" class="img-fluid" alt="">
                                                                 <a href="https://youtu.be/7Dth98I6New" class="glightbox play-btn mb-4"></a>
                                                             </div>
                                                             <div class="col-inner">
                                                                 <div class="box-text pt-3">
                                                                     <h6>Bộ công cụ: ĐÁNH GIÁ &amp; SÀNG LỌC 1</h6>
-                                                                    <time>20 thg 6, 2022</time>
-                                                                    <p class="box-text-graph">
-                                                                        BrainCare hướng tới trở thành một...
-                                                                    </p>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -142,17 +140,13 @@
                                                 <div class="about-knowledge">
                                                     <div class="container aos-init aos-animate">
                                                         <div class="row">
-                                                            <div class="col-lg-11 video-box align-self-baseline position-relative">
+                                                            <div class="col-lg-12 video-box align-self-baseline position-relative">
                                                                 <img src="assets/img/blog/GV.png" class="img-fluid" alt="">
                                                                 <a href="https://youtu.be/7Dth98I6New" class="glightbox play-btn mb-4"></a>
                                                             </div>
                                                             <div class="col-inner">
                                                                 <div class="box-text pt-3">
                                                                     <h6>Bộ công cụ: ĐÁNH GIÁ &amp; SÀNG LỌC 2</h6>
-                                                                    <time>20 thg 6, 2022</time>
-                                                                    <p class="box-text-graph">
-                                                                        BrainCare hướng tới trở thành một...
-                                                                    </p>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -168,17 +162,13 @@
                                                 <div class="about-knowledge">
                                                     <div class="container aos-init aos-animate">
                                                         <div class="row">
-                                                            <div class="col-lg-11 video-box align-self-baseline position-relative">
+                                                            <div class="col-lg-12 video-box align-self-baseline position-relative">
                                                                 <img src="assets/img/blog/GV.png" class="img-fluid" alt="">
                                                                 <a href="https://youtu.be/7Dth98I6New" class="glightbox play-btn mb-4"></a>
                                                             </div>
                                                             <div class="col-inner">
                                                                 <div class="box-text pt-3">
                                                                     <h6>Bộ công cụ: ĐÁNH GIÁ &amp; SÀNG LỌC 3</h6>
-                                                                    <time>20 thg 6, 2022</time>
-                                                                    <p class="box-text-graph">
-                                                                        BrainCare hướng tới trở thành một...
-                                                                    </p>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -189,17 +179,13 @@
                                                 <div class="about-knowledge">
                                                     <div class="container aos-init aos-animate">
                                                         <div class="row">
-                                                            <div class="col-lg-11 video-box align-self-baseline position-relative">
+                                                            <div class="col-lg-12 video-box align-self-baseline position-relative">
                                                                 <img src="assets/img/blog/GV.png" class="img-fluid" alt="">
                                                                 <a href="https://youtu.be/7Dth98I6New" class="glightbox play-btn mb-4"></a>
                                                             </div>
                                                             <div class="col-inner">
                                                                 <div class="box-text pt-3">
                                                                     <h6>Bộ công cụ: ĐÁNH GIÁ &amp; SÀNG LỌC 4</h6>
-                                                                    <time>20 thg 6, 2022</time>
-                                                                    <p class="box-text-graph">
-                                                                        BrainCare hướng tới trở thành một...
-                                                                    </p>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -215,17 +201,13 @@
                                                 <div class="about-knowledge">
                                                     <div class="container aos-init aos-animate">
                                                         <div class="row">
-                                                            <div class="col-lg-11 video-box align-self-baseline position-relative">
+                                                            <div class="col-lg-12 video-box align-self-baseline position-relative">
                                                                 <img src="assets/img/blog/GV.png" class="img-fluid" alt="">
                                                                 <a href="https://youtu.be/7Dth98I6New" class="glightbox play-btn mb-4"></a>
                                                             </div>
                                                             <div class="col-inner">
                                                                 <div class="box-text pt-3">
                                                                     <h6>Bộ công cụ: ĐÁNH GIÁ &amp; SÀNG LỌC 5</h6>
-                                                                    <time>20 thg 6, 2022</time>
-                                                                    <p class="box-text-graph">
-                                                                        BrainCare hướng tới trở thành một...
-                                                                    </p>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -236,17 +218,13 @@
                                                 <div class="about-knowledge">
                                                     <div class="container aos-init aos-animate">
                                                         <div class="row">
-                                                            <div class="col-lg-11 video-box align-self-baseline position-relative">
+                                                            <div class="col-lg-12 video-box align-self-baseline position-relative">
                                                                 <img src="assets/img/blog/GV.png" class="img-fluid" alt="">
                                                                 <a href="https://youtu.be/7Dth98I6New" class="glightbox play-btn mb-4"></a>
                                                             </div>
                                                             <div class="col-inner">
                                                                 <div class="box-text pt-3">
                                                                     <h6>Bộ công cụ: ĐÁNH GIÁ &amp; SÀNG LỌC 6</h6>
-                                                                    <time>20 thg 6, 2022</time>
-                                                                    <p class="box-text-graph">
-                                                                        BrainCare hướng tới trở thành một...
-                                                                    </p>
                                                                 </div>
                                                             </div>
                                                         </div>

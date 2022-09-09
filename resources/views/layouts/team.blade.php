@@ -4,7 +4,7 @@
     <section class="slider-teams">
         <div class="row justify-content-center mt-5">
             <div class="col-lg-12">
-                <div class="row justify-content-center">
+                <div class="row justify-content-center mt-3">
                     <div class="col-lg-8 align-self-baseline position-relative">
                         <div class="section-title">
                             <h2>ĐỘI NGŨ CHUYÊN GIA</h2>
@@ -26,7 +26,7 @@
                                                         <div class="slider__text">
                                                             <h4><a class="text-white" target="_blank" href="{{route('layouts.profile.bsdung')}}">TS. BSCK II NGUYỄN VĂN DŨNG</a></h4>
                                                             <div class="elementor-text-editor elementor-clearfix text-white">
-                                                                <strong>Tiến sĩ Bác sĩ Chuyên khoa II. Thầy thuốc ưu tú của Viện sức khỏe tâm thần – Bệnh viện Bạch Mai.</strong>
+                                                                <strong style="font-size: 120%;">Tiến sĩ Bác sĩ Chuyên khoa II. Thầy thuốc ưu tú của Viện sức khỏe tâm thần – Bệnh viện Bạch Mai.</strong>
                                                                 <p>- Hơn 30 năm trong lĩnh vực điều trị các rối loạn tâm thần, các rối loạn phát triển ở trẻ em, cai nghiện game, internet, rượu...</p>
                                                                 <p>- Có nhiều thành tích cao quí được chủ tích nước, tổng bí thư, thủ tướng trao tặng.</p>
                                                                 <p>- Rối loạn thần kinh thực vật; Động kinh; Trầm cảm; Lo âu; Mất ngủ; Stress…</p>
@@ -50,7 +50,7 @@
                                                         <div class="slider__text">
                                                             <h4><a class="text-white" target="_blank" href="{{route('layouts.profile.tspvtu')}}">PHẠM VĂN TƯ</a></h4>
                                                             <div class="elementor-text-editor elementor-clearfix text-white">
-                                                                <p><strong>Tiến sĩ Tâm lý học</strong></span></p>
+                                                                <p><span style="font-size: 120%;"><strong>Tiến sĩ Tâm lý học </strong></span></p>
                                                                 <p><strong>– Phó trưởng Khoa Công tác xã hội, trường Đại học Sư phạm Hà Nội</strong></span></p>
                                                                 <p>
                                                                     &nbsp;Khoa Công tác xã hội, Trường Đại học Sư phạm Hà Nội, Giảng viên, trưởng bộ môn Cơ sở Công tác xã hội.</span>
@@ -98,7 +98,6 @@
                                                 <div class="col-lg-5">
                                                     <div class="slider__text">
                                                         <h4><a class="text-white" target="_blank" href="{{route('layouts.profile.tsntmhuong')}}">NGUYỄN THỊ MAI HƯƠNG</a></h4>
-
 
                                                         <div class="elementor-text-editor elementor-clearfix text-white">
                                                             <p><span style="font-size: 120%;"><strong>Tiến sĩ chuyên ngành: Tâm lý học</strong></span></p>
@@ -246,20 +245,6 @@
                                             </div>
                                         </div>
                                     </div>
-
-                                    <!-- <div class="mt-3 text-center">
-                                        <ul class="thumbnail">
-                                            <li class="active"><a href="#"><img src="{{asset('assets/img/team/chu-dung.png')}}" alt="Image" class="img-fluid"></a></li>
-                                            <li><a href="#"><img src="{{asset('assets/img/team/Pham Van Tu.png')}}" alt="Image" class="img-fluid"></a></li>
-                                            <li><a href="#"><img src="{{asset('assets/img/team/Nguyen Thi Tham.png')}}" alt="Image" class="img-fluid"></a></li>
-                                            <li><a href="#"><img src="{{asset('assets/img/team/Nguyen Mai Huong.png')}}" alt="Image" class="img-fluid"></a></li>
-                                            <li><a href="#"><img src="{{asset('assets/img/team/Nguyen Thanh Van.png')}}" alt="Image" class="img-fluid"></a></li>
-                                            <li><a href="#"><img src="{{asset('assets/img/team/Nguyen Thuy Hang.png')}}" alt="Image" class="img-fluid"></a></li>
-                                            <li><a href="#"><img src="{{asset('assets/img/team/Nguyen Hien Minh.png')}}" alt="Image" class="img-fluid"></a></li>
-                                            <li><a href="#"><img src="{{asset('assets/img/team/Le The Hanh.png')}}" alt="Image" class="img-fluid"></a></li>
-                                            <li><a href="#"><img src="{{asset('assets/img/team/Dang Minh Khue.png')}}" alt="Image" class="img-fluid"></a></li>
-                                        </ul>
-                                    </div> -->
                                 </div>
                             </div>
                         </div>

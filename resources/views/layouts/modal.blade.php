@@ -27,18 +27,20 @@
 
                     <!-- M.footer -->
                     <div class="modal-footer">
-                        <a target="_blank" href="https://ck.youcare.vn/user/login"><button type="button" class="btn btn-primary" data-bs-dismiss="modal">Đăng kí</button></a>
+                        <a target="_blank" href="https://ck.youcare.vn/user/register">
+                            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Đăng kí</button>
+                        </a>
                         <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Đóng</button>
                     </div>
                 </div>
             </div>
         </div>
         <div class="btn__sign">
-            <a target="_blank" href="https://ck.youcare.vn/user/login">
-            <button type="button" class="btn__modal">
-                ĐĂNG KÝ
-            </button>
-        </a>
+            <a target="_blank" href="https://ck.youcare.vn/user/register">
+                <button type="button" class="btn__modal">
+                    ĐĂNG KÝ
+                </button>
+            </a>
         </div>
     </div>
 

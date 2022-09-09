@@ -1,5 +1,5 @@
 @extends('layouts.main')
-@section('title', 'CKSchool')
+@section('title', 'CKCare School')
 @section('content')
 
 <main id="main">

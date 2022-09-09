@@ -67,9 +67,7 @@
         </div>
 
 
-        <div class="section-title mt-5">
-            <h2 class="ck_header">GIÁ TRỊ CKCARE</h2>
-        </div>
+        
         @include('layouts.ck_detail.ck_tabs')
 
     </div>
