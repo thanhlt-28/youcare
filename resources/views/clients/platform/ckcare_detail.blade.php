@@ -39,11 +39,11 @@
     <!-- End Breadcrumbs -->
 
     <div class="container">
-        <div class="section-title" data-aos="fade-up">
+        <div class="section-title">
             <h2 class="ck_header">CKCARE LÀ GÌ?</h2>
         </div>
         <div class="container__ckcare">
-            <div class="row" data-aos="fade-up">
+            <div class="row">
                 <div class="col-md-5 slider-teams d-flex align-items-center justify-content-center">
                     <div class="ck__content">
                         <p class="ck__content_item">
@@ -54,7 +54,7 @@
 
                 <div class="col-md-7">
                     <div class="about-knowledge">
-                        <div class="container aos-init aos-animate" data-aos="fade-in">
+                        <div class="container aos-init aos-animate">
                             <div class="row justify-content-center">
                                 <div class="col-lg-12 video-box align-self-baseline position-relative">
                                     <img src="assets/img/blog/GV.png" class="img-fluid" alt="">
@@ -100,7 +100,7 @@
     <section id="pricing" class="pricing">
 
         <!-- Slider team # Laptop -->
-        <section class="slider-teams" data-aos="fade-up">
+        <section class="slider-teams">
             <div class="row justify-content-center mt-5">
                 <div class="col-lg-12">
                     <div class="row justify-content-center">
@@ -465,7 +465,7 @@
 
     <!-- ======= Group Section Laptop ======= -->
     <section id="cta" class="cta slider-teams mt-5">
-        <div class="container-app" data-aos="fade-in">
+        <div class="container-app">
             <div class="text-center">
                 <h3 class="text__group">Cộng đồng</h3>
                 <p class="text__content mt-3"> Cộng đồng tâm lý với sứ mệnh thay đổi thói quen và nhận thức của người Việt Nam <br>
@@ -478,7 +478,7 @@
 
     <!-- ======= Group Section Mobile ======= -->
     <section id="cta" class="cta slider-team mt-5">
-        <div class="container-mobile" data-aos="fade-in">
+        <div class="container-mobile">
             <div class="text-center">
                 <h3 class="text__group">Cộng đồng</h3>
                 <p class="text__content mt-3"> Cộng đồng tâm lý với sứ mệnh thay đổi thói quen và nhận thức của người Việt Nam

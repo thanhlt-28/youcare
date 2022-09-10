@@ -591,7 +591,7 @@ h6 {
 
 .btn-get-started {
     font-weight: 500;
-    font-size: 18px;
+    font-size: 20px;
     position: absolute;
     left: 24%;
     top: 389px;
@@ -621,18 +621,6 @@ h6 {
     align-items: center;
 }
 
-.img-hero {
-    position: absolute;
-    width: 110%;
-    height: 365px;
-}
-
-.hero-image-wrap {
-    margin-top: 35%;
-    position: relative;
-    left: -5%;
-    width: 50%;
-}
 
 .hero-right .hero-f-1 .btn-show {
     position: absolute;
@@ -666,6 +654,20 @@ h6 {
     left: 87%;
     top: 270px;
 
+}
+
+
+.img-hero {
+    position: absolute;
+    width: 110%;
+    height: 365px;
+}
+
+.hero-image-wrap {
+    margin-top: 35%;
+    position: relative;
+    left: -5%;
+    width: 50%;
 }
 
 .hero-image-text {
@@ -749,9 +751,51 @@ h6 {
     }
 
     #hero h2 {
-        font-size: 18px;
-        line-height: 24px;
-        margin-bottom: 30px;
+        font-size: 14.3px;
+        line-height: 25px;
+        margin-bottom: 40px;
+    }
+
+    #hero h2 {
+        position: relative;
+        width: 100%;
+        height: 140px;
+        left: -5px;
+        top: 105px;
+        font-family: 'Segoe UI Variable';
+        font-style: normal;
+        font-weight: 700;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    .hero-left {
+        position: relative;
+        width: 100%;
+        left: -5px;
+        top: -25%;
+        padding: 20px;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 15px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    .btn-get-started {
+        position: relative;
+        font-weight: 500;
+        font-size: 20px;
+        left: 30%;
+        top: -170px;
+        background-color: #67ac2f;
+        border: 1px solid #67ac2f;
+        border-radius: 7.95078px;
+        padding: 8px 28px;
+        transition: 0.5s;
+        margin: 10px;
+        font-size: 12.4px;
+        color: #fff;
     }
 
     #hero .hero-container {
@@ -766,6 +810,7 @@ h6 {
     .hero-image__wrapper {
         display: none;
     }
+
 }
 
 @media (max-height: 500px) {
@@ -796,7 +841,7 @@ section {
     font-size: 40px;
     font-weight: 700;
     padding-bottom: 0;
-    font-family: "Segoe UI", "Poppins", sans-serif;
+    font-family: 'Segoe UI', 'Poppins', sans-serif;
     color: #1d6495;
 }
 
@@ -811,11 +856,12 @@ section {
     }
 
     .section-title h2 {
-        font-size: 25px;
-        font-weight: 500;
-        padding-bottom: 0;
-        font-family: "Segoe UI", "Poppins", sans-serif;
-        color: #67ac2f;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 27px;
+        font-family: 'Segoe UI', 'Poppins', sans-serif;
+        color: #1d6495;
     }
 
     .section-title p {
@@ -1619,7 +1665,7 @@ q:after {
     font-weight: 700;
     font-size: 26px;
     color: #3c4133;
-    font-family: "Segoe UI", "Poppins", sans-serif;
+    font-family: 'Segoe UI', 'Poppins', sans-serif;
 }
 
 .skills .content ul {
@@ -1654,7 +1700,7 @@ q:after {
     text-transform: uppercase;
     display: block;
     font-weight: 600;
-    font-family: "Segoe UI", "Poppins", sans-serif;
+    font-family: 'Segoe UI', 'Poppins', sans-serif;
     color: #3c4133;
 }
 
@@ -2301,7 +2347,7 @@ q:after {
     font-size: 30px;
     color: #94c045;
     font-weight: 600;
-    font-family: "Segoe UI", "Poppins", sans-serif;
+    font-family: 'Segoe UI', 'Poppins', sans-serif;
     margin-bottom: 20px;
 }
 
@@ -2461,7 +2507,7 @@ q:after {
     line-height: 26px;
     font-weight: 500;
     margin: 0 0 10px 28px;
-    font-family: "Segoe UI", "Poppins", sans-serif;
+    font-family: 'Segoe UI', 'Poppins', sans-serif;
 }
 
 .faq .faq-item p {
@@ -2922,6 +2968,101 @@ q:after {
 }
 
 @media screen and (max-width: 991.98px) {
+
+    #hero {
+        width: 100%;
+        height: 100%;
+        top: 0px;
+        left: 0px;
+        /* background: url(../img/svg/mobile/cover-mobile.svg) center center; */
+        /* background-color: #000; */
+        background-size: cover;
+    }
+
+    .hero-container {
+        display: none;
+    }
+
+    .hero-container-mobile {
+        display: block;
+    }
+
+    .hero-content {
+        position: relative;
+        width: 100%;
+        height: 210px;
+        top: 30px;
+    }
+
+    .hero-right {
+        top: 30%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hero-right .hero-f-1 .btn-show {
+        position: absolute;
+        width: 55%;
+        height: 137px;
+        right: 77%;
+        top: 0px;
+    }
+
+
+    .hero-right .hero-f-2 .btn-show {
+        position: absolute;
+        width: 55%;
+        height: 137px;
+        left: 102%;
+        top: 0px;
+    }
+
+    .hero-right .hero-f-3 .btn-show {
+        position: absolute;
+        width: 55%;
+        height: 137px;
+        right: 77%;
+        top: 267px;
+    }
+
+    .hero-right .hero-f-4 .btn-show {
+        position: absolute;
+        width: 55%;
+        height: 137px;
+        left: 102%;
+        top: 270px;
+
+    }
+
+    .img-hero {
+        width: 165%;
+        left: -50px;
+        height: 390px;
+    }
+
+    .hero-image-wrap {
+        margin-top: 25%;
+        left: -5%;
+        width: 50%;
+    }
+
+    .hero-image-text {
+        position: relative;
+        top: 20px;
+        left: -16%;
+        transform: translate(-50%, -50%);
+        color: #fff;
+        font-size: 17.08px;
+        font-weight: 500;
+        z-index: 1000;
+    }
+
+    .hero-image__wrapper {
+        display: none;
+    }
+
     .wrap {
         display: none;
     }
@@ -2932,13 +3073,31 @@ q:after {
         background: none;
         border-radius: 30px;
     }
+
+    .ck__content {
+        margin-top: -5%;
+    }
+
+    .ck__content_item {
+        font-family: 'Segoe UI', 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+        text-align: justify;
+        color: #000000;
+    }
+
+    .breadcrumbs ol{
+        font-size: 12px;
+    }
 }
 
 /* ------------ End Media ----------------- */
 
 /*------ Reponsive app Laptop ----------*/
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 992px) {
     .slider-teams {
         display: block;
     }
@@ -2946,6 +3105,15 @@ q:after {
     .accordion-body {
         padding: 10px 0px 0px 10px;
     }
+
+    .hero-container {
+        display: block;
+    }
+
+    .hero-container-mobile {
+        display: none;
+    }
+
 }
 
 @media screen and (max-width: 1366px) {
@@ -2973,6 +3141,15 @@ q:after {
 }
 
 @media screen and (max-width: 991.98px) {
+
+    .hero-container {
+        display: none;
+    }
+
+    .hero-container-mobile {
+        display: block;
+    }
+
     .slider-teams {
         display: none;
     }
@@ -3832,7 +4009,7 @@ q:after {
     text-align: center;
     margin-top: 40px;
     padding-bottom: 0;
-    font-family: "Segoe UI", "Poppins", sans-serif;
+    font-family: 'Segoe UI', 'Poppins', sans-serif;
     color: #1d6495;
 }
 
