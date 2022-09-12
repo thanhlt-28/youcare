@@ -1,8 +1,8 @@
 <div class="wrapper_value">
-    <div class="section-title" data-aos="fade-up">
+    <div class="section-title">
         <h2 class="text-uppercase">GIẢI PHÁP TỔNG THỂ CKCARE</h2>
     </div>
-    <div class="value_items" data-aos="fade-up">
+    <div class="value_items">
         <div class="row">
             <div class="value_number d-flex justify-content-center">
                 <img class="img_value_number" src="{{asset('assets/img/svg/gp-ckcare-number.svg')}}" alt="">
@@ -28,5 +28,39 @@
             </div>
         </div>
 
+    </div>
+</div>
+
+<div class="wrapper_value_mobile">
+    <div class="section-title">
+        <h2 class="text-uppercase">GIẢI PHÁP TỔNG THỂ CKCARE</h2>
+    </div>
+    <div class="value_items">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="value_number d-flex justify-content-start">
+                    <img class="img_value_number" src="{{asset('assets/img/svg/mobile/gp-ckcare.svg')}}" alt="">
+                    <img class="img_value_icon" src="{{asset('assets/img/svg/mobile/gp-ckcare-01.svg')}}" alt="">
+
+                </div>
+            </div>
+
+            <div class="col-md-5">
+                <div class="value_desc">
+
+                    <a href="#"><img class="img_value" src="{{asset('assets/img/svg/mobile/sang-loc-theo-doi.svg')}}"></a>
+
+
+                    <a href="#"><img class="img_value" src="{{asset('assets/img/svg/mobile/danh-gia-chuyen-sau.svg')}}"></a>
+
+
+                    <a href="#"><img class="img_value" src="{{asset('assets/img/svg/mobile/can-thiep-tri-lieu.svg')}}"></a>
+
+
+                    <a href="#"><img class="img_value" src="{{asset('assets/img/svg/mobile/ho-tro-dong-hanh.svg')}}"></a>
+
+                </div>
+            </div>
+        </div>
     </div>
 </div>

@@ -266,6 +266,60 @@
 
                 </div>
             </div>
+
+            <div class="container__mobile">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6">
+                                <div class="row">
+                                    <div class="col-lg-6 col-md-6 mt-3">
+                                        <a href="https://checkingcare.vn/gioi-thieu-asq-3/" target="_blank">
+                                            <div class="icon-box">
+                                                <i class="bi bi-shop" style="color: #ffbb2c;"></i>
+                                                <h3>ASQ-3</h3>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 mt-3">
+                                        <a href="https://checkingcare.vn/cbcl/" target="_blank">
+                                            <div class="icon-box">
+                                                <i class="bi bi-calendar-check-fill" style="color: #e80368;"></i>
+                                                <h3>CBCL</h3>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-6 col-md-6 mt-3">
+                                        <a href="https://checkingcare.vn/adhd/" target="_blank">
+                                            <div class="icon-box">
+                                                <i class="bi bi-bar-chart-line" style="color: #5578ff;"></i>
+                                                <h3>ADHD</h3>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 mt-3">
+                                        <a href="https://checkingcare.vn/m-chart/" target="_blank">
+                                            <div class="icon-box">
+                                                <i class="bi bi-paint-bucket" style="color: #e361ff;"></i>
+                                                <h3>M-CHAT-R</h3>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6">
+                                <div class="col-lg-12 col-md-12">
+                                    <div data-aos="fade-up" class="aos-init aos-animate">
+                                        <img class="card" src="https://youcare.vn/assets/img/clients/ck-detail.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 

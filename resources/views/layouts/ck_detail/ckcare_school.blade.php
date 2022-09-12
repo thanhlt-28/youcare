@@ -38,10 +38,10 @@
     <!-- End Breadcrumbs -->
 
     <div class="container">
-        <div class="section-title" data-aos="fade-up">
+        <div class="section-title">
             <h2 class="ck_header">CKSCHOOL LÀ GÌ?</h2>
         </div>
-        <div class="container__ckcare" data-aos="fade-up">
+        <div class="container__ckcare">
             <div class="row">
                 <div class="col-md-5 slider-teams d-flex align-items-center justify-content-center">
                     <div class="ck__content">
@@ -53,7 +53,7 @@
 
                 <div class="col-md-7">
                     <div class="about-knowledge">
-                        <div class="container aos-init aos-animate" data-aos="fade-in">
+                        <div class="container aos-init aos-animate">
                             <div class="row justify-content-center">
                                 <div class="col-lg-12 video-box align-self-baseline position-relative">
                                     <img src="assets/img/blog/GV.png" class="img-fluid" alt="">

@@ -67,7 +67,8 @@
 
             <div class="ckcare__pre_school">
                 <div class="section-title mb-5">
-                    <h2 class="ck_header">GIẢI PHÁP TOÀN DIỆN CHO TRẺ 12 - 66 THÁNG TUỔI</h2>
+                    <h2 class="ck_header_desktop">GIẢI PHÁP TOÀN DIỆN CHO TRẺ 12 - 66 THÁNG TUỔI</h2>
+                    <h2 class="ck_header_mobile">GIẢI PHÁP TOÀN DIỆN CHO <br> TRẺ 12 - 66 THÁNG TUỔI</h2>
                 </div>
                 <div class="ckcare__pre_school_content">
                     <div class="row pre__card_box">
@@ -92,8 +93,8 @@
             </div>
         </div>
 
-            @include('layouts.ck_detail.ckcare_motion')
-       
+        @include('layouts.ck_detail.ckcare_motion')
+
 
         <div class="value__ckcare">
 
@@ -142,68 +143,151 @@
 
             </div>
 
-            <style>
-                .border-grey {
-                    border: 1px solid;
-                    border-end-start-radius: 20px;
-                    border-end-end-radius: 20px;
-                    border-top: none;
-                    border-color: #67ac2f38;
-                    box-shadow: 0px 4px 4px #67ac2f;
-                }
-
-                #myTab {
-                    background-color: #67ac2f;
-                    border-top-left-radius: 5px;
-                    border-top-right-radius: 5px;
-                }
-
-                .nav-tabs .nav-link {
-                    margin-bottom: 0px;
-                    background: 0 0;
-                    border: 1px solid transparent;
-                }
-
-                .nav-tabs .nav-item.show .nav-link {
-                    border-top-left-radius: 20px;
-                    border-top-right-radius: 20px;
-                }
-
-                .nav-tabs .nav-item.show .nav-link,
-                .nav-tabs .nav-link.active {
-                    color: #67ac2f;
-                    background-color: #fff;
-                    border-color: #67ac2f #67ac2f #67ac2f;
-                }
-
-                .nav-tabs .nav-link:focus,
-                .nav-tabs .nav-link {
-                    border-color: #67ac2f #67ac2f #67ac2f;
-                    isolation: none;
-                }
-
-                .nav-tabs .nav-link:focus,
-                .nav-tabs .nav-link:hover {
-                    border-color: #67ac2f #67ac2f #67ac2f;
-                    isolation: none;
-                }
-
-                .nav-link {
-                    color: #fff;
-                }
-
-                .nav-link:hover {
-                    color: #fff
-                }
-            </style>
-
-            <script>
-                var firstTabEl = document.querySelector('#myTab li:last-child a')
-                var firstTab = new bootstrap.Tab(firstTabEl)
-
-                firstTab.show()
-            </script>
+            <div class="value__items__mobile aos-init aos-animate">
+                <div class="container">
+                    <!-- ultra one -->
+                    <ul class="m-0 nav nav-fill nav-text text-start" id="myText" role="tablist">
+                        <li class="nav-items" style="margin-left: 10px;">
+                            <button class="nav-links" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">
+                                <h6 class="text-start" style="font-size: 15px;"> <i class="fas fa-envelope-open"></i> Cha mẹ</h6>
+                            </button>
+                        </li>
+                    </ul>
+                    <div class="border-green bg-white p-3 tab-content">
+                        <div class="tab-pane active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                            <p class=tabs__content>
+                                <i style="color:#67ac2f" class="bi bi-check-circle-fill"></i> Hiểu rõ vấn đề tâm sinh lý của con.<br>
+                                <i style="color:#67ac2f" class="bi bi-check-circle-fill"></i> Đồng hành kịp thời cùng con.<br>
+                                <i style="color:#67ac2f" class="bi bi-check-circle-fill"></i> Cùng con khắc phục và khơi dậy tiềm năng cho con.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- ultra two -->
+                    <ul class="m-0 nav nav-fill nav-text text-start mt-1" id="myText" role="tablist">
+                        <li class="nav-items" style="margin-left: 10px;">
+                            <button class="nav-links active" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">
+                                <h6 style="font-size: 15px;"> <i class="fas fa-user-astronaut"></i> Trẻ em</h6>
+                            </button>
+                        </li>
+                    </ul>
+                    <div class="border-green bg-white p-3 tab-content">
+                        <div class="tab-pane active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                            <p class=tabs__content>
+                                <i style="color:#67ac2f" class="bi bi-check-circle-fill"></i> Hiểu về tâm sinh lý của mình.<br>
+                                <i style="color:#67ac2f" class="bi bi-check-circle-fill"></i> Hiểu được năng lực sở trường của mình.<br>
+                                <i style="color:#67ac2f" class="bi bi-check-circle-fill"></i> Hỗ trợ, đồng hành từ gia đình và chuyên gia.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- ultra three -->
+                    <ul class="m-0 nav nav-fill nav-text text-start mt-1" id="myText" role="tablist">
+                        <li class="nav-items" style="margin-left: 10px;">
+                            <button class="nav-links" id="messages-tab" data-bs-toggle="tab" data-bs-target="#messages" type="button" role="tab" aria-controls="messages" aria-selected="false">
+                                <h6 style="font-size: 15px;"> <i class="fas fa-home"></i> Nhà trường</h6>
+                            </button>
+                        </li>
+                    </ul>
+                    <div class="border-green bg-white p-3 tab-content">
+                        <div class="tab-pane active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                            <p class=tabs__content>
+                                <i style="color:#67ac2f" class="bi bi-check-circle-fill"></i> Theo dõi và phát hiện sớm các vấn đề.<br>
+                                <i style="color:#67ac2f" class="bi bi-check-circle-fill"></i> Tư vấn, hỗ trợ giáo viên trong việc đồng hành cùng học sinh.<br>
+                                <i style="color:#67ac2f" class="bi bi-check-circle-fill"></i> Giám sát và báo cáo kịp thời các vấn đề liên quan cho phụ huynh.<br>
+                                <i style="color:#67ac2f" class="bi bi-check-circle-fill"></i> Được chuyên gia tư vấn, hỗ trợ xây dựng và triển khai các chương trình phòng ngừa.<br>
+                                <i style="color:#67ac2f" class="bi bi-check-circle-fill"></i> Hỗ trợ xây dựng kế hoạch phát triển toàn diện cho học sinh.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
+    </div>
+
+    <style>
+        .border-grey {
+            border: 1px solid;
+            border-end-start-radius: 20px;
+            border-end-end-radius: 20px;
+            border-top: none;
+            border-color: #67ac2f38;
+            box-shadow: 0px 4px 4px #67ac2f;
+        }
+
+        .border-green {
+            border: 1px solid;
+            border-end-start-radius: 20px;
+            border-end-end-radius: 20px;
+            border-top: none;
+            border-color: #67ac2f;
+        }
+
+        #myTab {
+            background-color: #67ac2f;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+        }
+
+        #myText {
+            background-color: #67ac2f;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+            line-height: 45px;
+        }
+
+        .nav-tabs .nav-link {
+            margin-bottom: 0px;
+            background: 0 0;
+            border: 1px solid transparent;
+        }
+
+        .nav-tabs .nav-item.show .nav-link {
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+        }
+
+        .nav-tabs .nav-item.show .nav-link,
+        .nav-tabs .nav-link.active {
+            color: #67ac2f;
+            background-color: #fff;
+            border-color: #67ac2f #67ac2f #67ac2f;
+        }
+
+        .nav-tabs .nav-link:focus,
+        .nav-tabs .nav-link {
+            border-color: #67ac2f #67ac2f #67ac2f;
+            isolation: none;
+        }
+
+
+        .nav-text .nav-links {
+            background: #67ac2f;
+            border: 1px solid #67ac2f;
+            color: #fff;
+
+        }
+
+        .nav-tabs .nav-link:focus,
+        .nav-tabs .nav-link:hover {
+            border-color: #67ac2f #67ac2f #67ac2f;
+            isolation: none;
+        }
+
+        .nav-link {
+            color: #fff;
+        }
+
+        .nav-link:hover {
+            color: #fff
+        }
+    </style>
+
+    <script>
+        var firstTabEl = document.querySelector('#myTab li:last-child a')
+        var firstTab = new bootstrap.Tab(firstTabEl)
+
+        firstTab.show()
+    </script>
+    </div>
     </div>
 
 
@@ -254,11 +338,50 @@
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
 
+            <div class="container__mobile">
+                <div class="section-title">
+                    <h2 class="ck_header">HƯỚNG DẪN </h2>
+                </div>
+                <div class="container__mobile__items">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="col-lg-6 col-md-6 mt-3">
+                                <div class="pre__box_hd">
+                                    <a href="{{route('layouts.procedure.teacher')}}" target="_blank">
+                                        <div class="icon__box text-center">
+                                            DÀNH CHO GIÁO VIÊN
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 mt-3">
+                                <div class="pre__box_hd">
+                                    <a href="https://checkingcare.vn/cbcl/" target="_blank">
+                                        <div class="icon__box text-center">
+                                            DÀNH CHO QUẢN LÝ
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 mt-3">
+                                <div class="pre__box_hd">
+                                    <a href="https://checkingcare.vn/cbcl/" target="_blank">
+                                        <div class="icon__box text-center">
+                                            DÀNH CHO CHA MẸ
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+
 
     @include('layouts.team')
     @include('layouts.say')

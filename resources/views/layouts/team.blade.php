@@ -257,6 +257,9 @@
     <!-- Slider team # Mobile -->
     <div class="slider-team">
         <div class="row justify-content-center mt-5">
+            <div class="section-title">
+                <h2>ĐỘI NGŨ CHUYÊN GIA</h2>
+            </div>
             <div class="col-lg-12">
                 <div class="row justify-content-center">
                     <div class="col-lg-8 align-self-baseline position-relative">
