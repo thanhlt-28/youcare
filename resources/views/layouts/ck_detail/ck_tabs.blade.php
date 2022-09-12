@@ -1,6 +1,6 @@
 <!--=========== For == Laptop ===============-->
 
-<section class="main-content" data-aos="fade-up">
+<section class="main-content">
     <div class="main__content">
         <div class="container">
             <div class="section-title mt-5">
@@ -69,7 +69,7 @@
 
 
 <!--=========== For Mobile ===============-->
-<section class="according-content" data-aos="fade-up">
+<!-- <section class="according-content slider-teams">
     <div class="col-lg-12">
         <div class="card-body">
             <div class="accordion" id="accordionExample">
@@ -158,7 +158,7 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 
 <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
 

@@ -1170,6 +1170,10 @@ section {
     .pre__card__hd{
         display: none;
     }
+
+    .high__card__hd{
+        display: none;
+    }
 }
 
 
@@ -1961,11 +1965,11 @@ q:after {
     top: 2%;
 }
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
     .main-content {
         display: none;
     }
-}
+} */
 
 /* Accordion Quy trình*/
 

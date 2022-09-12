@@ -359,7 +359,7 @@
                             </div>
                             <div class="col-lg-6 col-md-6 mt-3">
                                 <div class="pre__box_hd">
-                                    <a href="https://checkingcare.vn/cbcl/" target="_blank">
+                                    <a target="_blank" href="{{route('layouts.procedure.manager')}}">
                                         <div class="icon__box text-center">
                                             DÀNH CHO QUẢN LÝ
                                         </div>
@@ -368,7 +368,7 @@
                             </div>
                             <div class="col-lg-6 col-md-6 mt-3">
                                 <div class="pre__box_hd">
-                                    <a href="https://checkingcare.vn/cbcl/" target="_blank">
+                                <a target="_blank" href="{{route('layouts.procedure.parents')}}">
                                         <div class="icon__box text-center">
                                             DÀNH CHO CHA MẸ
                                         </div>
