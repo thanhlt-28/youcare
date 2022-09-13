@@ -52,8 +52,24 @@
 .owl-carousel .owl-item {
     min-height: 1px;
     float: left;
+    background: #67ac2f;
+    border-radius: 20px;
     -webkit-backface-visibility: hidden;
-    -webkit-touch-callout: none
+    -webkit-touch-callout: none;
+}
+
+@media screen and (max-width: 991.98px) {
+    .text-slider {
+        font-size: 20px;
+        color: #fff;
+    }
+    .profile__content{
+        padding: 20px;
+        color: #fff;
+        text-align: justify;
+        font-size: 16px;
+    }
+    
 }
 
 .owl-carousel .owl-item img {
@@ -65,7 +81,7 @@
     position: relative;
     overflow: hidden;
     padding: 3%;
-    border-radius: 60px;
+    border-radius: 30px;
 }
 
 .owl-carousel .owl-dots.disabled,
@@ -95,7 +111,7 @@
     background: 0 0;
     color: inherit;
     border: none;
-    padding: 0!important;
+    padding: 0 !important;
     font: inherit
 }
 
@@ -155,6 +171,7 @@
     0% {
         opacity: 1
     }
+
     100% {
         opacity: 0
     }

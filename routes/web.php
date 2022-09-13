@@ -176,6 +176,10 @@ Route::prefix('/')->group(function () {
         return view('layouts.profile.tsntmhuong');
     })->name('layouts.profile.tsntmhuong');
 
+    Route::get('tien-si-nguyen-minh-phuong', function () {
+        return view('layouts.profile.tsnmphuong');
+    })->name('layouts.profile.tsnmphuong');
+
     Route::get('thac-si-nguyen-thi-thanh-van', function () {
         return view('layouts.profile.thsnttvan');
     })->name('layouts.profile.thsnttvan');
@@ -195,6 +199,10 @@ Route::prefix('/')->group(function () {
     Route::get('thac-si-dang-minh-khue', function () {
         return view('layouts.profile.thsdmkhue');
     })->name('layouts.profile.thsdmkhue');
+
+    Route::get('chuyen-gia-truong-hoang-mai', function () {
+        return view('layouts.profile.thmai');
+    })->name('layouts.profile.thmai');
 });
 
 // ============== Router Admin ================================== //

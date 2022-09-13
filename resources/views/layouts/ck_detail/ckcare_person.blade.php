@@ -109,8 +109,8 @@
                         </div>
 
                         <!-- video right -->
-                        <div class="container">
-                            <div id="testimonial4" class="carousel slide testimonial4_indicators testimonial4_control_button thumb_scroll_x swipe_x" data-ride="carousel" data-pause="hover" data-interval="3000" data-duration="2000">
+                        <div class="container_wrapper">
+                            <div id="testimonial4" class="carousel slide testimonial4_indicators testimonial4_control_button thumb_scroll_x swipe_x" data-ride="carousel" data-pause="hover" data-interval="5000" data-duration="2000">
                                 <div class="carousel-inner" role="listbox">
                                     <div class="row">
                                         <div class="col-lg-4 col-md-4"></div>
@@ -240,6 +240,141 @@
                                 <a style="color:#5a5454; font-size: 35px;" class="carousel-control-next" href="#testimonial4" data-slide="next">
                                     <span class="carousel-control-next-icon"><i class="bi bi-chevron-right"></i></span>
                                 </a> -->
+                            </div>
+                        </div>
+
+                        <!-- video mobile -->
+                        <div class="container_mobile">
+                            <div id="testimonial4" class="carousel slide testimonial4_indicators testimonial4_control_button thumb_scroll_x swipe_x" data-ride="carousel" data-pause="hover" data-interval="5000" data-duration="2000">
+                                <div class="carousel-inner" role="listbox">
+                                    <div class="row">
+                                        <div class="col-lg-4 col-md-4"></div>
+                                        <div class="col-lg-4 col-md-4"></div>
+                                        <div class="col-lg-4 col-md-4"></div>
+                                    </div>
+                                    <div class="carousel-item active">
+                                        <div class="row row-cols-2 row-cols-md-1 g-1">
+                                            <div class="col pre__box">
+                                                <div class="about-knowledge">
+                                                    <div class="container aos-init aos-animate">
+                                                        <div class="row">
+                                                            <div class="col-lg-12 video-box align-self-baseline position-relative">
+                                                                <img src="assets/img/blog/GV.png" class="img-fluid" alt="">
+                                                                <a href="https://youtu.be/7Dth98I6New" class="glightbox play-btn mb-4"></a>
+                                                            </div>
+                                                            <div class="col-inner">
+                                                                <div class="box-text pt-3">
+                                                                    <h6>Bộ công cụ: ĐÁNH GIÁ &amp; SÀNG LỌC 1</h6>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col pre__box">
+                                                <div class="about-knowledge">
+                                                    <div class="container aos-init aos-animate">
+                                                        <div class="row">
+                                                            <div class="col-lg-12 video-box align-self-baseline position-relative">
+                                                                <img src="assets/img/blog/GV.png" class="img-fluid" alt="">
+                                                                <a href="https://youtu.be/7Dth98I6New" class="glightbox play-btn mb-4"></a>
+                                                            </div>
+                                                            <div class="col-inner">
+                                                                <div class="box-text pt-3">
+                                                                    <h6>Bộ công cụ: ĐÁNH GIÁ &amp; SÀNG LỌC 2</h6>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="carousel-item">
+                                        <div class="row row-cols-2 row-cols-md-1 g-1">
+                                            <div class="col pre__box">
+                                                <div class="about-knowledge">
+                                                    <div class="container aos-init aos-animate">
+                                                        <div class="row">
+                                                            <div class="col-lg-12 video-box align-self-baseline position-relative">
+                                                                <img src="assets/img/blog/GV.png" class="img-fluid" alt="">
+                                                                <a href="https://youtu.be/7Dth98I6New" class="glightbox play-btn mb-4"></a>
+                                                            </div>
+                                                            <div class="col-inner">
+                                                                <div class="box-text pt-3">
+                                                                    <h6>Bộ công cụ: ĐÁNH GIÁ &amp; SÀNG LỌC 3</h6>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col pre__box">
+                                                <div class="about-knowledge">
+                                                    <div class="container aos-init aos-animate">
+                                                        <div class="row">
+                                                            <div class="col-lg-12 video-box align-self-baseline position-relative">
+                                                                <img src="assets/img/blog/GV.png" class="img-fluid" alt="">
+                                                                <a href="https://youtu.be/7Dth98I6New" class="glightbox play-btn mb-4"></a>
+                                                            </div>
+                                                            <div class="col-inner">
+                                                                <div class="box-text pt-3">
+                                                                    <h6>Bộ công cụ: ĐÁNH GIÁ &amp; SÀNG LỌC 4</h6>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="carousel-item">
+                                        <div class="row row-cols-2 row-cols-md-1 g-1">
+                                            <div class="col pre__box">
+                                                <div class="about-knowledge">
+                                                    <div class="container aos-init aos-animate">
+                                                        <div class="row">
+                                                            <div class="col-lg-12 video-box align-self-baseline position-relative">
+                                                                <img src="assets/img/blog/GV.png" class="img-fluid" alt="">
+                                                                <a href="https://youtu.be/7Dth98I6New" class="glightbox play-btn mb-4"></a>
+                                                            </div>
+                                                            <div class="col-inner">
+                                                                <div class="box-text pt-3">
+                                                                    <h6>Bộ công cụ: ĐÁNH GIÁ &amp; SÀNG LỌC 5</h6>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col pre__box">
+                                                <div class="about-knowledge">
+                                                    <div class="container aos-init aos-animate">
+                                                        <div class="row">
+                                                            <div class="col-lg-12 video-box align-self-baseline position-relative">
+                                                                <img src="assets/img/blog/GV.png" class="img-fluid" alt="">
+                                                                <a href="https://youtu.be/7Dth98I6New" class="glightbox play-btn mb-4"></a>
+                                                            </div>
+                                                            <div class="col-inner">
+                                                                <div class="box-text pt-3">
+                                                                    <h6>Bộ công cụ: ĐÁNH GIÁ &amp; SÀNG LỌC 6</h6>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a style="color:#5a5454; font-size: 35px;" class="carousel-control-prev" href="#testimonial4" data-slide="prev">
+                                    <span class="carousel-control-prev-icon"><i class="bi bi-chevron-left"></i></span>
+                                </a>
+                                <a style="color:#5a5454; font-size: 35px;" class="carousel-control-next" href="#testimonial4" data-slide="next">
+                                    <span class="carousel-control-next-icon"><i class="bi bi-chevron-right"></i></span>
+                                </a>
                             </div>
                         </div>
 
