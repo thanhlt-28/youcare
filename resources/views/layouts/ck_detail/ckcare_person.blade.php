@@ -79,8 +79,8 @@
 
     <div class="container-fluild aos-init aos-animate">
         <div class="container">
-            <div class="pre__card">
-                <div class="pre__card__hd">
+            <div class="person__card">
+                <div class="person__card__hd">
                     <div class="section-title">
                         <h2 class="ck_header">VIDEO TRUYỀN THÔNG - SỰ KIỆN</h2>
                     </div>
