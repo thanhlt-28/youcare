@@ -24,7 +24,7 @@
                                                     </div>
                                                     <div class="col-lg-5">
                                                         <div class="slider__text">
-                                                            <h4><a class="text-white" target="_blank" href="{{route('layouts.profile.bsdung')}}">TS. BSCK II NGUYỄN VĂN DŨNG</a></h4>
+                                                            <h4><a class="text-white" target="_blank" href="{{route('layouts.profile.bsdung')}}">TS. BSCKII NGUYỄN VĂN DŨNG</a></h4>
                                                             <div class="elementor-text-editor elementor-clearfix text-white">
                                                                 <strong style="font-size: 120%;">Tiến sĩ Bác sĩ Chuyên khoa II. Thầy thuốc ưu tú của Viện sức khỏe tâm thần – Bệnh viện Bạch Mai.</strong>
                                                                 <p>- Hơn 30 năm trong lĩnh vực điều trị các rối loạn tâm thần, các rối loạn phát triển ở trẻ em, cai nghiện game, internet, rượu...</p>
@@ -296,7 +296,7 @@
 
                                         <div class="media-29101">
                                             <img src="{{asset('../assets/img/team/chu-dung.jpg')}}" alt="Image" class="img-fluid">
-                                            <h4><a target="_blank" class="text-slider" href="{{route('layouts.profile.bsdung')}}">THẦY THUỐC ƯU TÚ BSCC.TS. BSCKII NGUYỄN VĂN DŨNG
+                                            <h4><a target="_blank" class="text-slider" href="{{route('layouts.profile.bsdung')}}">THẦY THUỐC ƯU TÚ BSCC <br>TS. BSCKII NGUYỄN VĂN DŨNG
                                                 </a></h4>
                                             <div class="profile__content">
                                                 <strong style="font-size: 120%;">Tiến sĩ Bác sĩ Chuyên khoa II. Thầy thuốc ưu tú của Viện sức khỏe tâm thần – Bệnh viện Bạch Mai.</strong>
