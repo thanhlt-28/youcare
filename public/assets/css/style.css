@@ -3484,6 +3484,17 @@ q:after {
         box-shadow: 0 2px 15px rgb(0 0 0 / 10%);
     }
 
+
+    .tabs__content {
+        margin-left: 5%;
+        font-size: 20px;
+    }
+
+    .tabs__content i {
+        line-height: 35px;
+        font-size: 20px;
+    }
+
     .btn__tabs {
         margin-top: 10%;
         margin-bottom: 3%;
@@ -4565,15 +4576,6 @@ q:after {
         display: none;
     }
 
-    .tabs__content {
-        margin-left: 5%;
-        font-size: 18px;
-    }
-
-    .tabs__content i {
-        line-height: 35px;
-        font-size: 20px;
-    }
 }
 
 @media (max-width: 767.98px) {

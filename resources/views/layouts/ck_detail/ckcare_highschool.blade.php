@@ -103,13 +103,13 @@
                 <div class="container">
                     <ul class="m-0 nav nav-fill nav-justified nav-tabs" id="myTab" role="tablist">
                         <li class="nav-item" role="presentation"> <button class="nav-link" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">
-                                <h6> <i class="fas fa-envelope-open"></i> Phụ huynh</h6>
+                                <h6 style="font-size: 22px;"> <i class="fas fa-envelope-open"></i> Phụ huynh</h6>
                             </button> </li>
                         <li class="nav-item" role="presentation"> <button class="nav-link active" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">
-                                <h6> <i class="fas fa-user-astronaut"></i> Học sinh</h6>
+                                <h6 style="font-size: 22px;"> <i class="fas fa-user-astronaut"></i> Học sinh</h6>
                             </button> </li>
                         <li class="nav-item" role="presentation"> <button class="nav-link" id="messages-tab" data-bs-toggle="tab" data-bs-target="#messages" type="button" role="tab" aria-controls="messages" aria-selected="false">
-                                <h6> <i class="fas fa-home"></i> Nhà trường</h6>
+                                <h6 style="font-size: 22px;"> <i class="fas fa-home"></i> Nhà trường</h6>
                             </button> </li>
                     </ul>
                     <div class="border-grey bg-white p-3 tab-content">
@@ -208,7 +208,7 @@
                     border-color: #67ac2f38;
                     box-shadow: 0px 4px 4px #67ac2f;
                 }
-
+                            
                 .border-green {
                     border: 1px solid;
                     border-end-start-radius: 20px;
