@@ -36,8 +36,8 @@
         <h2 class="text-uppercase">GIẢI PHÁP TỔNG THỂ CKCARE</h2>
     </div>
     <div class="value_items">
-        <div class="row">
-            <div class="col-md-6">
+        <div class="row row-cols-2 row-cols-md-2 g-1">
+            <div class="col-md-12">
                 <div class="value_number d-flex justify-content-start">
                     <img class="img_value_number" src="{{asset('assets/img/svg/mobile/gp-ckcare.svg')}}" alt="">
                     <img class="img_value_icon" src="{{asset('assets/img/svg/mobile/gp-ckcare-01.svg')}}" alt="">
@@ -45,7 +45,7 @@
                 </div>
             </div>
 
-            <div class="col-md-5">
+            <div class="col-md-12">
                 <div class="value_desc">
 
                     <a href="#"><img class="img_value" src="{{asset('assets/img/svg/mobile/sang-loc-theo-doi.svg')}}"></a>

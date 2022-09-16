@@ -22,7 +22,7 @@
             <div class="row justify-content-center">
                 <div class="col-md-7 col-lg-5 mb-5 mb-lg-0 wow fadeIn">
                     <div class="card border-0 shadow">
-                        <img class="" src="{{asset('../assets/img/team/truong-hoang-mai.jpg')}}" alt="...">
+                        <img class="" src="{{asset('../assets/img/team/team-detail/truong-hoang-mai.jpg')}}" alt="...">
                         <div class="card-body">
                             <div class="mb-4 p-2-9 p-xl-2">
                                 <h4>TRƯƠNG HOÀNG MAI</h4>

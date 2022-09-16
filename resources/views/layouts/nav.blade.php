@@ -2,8 +2,7 @@
 <div class="container d-flex align-items-center justify-content-between">
 
     <div class="logo">
-        <!-- <h1 class="text-light"><a href="{{'/'}}">Serenity</a></h1> -->
-        <!-- Uncomment below if you prefer to use an image logo -->
+        <!--image logo -->
         <a href="{{'/'}}"><img src="{{asset('assets/img/logo-landscape.png')}}" alt="" class="img-fluid"></a>
     </div>
 

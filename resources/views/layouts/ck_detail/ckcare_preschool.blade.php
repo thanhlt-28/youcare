@@ -231,7 +231,7 @@
             background-color: #67ac2f;
             border-top-left-radius: 20px;
             border-top-right-radius: 20px;
-            line-height: 45px;
+            line-height: 60px;
         }
 
         .nav-tabs .nav-link {
