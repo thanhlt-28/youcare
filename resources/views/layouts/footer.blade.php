@@ -2,7 +2,6 @@
   <div class="container">
     <div class="container_wrapper">
       <div class="row">
-
         <div class="col-lg-4 col-md-6 footer-info">
           <a href="{{'/'}}">
             <img width="30%" src="{{asset('assets/img/svg/logo-ft.svg')}}" alt="logo">
@@ -36,7 +35,6 @@
             </ul>
           </div>
         </div>
-
 
         <div class="col-lg-3 col-md-6 footer-links">
           <h4 style="font-size: 20px;">Liên hệ</h4>
@@ -90,13 +88,12 @@
 </div>
 
 
-<!-- mobile -->
-<div class="container">
-  <div class="footer-top">
+<!-- Footer mobile -->
+<div class="footer-top">
+  <div class="container">
     <div class="container_mobile">
       <div class="row">
-
-        <div class="col-lg-4 col-md-6 footer-info mx-2">
+        <div class="col-lg-4 col-md-6 footer-info mx-0">
           <a href="{{'/'}}">
             <img width="30%" src="{{asset('assets/img/svg/logo-ft.svg')}}" alt="logo">
           </a>
@@ -113,7 +110,7 @@
           </div>
         </div>
 
-        <div class="row row-cols-2 row-cols-md-1 g-1 mx-3">
+        <div class="row row-cols-2 row-cols-md-1 g-1 mx-0">
           <div class="col-lg-12 footer-links">
             <h4 style="font-size: 20px;">Tài nguyên</h4>
             <ul>
@@ -131,7 +128,7 @@
           </div>
         </div>
 
-        <div class="row row-cols-2 row-cols-md-1 g-1 mx-3">
+        <div class="row row-cols-2 row-cols-md-1 g-1 mx-0">
           <div class="col-lg-12 footer-links">
             <h4 style="font-size: 20px;">Ứng dụng</h4>
             <ul>
@@ -154,12 +151,12 @@
           </div>
         </div>
 
-        <div class="row row-cols-2 row-cols-md-1 g-1 mx-3">
+        <div class="row row-cols-2 row-cols-md-1 g-1 mx-0">
           <div class="col-lg-12 footer-links">
             <h4 style="font-size: 20px;">Liên hệ</h4>
             <ul>
-              <li><b style="font-size: 16px;">Tổng đài tư vấn:</b><a style="font-size: 16px;" href="tel: 19003307"> 1900 3307</a></li>
-              <li><b style="font-size: 16px;">Hotline:</b> <a style="font-size: 16px;" href="tel: 02444553307">(024) 4455 3307</a></li>
+              <li style="font-size: 16px;">Tổng đài tư vấn: <a style="font-size: 16px;" href="tel: 19003307"> 1900 3307</a></li>
+              <li style="font-size: 16px;">Hotline: <a style="font-size: 16px;" href="tel: 02444553307">(024) 4455 3307</a></li>
             </ul>
           </div>
           <div class="col-lg-12 social-links">
@@ -175,7 +172,6 @@
           </div>
         </div>
       </div>
-
     </div>
   </div>
 </div>

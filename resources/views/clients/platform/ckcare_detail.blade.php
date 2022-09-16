@@ -389,7 +389,7 @@
                             <div class="content">
 
                                 <div class="site-section bg-left-half mb-5">
-                                    <div class="owl-2-style">
+                                    <div class="owl-2-style  owl-2-set">
 
                                         <div class="owl-carousel owl-2">
 

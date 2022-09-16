@@ -272,7 +272,7 @@
     </div>
 </div>
 
-<!-- Slider team # Mobile -->
+<!-- Slider Custonmer Say # Mobile -->
 <div class="slider-team">
     <div class="row justify-content-center mt-5">
         <div class="col-lg-12">
