@@ -56,6 +56,7 @@ h6 {
 
 #main {
     margin-top: 70px;
+    scroll-behavior: auto;
     z-index: 3;
     /* position: relative; */
 }
@@ -114,6 +115,7 @@ h6 {
     transition: all 0.5s ease-in-out;
     background: #fff;
     box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    scroll-behavior: auto;
 }
 
 #header .logo h1 {
@@ -1173,9 +1175,12 @@ section {
     margin-top: -90px;
     right: -14%;
 }
+.total__title_organization .total_click {
+    color: #1d6495;
+}
 
-.total__title_organization .total_click:hover {
-    text-decoration: solid;
+.total_click:hover {
+    color: #67ac2f;
 }
 
 @media screen and (max-width: 991.98px) {
