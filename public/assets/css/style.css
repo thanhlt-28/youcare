@@ -1030,6 +1030,10 @@ section {
     margin-top: 4%;
 }
 
+.ckcare__total__content{
+    text-align: center;
+}
+
 .ckcare__total_school {
     margin-top: 5rem;
 }
@@ -1175,6 +1179,7 @@ section {
     margin-top: -90px;
     right: -14%;
 }
+
 .total__title_organization .total_click {
     color: #1d6495;
 }
@@ -2774,7 +2779,7 @@ q:after {
         background-size: cover;
     }
 
-    
+
 }
 
 @-webkit-keyframes animate-loading {
@@ -5665,7 +5670,7 @@ q:after {
         display: block;
     }
 
-    
+
 }
 
 @media (max-width: 767px) {
@@ -5675,4 +5680,117 @@ q:after {
         border: none;
     }
 
+}
+
+/* < !-- css trẻ em.child__theme:hover path, */
+.child__theme g:hover line {
+    fill: #67AC2F;
+    /* < !-- stroke: #67AC2F; */
+
+}
+
+.child__theme:hover .child__bgr {
+    fill: #67AC2F;
+}
+
+.child__theme:hover .child__item {
+    fill: #fff;
+}
+
+.child__theme:hover .child__bottom {
+    fill: #467520;
+}
+
+.child__theme .child__item:hover {
+    fill: #fff;
+}
+
+.child__theme .child__bgr:hover {
+    fill: #67AC2F;
+}
+
+/* < !-- end css trẻ em  */
+/* < !-- css cha mẹ.parents__theme g:hover path, */
+.parents__theme g:hover line {
+    fill: #01CC9B;
+    /* < !-- stroke: #01CC9B; */
+
+}
+
+.parents__theme:hover .parents__bgr {
+    fill: #01CC9B;
+}
+
+.parents__theme:hover .parents__item {
+    fill: #fff;
+}
+
+.parents__theme:hover .parents__bottom {
+    fill: #059b77;
+}
+
+.parents__theme .parents__item:hover {
+    fill: #fff;
+}
+
+.parents__theme .parents__bgr:hover {
+    fill: #01CC9B;
+}
+
+/* end css cha mẹ */
+/* css cha mẹ */
+
+.pre__theme g:hover path,
+.pre__theme g:hover line {
+    fill: #1D6495;
+    /* stroke: #1D6495 */
+}
+
+.pre__theme:hover .pre__bgr {
+    fill: #1D6495;
+}
+
+.pre__theme:hover .pre__item {
+    fill: #fff;
+}
+
+.pre__theme:hover .pre__bottom {
+    fill: #134364;
+}
+
+.pre__theme .pre__item:hover {
+    fill: #fff;
+}
+
+.pre__theme .pre__bgr:hover {
+    fill: #1D6495;
+}
+
+/* < !-- end css cha mẹ */
+
+
+/* < !-- --> */
+.family__theme:hover path {
+    fill: #01CC9B;
+}
+
+.family__theme:hover .family__item {
+    fill: #fff;
+}
+
+.family__theme .family__item:hover {
+    fill: #fff;
+}
+
+/* < !-- --> */
+.school__theme:hover path {
+    fill: #1d6495;
+}
+
+.school__theme:hover .school__item {
+    fill: #fff;
+}
+
+.school__theme .school__item:hover {
+    fill: #fff;
 }
