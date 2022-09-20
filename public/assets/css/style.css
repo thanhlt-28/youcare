@@ -169,7 +169,7 @@ h6 {
     justify-content: space-between;
     padding: 10px 0 10px 30px;
     font-family: "Segoe UI", "Raleway", sans-serif;
-    font-size: 15px;
+    font-size: 20px;
     font-weight: 600;
     color: #1d6495;
     white-space: nowrap;
@@ -216,6 +216,7 @@ h6 {
     opacity: 0;
     visibility: hidden;
     background: #fff;
+    border-radius: 10px;
     box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
     transition: 0.3s;
 }
@@ -556,10 +557,10 @@ h6 {
 
 .hero-content {
     position: absolute;
-    width: 91%;
+    width: 89%;
     height: 514px;
     left: 1%;
-    top: 20%;
+    top: 16%;
 }
 
 .hero-left {
@@ -668,7 +669,7 @@ h6 {
 }
 
 .hero-image-wrap {
-    margin-top: 35%;
+    margin-top: 29%;
     position: relative;
     left: -5%;
     width: 50%;
@@ -1030,7 +1031,7 @@ section {
     margin-top: 4%;
 }
 
-.ckcare__total__content{
+.ckcare__total__content {
     text-align: center;
 }
 
@@ -1064,8 +1065,8 @@ section {
 }
 
 .pre__school .pre__school_road {
-    width: 70%;
-    margin-top: 5rem;
+    width: 100%;
+    margin-top: -2rem;
 }
 
 .pre__school .pre__school_total {
@@ -5792,5 +5793,129 @@ q:after {
 }
 
 .school__theme .school__item:hover {
+    fill: #fff;
+}
+
+/* <!-- css trẻ em --> */
+.student__theme g:hover path,
+.student__theme g:hover line {
+    fill: #67AC2F;
+}
+
+.student__theme:hover .student__bgr {
+    fill: #67AC2F;
+}
+
+.student__theme:hover .student__item {
+    fill: #fff;
+}
+
+.student__theme:hover .student__bottom {
+    fill: #467520;
+}
+
+.student__theme .student__item:hover {
+    fill: #fff;
+}
+
+.student__theme .student__bgr:hover {
+    fill: #67AC2F;
+}
+
+/* <!-- end css trẻ em --> */
+
+
+.parents__theme g:hover path,
+.parents__theme g:hover line {
+    fill: #01CC9B;
+}
+
+.parents__theme:hover .parents__bgr {
+    fill: #01CC9B;
+}
+
+.parents__theme:hover .parents__item {
+    fill: #fff;
+}
+
+.parents__theme:hover .parents__bottom {
+    fill: #059b77;
+}
+
+.parents__theme .parents__item:hover {
+    fill: #fff;
+}
+
+.parents__theme .parents__bgr:hover {
+    fill: #01CC9B;
+}
+
+/* <!-- end css cha mẹ --> */
+
+/* <!-- css cha mẹ --> */
+
+.school__theme g:hover path,
+.school__theme g:hover line {
+    fill: #1D6495;
+}
+
+.school__theme:hover .school__bgr {
+    fill: #1D6495;
+}
+
+.school__theme:hover .school__item {
+    fill: #fff;
+}
+
+.school__theme:hover .school__bottom {
+    fill: #134364;
+}
+
+.school__theme .school__item:hover {
+    fill: #fff;
+}
+
+.pre__theme .pre__bgr:hover {
+    fill: #1D6495;
+}
+
+/* <!-- end css cha mẹ --> */
+
+/* 
+Hành trình cho mầm non &&&&&& phổ thông
+*/
+.pro__once:hover path {
+    fill: #67AC2F;
+    filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+}
+
+.pro__once:hover rect {
+    fill: #67AC2F;
+    filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+}
+
+.pro__once:hover .pro__text {
+    fill: #fff;
+}
+
+.pro__once:hover rect {
+    fill: #fff;
+}
+
+.pro__twice:hover path {
+    fill: #1D6495;
+    filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+}
+
+.pro__twice:hover .pro__text {
+    fill: #fff;
+}
+
+.pro__twice:hover rect {
+    fill: #1D6495;
+    filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+}
+
+.pro__twice:hover rect {
     fill: #fff;
 }
