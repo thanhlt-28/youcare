@@ -5770,7 +5770,7 @@ q:after {
 /* < !-- end css cha mẹ */
 
 
-/* < !-- --> */
+/* < !-- Gia đình --> */
 .family__theme:hover path {
     fill: #01CC9B;
 }
@@ -5783,7 +5783,7 @@ q:after {
     fill: #fff;
 }
 
-/* < !-- --> */
+/* < !-- Trường học --> */
 .school__theme:hover path {
     fill: #1d6495;
 }
@@ -5794,6 +5794,11 @@ q:after {
 
 .school__theme .school__item:hover {
     fill: #fff;
+}
+
+.org__theme:hover .org__bottom:hover {
+    fill: #67AC2F;
+    filter: drop-shadow(2px 0px 2px #467520);
 }
 
 /* <!-- css trẻ em --> */
@@ -5918,4 +5923,21 @@ Hành trình cho mầm non &&&&&& phổ thông
 
 .pro__twice:hover rect {
     fill: #fff;
+}
+
+/* <style> CKCare-school */
+.ckcare__pre:hover rect {
+    fill: #fff;
+}
+
+.ckcare__pre:hover path {
+    fill: #1d6495;
+}
+
+.ckcare__high:hover rect {
+    fill: #fff;
+}
+
+.ckcare__high:hover path {
+    fill: #67ac2f;
 }
