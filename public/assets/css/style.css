@@ -557,7 +557,7 @@ h6 {
 
 .hero-content {
     position: absolute;
-    width: 89%;
+    width: 51%;
     height: 514px;
     left: 1%;
     top: 16%;
@@ -565,25 +565,24 @@ h6 {
 
 .hero-left {
     position: absolute;
-    width: 50%;
+    width: 71%;
     height: 200px;
-    left: 76px;
-    top: 241px;
+    left: 23%;
+    top: 233px;
     font-weight: 400;
     font-size: 20px;
     line-height: 25px;
     text-align: center;
-
     color: #FFFFFF;
 }
 
 #hero h2 {
     position: absolute;
-    width: 50%;
+    width: 90%;
     height: 140px;
-    left: 72px;
+    left: 120px;
     top: 105px;
-    font-family: 'Segoe UI Variable';
+    font-family: 'Segoe UI Variable', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 35px;
@@ -598,8 +597,8 @@ h6 {
     font-weight: 500;
     font-size: 20px;
     position: absolute;
-    left: 24%;
-    top: 389px;
+    left: 45%;
+    top: 350px;
     align-items: center;
     text-align: center;
     display: flex;
@@ -669,11 +668,10 @@ h6 {
 }
 
 .hero-image-wrap {
-    margin-top: 29%;
-    position: relative;
-    left: -5%;
-    width: 50%;
+    margin-top: 30%;
+    width: 80%;
 }
+
 
 .hero-image-text {
     position: relative;
@@ -688,6 +686,46 @@ h6 {
 
 .hero-image__wrapper {
     display: none;
+}
+
+/* **********
+----------- CSS HOME
+***********
+ */
+.ckcare__home:hover .ckcare__home__bgr {
+    fill: #67ac2f;
+}
+
+.ckcare__home:hover .ckcare__home__bottom,
+.ckcare__home:hover .ckcare__home__items {
+    fill: #000A23;
+}
+
+.bizcare__home:hover .bizcare__home__bgr {
+    fill: #67ac2f;
+}
+
+.bizcare__home:hover .bizcare__home__bottom,
+.bizcare__home:hover .bizcare__home__items {
+    fill: #000A23;
+}
+
+.pubcare__home:hover .pubcare__home__bgr {
+    fill: #67ac2f;
+}
+
+.pubcare__home:hover .pubcare__home__bottom,
+.pubcare__home:hover .pubcare__home__items {
+    fill: #000A23;
+}
+
+.psycare__home:hover .psycare__home__bgr {
+    fill: #67ac2f;
+}
+
+.psycare__home:hover .psycare__home__bottom,
+.psycare__home:hover .psycare__home__items {
+    fill: #000A23;
 }
 
 /* .image__team{
@@ -715,8 +753,8 @@ h6 {
 
 
     .hero-content {
-        position: absolute;
-        width: 81%;
+        position: relative;
+        width: 93%;
         height: 514px;
         left: 1%;
         top: 25%;
@@ -727,7 +765,7 @@ h6 {
     }
 
     .hero-image-wrap {
-        margin-top: 33%;
+        margin-top: 22%;
     }
 
     .img-hero {
@@ -785,7 +823,7 @@ h6 {
     }
 
     #hero h2 {
-        font-size: 14.3px;
+        font-size: 13.3px;
         line-height: 25px;
         margin-bottom: 40px;
     }
@@ -795,8 +833,8 @@ h6 {
         width: 100%;
         height: 140px;
         left: -5px;
-        top: 105px;
-        font-family: 'Segoe UI Variable';
+        top: 90px;
+        font-family: 'Segoe UI Variable', sans-serif;
         font-style: normal;
         font-weight: 700;
         text-align: center;
@@ -807,7 +845,7 @@ h6 {
         position: relative;
         width: 100%;
         left: -5px;
-        top: -25%;
+        top: -38%;
         padding: 20px;
         font-weight: 400;
         font-size: 12px;
@@ -820,8 +858,8 @@ h6 {
         position: relative;
         font-weight: 500;
         font-size: 20px;
-        left: 30%;
-        top: -170px;
+        left: 28%;
+        top: -200px;
         background-color: #67ac2f;
         border: 1px solid #67ac2f;
         border-radius: 7.95078px;
@@ -1215,7 +1253,7 @@ section {
     .pre__school .pre__school_road {
         width: 100%;
         padding: 0px;
-        margin-top: 2rem;
+        margin-top: -4rem;
         margin-left: -15px;
     }
 
@@ -3061,7 +3099,7 @@ q:after {
         position: relative;
         width: 100%;
         height: 210px;
-        top: 30px;
+        top: 10px;
     }
 
     .hero-right {
@@ -3114,8 +3152,8 @@ q:after {
 
     .hero-image-wrap {
         margin-top: 25%;
-        left: -5%;
-        width: 50%;
+        margin-left: 0%;
+        width: 85%;
     }
 
     .hero-image-text {

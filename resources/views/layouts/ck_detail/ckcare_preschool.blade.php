@@ -311,7 +311,7 @@
                     <ul class="m-0 nav nav-fill nav-text text-start" id="myText" role="tablist">
                         <li class="nav-items" style="margin-left: 10px;">
                             <button class="nav-links" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">
-                                <h6 class="text-start" style="font-size: 15px;"> <i class="fas fa-envelope-open"></i> Cha mẹ</h6>
+                                <h6 class="text-start" style="font-size: 20px;"> <i class="fas fa-envelope-open"></i> Cha mẹ</h6>
                             </button>
                         </li>
                     </ul>
@@ -328,7 +328,7 @@
                     <ul class="m-0 nav nav-fill nav-text text-start mt-1" id="myText" role="tablist">
                         <li class="nav-items" style="margin-left: 10px;">
                             <button class="nav-links active" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">
-                                <h6 style="font-size: 15px;"> <i class="fas fa-user-astronaut"></i> Trẻ em</h6>
+                                <h6 style="font-size: 20px;"> <i class="fas fa-user-astronaut"></i> Trẻ em</h6>
                             </button>
                         </li>
                     </ul>
@@ -345,7 +345,7 @@
                     <ul class="m-0 nav nav-fill nav-text text-start mt-1" id="myText" role="tablist">
                         <li class="nav-items" style="margin-left: 10px;">
                             <button class="nav-links" id="messages-tab" data-bs-toggle="tab" data-bs-target="#messages" type="button" role="tab" aria-controls="messages" aria-selected="false">
-                                <h6 style="font-size: 15px;"> <i class="fas fa-home"></i> Nhà trường</h6>
+                                <h6 style="font-size: 20px;"> <i class="fas fa-home"></i> Nhà trường</h6>
                             </button>
                         </li>
                     </ul>
@@ -393,7 +393,7 @@
             background-color: #67ac2f;
             border-top-left-radius: 20px;
             border-top-right-radius: 20px;
-            line-height: 60px;
+            line-height: 61px;
         }
 
         .nav-tabs .nav-link {
@@ -422,8 +422,8 @@
 
 
         .nav-text .nav-links {
-            background: #67ac2f;
-            border: 1px solid #67ac2f;
+            background: #67ac2f00;
+            border: 1px solid transparent;
             color: #fff;
 
         }
