@@ -67,7 +67,7 @@
             </div>
 
             <div class="ckcare__total">
-                <div class="ckcare__total__content">
+                <div class="ckcare__total__content mx-auto">
                     <svg viewBox="0 0 1377 875" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 
                         <a class="family__theme" href="{{route('layouts.ck_detail.ckcare_person')}}" target="_blank">
@@ -279,13 +279,13 @@
                                                     </div>
                                                     <div class="col-lg-5">
                                                         <div class="slider__text">
-                                                            <h4><a class="text-white" target="_blank" href="#">NGUYỄN MINH PHƯỢNG</a></h4>
+                                                            <h4><a class="text-white" target="_blank" href="{{route('layouts.profile.tsphuong')}}">NGUYỄN MINH PHƯỢNG</a></h4>
                                                             <div class="elementor-text-editor elementor-clearfix text-white">
                                                                 <p><span style="font-size: 120%;"><strong>Tiến sĩ chuyên ngành: Giáo dục đặc biệt</strong></span></p>
                                                                 <p>– Giảng viên của Trường Đại học Sư phạm Hà Nội.</p>
                                                                 <p>– Hơn 15 năm kinh nghiệm công tác trong lĩnh vực giáo dục và giáo dục đặc biệt bao gồm: đánh giá, can thiệp, trị liệu và tư vấn giáo dục cho trẻ em và thanh thiếu niên.</p>
                                                                 <p>– Giảng dạy, tập huấn, bồi dưỡng chuyên môn cho giáo viên ở các địa phương về đánh giá, xây dựng kế hoạch giáo dục cá nhân, các phương pháp can thiệp, giáo dục trẻ có nhu cầu đặc biệt.</p>
-                                                                <a class="cta-btn" target="_blank" href="#">
+                                                                <a class="cta-btn" target="_blank" href="{{route('layouts.profile.tsphuong')}}">
                                                                     <button type="button" class="btn btn__team">Xem chi tiết</button>
                                                                 </a>
                                                             </div>
@@ -516,13 +516,13 @@
 
                                             <div class="media-29101">
                                                 <img src="{{asset('../assets/img/team/nguyen-minh-phuong.jpg')}}" alt="Image" class="img-fluid">
-                                                <h4><a target="_blank" class="text-slider" href="{{route('layouts.profile.tsnmphuong')}}">TIẾN SĨ NGUYỄN MINH PHƯỢNG</a></h4>
+                                                <h4><a target="_blank" class="text-slider" href="{{route('layouts.profile.tsphuong')}}">TIẾN SĨ NGUYỄN MINH PHƯỢNG</a></h4>
                                                 <div class="profile__content">
                                                     <p><span style="font-size: 120%;"><strong>Tiến sĩ chuyên ngành: Giáo dục đặc biệt</strong></span></p>
                                                     <p>– Giảng viên của Trường Đại học Sư phạm Hà Nội.</p>
                                                     <p>– Hơn 15 năm kinh nghiệm công tác trong lĩnh vực giáo dục và giáo dục đặc biệt bao gồm: đánh giá, can thiệp, trị liệu và tư vấn giáo dục cho trẻ em và thanh thiếu niên.</p>
                                                     <p>– Giảng dạy, tập huấn, bồi dưỡng chuyên môn cho giáo viên ở các địa phương về đánh giá, xây dựng kế hoạch giáo dục cá nhân, các phương pháp can thiệp, giáo dục trẻ có nhu cầu đặc biệt.</p>
-                                                    <a class="cta-btn" target="_blank" href="#">
+                                                    <a class="cta-btn" target="_blank" href="{{route('layouts.profile.tsphuong')}}">
                                                         <button type="button" class="btn btn__team">Xem chi tiết</button>
                                                     </a>
                                                 </div>

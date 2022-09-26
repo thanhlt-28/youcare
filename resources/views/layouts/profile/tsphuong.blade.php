@@ -22,7 +22,7 @@
             <div class="row justify-content-center">
                 <div class="col-md-7 col-lg-5 mb-5 mb-lg-0 wow fadeIn">
                     <div class="card border-0 shadow">
-                        <img class="" src="https://braincare.vn/wp-content/uploads/2022/05/Nguyen-Mai-Huong.gif.png" alt="...">
+                        <img class="" src="{{asset('assets/img/team/team-detail/nguyen-minh-phuong.jpg')}}" alt="...">
                         <div class="card-body">
                             <div class="mb-4 p-0-9 p-xl-2">
                                 <h4>NGUYỄN MINH PHƯỢNG</h4>
@@ -31,21 +31,10 @@
                                 <div class="text mt-3">
                                     <h5 class="text-succes">LĨNH VỰC CHÍNH</h5>
                                     <p>
-                                        – Hướng dẫn kỹ năng phòng chống xâm hại tình dục và bạo lực học đường cho giáo viên và học sinh.<br />
-
-                                        – Đánh giá tâm lý các vấn đề liên quan sức khỏe tâm thần (stress, lo âu, trầm cảm, nguy cơ tự tử…); tham vấn trẻ em và gia đình; hỗ trợ giáo viên, phụ huynh về phương pháp dạy trẻ; giảm thiểu stress.<br />
-
-                                        – Tham vấn tâm lý cho nhóm học sinh có vấn đề về sức khỏe tâm thần (trầm cảm, lo âu).<br />
-
-                                        – Định hướng giá trị và giáo dục giá trị sống<br />
-
-                                        – Tâm lý học phát triển<br />
-
-                                        – Tâm lý học xã hội<br />
-
-                                        – Kỹ năng sống trẻ em và vị thành niên<br />
-
-                                        – Quyền trẻ em<br />
+                                        - Đánh giá xác định mức độ phát triển hiện tại của trẻ so với tuổi thực, từ đó xác định điểm mạnh và khó khăn, hạn chế của con để có phương pháp chăm sóc, giáo dục phù hợp, giúp con phát triển tối ưu.<br />
+                                        - Đánh giá, tư vấn và can thiệp, trị liệu giáo dục cho trẻ em, thanh thiếu niên về các vấn đề: Tự kỷ; Tăng động giảm chú ý; Rối loạn hành vi cảm xúc; Chậm phát triển trí tuệ; Chậm phát triển ngôn ngữ;….<br />
+                                        - Tư vấn cho cha mẹ, nhà trường về các phương pháp chăm sóc, giáo dục phù hợp cho trẻ em.<br />
+                                        - Tập huấn, bồi dưỡng chuyên môn cho giáo viên về xây dựng mục tiêu, các nội dung, phương pháp can thiệp, giáo dục phù hợp, hiệu quả cho trẻ em.
                                     </p>
                                     <h5 class="text-succes mt-2">THÔNG TIN LIÊN HỆ</h5>
                                     <p>
@@ -68,28 +57,22 @@
                     <div class="ps-lg-1-7 ps-xl-2">
                         <div class="mb-5 wow fadeIn ">
                             <div class="elementor-widget-container">
-                                <p><span style="color: #9fc83e; font-size: 120%;"><strong>Chuyên gia Tâm lý học đường Nguyễn MINH PHƯỢNG</strong></span></p>
-                                <p>– Hơn 15 năm kinh nghiệm trong nghề, gồm đánh giá và tư vấn tâm lý cho trẻ em có rối loạn phát triển, tư vấn phụ huynh, giáo viên, tổ chức, cộng đồng</p>
-                                <p>– Chuyên gia tham vấn tâm lý học đường, hướng dẫn kĩ năng sống, giá trị sống</p>
-                                <p>– Hiện tại Tiến sĩ đang công tác tại Trường Đại học Sư phạm Hà Nội</p>
-                                <p><span style="color: #9fc83e;"><strong>Quá trình công tác</strong></span></p>
-                                <p>– Giảng viên tại các trường Đại học, Cao đẳng, giảng dạy về Lĩnh vực chuyên môn về tâm lý học</p>
-                                <p>– Chuyên gia Tư vấn, hỗ trợ cho giáo viên, phụ huynh về phương pháp đồng hành cùng trẻ em, trường học hạnh phúc</p>
-                                <p>– Chuyên gia tổ chức các lớp về giáo dục kĩ năng sống, giá trị sống, tham vấn nhóm cho trẻ em, thanh thiếu niên</p>
-                                <p>– Diễn giả của các buổi chia sẻ, hướng dẫn cho nhân viên của các cơ quan, tổ chức, đơn vị về các vấn đề chăm sóc sức khoẻ tinh thần</p>
-                                <p><span style="color: #9fc83e;"><strong>Quá trình đào tạo</strong></span></p>
-                                <p>– Tiến sĩ, chuyên ngành Tâm lý học, Đại học Sư phạm Hà Nội (2020)</p>
-                                <p>– Khóa tập huấn <em>Focus on autonomous academic motivation</em>, <em>Đánh giá và can thiệp tự tử</em>, <em>Ứng dụng chánh niệm trong công tác xã hội và chăm sóc chuyên nghiệp</em>, <em>Công tác xã hội lâm sàng trong chăm sóc sức khỏe tâm thần trẻ em và thanh thiếu niên</em>…</p>
-                                <p>– Khóa Học tập về <em>Mô hình công tác xã hội trẻ em và gia đình</em> tại Thụy Điển, <em>Bạo lực học đường- Một chương trình phòng ngừa và can thiệp toàn diện</em>,&nbsp;<em>Bộ công cụ Bayley III</em> đánh giá sự phát triển của trẻ em;&nbsp;sử dụng <em>bộ trắc nghiệm&nbsp;UDN-II</em> về khó khăn trong học tập&nbsp;của Pháp…</p>
-                                <p>– Khóa tập huấn Chuyên viên tâm lý học trường học,&nbsp;Công tác xã hội với trẻ em và gia đình;&nbsp;Hệ thống sàng lọc về rối loạn hành vi trẻ em và vị thành niên.</p>
-                                <p>– Khóa Tham vấn sức khỏe tâm thần của Trung tâm phòng chống khủng hoảng tâm lý&nbsp;– Việt Nam kết hợp với Đại sứ quán Hoa Kỳ thực hiện;&nbsp;Tham vấn trẻ em và gia đình…</p>
-                                <p><span style="color: #9fc83e;"><strong>Các công trình nghiên cứu khoa học</strong></span></p>
-                                <p>– Biên soạn giáo trình và sách tham khảo cho trường Đại học và THPT về lĩnh vực tâm lý học.</p>
-                                <p>– Biên soạn các tài liệu tập huấn bồi dưỡng giáo viên các cấp về kỹ năng làm việc với học sinh từ cấp mầm non đến Trung học, Cao đẳng và Đại học.</p>
-                                <p>– Biên soạn tài liệu tổ chức và hướng dẫn phương pháp đọc sách cho phụ huynh, trẻ em trong cộng đồng.</p>
-                                <p>– Hoàn thành nghiên cứu “Thói quen đọc sách ở học sinh tiểu học”, Save the children.</p>
-                                <p>– Biên soạn tài liệu đào tạo và giảng dạy giá trị sống – kỹ năng sống (các chương trình của UNICEF tại Việt Nam, Hội chữ thập đỏ Việt Nam, tổ chức ChildFund tại Việt Nam).</p>
-                                <p>– Thiết kế và thực hiện giáo án với các chủ đề, nội dung, phù hợp đặc điểm lứa tuổi và điều kiện học tập và nhận thức khác nhau của người học.</p>
+                                <p><span style="color: #9fc83e; font-size: 120%;"><strong>Tiến sĩ, Chuyên gia giáo dục – giáo dục đặc biệt</strong></span></p>
+                                <p>– Hiện đang là giảng viên của Trường Đại học Sư phạm Hà Nội;</p>
+
+                                <p> – Hơn 15 năm kinh nghiệm công tác trong lĩnh vực giáo dục và giáo dục đặc biệt, bao gồm: đánh giá, can thiệp, trị liệu và tư vấn giáo dục cho trẻ em và thanh thiếu niên;</p>
+
+                                <p> – Giảng dạy, tập huấn, bồi dưỡng chuyên môn cho giáo viên ở các địa phương về đánh giá, xây dựng kế hoạch giáo dục cá nhân, các phương pháp can thiệp, giáo dục trẻ có nhu cầu đặc biệt.</p>
+
+                                <p><span style="color: #9fc83e;"><strong>Một số công trình tiêu biểu</strong></span></p>
+
+                                <p> – Là tác giả của hơn 30 bài báo khoa học và nhiều tài liệu về các vấn đề đánh giá, can thiệp, giáo dục trẻ em.</p>
+
+                                <p> – Một số sách và bài báo tiêu biểu: Phương pháp giáo dục, can thiệp hành vi, kỹ năng xã hội cho trẻ rối loạn phổ tự kỷ; Hướng dẫn hòa nhập trẻ khuyết tật trong lớp mầm non; Giao tiếp giữa cha mẹ và trẻ rối loạn phổ tự kỷ tại gia đình; Trị liệu hoạt động và vấn đề điều hòa cảm giác cho trẻ rối loạn phổ tự kỷ; Nghiên cứu mô hình SCERTS trong can thiệp điều tiết cảm xúc cho trẻ rối loạn phổ tự kỷ; Phát triển kỹ năng tập trung chú ý – tiền đề phát triển kỹ năng giao tiếp cho trẻ rối loạn phổ tự kỷ; Phát triển kỹ năng giao tiếp sớm cho trẻ tự kỷ…</p>
+
+                                <p> – Đạt giải thưởng Ngày sáng tạo Việt Nam PEDC, Dự án: “Giáo dục kỹ năng sống cho trẻ khuyết tật trí tuệ tại hai trung tâm: Trung tâm bảo trợ xã hội số 4 Hà Nội và Trung tâm phục hồi chức năng trẻ khuyết tật Thụy An”.</p>
+
+                                <p> – Là thành viên nghiên cứu đề tài NAFOSTED: Xây dựng và chuẩn hoá công cụ đánh giá năng lực ngôn ngữ của trẻ em Việt Nam (Đề tài nghiên cứu ứng dụng năm 2019 quỹ Phát triển Khoa học và Công nghệ Quốc gia).</p>
                             </div>
                         </div>
                     </div>

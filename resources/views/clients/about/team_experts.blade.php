@@ -51,7 +51,7 @@
                         </a>
                         <div class="btn-footer">
                             <div class="d-grid mx-auto">
-                                <a href="{{route('layouts.profile.bsdung')}}" target="_blank" type="button" class="btn btn-outline-success rounded-pill">Xem chi tiết <span class='bi bi-arrow-right'></span></a>
+                                <a href="{{route('layouts.profile.bsdung')}}" target="_blank" type="button" class="btn btn-outline-succeed rounded-pill">Xem chi tiết <span class='bi bi-arrow-right'></span></a>
                             </div>
                         </div>
                     </div>
@@ -69,12 +69,12 @@
                                 <h5 class="card-title">TIẾN SĨ</br>
                                     PHẠM VĂN TƯ</h5>
 
-                                <p style="color:#5a5454;" class="card-text text-center">Tiến sĩ Tâm lý học</p>
+                                <p style="color:#5a5454;" class="card-text text-center">Tiến sĩ - Chuyên gia Tâm lý học</p>
                             </div>
                         </a>
                         <div class="btn-footer mt-4">
                             <div class="d-grid mx-auto">
-                                <a href="{{route('layouts.profile.tspvtu')}}" target="_blank" type="button" class="btn btn-outline-success rounded-pill">Xem chi tiết <span class='bi bi-arrow-right'></span></a>
+                                <a href="{{route('layouts.profile.tspvtu')}}" target="_blank" type="button" class="btn btn-outline-succeed rounded-pill">Xem chi tiết <span class='bi bi-arrow-right'></span></a>
                             </div>
                         </div>
                     </div>
@@ -91,12 +91,12 @@
                                 <h5 class="card-title">TIẾN SĨ</br>
                                     NGUYỄN THỊ THẮM</h5>
 
-                                <p style="color:#5a5454;" class="card-text text-center">Tiến sĩ ngành Tâm lý – giáo dục</p>
+                                <p style="color:#5a5454;" class="card-text text-center">Tiến sĩ - Chuyên gia Tâm lý học</p>
                             </div>
                         </a>
                         <div class="btn-footer mt-4">
                             <div class="d-grid mx-auto">
-                                <a href="{{route('layouts.profile.tsnttham')}}" target="_blank" type="button" class="btn btn-outline-success rounded-pill">Xem chi tiết <span class='bi bi-arrow-right'></span></a>
+                                <a href="{{route('layouts.profile.tsnttham')}}" target="_blank" type="button" class="btn btn-outline-succeed rounded-pill">Xem chi tiết <span class='bi bi-arrow-right'></span></a>
                             </div>
                         </div>
                     </div>
@@ -118,13 +118,37 @@
                         </a>
                         <div class="btn-footer mt-4">
                             <div class="d-grid mx-auto">
-                                <a href="{{route('layouts.profile.tsntmhuong')}}" target="_blank" type="button" class="btn btn-outline-success rounded-pill">Xem chi tiết <span class='bi bi-arrow-right'></span></a>
+                                <a href="{{route('layouts.profile.tsntmhuong')}}" target="_blank" type="button" class="btn btn-outline-succeed rounded-pill">Xem chi tiết <span class='bi bi-arrow-right'></span></a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="row row-cols-1 justify-content-center row-cols-md-4 g-4 mt-2">
+
+            <div class="row row-cols-1 row-cols-md-4 g-4 mt-2">
+                <div class="col">
+                    <div style="border:none;" class="card h-100 hover-shadow">
+                        <a class="text-center" href="{{route('layouts.profile.tsphuong')}}" target="_blank">
+                            <div class="team-6">
+                                <div class="team-img">
+                                    <img src="{{asset('assets/img/team/team-detail/nguyen-minh-phuong.png')}}" class="img-top" alt="Team Image">
+                                </div>
+                            </div>
+                            <div class="card-body">
+
+                                <h5 class="card-title">TIẾN SĨ </br>NGUYỄN MINH PHƯỢNG</h5>
+
+                                <p style="color:#5a5454;" class="card-text text-center">Tiến sĩ chuyên ngành:
+                                    </br> Giáo dục đặc biệt</p>
+                            </div>
+                        </a>
+                        <div class="btn-footer">
+                            <div class="d-grid mx-auto">
+                                <a href="{{route('layouts.profile.tsphuong')}}" target="_blank" type="button" class="btn btn-outline-succeed rounded-pill">Xem chi tiết <span class='bi bi-arrow-right'></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div class="col">
                     <div style="border:none;" class="card h-100 hover-shadow">
                         <a target="_blank" class="text-center" href="{{route('layouts.profile.thsnttvan')}}">
@@ -143,7 +167,7 @@
                         </a>
                         <div class="btn-footer">
                             <div class="d-grid mx-auto">
-                                <a href="{{route('layouts.profile.thsnttvan')}}" target="_blank" type="button" class="btn btn-outline-success rounded-pill">Xem chi tiết <span class='bi bi-arrow-right'></span></a>
+                                <a href="{{route('layouts.profile.thsnttvan')}}" target="_blank" type="button" class="btn btn-outline-succeed rounded-pill">Xem chi tiết <span class='bi bi-arrow-right'></span></a>
                             </div>
                         </div>
                     </div>
@@ -166,7 +190,7 @@
                         </a>
                         <div class="btn-footer">
                             <div class="d-grid mx-auto">
-                                <a href="{{route('layouts.profile.thsntthang')}}" target="_blank" type="button" class="btn btn-outline-success rounded-pill">Xem chi tiết <span class='bi bi-arrow-right'></span></a>
+                                <a href="{{route('layouts.profile.thsntthang')}}" target="_blank" type="button" class="btn btn-outline-succeed rounded-pill">Xem chi tiết <span class='bi bi-arrow-right'></span></a>
                             </div>
                         </div>
                     </div>
@@ -189,15 +213,14 @@
                         </a>
                         <div class="btn-footer">
                             <div class="d-grid mx-auto">
-                                <a href="{{route('layouts.profile.thsnhminh')}}" target="_blank" type="button" class="btn btn-outline-success rounded-pill">Xem chi tiết <span class='bi bi-arrow-right'></span></a>
+                                <a href="{{route('layouts.profile.thsnhminh')}}" target="_blank" type="button" class="btn btn-outline-succeed rounded-pill">Xem chi tiết <span class='bi bi-arrow-right'></span></a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="row row-cols-1 row-cols-md-4 g-4 mt-2">
-                <div class="col"></div>
+            <div class="row row-cols-1 justify-content-center row-cols-md-4 g-4 mt-2">
                 <div class="col">
                     <div style="border:none;" class="card h-100 hover-shadow">
                         <a target="_blank" class="text-center" href="{{route('layouts.profile.thslthanh')}}">
@@ -217,7 +240,7 @@
                         </a>
                         <div class="btn-footer">
                             <div class="d-grid mx-auto">
-                                <a href="{{route('layouts.profile.thslthanh')}}" target="_blank" type="button" class="btn btn-outline-success rounded-pill">Xem chi tiết <span class='bi bi-arrow-right'></span></a>
+                                <a href="{{route('layouts.profile.thslthanh')}}" target="_blank" type="button" class="btn btn-outline-succeed rounded-pill">Xem chi tiết <span class='bi bi-arrow-right'></span></a>
                             </div>
                         </div>
                     </div>
@@ -241,13 +264,36 @@
                         </a>
                         <div class="btn-footer">
                             <div class="d-grid mx-auto">
-                                <a href="{{route('layouts.profile.thsdmkhue')}}" target="_blank" type="button" class="btn btn-outline-success rounded-pill">Xem chi tiết <span class='bi bi-arrow-right'></span></a>
+                                <a href="{{route('layouts.profile.thsdmkhue')}}" target="_blank" type="button" class="btn btn-outline-succeed rounded-pill">Xem chi tiết <span class='bi bi-arrow-right'></span></a>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col"></div>
+                <div class="col">
+                    <div style="border:none;" class="card h-100 hover-shadow">
+                        <a target="_blank" class="text-center" href="{{route('layouts.profile.thmai')}}">
+                            <div class="team-6">
+                                <div class="team-img">
+                                    <img src="{{asset('assets/img/team/team-detail/truong-hoang-mai.png')}}" class="img-top" alt="...">
+                                </div>
+                            </div>
+                            <div class="card-body">
+
+                                <h5 class="card-title">CHUYÊN GIA</br>
+                                    TRƯƠNG HOÀNG MAI</h5>
+
+                                <p style="color:#5a5454;" class="card-text text-center">Chuyên viên tham vấn/ Trị liệu Tâm lý</p>
+                            </div>
+                        </a>
+                        <div class="btn-footer">
+                            <div class="d-grid mx-auto">
+                                <a href="{{route('layouts.profile.thmai')}}" target="_blank" type="button" class="btn btn-outline-succeed rounded-pill">Xem chi tiết <span class='bi bi-arrow-right'></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
+
 
             <!-- End Chuyên gia -->
         </div>

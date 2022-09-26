@@ -177,8 +177,8 @@ Route::prefix('/')->group(function () {
     })->name('layouts.profile.tsntmhuong');
 
     Route::get('tien-si-nguyen-minh-phuong', function () {
-        return view('layouts.profile.tsnmphuong');
-    })->name('layouts.profile.tsnmphuong');
+        return view('layouts.profile.tsphuong');
+    })->name('layouts.profile.tsphuong');
 
     Route::get('thac-si-nguyen-thi-thanh-van', function () {
         return view('layouts.profile.thsnttvan');
