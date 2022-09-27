@@ -578,7 +578,7 @@ h6 {
 
 #hero h2 {
     position: absolute;
-    width: 90%;
+    width: 86%;
     height: 140px;
     left: 120px;
     top: 105px;
@@ -610,8 +610,31 @@ h6 {
     margin: 10px;
     color: #fff;
 }
-
 .btn-get-started:hover {
+    color: #67ac2f;
+    background: #ffffff;
+    border: 1px solid #67ac2f;
+}
+
+.btn-get-start {
+    font-weight: 500;
+    font-size: 18px;
+    position: absolute;
+    left: 45%;
+    top: 380px;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    background-color: #67ac2f;
+    border: 1px solid #67ac2f;
+    padding: 8px 28px;
+    border-radius: 15px;
+    transition: 0.5s;
+    margin: 10px;
+    color: #fff;
+}
+
+.btn-get-start:hover {
     color: #67ac2f;
     background: #ffffff;
     border: 1px solid #67ac2f;
@@ -668,7 +691,7 @@ h6 {
 }
 
 .hero-image-wrap {
-    margin-top: 30%;
+    margin-top: 24%;
     width: 80%;
 }
 
@@ -858,6 +881,22 @@ h6 {
         position: relative;
         font-weight: 500;
         font-size: 20px;
+        left: 28%;
+        top: -200px;
+        background-color: #67ac2f;
+        border: 1px solid #67ac2f;
+        border-radius: 7.95078px;
+        padding: 8px 28px;
+        transition: 0.5s;
+        margin: 10px;
+        font-size: 12.4px;
+        color: #fff;
+    }
+
+    .btn-get-start {
+        position: relative;
+        font-weight: 500;
+        font-size: 18px;
         left: 28%;
         top: -200px;
         background-color: #67ac2f;
@@ -1070,7 +1109,7 @@ section {
 }
 
 .ckcare__total__content {
-    width: 80%;
+    width: 70%;
 }
 
 .ckcare__total_school {
@@ -1088,7 +1127,9 @@ section {
 .total__school .total__school_item {
     width: 100%;
 }
-
+.error-404{
+    margin-top: 7rem;
+}
 
 /* HƯỚNG DẪN */
 /* Mầm non
@@ -1330,7 +1371,8 @@ section {
 }
 
 .wrapper_value {
-    margin-top: 4rem;
+    margin-top: 7rem;
+    margin-bottom: 3rem;
 }
 
 .value__ckcare {
@@ -4686,7 +4728,7 @@ q:after {
 
 @media screen and (max-width: 1366px) {
     .slider__text {
-        margin-top: -20%;
+        margin-top: -15%;
     }
 
 
@@ -5082,11 +5124,14 @@ q:after {
 .slide-one-item {
     /* background-color: #67ac2f; */
     width: 100%;
-    height: 799px;
+    height: 595px;
     /* display: inline-block; */
     /* border-radius: 40px; */
     /* position: relative; */
 }
+/* .slider-bgr{
+    background-color: #67ac2f;
+} */
 
 .slider__img {
     width: 100%;
@@ -5099,7 +5144,7 @@ q:after {
 
 .slider__text {
     width: 99%;
-    padding: 100px 2px 0px 10px;
+    padding: 115px 2px 0px 10px;
 }
 
 .elementor-text-editor {

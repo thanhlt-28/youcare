@@ -129,28 +129,6 @@
                             <image id="image0_464_475" width="512" height="512" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAYAAAD0eNT6AAAACXBIWXMAAEbmAABG5gFxkAtgAAAFFmlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS42LWMxNDggNzkuMTY0MDM2LCAyMDE5LzA4LzEzLTAxOjA2OjU3ICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOmRjPSJodHRwOi8vcHVybC5vcmcvZGMvZWxlbWVudHMvMS4xLyIgeG1sbnM6cGhvdG9zaG9wPSJodHRwOi8vbnMuYWRvYmUuY29tL3Bob3Rvc2hvcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RFdnQ9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZUV2ZW50IyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgMjEuMCAoV2luZG93cykiIHhtcDpDcmVhdGVEYXRlPSIyMDIyLTA4LTEzVDE3OjMzOjI1KzA3OjAwIiB4bXA6TW9kaWZ5RGF0ZT0iMjAyMi0wOC0xM1QxNzozNDoxMiswNzowMCIgeG1wOk1ldGFkYXRhRGF0ZT0iMjAyMi0wOC0xM1QxNzozNDoxMiswNzowMCIgZGM6Zm9ybWF0PSJpbWFnZS9wbmciIHBob3Rvc2hvcDpDb2xvck1vZGU9IjMiIHBob3Rvc2hvcDpJQ0NQcm9maWxlPSJzUkdCIElFQzYxOTY2LTIuMSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo4NjU4MDM5MS0yYzUxLTQw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" />
                         </defs>
                     </svg>
-
-                    <!-- <div class="row">
-                        <div class="col-md-12">
-                            <div class="total__title_family d-flex justify-content-center">
-                                <a class="total_click" target="_blank" href="{{route('layouts.ck_detail.ckcare_person')}}">Gia đình</a>
-                            </div>
-                            <div class="total__image d-flex justify-content-center mt-3">
-                                <img class="total__image_item" src="{{asset('assets/img/svg/ckcare-total.svg')}}" alt="">
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="total__title_school d-flex justify-content-end">
-                                <a class="total_click" target="_blank" href="{{route('layouts.ck_detail.ckcare_school')}}">Nhà trường</a>
-                            </div>
-                        </div>
-                        <div class="col-md-4"></div>
-                        <div class="col-md-4">
-                            <div class="total__title_organization d-flex justify-content-start">
-                                <a class="total_click" target="_blank" href="{{route('layouts.ck_detail.ckcare_org')}}">Tổ chức</a>
-                            </div>
-                        </div>
-                    </div> -->
                 </div>
             </div>
         </div>
@@ -166,7 +144,7 @@
             <div class="row justify-content-center mt-5">
                 <div class="col-lg-12">
                     <div class="row justify-content-center mt-3">
-                        <div class="col-lg-8 align-self-baseline position-relative">
+                        <div class="col-lg-10 align-self-baseline position-relative">
                             <div class="section-title">
                                 <h2>ĐỘI NGŨ CHUYÊN GIA</h2>
                             </div>
@@ -175,15 +153,15 @@
                                 <div class="row">
                                     <div class="col-md-12">
                                         <div class="slider-92911">
-                                            <div class="owl-carousel slide-one-item">
+                                            <div class="owl-carousel slide-one-item slider-bgr">
                                                 <div class="d-md-flex testimony-29101 align-items-stretch">
                                                     <div class="row">
-                                                        <div class="col-lg-7">
+                                                        <div class="col-lg-5">
                                                             <div class="slider__img">
                                                                 <img src="{{asset('../assets/img/team/chu-dung.jpg')}}" alt="">
                                                             </div>
                                                         </div>
-                                                        <div class="col-lg-5">
+                                                        <div class="col-lg-7">
                                                             <div class="slider__text">
                                                                 <h4><a class="text-white" target="_blank" href="{{route('layouts.profile.bsdung')}}">TS. BSCKII NGUYỄN VĂN DŨNG</a></h4>
                                                                 <div class="elementor-text-editor elementor-clearfix text-white">
@@ -202,12 +180,12 @@
 
                                                 <div class="d-md-flex testimony-29101 align-items-stretch">
                                                     <div class="row">
-                                                        <div class="col-lg-7">
+                                                        <div class="col-lg-5">
                                                             <div class="slider__img">
                                                                 <img src="{{asset('../assets/img/team/pham-van-tu.jpg')}}" alt="">
                                                             </div>
                                                         </div>
-                                                        <div class="col-lg-5">
+                                                        <div class="col-lg-7">
                                                             <div class="slider__text">
                                                                 <h4><a class="text-white" target="_blank" href="{{route('layouts.profile.tspvtu')}}">TIẾN SĨ PHẠM VĂN TƯ</a></h4>
                                                                 <div class="elementor-text-editor elementor-clearfix text-white">
@@ -229,12 +207,12 @@
                                                 </div>
 
                                                 <div class="d-md-flex testimony-29101 align-items-stretch">
-                                                    <div class="col-lg-7">
+                                                    <div class="col-lg-5">
                                                         <div class="slider__img">
                                                             <img src="{{asset('../assets/img/team/nguyen-thi-tham.jpg')}}" alt="">
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-5">
+                                                    <div class="col-lg-7">
                                                         <div class="slider__text">
                                                             <h4><a class="text-white" target="_blank" href="{{route('layouts.profile.tsnttham')}}">TIẾN SĨ NGUYỄN THỊ THẮM</a></h4>
 
@@ -251,12 +229,12 @@
                                                 </div>
 
                                                 <div class="d-md-flex testimony-29101 align-items-stretch">
-                                                    <div class="col-lg-7">
+                                                    <div class="col-lg-5">
                                                         <div class="slider__img">
                                                             <img src="{{asset('../assets/img/team/nguyen-mai-huong.jpg')}}" alt="">
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-5">
+                                                    <div class="col-lg-7">
                                                         <div class="slider__text">
                                                             <h4><a class="text-white" target="_blank" href="{{route('layouts.profile.tsntmhuong')}}">TIẾN SĨ NGUYỄN THỊ MAI HƯƠNG</a></h4>
 
@@ -273,12 +251,12 @@
                                                 </div>
 
                                                 <div class="d-md-flex testimony-29101 align-items-stretch">
-                                                    <div class="col-lg-7">
+                                                    <div class="col-lg-5">
                                                         <div class="slider__img">
                                                             <img src="{{asset('../assets/img/team/nguyen-minh-phuong.jpg')}}" alt="">
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-5">
+                                                    <div class="col-lg-7">
                                                         <div class="slider__text">
                                                             <h4><a class="text-white" target="_blank" href="{{route('layouts.profile.tsphuong')}}">TIẾN SĨ NGUYỄN MINH PHƯỢNG</a></h4>
                                                             <div class="elementor-text-editor elementor-clearfix text-white">
@@ -295,29 +273,37 @@
                                                 </div>
 
                                                 <div class="d-md-flex testimony-29101 align-items-stretch">
-                                                    <div class="col-lg-7">
+                                                    <div class="col-lg-5">
                                                         <div class="slider__img">
                                                             <img src="{{asset('../assets/img/team/nguyen-thanh-van.jpg')}}" alt="">
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-5">
+                                                    <div class="col-lg-7">
                                                         <div class="slider__text">
                                                             <h4><a class="text-white" target="_blank" href="{{route('layouts.profile.thsnttvan')}}">THẠC SĨ NGUYỄN THỊ THANH VÂN</a></h4>
                                                             <div class="elementor-text-editor elementor-clearfix text-white">
                                                                 <p><span style="font-size: 120%;"><strong>Thạc sĩ chuyên ngành tham vấn trị liệu tâm lý - Chuyên gia tham vấn trị liệu </strong></span></p>
                                                                 <p>&#8226; Thạc sĩ tham vấn và trị liệu tâm lý/Masters Counselling and Psychotherapy - IBAM (Ấn Độ)</p>
-                                                                <p> &#8226; Tham vấn cặp đôi<br />
-                                                                    &#8226; Tham vấn hôn nhân gia đình<br />
-                                                                    &#8226; Tham vấn giáo dục con<br />
-                                                                    &#8226; Tham vấn Mối quan hệ<br />
-                                                                    &#8226; Trị liệu căng thẳng<br />
-                                                                    &#8226; Trị liệu khủng hoảng tâm lý<br />
-                                                                    &#8226; Trị liệu sang chấn/ tổn thương tâm lý<br />
-                                                                    &#8226; Trị liệu trầm cảm<br />
-                                                                    &#8226; Trị liệu RLCX<br />
-                                                                    &#8226; Trị liệu trầm cảm<br />
-                                                                    &#8226; Trị liệu rối loạn lo âu
-                                                                </p>
+                                                                <div class="row">
+                                                                    <div class="col-md-6">
+                                                                        <p> &#8226; Tham vấn cặp đôi<br />
+                                                                            &#8226; Tham vấn hôn nhân gia đình<br />
+                                                                            &#8226; Tham vấn giáo dục con<br />
+                                                                            &#8226; Tham vấn Mối quan hệ<br />
+                                                                            &#8226; Trị liệu căng thẳng<br />
+                                                                            &#8226; Trị liệu khủng hoảng tâm lý<br />
+                                                                        </p>
+                                                                    </div>
+                                                                    <div class="col-md-6">
+                                                                        <p>
+                                                                            &#8226; Trị liệu sang chấn/ tổn thương tâm lý<br />
+                                                                            &#8226; Trị liệu trầm cảm<br />
+                                                                            &#8226; Trị liệu RLCX<br />
+                                                                            &#8226; Trị liệu trầm cảm<br />
+                                                                            &#8226; Trị liệu rối loạn lo âu
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
                                                                 <a class="cta-btn" target="_blank" href="{{route('layouts.profile.thsnttvan')}}">
                                                                     <button type="button" class="btn btn__team">Xem chi tiết</button></a>
                                                             </div>
@@ -326,12 +312,12 @@
                                                 </div>
 
                                                 <div class="d-md-flex testimony-29101 align-items-stretch">
-                                                    <div class="col-lg-7">
+                                                    <div class="col-lg-5">
                                                         <div class="slider__img">
                                                             <img src="{{asset('../assets/img/team/nguyen-thuy-hang.jpg')}}" alt="">
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-5">
+                                                    <div class="col-lg-7">
                                                         <div class="slider__text">
                                                             <h4><a class="text-white" target="_blank" href="{{route('layouts.profile.thsntthang')}}">THẠC SĨ NGUYỄN THỊ THÚY HẰNG</a></h4>
                                                             <div class="elementor-text-editor elementor-clearfix text-white">
@@ -348,12 +334,12 @@
                                                 </div>
 
                                                 <div class="d-md-flex testimony-29101 align-items-stretch">
-                                                    <div class="col-lg-7">
+                                                    <div class="col-lg-5">
                                                         <div class="slider__img">
                                                             <img src="{{asset('../assets/img/team/nguyen-hien-minh.jpg')}}" alt="">
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-5">
+                                                    <div class="col-lg-7">
                                                         <div class="slider__text">
                                                             <h4><a class="text-white" target="_blank" href="{{route('layouts.profile.thsnhminh')}}">THẠC SĨ NGUYỄN HIỀN MINH</a></h4>
                                                             <div class="elementor-text-editor elementor-clearfix text-white">
@@ -369,12 +355,12 @@
                                                 </div>
 
                                                 <div class="d-md-flex testimony-29101 align-items-stretch">
-                                                    <div class="col-lg-7">
+                                                    <div class="col-lg-5">
                                                         <div class="slider__img">
                                                             <img src="{{asset('../assets/img/team/le-the-hanh.jpg')}}" alt="">
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-5">
+                                                    <div class="col-lg-7">
                                                         <div class="slider__text">
                                                             <h4><a class="text-white" target="_blank" href="{{route('layouts.profile.thslthanh')}}">THẠC SĨ LÊ THẾ HANH</a></h4>
                                                             <div class="elementor-text-editor elementor-clearfix text-white">
@@ -383,9 +369,6 @@
                                                                 <p>&#8226; Rối loạn hành vi lứa tuổi trẻ em và vị thành niên (hành vi chống đối, hành vi lạm dụng chất và lạm dụng công nghệ).</p>
                                                                 <p>&#8226; Rối loạn trầm cảm, rối loạn lo âu, rối loạn căng thăng ở thanh thiếu niên và người trưởng thành, rối loạn giấc ngủ, rối loạn ăn uống, rối loạn hành vi tình dục, rối loạn hành vi tự tử, tự hủy hoại bản thân.</p>
                                                                 <p>&#8226; Trị liệu khủng hoảng, căng thẳng sau sang chấn tâm lý (PTSD).</p>
-                                                                <p>&#8226; Liệu pháp nhận thức hành vi (CBT).</p>
-                                                                <p>&#8226; Liệu pháp Tập trung vào giải pháp (SFT).</p>
-                                                                <p>&#8226; Phương pháp phỏng vấn tạo động cơ (MI).</p>
 
                                                                 <a class="cta-btn" target="_blank" href="{{route('layouts.profile.thslthanh')}}">
                                                                     <button type="button" class="btn btn__team">Xem chi tiết</button></a>
@@ -395,12 +378,12 @@
                                                 </div>
 
                                                 <div class="d-md-flex testimony-29101 align-items-stretch">
-                                                    <div class="col-lg-7">
+                                                    <div class="col-lg-5">
                                                         <div class="slider__img">
                                                             <img src="{{asset('../assets/img/team/dang-minh-khue.jpg')}}" alt="">
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-5">
+                                                    <div class="col-lg-7">
                                                         <div class="slider__text">
                                                             <h4><a class="text-white" target="_blank" href="{{route('layouts.profile.thsdmkhue')}}">THẠC SĨ ĐẶNG MINH KHUÊ</a></h4>
 
@@ -410,10 +393,7 @@
                                                                 <p>&#8226; Tham vấn học đường và vấn đề sức khỏe tinh thần cho trẻ em và trẻ vị thành niên</p>
                                                                 <p>&#8226; Tham vấn tạo động lực (MI)</p>
                                                                 <p>&#8226; Tham vấn, trị liệu khủng hoảng</p>
-                                                                <p>&#8226; Trị liệu những rối loạn, rối nhiễu tâm lý như trầm cảm, lo âu, căng thẳng,... theo định hướng tiếp cận Thân chủ trọng tâm</p>
                                                                 <p>&#8226; Trị liệu rối loạn cảm xúc - hành vi cho trẻ em dựa trên liệu pháp chơi trị liệu và liệu pháp chơi Trẻ em trọng tâm (CCPT)</p>
-                                                                <p>&#8226; Trị liệu các hành vi tự hủy hoại</p>
-                                                                <p>&#8226; An toàn mạng cho trẻ</p>
                                                                 <p>&#8226; Vấn đề sức khỏe tinh thần của người thuộc cộng đồng LGBT</p>
                                                                 <a class="cta-btn" target="_blank" href="{{route('layouts.profile.thsdmkhue')}}">
                                                                     <button type="button" class="btn btn__team">Xem chi tiết</button></a>
@@ -424,12 +404,12 @@
                                                 </div>
 
                                                 <div class="d-md-flex testimony-29101 align-items-stretch">
-                                                    <div class="col-lg-7">
+                                                    <div class="col-lg-5">
                                                         <div class="slider__img">
                                                             <img src="{{asset('../assets/img/team/truong-hoang-mai.jpg')}}" alt="">
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-5">
+                                                    <div class="col-lg-7">
                                                         <div class="slider__text">
                                                             <h4><a class="text-white" target="_blank" href="{{route('layouts.profile.thmai')}}">CHUYÊN GIA TRƯƠNG HOÀNG MAI</a></h4>
 
@@ -604,9 +584,6 @@
                                                     <p>&#8226; Rối loạn hành vi lứa tuổi trẻ em và vị thành niên (hành vi chống đối, hành vi lạm dụng chất và lạm dụng công nghệ).</p>
                                                     <p>&#8226; Rối loạn trầm cảm, rối loạn lo âu, rối loạn căng thăng ở thanh thiếu niên và người trưởng thành, rối loạn giấc ngủ, rối loạn ăn uống, rối loạn hành vi tình dục, rối loạn hành vi tự tử, tự hủy hoại bản thân.</p>
                                                     <p>&#8226; Trị liệu khủng hoảng, căng thẳng sau sang chấn tâm lý (PTSD).</p>
-                                                    <p>&#8226; Liệu pháp nhận thức hành vi (CBT).</p>
-                                                    <p>&#8226; Liệu pháp Tập trung vào giải pháp (SFT).</p>
-                                                    <p>&#8226; Phương pháp phỏng vấn tạo động cơ (MI).</p>
 
                                                     <a class="cta-btn" target="_blank" href="{{route('layouts.profile.thslthanh')}}">
                                                         <button type="button" class="btn btn__team">Xem chi tiết</button></a>
@@ -621,10 +598,7 @@
                                                     <p>&#8226; Tham vấn học đường và vấn đề sức khỏe tinh thần cho trẻ em và trẻ vị thành niên</p>
                                                     <p>&#8226; Tham vấn tạo động lực (MI)</p>
                                                     <p>&#8226; Tham vấn, trị liệu khủng hoảng</p>
-                                                    <p>&#8226; Trị liệu những rối loạn, rối nhiễu tâm lý như trầm cảm, lo âu, căng thẳng,... theo định hướng tiếp cận Thân chủ trọng tâm</p>
                                                     <p>&#8226; Trị liệu rối loạn cảm xúc - hành vi cho trẻ em dựa trên liệu pháp chơi trị liệu và liệu pháp chơi Trẻ em trọng tâm (CCPT)</p>
-                                                    <p>&#8226; Trị liệu các hành vi tự hủy hoại</p>
-                                                    <p>&#8226; An toàn mạng cho trẻ</p>
                                                     <p>&#8226; Vấn đề sức khỏe tinh thần của người thuộc cộng đồng LGBT</p>
                                                     <a class="cta-btn" target="_blank" href="{{route('layouts.profile.thsdmkhue')}}">
                                                         <button type="button" class="btn btn__team">Xem chi tiết</button></a>

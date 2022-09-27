@@ -16,10 +16,8 @@
           <h2 class="hero-title">NỀN TẢNG CHĂM SÓC SỨC KHỎE TINH THẦN TOÀN DIỆN</h2>
           <p class="hero-left">YouCare ứng dụng công nghệ vào việc theo dõi, sàng lọc, đánh giá, trị liệu và chăm sóc sức khỏe tinh thần cho cộng đồng. YouCare ứng dụng công nghệ để lan tỏa những trí tuệ của các chuyên gia hàng đầu trong lĩnh vực chăm sóc sức khỏe tinh thần.</p>
 
-          <div class="d-flex align-items-center" data-aos="" data-aos-duration="100">
-            <a href="{{route('clients.platform.product')}}" class="btn-get-started scrollto">Tìm hiểu ngay!</a>
-          </div>
-
+          <a href="{{route('clients.platform.product')}}" 
+          class="btn-get-start scrollto">Tìm hiểu ngay!</a>
         </div>
       </div>
       <div class="col-lg-6">

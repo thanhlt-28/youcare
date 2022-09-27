@@ -5,7 +5,7 @@
         <div class="row justify-content-center mt-5">
             <div class="col-lg-12">
                 <div class="row justify-content-center mt-3">
-                    <div class="col-lg-8 align-self-baseline position-relative">
+                    <div class="col-lg-10 align-self-baseline position-relative">
                         <div class="section-title">
                             <h2>ĐỘI NGŨ CHUYÊN GIA</h2>
                         </div>
@@ -14,15 +14,15 @@
                             <div class="row">
                                 <div class="col-md-12">
                                     <div class="slider-92911">
-                                        <div class="owl-carousel slide-one-item">
+                                        <div class="owl-carousel slide-one-item slider-bgr">
                                             <div class="d-md-flex testimony-29101 align-items-stretch">
                                                 <div class="row">
-                                                    <div class="col-lg-7">
+                                                    <div class="col-lg-5">
                                                         <div class="slider__img">
                                                             <img src="{{asset('../assets/img/team/chu-dung.jpg')}}" alt="">
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-5">
+                                                    <div class="col-lg-7">
                                                         <div class="slider__text">
                                                             <h4><a class="text-white" target="_blank" href="{{route('layouts.profile.bsdung')}}">TS. BSCKII NGUYỄN VĂN DŨNG</a></h4>
                                                             <div class="elementor-text-editor elementor-clearfix text-white">
@@ -41,12 +41,12 @@
 
                                             <div class="d-md-flex testimony-29101 align-items-stretch">
                                                 <div class="row">
-                                                    <div class="col-lg-7">
+                                                    <div class="col-lg-5">
                                                         <div class="slider__img">
                                                             <img src="{{asset('../assets/img/team/pham-van-tu.jpg')}}" alt="">
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-5">
+                                                    <div class="col-lg-7">
                                                         <div class="slider__text">
                                                             <h4><a class="text-white" target="_blank" href="{{route('layouts.profile.tspvtu')}}">TIẾN SĨ PHẠM VĂN TƯ</a></h4>
                                                             <div class="elementor-text-editor elementor-clearfix text-white">
@@ -68,12 +68,12 @@
                                             </div>
 
                                             <div class="d-md-flex testimony-29101 align-items-stretch">
-                                                <div class="col-lg-7">
+                                                <div class="col-lg-5">
                                                     <div class="slider__img">
                                                         <img src="{{asset('../assets/img/team/nguyen-thi-tham.jpg')}}" alt="">
                                                     </div>
                                                 </div>
-                                                <div class="col-lg-5">
+                                                <div class="col-lg-7">
                                                     <div class="slider__text">
                                                         <h4><a class="text-white" target="_blank" href="{{route('layouts.profile.tsnttham')}}">TIẾN SĨ NGUYỄN THỊ THẮM</a></h4>
 
@@ -90,12 +90,12 @@
                                             </div>
 
                                             <div class="d-md-flex testimony-29101 align-items-stretch">
-                                                <div class="col-lg-7">
+                                                <div class="col-lg-5">
                                                     <div class="slider__img">
                                                         <img src="{{asset('../assets/img/team/nguyen-mai-huong.jpg')}}" alt="">
                                                     </div>
                                                 </div>
-                                                <div class="col-lg-5">
+                                                <div class="col-lg-7">
                                                     <div class="slider__text">
                                                         <h4><a class="text-white" target="_blank" href="{{route('layouts.profile.tsntmhuong')}}">TIẾN SĨ NGUYỄN THỊ MAI HƯƠNG</a></h4>
 
@@ -112,12 +112,12 @@
                                             </div>
 
                                             <div class="d-md-flex testimony-29101 align-items-stretch">
-                                                <div class="col-lg-7">
+                                                <div class="col-lg-5">
                                                     <div class="slider__img">
                                                         <img src="{{asset('../assets/img/team/nguyen-minh-phuong.jpg')}}" alt="">
                                                     </div>
                                                 </div>
-                                                <div class="col-lg-5">
+                                                <div class="col-lg-7">
                                                     <div class="slider__text">
                                                         <h4><a class="text-white" target="_blank" href="{{route('layouts.profile.tsphuong')}}">TIẾN SĨ NGUYỄN MINH PHƯỢNG</a></h4>
                                                         <div class="elementor-text-editor elementor-clearfix text-white">
@@ -134,29 +134,37 @@
                                             </div>
 
                                             <div class="d-md-flex testimony-29101 align-items-stretch">
-                                                <div class="col-lg-7">
+                                                <div class="col-lg-5">
                                                     <div class="slider__img">
                                                         <img src="{{asset('../assets/img/team/nguyen-thanh-van.jpg')}}" alt="">
                                                     </div>
                                                 </div>
-                                                <div class="col-lg-5">
+                                                <div class="col-lg-7">
                                                     <div class="slider__text">
                                                         <h4><a class="text-white" target="_blank" href="{{route('layouts.profile.thsnttvan')}}">THẠC SĨ NGUYỄN THỊ THANH VÂN</a></h4>
                                                         <div class="elementor-text-editor elementor-clearfix text-white">
                                                             <p><span style="font-size: 120%;"><strong>Thạc sĩ chuyên ngành tham vấn trị liệu tâm lý &amp; Chuyên gia tham vấn trị liệu </strong></span></p>
                                                             <p>&#8226; Thạc sĩ tham vấn và trị liệu tâm lý/Masters Counselling and Psychotherapy &#8226; IBAM (Ấn Độ)</p>
-                                                            <p> &#8226; Tham vấn cặp đôi<br />
-                                                                &#8226; Tham vấn hôn nhân gia đình<br />
-                                                                &#8226; Tham vấn giáo dục con<br />
-                                                                &#8226; Tham vấn Mối quan hệ<br />
-                                                                &#8226; Trị liệu căng thẳng<br />
-                                                                &#8226; Trị liệu khủng hoảng tâm lý<br />
-                                                                &#8226; Trị liệu sang chấn/ tổn thương tâm lý<br />
-                                                                &#8226; Trị liệu trầm cảm<br />
-                                                                &#8226; Trị liệu RLCX<br />
-                                                                &#8226; Trị liệu trầm cảm<br />
-                                                                &#8226; Trị liệu rối loạn lo âu
-                                                            </p>
+                                                            <div class="row">
+                                                                <div class="col-md-6">
+                                                                    <p> &#8226; Tham vấn cặp đôi<br />
+                                                                        &#8226; Tham vấn hôn nhân gia đình<br />
+                                                                        &#8226; Tham vấn giáo dục con<br />
+                                                                        &#8226; Tham vấn Mối quan hệ<br />
+                                                                        &#8226; Trị liệu căng thẳng<br />
+                                                                        &#8226; Trị liệu khủng hoảng tâm lý<br />
+                                                                    </p>
+                                                                </div>
+                                                                <div class="col-md-6">
+                                                                    <p>
+                                                                        &#8226; Trị liệu sang chấn/ tổn thương tâm lý<br />
+                                                                        &#8226; Trị liệu trầm cảm<br />
+                                                                        &#8226; Trị liệu RLCX<br />
+                                                                        &#8226; Trị liệu trầm cảm<br />
+                                                                        &#8226; Trị liệu rối loạn lo âu
+                                                                    </p>
+                                                                </div>
+                                                            </div>
 
                                                             <a class="cta-btn" target="_blank" href="{{route('layouts.profile.thsnttvan')}}">
                                                                 <button type="button" class="btn btn__team">Xem chi tiết</button></a>
@@ -166,12 +174,12 @@
                                             </div>
 
                                             <div class="d-md-flex testimony-29101 align-items-stretch">
-                                                <div class="col-lg-7">
+                                                <div class="col-lg-5">
                                                     <div class="slider__img">
                                                         <img src="{{asset('../assets/img/team/nguyen-thuy-hang.jpg')}}" alt="">
                                                     </div>
                                                 </div>
-                                                <div class="col-lg-5">
+                                                <div class="col-lg-7">
                                                     <div class="slider__text">
                                                         <h4><a class="text-white" target="_blank" href="{{route('layouts.profile.thsntthang')}}">THẠC SĨ NGUYỄN THỊ THÚY HẰNG</a></h4>
                                                         <div class="elementor-text-editor elementor-clearfix text-white">
@@ -188,12 +196,12 @@
                                             </div>
 
                                             <div class="d-md-flex testimony-29101 align-items-stretch">
-                                                <div class="col-lg-7">
+                                                <div class="col-lg-5">
                                                     <div class="slider__img">
                                                         <img src="{{asset('../assets/img/team/nguyen-hien-minh.jpg')}}" alt="">
                                                     </div>
                                                 </div>
-                                                <div class="col-lg-5">
+                                                <div class="col-lg-7">
                                                     <div class="slider__text">
                                                         <h4><a class="text-white" target="_blank" href="{{route('layouts.profile.thsnhminh')}}">THẠC SĨ NGUYỄN HIỀN MINH</a></h4>
                                                         <div class="elementor-text-editor elementor-clearfix text-white">
@@ -209,12 +217,12 @@
                                             </div>
 
                                             <div class="d-md-flex testimony-29101 align-items-stretch">
-                                                <div class="col-lg-7">
+                                                <div class="col-lg-5">
                                                     <div class="slider__img">
                                                         <img src="{{asset('../assets/img/team/le-the-hanh.jpg')}}" alt="">
                                                     </div>
                                                 </div>
-                                                <div class="col-lg-5">
+                                                <div class="col-lg-7">
                                                     <div class="slider__text">
                                                         <h4><a class="text-white" target="_blank" href="{{route('layouts.profile.thslthanh')}}">THẠC SĨ LÊ THẾ HANH</a></h4>
                                                         <div class="elementor-text-editor elementor-clearfix text-white">
@@ -223,9 +231,6 @@
                                                             <p>&#8226; Rối loạn hành vi lứa tuổi trẻ em và vị thành niên (hành vi chống đối, hành vi lạm dụng chất và lạm dụng công nghệ).</p>
                                                             <p>&#8226; Rối loạn trầm cảm, rối loạn lo âu, rối loạn căng thăng ở thanh thiếu niên và người trưởng thành, rối loạn giấc ngủ, rối loạn ăn uống, rối loạn hành vi tình dục, rối loạn hành vi tự tử, tự hủy hoại bản thân.</p>
                                                             <p>&#8226; Trị liệu khủng hoảng, căng thẳng sau sang chấn tâm lý (PTSD).</p>
-                                                            <p>&#8226; Liệu pháp nhận thức hành vi (CBT).</p>
-                                                            <p>&#8226; Liệu pháp Tập trung vào giải pháp (SFT).</p>
-                                                            <p>&#8226; Phương pháp phỏng vấn tạo động cơ (MI).</p>
 
                                                             <a class="cta-btn" target="_blank" href="{{route('layouts.profile.thslthanh')}}">
                                                                 <button type="button" class="btn btn__team">Xem chi tiết</button></a>
@@ -235,12 +240,12 @@
                                             </div>
 
                                             <div class="d-md-flex testimony-29101 align-items-stretch">
-                                                <div class="col-lg-7">
+                                                <div class="col-lg-5">
                                                     <div class="slider__img">
                                                         <img src="{{asset('../assets/img/team/dang-minh-khue.jpg')}}" alt="">
                                                     </div>
                                                 </div>
-                                                <div class="col-lg-5">
+                                                <div class="col-lg-7">
                                                     <div class="slider__text">
                                                         <h4><a class="text-white" target="_blank" href="{{route('layouts.profile.thsdmkhue')}}">THẠC SĨ ĐẶNG MINH KHUÊ</a></h4>
 
@@ -250,10 +255,7 @@
                                                             <p>&#8226; Tham vấn học đường và vấn đề sức khỏe tinh thần cho trẻ em và trẻ vị thành niên</p>
                                                             <p>&#8226; Tham vấn tạo động lực (MI)</p>
                                                             <p>&#8226; Tham vấn, trị liệu khủng hoảng</p>
-                                                            <p>&#8226; Trị liệu những rối loạn, rối nhiễu tâm lý như trầm cảm, lo âu, căng thẳng,... theo định hướng tiếp cận Thân chủ trọng tâm</p>
                                                             <p>&#8226; Trị liệu rối loạn cảm xúc - hành vi cho trẻ em dựa trên liệu pháp chơi trị liệu và liệu pháp chơi Trẻ em trọng tâm (CCPT)</p>
-                                                            <p>&#8226; Trị liệu các hành vi tự hủy hoại</p>
-                                                            <p>&#8226; An toàn mạng cho trẻ</p>
                                                             <p>&#8226; Vấn đề sức khỏe tinh thần của người thuộc cộng đồng LGBT</p>
 
                                                             <a class="cta-btn" target="_blank" href="{{route('layouts.profile.thsdmkhue')}}">
@@ -265,12 +267,12 @@
                                             </div>
 
                                             <div class="d-md-flex testimony-29101 align-items-stretch">
-                                                <div class="col-lg-7">
+                                                <div class="col-lg-5">
                                                     <div class="slider__img">
                                                         <img src="{{asset('../assets/img/team/truong-hoang-mai.jpg')}}" alt="">
                                                     </div>
                                                 </div>
-                                                <div class="col-lg-5">
+                                                <div class="col-lg-7">
                                                     <div class="slider__text">
                                                         <h4><a class="text-white" target="_blank" href="{{route('layouts.profile.thmai')}}">CHUYÊN GIA TRƯƠNG HOÀNG MAI</a></h4>
 
@@ -445,9 +447,6 @@
                                                 <p>&#8226; Rối loạn hành vi lứa tuổi trẻ em và vị thành niên (hành vi chống đối, hành vi lạm dụng chất và lạm dụng công nghệ).</p>
                                                 <p>&#8226; Rối loạn trầm cảm, rối loạn lo âu, rối loạn căng thăng ở thanh thiếu niên và người trưởng thành, rối loạn giấc ngủ, rối loạn ăn uống, rối loạn hành vi tình dục, rối loạn hành vi tự tử, tự hủy hoại bản thân.</p>
                                                 <p>&#8226; Trị liệu khủng hoảng, căng thẳng sau sang chấn tâm lý (PTSD).</p>
-                                                <p>&#8226; Liệu pháp nhận thức hành vi (CBT).</p>
-                                                <p>&#8226; Liệu pháp Tập trung vào giải pháp (SFT).</p>
-                                                <p>&#8226; Phương pháp phỏng vấn tạo động cơ (MI).</p>
 
                                                 <a class="cta-btn" target="_blank" href="{{route('layouts.profile.thslthanh')}}">
                                                     <button type="button" class="btn btn__team">Xem chi tiết</button></a>
@@ -462,10 +461,7 @@
                                                 <p>&#8226; Tham vấn học đường và vấn đề sức khỏe tinh thần cho trẻ em và trẻ vị thành niên</p>
                                                 <p>&#8226; Tham vấn tạo động lực (MI)</p>
                                                 <p>&#8226; Tham vấn, trị liệu khủng hoảng</p>
-                                                <p>&#8226; Trị liệu những rối loạn, rối nhiễu tâm lý như trầm cảm, lo âu, căng thẳng,... theo định hướng tiếp cận Thân chủ trọng tâm</p>
                                                 <p>&#8226; Trị liệu rối loạn cảm xúc - hành vi cho trẻ em dựa trên liệu pháp chơi trị liệu và liệu pháp chơi Trẻ em trọng tâm (CCPT)</p>
-                                                <p>&#8226; Trị liệu các hành vi tự hủy hoại</p>
-                                                <p>&#8226; An toàn mạng cho trẻ</p>
                                                 <p>&#8226; Vấn đề sức khỏe tinh thần của người thuộc cộng đồng LGBT</p>
 
                                                 <a class="cta-btn" target="_blank" href="{{route('layouts.profile.thsdmkhue')}}">
