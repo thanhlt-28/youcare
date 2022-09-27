@@ -125,72 +125,10 @@
     </section>
     <!-- End Pricing Section -->
 
-
-    <!-- FAQs Start -->
-    <div class="faqs">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-5">
-                    <div class="section-header left">
-                        <h2>Câu hỏi thường gặp</h2>
-                    </div>
-                    <img src="{{asset('assets/img/footer-bg.png')}}" alt="Image">
-                </div>
-                <div class="col-md-7">
-                    <div id="accordion">
-                        <div class="card">
-                            <div class="card-header">
-                                <a class="card-link" href="#" aria-expanded="true">
-                                    <span>1</span> ASQ-3 có thể được dùng để sàng lọc tự kỷ?
-                                </a>
-                            </div>
-                           
-                        </div>
-                        <div class="card">
-                            <div class="card-header">
-                                <a class="card-link" href="#">
-                                    <span>2</span> Nếu kết quả M - CHAT của con tôi là “nguy cơ tự kỷ trung bình” hoặc “nguy cơ tự kỷ cao” tôi có thể tìm đến đâu?
-                                </a>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-header">
-                                <a class="card-link" href="#">
-                                    <span>3</span> Sử dụng công cụ CBCL để đánh giá cho đối tượng nào?
-
-                                </a>
-                            </div>
-
-                        </div>
-                        <div class="card">
-                            <div class="card-header">
-                                <a class="card-link" href="#">
-                                    <span>4</span> Thang CBCL đánh giá các hội chứng, lĩnh vực nào?
-                                </a>
-                            </div>
-
-                        </div>
-                        <div class="card">
-                            <div class="card-header">
-                                <a class="card-link" href="#">
-                                    <span>5</span> Mất bao lâu để hoàn thành?
-                                </a>
-                            </div>
-
-                        </div>
-                    </div>
-                    <a class="btn" href="{{route('clients.contact')}}">Bạn có thể hỏi</a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- FAQs End -->
-
     <!-- ======= Features Section ======= -->
-    <section id="features" class="features">
+    <section id="features" class="features mt-5">
         <div class="container">
-
-            <div class="row">
+            <div class="row mb-3">
                 <div class="col-lg-3 col-md-4">
                     <a href="https://checkingcare.vn/sang-loc-theo-doi/" target="_blank">
                         <div class="icon-box">
@@ -292,6 +230,66 @@
         </div>
     </section>
     <!-- End Features Section -->
+
+    <!-- FAQs Start -->
+    <div class="faqs mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                    <div class="section-header left">
+                        <h2>Câu hỏi thường gặp</h2>
+                    </div>
+                    <img src="{{asset('assets/img/footer-bg.png')}}" alt="Image">
+                </div>
+                <div class="col-md-7">
+                    <div id="accordion">
+                        <div class="card">
+                            <div class="card-header">
+                                <a class="card-link" href="#" aria-expanded="true">
+                                    <span>1</span> ASQ-3 có thể được dùng để sàng lọc tự kỷ?
+                                </a>
+                            </div>
+
+                        </div>
+                        <div class="card">
+                            <div class="card-header">
+                                <a class="card-link" href="#">
+                                    <span>2</span> Nếu kết quả M - CHAT của con tôi là “nguy cơ tự kỷ trung bình” hoặc “nguy cơ tự kỷ cao” tôi có thể tìm đến đâu?
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header">
+                                <a class="card-link" href="#">
+                                    <span>3</span> Sử dụng công cụ CBCL để đánh giá cho đối tượng nào?
+
+                                </a>
+                            </div>
+
+                        </div>
+                        <div class="card">
+                            <div class="card-header">
+                                <a class="card-link" href="#">
+                                    <span>4</span> Thang CBCL đánh giá các hội chứng, lĩnh vực nào?
+                                </a>
+                            </div>
+
+                        </div>
+                        <div class="card">
+                            <div class="card-header">
+                                <a class="card-link" href="#">
+                                    <span>5</span> Mất bao lâu để hoàn thành?
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+                    <a class="btn" href="{{route('clients.contact')}}">Bạn có thể hỏi</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- FAQs End -->
 
 </main>
 @endsection

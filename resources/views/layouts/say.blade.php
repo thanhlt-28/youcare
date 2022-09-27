@@ -158,11 +158,11 @@
                     </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                    <i style="color: #1d6495; font-weight: bold; font-size: 40px" class="bi bi-chevron-left"></i>
+                    <i style="color: #1d6495;border-radius: 50%;background: #67ac2f;font-weight: bold;width: 40px;height: 40px;font-size: 27px;" class="bi bi-chevron-left"></i>
                     <span class="visually-hidden"></span>
                 </button>
                 <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                    <i style="color: #1d6495; font-weight: bold; font-size: 40px" class="bi bi-chevron-right"></i>
+                    <i style="color: #1d6495;border-radius: 50%;background: #67ac2f;font-weight: bold;width: 40px;height: 40px;font-size: 27px;" class="bi bi-chevron-right"></i>
                     <span class="visually-hidden"></span>
                 </button>
             </div>

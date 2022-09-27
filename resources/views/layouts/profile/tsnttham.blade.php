@@ -29,7 +29,7 @@
                                 <b>Tiến sĩ Tâm lý - giáo dục</b>
 
                                 <div class="text mt-3">
-                                    <h5 class="text-succes">LĨNH VỰC CHÍNH</h5>
+                                    <h5 style="font-size: 20.8px; color: #4D9D37; font-weight: 500;">LĨNH VỰC CHÍNH</h5>
                                     <p>
                                         Đánh giá, tư vấn và can thiệp, trị liệu tâm bệnh lý trẻ em, thanh thiếu niên, người trưởng thành về các lĩnh vực:<br />
 
@@ -59,16 +59,17 @@
 
                                         – Tư vấn hôn nhân gia đình: mâu thuẫn, ngoại tình, nuôi dạy con…
                                     </p>
-                                    <h5 class="text-succes mt-2">THÔNG TIN LIÊN HỆ</h5>
-                                    <p>
-                                        <span>–&nbsp;<strong>Địa chỉ:</strong> Tầng 7 toà nhà 59 Võ Chí Công, Phường Nghĩa Đô, Quận Cầu Giấy, Tp. Hà Nội, Việt Nam</span>
-                                    </p>
-                                    <p><span>– <b>Tổng đài tư vấn:<a href="tel:19003307"> 19003307</a></b></span></p>
+                                    <div class="slider-teams">
+                                        <h5 style=" font-size: 20.8px; color: #4D9D37; font-weight: 500;">THÔNG TIN LIÊN HỆ</h5>
+                                        <p>
+                                            <span>–&nbsp;<strong>Địa chỉ:</strong> Tầng 7 toà nhà 59 Võ Chí Công, Phường Nghĩa Đô, Quận Cầu Giấy, Tp. Hà Nội, Việt Nam</span>
+                                        </p>
+                                        <p><span>– <b>Tổng đài tư vấn:<a style="color: #4D9D37; font-weight: 500;" href="tel:19003307"> 1900 3307</a></b></span></p>
 
-                                    <p><span>– <strong>Email:</strong>&nbsp;<a class="text-is-email" href="mailto:lienhe@braincare.vn" target="_blank" rel="noopener noreferrer">lienhe@braincare.vn</a></span></p>
+                                        <p><span>– <strong>Email:</strong>&nbsp;<a style="color: #4D9D37; font-weight: 500;" class="text-is-email" href="mailto:lienhe@braincare.vn" target="_blank" rel="noopener noreferrer">lienhe@braincare.vn</a></span></p>
 
-                                    <p><span><strong>– Websi<span>te: </span></strong><a href="https://briancare.vn/">braincare.vn</a></span></p>
-                                    </p>
+                                        <p><span><strong>– Website: </span></strong><a style="color: #4D9D37; font-weight: 500;" href="https://braincare.vn/">braincare.vn</a></span></p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -86,16 +87,19 @@
                                             <div class="elementor-text-editor elementor-clearfix">
                                                 <div class="elementor-element elementor-element-22d5ee8 elementor-widget elementor-widget-heading" data-id="22d5ee8" data-element_type="widget" data-widget_type="heading.default">
                                                     <div class="elementor-widget-container">
-                                                        <p><span style="color: #9fc83e; font-size: 120%;"><strong>Tiến sĩ, Chuyên gia Tâm lý – Giáo dục Nguyễn Thị Thắm</strong></span></p>
+                                                        <p style="font-size: 20.8px; color: #4D9D37; font-weight: bolder;">KINH NGHIỆM LÀM VIỆC</p>
+
                                                         <p>– Hơn 20 năm kinh nghiệm trong nghề, gồm đánh giá, chẩn đoán và tư vấn tâm lý-giáo dục cho trẻ em, thanh thiếu niên và người trưởng thành</p>
                                                         <p>– Chuyên gia huấn luyện cấp cao cho&nbsp;các Phòng Tham vấn Học đường&nbsp;tại các trường Công lập và Tư thục trên địa bàn Hà Nội (Marie Curie, Nguyễn Trường Tộ, Ban Mai, Nguyễn Đình Chiểu…)</p>
                                                         <p>– Hiện tại Tiến sĩ đang công tác tại Trường Đại học Sư phạm Hà Nội</p>
-                                                        <p><span style="color: #9fc83e;"><strong>Quá trình công tác</strong></span></p>
+
+                                                        <p style="font-size: 20.8px; color: #4D9D37; font-weight: bolder;">QUÁ TRÌNH CÔNG TÁC</p>
                                                         <p>– Chuyên gia tâm lý trị liệu và giáo dục cho phụ nữ và trẻ em bị bạo lực gia đình, xâm hại tình dục, mua bán người, sang chấn tâm lý tại Trung tâm Phụ nữ và Phát triển (CWD) – Hội Liên hiệp Phụ nữ Việt Nam (2009-2014)&nbsp;</p>
                                                         <p>– Giảng viên tại các trường Đại học, Cao đẳng, giảng dạy về lĩnh vực đánh giá và trị liệu, can thiệp cho&nbsp;trẻ em có nhu cầu đặc biệt, trẻ em có sang chấn, rối nhiễu tâm lý (2007- nay)</p>
                                                         <p>– Chuyên viên Bộ Giáo dục và Đào tạo – Trung tâm nghiên cứu và ứng dụng Tâm lý – Giáo dục, hỗ trợ cho các tỉnh Hà Nội, Hải Phòng, Quảng Ninh, Thái Bình… về lĩnh vực phát triển trẻ em, tâm lý giáo dục, tâm lý trị liệu.</p>
                                                         <p>– Chuyên gia huấn luyện cấp cao cho&nbsp;các Phòng Tham vấn Học đường&nbsp;tại các trường Công lập và Tư thục trên địa bàn Hà Nội (Marie Curie, Nguyễn Trường Tộ, Ban Mai, Nguyễn Đình Chiểu…).</p>
-                                                        <p><span style="color: #9fc83e;"><strong>Quá trình đào tạo</strong></span></p>
+
+                                                        <p style="font-size: 20.8px; color: #4D9D37; font-weight: bolder;">QUÁ TRÌNH ĐÀO TẠO</p>
                                                         <p>– Tiến sĩ Tâm lý – Giáo dục, Viện Khoa học giáo dục Việt Nam, 2021</p>
                                                         <p>– Khoá học <em>Kỹ năng làm cha mẹ tích cực và chăm sóc hàn gắn sau sang chấn tâm lý</em>, GS. Luke Talikowski – Tổ chức Health Right tổ chức, 2016.</p>
                                                         <p>– Khóa học <em>Trị liệu bằng nghệ thuật tỉnh thức (cho lo âu, trầm cảm ở người trưởng thành) và Trị</em><em> liệu </em><em>CBT</em>, Robert.D. Friedberg, 2021</p>
@@ -109,7 +113,7 @@
                                                         <p>– Khoá học <em>Đánh giá và hỗ trợ trẻ em</em>, Trường Wakayama – Nhật Bản, 2017</p>
                                                         <p>– Khóa học <em>Đánh giá trí tuệ trẻ em Việt Nam bằng thang đo trí tuệ của WESLER</em>, Đại học Quốc gia Hà Nội, 2017</p>
                                                         <p>– Khóa huấn luyện về <em>Tâm thần trẻ em và vị thành niên</em> do Ủy ban y tế Hà Lan – Việt Nam tổ chức</p>
-                                                        <p><span style="color: #9fc83e;"><strong>Các công trình nghiên cứu khoa học</strong></span></p>
+                                                        <p style="font-size: 20.8px; color: #4D9D37; font-weight: bolder;">CÁC CÔNG TRÌNH NGHIÊN CỨU KHOA HỌC</p>
                                                         <p>– Tham gia đề tài Cấp Bộ về Xây dựng chương trình bổ trợ cho trẻ đa tật ở Việt Nam, 2019</p>
                                                         <p>– Nghiên cứu trường hợp phát triển kĩ năng định hướng di chuyển cho trẻ khiếm thị kèm rối loạn phổ tự kỉ, 2019</p>
                                                         <p>– Developing Pre-Braille skills for children with visual impairment (đồng tác giả), 2020</p>

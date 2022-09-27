@@ -29,23 +29,24 @@
                                 <b>Tiến sĩ Tâm lý học</b>
 
                                 <div class="text mt-3">
-                                    <h5 class="text-succes">LĨNH VỰC CHÍNH</h5>
+                                    <h5 style="font-size: 20.8px; color: #4D9D37; font-weight: 500;">LĨNH VỰC CHÍNH</h5>
                                     <p>
                                         - Đánh giá xác định mức độ phát triển hiện tại của trẻ so với tuổi thực, từ đó xác định điểm mạnh và khó khăn, hạn chế của con để có phương pháp chăm sóc, giáo dục phù hợp, giúp con phát triển tối ưu.<br />
                                         - Đánh giá, tư vấn và can thiệp, trị liệu giáo dục cho trẻ em, thanh thiếu niên về các vấn đề: Tự kỷ; Tăng động giảm chú ý; Rối loạn hành vi cảm xúc; Chậm phát triển trí tuệ; Chậm phát triển ngôn ngữ;….<br />
                                         - Tư vấn cho cha mẹ, nhà trường về các phương pháp chăm sóc, giáo dục phù hợp cho trẻ em.<br />
                                         - Tập huấn, bồi dưỡng chuyên môn cho giáo viên về xây dựng mục tiêu, các nội dung, phương pháp can thiệp, giáo dục phù hợp, hiệu quả cho trẻ em.
                                     </p>
-                                    <h5 class="text-succes mt-2">THÔNG TIN LIÊN HỆ</h5>
-                                    <p>
-                                        <span>–&nbsp;<strong>Địa chỉ:</strong> Tầng 7 toà nhà 59 Võ Chí Công, Phường Nghĩa Đô, Quận Cầu Giấy, Tp. Hà Nội, Việt Nam</span>
-                                    </p>
-                                    <p><span>– <b>Tổng đài tư vấn:<a href="tel:19003307"> 19003307</a></b></span></p>
+                                    <div class="slider-teams">
+                                        <h5 style=" font-size: 20.8px; color: #4D9D37; font-weight: 500;">THÔNG TIN LIÊN HỆ</h5>
+                                        <p>
+                                            <span>–&nbsp;<strong>Địa chỉ:</strong> Tầng 7 toà nhà 59 Võ Chí Công, Phường Nghĩa Đô, Quận Cầu Giấy, Tp. Hà Nội, Việt Nam</span>
+                                        </p>
+                                        <p><span>– <b>Tổng đài tư vấn:<a style="color: #4D9D37; font-weight: 500;" href="tel:19003307"> 1900 3307</a></b></span></p>
 
-                                    <p><span>– <strong>Email:</strong>&nbsp;<a class="text-is-email" href="mailto:lienhe@braincare.vn" target="_blank" rel="noopener noreferrer">lienhe@braincare.vn</a></span></p>
+                                        <p><span>– <strong>Email:</strong>&nbsp;<a style="color: #4D9D37; font-weight: 500;" class="text-is-email" href="mailto:lienhe@braincare.vn" target="_blank" rel="noopener noreferrer">lienhe@braincare.vn</a></span></p>
 
-                                    <p><span><strong>– Websi<span>te: </span></strong><a href="https://briancare.vn/">braincare.vn</a></span></p>
-                                    </p>
+                                        <p><span><strong>– Website: </span></strong><a style="color: #4D9D37; font-weight: 500;" href="https://braincare.vn/">braincare.vn</a></span></p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -57,14 +58,14 @@
                     <div class="ps-lg-1-7 ps-xl-2">
                         <div class="mb-5 wow fadeIn ">
                             <div class="elementor-widget-container">
-                                <p><span style="color: #9fc83e; font-size: 120%;"><strong>Tiến sĩ, Chuyên gia giáo dục – giáo dục đặc biệt</strong></span></p>
+                                <p style="font-size: 20.8px; color: #4D9D37; font-weight: 700;">KINH NGHIỆM LÀM VIỆC</p>
                                 <p>– Hiện đang là giảng viên của Trường Đại học Sư phạm Hà Nội;</p>
 
                                 <p> – Hơn 15 năm kinh nghiệm công tác trong lĩnh vực giáo dục và giáo dục đặc biệt, bao gồm: đánh giá, can thiệp, trị liệu và tư vấn giáo dục cho trẻ em và thanh thiếu niên;</p>
 
                                 <p> – Giảng dạy, tập huấn, bồi dưỡng chuyên môn cho giáo viên ở các địa phương về đánh giá, xây dựng kế hoạch giáo dục cá nhân, các phương pháp can thiệp, giáo dục trẻ có nhu cầu đặc biệt.</p>
 
-                                <p><span style="color: #9fc83e;"><strong>Một số công trình tiêu biểu</strong></span></p>
+                                <p style="font-size: 20.8px; color: #4D9D37; font-weight: 700;">Một số công trình tiêu biểu</p>
 
                                 <p> – Là tác giả của hơn 30 bài báo khoa học và nhiều tài liệu về các vấn đề đánh giá, can thiệp, giáo dục trẻ em.</p>
 

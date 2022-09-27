@@ -29,14 +29,14 @@
                                 <b>Thạc sĩ chuyên ngành: Công tác xã hội</b>
 
                                 <div class="text mt-3">
-                                    <h5 class="text-succes">LĨNH VỰC CHÍNH</h5>
+                                    <h5 style="font-size: 20.8px; color: #4D9D37; font-weight: 500;">LĨNH VỰC CHÍNH</h5>
                                     <p>
                                         – Nơi đào tạo: Trường Đại học Lao động và Xã hội; Trường Đại học Khoa học xã hội và nhân văn – Đại học Quốc gia Hà Nội.<br />
 
                                         – Ngành học: Công tác xã hội<br />
                                     </p>
 
-                                    <h5 class="text-succes">THÀNH TÍCH</h5>
+                                    <h5 style="font-size: 20.8px; color: #4D9D37; font-weight: 500;">THÀNH TÍCH</h5>
                                     <p>
 
                                         – Quản lý ca và thực hành tham vấn hỗ trợ tâm lý trị liệu với hơn 300 thân chủ tại hai nhà tạm lánh dành cho nạn nhân bị buôn bán và bạo lực gia đình từ 2006 – 2014.<br />
@@ -45,16 +45,17 @@
 
                                         – Tham gia xây dựng và thiết kế bộ hồ sơ quản lý ca của hai nhà tạm lánh – Trung tâm Phụ nữ và Phát triển từ 2006 đến 2011.<br />
                                     </p>
-                                    <h5 class="text-succes mt-2">THÔNG TIN LIÊN HỆ</h5>
-                                    <p>
-                                        <span>–&nbsp;<strong>Địa chỉ:</strong> Tầng 7 toà nhà 59 Võ Chí Công, Phường Nghĩa Đô, Quận Cầu Giấy, Tp. Hà Nội, Việt Nam</span>
-                                    </p>
-                                    <p><span>– <b>Tổng đài tư vấn:<a href="tel:19003307"> 19003307</a></b></span></p>
+                                    <div class="slider-teams">
+                                        <h5 style=" font-size: 20.8px; color: #4D9D37; font-weight: 500;">THÔNG TIN LIÊN HỆ</h5>
+                                        <p>
+                                            <span>–&nbsp;<strong>Địa chỉ:</strong> Tầng 7 toà nhà 59 Võ Chí Công, Phường Nghĩa Đô, Quận Cầu Giấy, Tp. Hà Nội, Việt Nam</span>
+                                        </p>
+                                        <p><span>– <b>Tổng đài tư vấn:<a style="color: #4D9D37; font-weight: 500;" href="tel:19003307"> 1900 3307</a></b></span></p>
 
-                                    <p><span>– <strong>Email:</strong>&nbsp;<a class="text-is-email" href="mailto:lienhe@braincare.vn" target="_blank" rel="noopener noreferrer">lienhe@braincare.vn</a></span></p>
+                                        <p><span>– <strong>Email:</strong>&nbsp;<a style="color: #4D9D37; font-weight: 500;" class="text-is-email" href="mailto:lienhe@braincare.vn" target="_blank" rel="noopener noreferrer">lienhe@braincare.vn</a></span></p>
 
-                                    <p><span><strong>– Websi<span>te: </span></strong><a href="https://briancare.vn/">braincare.vn</a></span></p>
-                                    </p>
+                                        <p><span><strong>– Website: </span></strong><a style="color: #4D9D37; font-weight: 500;" href="https://braincare.vn/">braincare.vn</a></span></p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -68,18 +69,20 @@
                             <div class="elementor-widget-container">
                                 <div class="elementor-text-editor elementor-clearfix">
                                     <div data-id="22d5ee8" data-element_type="widget" data-widget_type="heading.default">
-                                        <p><span style="font-size: 130%; color: #a2c63e;"><strong>KINH NGHIỆM LÀM VIỆC CÁ NHÂN</strong></span><br><span style="color: #a2c63e;"><strong><span style="font-size: 110%;">Kinh nghiệm làm việc tư vấn, trị liệu tâm lý</span></strong></span></p>
+                                        <p style="font-size: 20.8px; color: #4D9D37; font-weight: bolder;">KINH NGHIỆM LÀM VIỆC</p>
+
                                         <p>– Hơn 8 năm kinh nghiệm và làm việc tại Trung tâm Phụ nữ và Phát triển – Hội LHPN Việt Nam. Quản lý ca và tham vấn hỗ trợ tâm lý cho hơn 300 khách hàng là phụ nữ, trẻ em gái bị ảnh hưởng và là nạn nhân của bạo lực giới, bạo lực gia đình.</p>
                                         <p>– Gần 2 năm kinh nghiệm và làm việc tại Trung tâm nghiên cứu và ứng dụng khoa học về Giới – Gia đình – Phụ nữ và Vị thành niên CSAGA. Phụ trách dự án và hỗ trợ tâm lý; kỹ năng sống; tham vấn hướng nghiệp và kết nối hỗ trợ sinh kế cho hơn 100 khách hàng là phụ nữ, trẻ em gái lao động tình dục, di cư, nạn nhân của buôn bán người và bạo lực gia đình.</p>
-                                        <p><span style="font-size: 110%; color: #a2c63e;"><strong>KINH NGHIỆM HỖ TRỢ NHÓM</strong></span></p>
+
+                                        <p style="font-size: 20.8px; color: #4D9D37; font-weight: bolder;">KINH NGHIỆM HỖ TRỢ NHÓM</p>
                                         <p>– Có 10 năm làm quản lý và trực tiếp điều hành tham vấn, trị liệu tâm lý và huấn luyện kỹ năng cho các nhóm phụ nữ, trẻ em gái là nạn nhân của buôn bán người, bạo lực gia đình, lao động tình dục, di cư… tại Ngôi Nhà Bình Yên – Trung tâm Phụ nữ và Phát triển – Hội LHPN VN và Trung tâm nghiên cứu – ứng dụng khoa học về Giới – Gia đình – Phụ nữ và Vị thành niên CSAGA.</p>
-                                        <p><span style="font-size: 110%; color: #a2c63e;"><strong>KINH NGHIỆM ĐÀO TẠO – HUẤN LUYỆN</strong></span></p>
+                                        <p style="font-size: 20.8px; color: #4D9D37; font-weight: bolder;">KINH NGHIỆM ĐÀO TẠO – HUẤN LUYỆN</p>
                                         <p>– Đào tạo chuyên môn: Giảng dạy các môn chuyên ngành Công tác xã hội; nghiệp vụ trong đào tào tạo, bồi dưỡng cán bộ Hội Nông dân Việt Nam các cấp từ tháng 3/2015 đến nay.</p>
                                         <p>– Huấn luyện kỹ năng: Huấn luyện và giảng dạy các lớp Kỹ năng sống, kỹ năng mềm, giá trị sống… cho các nhóm đối tượng Sinh viên, học sinh mầm non tới Trung học phổ thông.</p>
-                                        <p><span style="font-size: 110%; color: #a2c63e;"><strong>TẬP HUẤN, ĐÀO TẠO GIẢNG VIÊN TỐT</strong></span></p>
+                                        <p style="font-size: 20.8px; color: #4D9D37; font-weight: bolder;">TẬP HUẤN, ĐÀO TẠO GIẢNG VIÊN TỐT</p>
                                         <p>– Tập huấn về kiên thức, đào tạo giảng viên nguồn về BLGD, phòng chống buôn bán người cho cán bộ cơ sở Hội Phụ nữ, Hội Nông dân tại các địa phương như: Bắc Ninh, Hà Nam, Hà Nội, Hòa Bình, Ninh Bình… từ 2014 đến nay</p>
                                         <p>– Đào tạo giảng viên nguồn kỹ năng sống cho Trung tâm kỹ năng sống Việt</p>
-                                        <p><span style="font-size: 110%; color: #a2c63e;"><strong>MỘT SỐ THÀNH TỰU</strong></span></p>
+                                        <p style="font-size: 20.8px; color: #4D9D37; font-weight: bolder;">MỘT SỐ THÀNH TỰU</p>
                                         <p>– Là khách mời chuyên gia của các chương trình Talk show về chủ đề gia đình, phụ nữ, trẻ em, thanh niêm và kỹ năng sống của Đài truyền hình Việt Nam; Báo Phụ nữ Việt Nam và Báo Lao động – Xã hội.</p>
                                         <p>– Tham gia xây dựng tài liệu truyền thông về BLGD gồm: Các câu chuyện điển hình; Làm cha mẹ phòng chống BLGD; Thay đổi để đổi thay…và một số tờ rơi giới thiệu tổ chức, văn phòng hỗ trợ nạn nhân…năm 2015 tại CSAGA.</p>
                                         <p>– Phối hợp với Báo Gia đình – Xã hội và Báo Lao động – Xã hội tổ chức cuộc thi dành cho nhà báo, phóng viên viết về cuộc sống của nữ lao động tình dục mang tên: “Khát vọng yêu thương” từ tháng 5/2014 đến tháng 9/2014 trong khuôn khổ dự án “Hỗ trợ nghiên cứu, xây dựng chính sách và thí điểm mô hình hòa nhập cộng đồng cho nữ lao động tại Hà Nội” của Cục phòng chống tệ nạn xã hội và tổ chức PLAN tài trợ.</p>

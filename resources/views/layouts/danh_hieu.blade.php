@@ -1,11 +1,26 @@
 <div class="container" data-aos="fade-up">
+
+  <style>
+    .carousel-control-next-icon,
+    .carousel-control-prev-icon {
+      display: inline-block;
+      width: 2rem;
+      height: 2rem;
+      color: #000;
+      background-color: #5a5454;
+      border-radius: 50%;
+      background-repeat: no-repeat;
+      background-position: 50%;
+      background-size: 100% 100%;
+    }
+  </style>
   <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
       <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
       <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
     </div>
-    
+
     <div class="carousel-inner">
       <div class="carousel-item active">
         <div class="row">

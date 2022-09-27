@@ -29,7 +29,7 @@
                                 <b>Chuyên viên Tham vấn/ Trị liệu Tâm lý</b>
 
                                 <div class="text mt-3">
-                                    <h5 class="text-succes">LĨNH VỰC CHÍNH</h5>
+                                    <h5 style=" font-size: 20.8px; color: #4D9D37; font-weight: 500;">LĨNH VỰC CHÍNH</h5>
                                     <p>
                                         - Đánh giá tâm lý, tham vấn, trị liệu các vấn đề sức khoẻ tâm thần trẻ em và trẻ vị thành niên; <br />
                                         - Rối loạn trầm cảm, rối loạn lo âu, rối loạn căng thẳng ở thanh thiếu niên, rối loạn giấc ngủ, rối loạn ăn uống, rối loạn hành vi tự hại<br />
@@ -37,16 +37,17 @@
                                         - Trị liệu nhận thức hành vi (CBT) kết hợp với nhiều liệu pháp tâm lý khác
 
                                     </p>
-                                    <h5 class="text-succes mt-2">THÔNG TIN LIÊN HỆ</h5>
-                                    <p>
-                                        <span>–&nbsp;<strong>Địa chỉ:</strong> Tầng 7 toà nhà 59 Võ Chí Công, Phường Nghĩa Đô, Quận Cầu Giấy, Tp. Hà Nội, Việt Nam</span>
-                                    </p>
-                                    <p><span>– <b>Tổng đài tư vấn:<a href="tel:19003307"> 19003307</a></b></span></p>
+                                    <div class="slider-teams">
+                                        <h5 style=" font-size: 20.8px; color: #4D9D37; font-weight: 500;">THÔNG TIN LIÊN HỆ</h5>
+                                        <p>
+                                            <span>–&nbsp;<strong>Địa chỉ:</strong> Tầng 7 toà nhà 59 Võ Chí Công, Phường Nghĩa Đô, Quận Cầu Giấy, Tp. Hà Nội, Việt Nam</span>
+                                        </p>
+                                        <p><span>– <b>Tổng đài tư vấn:<a style="color: #4D9D37; font-weight: 500;" href="tel:19003307"> 1900 3307</a></b></span></p>
 
-                                    <p><span>– <strong>Email:</strong>&nbsp;<a class="text-is-email" href="mailto:lienhe@braincare.vn" target="_blank" rel="noopener noreferrer">lienhe@braincare.vn</a></span></p>
+                                        <p><span>– <strong>Email:</strong>&nbsp;<a style="color: #4D9D37; font-weight: 500;" class="text-is-email" href="mailto:lienhe@braincare.vn" target="_blank" rel="noopener noreferrer">lienhe@braincare.vn</a></span></p>
 
-                                    <p><span><strong>– Websi<span>te: </span></strong><a href="https://briancare.vn/">braincare.vn</a></span></p>
-                                    </p>
+                                        <p><span><strong>– Website: </span></strong><a style="color: #4D9D37; font-weight: 500;" href="https://braincare.vn/">braincare.vn</a></span></p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -60,8 +61,9 @@
                             <div class="elementor-widget-container">
                                 <div class="elementor-text-editor elementor-clearfix">
                                     <div data-id="22d5ee8" data-element_type="widget" data-widget_type="heading.default">
-                                        <p style="color: #5a5454; font-family: Arial, sans-serif; font-size: 16px; font-weight: 400;"><span style="font-size: 20.8px; color: #a1c73e;"><span style="font-weight: bolder;">Chuyên gia TRƯƠNG HOÀNG MAI</span></span></p>
-                                        <p><span style="font-size: 110%; color: #a1c73e;"><strong>QUÁ TRÌNH CÔNG TÁC</strong></span><br>
+
+                                        <p style="font-size: 20.8px; color: #4D9D37; font-weight: 700;">QUÁ TRÌNH CÔNG TÁC</p>
+                                        <p>
                                             - Chuyên viên tham vấn tâm lý tại Phòng tham vấn học đường trường THCS – THPT Ban Mai (2021)<br>
                                             - Chuyên viên tham vấn tâm lý tại Phòng tham vấn học đường trường THCS Lê Quý Đôn -Hà Đông (2020)<br>
                                             - Thực hành tham vấn tâm lý cho nạn nhân của bạo lực gia đình tại Ethiopian Community Development Council (2018)<br>
@@ -69,14 +71,16 @@
                                         </p>
 
 
-                                        <p><span style="font-size: 110%; color: #a1c73e;"><strong>QUÁ TRÌNH ĐÀO TẠO</strong></span><br>
+                                        <p style="font-size: 20.8px; color: #4D9D37; font-weight: 700;">QUÁ TRÌNH ĐÀO TẠO</p>
+                                        <p>
                                             - Khoá tập huấn kỹ năng tham vấn/ trị liệu tâm lý bởi Giám đốc HTX xã hội Tư vấn Neul Pum – Choi Ok Soon tại GNI (2021)<br>
                                             - Khoá tập huấn Hỗ trợ tâm lý cho học sinh THCS bởi tổ chức GNI (2021)<br>
                                             - Khoá tập huấn Hỗ trợ tâm lý xã hội cho bệnh nhân mắc COVID-19 và gia đình bởi Trường Đại học Sư Phạm Hà Nội (2021)<br>
                                             - Cử nhân danh dự ngành Tâm lý học, chuyên ngành Tâm lý học Lâm sàng tại trường Đại học George Mason (2018)<br>
                                             - Khoá tập huấn “Phòng tránh bạo lực giới” trường đại học George Mason bởi tổ chức EVERFI (2018)
                                         </p>
-                                        <p><span style="color: #a1c73e; font-size: 110%;"><strong>LĨNH VỰC CHÍNH</strong></span><br>
+                                        <p style="font-size: 20.8px; color: #4D9D37; font-weight: 700;">LĨNH VỰC CHÍNH</p>
+                                        <p>
                                             - Đánh giá tâm lý, tham vấn, trị liệu các vấn đề sức khoẻ tâm thần trẻ em và trẻ vị thành niên; <br />
                                             - Rối loạn trầm cảm, rối loạn lo âu, rối loạn căng thẳng ở thanh thiếu niên, rối loạn giấc ngủ, rối loạn ăn uống, rối loạn hành vi tự hại<br />
                                             - Tham vấn tạo động lực cho trẻ và vị thành niên<br />

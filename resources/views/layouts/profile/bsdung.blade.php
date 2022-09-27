@@ -29,26 +29,21 @@
                                 <b>Phó viện trưởng Viện sức khỏe tâm thần Bệnh viện Bạch Mai Hà Nội</b>
 
                                 <div class="text mt-3">
-                                    <h5 class="text-succes">LÝ LỊCH CÁ NHÂN</h5>
-                                    <p>
-                                        – Họ và tên: Nguyễn Văn Dũng <br />
-
-                                        – Nơi đào tạo: Trường Đại học Y Hà Nội<br />
-
-                                    <h5 class="text-succes">THÀNH TÍCH</h5>
+                                    <h5 style=" font-size: 20.8px; color: #4D9D37; font-weight: 500;">THÀNH TÍCH</h5>
                                     – Bằng khen của chủ tịch nước, của tổng bí thư và phó thủ tướng nước CNHXCN Việt Nam trao tặng<br />
                                     – Bằng khen của bộ trưởng bộ y tế… và các cấp khác<br />
 
-                                    <h5 class="text-succes mt-2">THÔNG TIN LIÊN HỆ</h5>
-                                    <p>
-                                        <span>–&nbsp;<strong>Địa chỉ:</strong> Tầng 7 toà nhà 59 Võ Chí Công, Phường Nghĩa Đô, Quận Cầu Giấy, Tp. Hà Nội, Việt Nam</span>
-                                    </p>
-                                    <p><span>– <b>Tổng đài tư vấn:<a href="tel:19003307"> 19003307</a></b></span></p>
+                                    <div class="slider-teams">
+                                        <h5 style=" font-size: 20.8px; color: #4D9D37; font-weight: 500;">THÔNG TIN LIÊN HỆ</h5>
+                                        <p>
+                                            <span>–&nbsp;<strong>Địa chỉ:</strong> Tầng 7 toà nhà 59 Võ Chí Công, Phường Nghĩa Đô, Quận Cầu Giấy, Tp. Hà Nội, Việt Nam</span>
+                                        </p>
+                                        <p><span>– <b>Tổng đài tư vấn:<a style="color: #4D9D37; font-weight: 500;" href="tel:19003307"> 1900 3307</a></b></span></p>
 
-                                    <p><span>– <strong>Email:</strong>&nbsp;<a class="text-is-email" href="mailto:lienhe@braincare.vn" target="_blank" rel="noopener noreferrer">lienhe@braincare.vn</a></span></p>
+                                        <p><span>– <strong>Email:</strong>&nbsp;<a style="color: #4D9D37; font-weight: 500;" class="text-is-email" href="mailto:lienhe@braincare.vn" target="_blank" rel="noopener noreferrer">lienhe@braincare.vn</a></span></p>
 
-                                    <p><span><strong>– Websi<span>te: </span></strong><a href="https://briancare.vn/">braincare.vn</a></span></p>
-                                    </p>
+                                        <p><span><strong>– Website: </span></strong><a style="color: #4D9D37; font-weight: 500;" href="https://braincare.vn/">braincare.vn</a></span></p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -62,7 +57,7 @@
                             <div class="elementor-text-editor elementor-clearfix">
                                 <div class="elementor-element elementor-element-22d5ee8 elementor-widget elementor-widget-heading" data-id="22d5ee8" data-element_type="widget" data-widget_type="heading.default">
                                     <div class="elementor-widget-container">
-                                        <h2 class="elementor-heading-title elementor-size-default"><span style="color: #a2c63e; font-size: 75%;">KINH NGHIỆM LÀM VIỆC CÁ NHÂN</span></h2>
+                                        <h2 class="elementor-heading-title elementor-size-default"><span style="color: #4D9D37; font-size: 75%;">KINH NGHIỆM LÀM VIỆC CÁ NHÂN</span></h2>
                                     </div>
                                 </div>
                                 <div class="elementor-element elementor-element-efea22e elementor-widget elementor-widget-heading" data-id="efea22e" data-element_type="widget" data-widget_type="heading.default">

@@ -5407,7 +5407,6 @@ q:after {
 
 .carousel-indicators [data-bs-target] {
     box-sizing: content-box;
-    flex: 0 1 auto;
     width: 12px;
     height: 12px;
     border-radius: 50%;

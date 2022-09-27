@@ -1,4 +1,4 @@
-@section('title', 'TS NGUYỄN THỊ THANH VÂN')
+@section('title', 'THS NGUYỄN THỊ THANH VÂN')
 @section('content')
 @extends('layouts.main')
 
@@ -10,7 +10,7 @@
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item"><a href="{{'/'}}">Trang chủ</a></li>
                     <li class="breadcrumb-item" aria-current="page"><a href="{{route('clients.about.team_experts')}}">Đội ngũ chuyên gia</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">TS. NGUYỄN THỊ THANH VÂN</li>
+                    <li class="breadcrumb-item active" aria-current="page">THS NGUYỄN THỊ THANH VÂN</li>
                 </ol>
             </nav>
         </div>
@@ -26,31 +26,34 @@
                         <div class="card-body">
                             <div class="mb-4 p-0-9 p-xl-2">
                                 <h4>NGUYỄN THỊ THANH VÂN</h4>
-                                <b>Thạc sĩ tham vấn trị liệu tâm lý (Master Psychothepy and Counselling – IBAM) – Ấn Độ</b>
-
+                                <p><span style="font-size: 120%;"><strong>Thạc sĩ chuyên ngành tham vấn trị liệu tâm lý - Chuyên gia tham vấn trị liệu </strong></span>
+                                </p>
                                 <div class="text mt-3">
-                                    <h5 class="text-succes">THÀNH TÍCH</h5>
-                                    <p>
-                                        – Thạc sĩ tham vấn và trị liệu tâm lý/Masters Counselling and Psychotherapy – IBAM (Ấn Độ)<br />
-
-                                        – Chuyên gia tham vấn cao cấp về hôn nhân gia đình, nuôi dạy con, mối quan hệ cặp đôi.<br />
-
-                                        – Chuyên gia tư vấn định hướng phát triển bản thân, tư vấn nghề nghiệp và sức khoẻ tinh thần trong công việc<br />
-
-                                        – Chuyên gia tham vấn tâm lý cho thanh thiếu niên về các khó khăn trong học tập, mối quan hệ, cuộc sống.<br />
-
-                                        – Master Coach NLP và Thôi miên Trị liệu.<br />
+                                    <h5 style="font-size: 20.8px; color: #4D9D37; font-weight: 500;">LĨNH VỰC CHUYÊN MÔN</h5>
+                                    <p>&#8226; Thạc sĩ chuyên nghĩ tham vấn trị liệu tâm lý (Master Counseling and Psychotherapy)</p>
+                                    <p> &#8226; Tham vấn cặp đôi<br />
+                                        &#8226; Tham vấn hôn nhân gia đình<br />
+                                        &#8226; Tham vấn giáo dục con<br />
+                                        &#8226; Tham vấn Mối quan hệ<br />
+                                        &#8226; Trị liệu căng thẳng<br />
+                                        &#8226; Trị liệu khủng hoảng tâm lý<br />
+                                        &#8226; Trị liệu sang chấn/ tổn thương tâm lý<br />
+                                        &#8226; Trị liệu trầm cảm<br />
+                                        &#8226; Trị liệu RLCX<br />
+                                        &#8226; Trị liệu trầm cảm<br />
+                                        &#8226; Trị liệu rối loạn lo âu
                                     </p>
-                                    <h5 class="text-succes mt-2">THÔNG TIN LIÊN HỆ</h5>
-                                    <p>
-                                        <span>–&nbsp;<strong>Địa chỉ:</strong> Tầng 7 toà nhà 59 Võ Chí Công, Phường Nghĩa Đô, Quận Cầu Giấy, Tp. Hà Nội, Việt Nam</span>
-                                    </p>
-                                    <p><span>– <b>Tổng đài tư vấn:<a href="tel:19003307"> 19003307</a></b></span></p>
+                                    <div class="slider-teams">
+                                        <h5 style=" font-size: 20.8px; color: #4D9D37; font-weight: 500;">THÔNG TIN LIÊN HỆ</h5>
+                                        <p>
+                                            <span>–&nbsp;<strong>Địa chỉ:</strong> Tầng 7 toà nhà 59 Võ Chí Công, Phường Nghĩa Đô, Quận Cầu Giấy, Tp. Hà Nội, Việt Nam</span>
+                                        </p>
+                                        <p><span>– <b>Tổng đài tư vấn:<a style="color: #4D9D37; font-weight: 500;" href="tel:19003307"> 1900 3307</a></b></span></p>
 
-                                    <p><span>– <strong>Email:</strong>&nbsp;<a class="text-is-email" href="mailto:lienhe@braincare.vn" target="_blank" rel="noopener noreferrer">lienhe@braincare.vn</a></span></p>
+                                        <p><span>– <strong>Email:</strong>&nbsp;<a style="color: #4D9D37; font-weight: 500;" class="text-is-email" href="mailto:lienhe@braincare.vn" target="_blank" rel="noopener noreferrer">lienhe@braincare.vn</a></span></p>
 
-                                    <p><span><strong>– Websi<span>te: </span></strong><a href="https://briancare.vn/">braincare.vn</a></span></p>
-                                    </p>
+                                        <p><span><strong>– Website: </span></strong><a style="color: #4D9D37; font-weight: 500;" href="https://braincare.vn/">braincare.vn</a></span></p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -68,15 +71,45 @@
                                             <div class="elementor-text-editor elementor-clearfix">
                                                 <div data-id="22d5ee8" data-element_type="widget" data-widget_type="heading.default">
                                                     <div>
-                                                        <p style="color: #5a5454; font-family: Arial, sans-serif; font-size: 16px; font-weight: 400;"><span style="font-size: 20.8px; color: #a1c73e;"><span style="font-weight: bolder;">KINH NGHIỆM &amp; QUÁ TRÌNH LÀM NGHỀ THAM VẤN TRỊ LIỆU</span></span></p>
-                                                        <p style="color: #5a5454; font-family: Arial, sans-serif; font-size: 16px; font-weight: 400;">– Chuyên gia tham vấn trị liệu tại Phòng tâm lý Phúc Ngân<br>– Chuyên gia tham vấn trị liệu tại tổ chức phi chính phủ Blue Dragon (Rồng Xanh)<br>– Chuyên gia tham vấn trị liệu tại tổ chức Nhà tâm lý học Việt Nam<br>– Chuyên gia tham vấn trị liệu tại trung tâm tâm lý Nhất Tâm Minh<br>– Chuyên gia tham vấn trị liệu tại trung tâm tâm lý An Bình<br>– Hướng dẫn viên chương trình “Kỷ luật tích cực trong thực hành làm cha mẹ hàng ngày” tổ chức PDEP Việt Nam</p>
-                                                        <p style="color: #5a5454; font-family: Arial, sans-serif; font-size: 16px; font-weight: 400;"><span style="font-size: 17.6px; color: #a1c73e;"><span style="font-weight: bolder;">BẰNG CẤP/ CHỨNG CHỈ/ KHÓA HỌC</span></span></p>
-                                                        <p style="color: #5a5454; font-family: Arial, sans-serif; font-size: 16px; font-weight: 400;">– Thạc sĩ tham vấn trị liệu tâm lý (Master Psychothepy and Counselling – IBAM) – Ấn Độ.<br>– Chứng chỉ nhà thực hành liệu pháp nhận thức hành vi<br>– Chứng chỉ hoàn thành khóa huấn luyện liệu pháp nhận thức hành vi cho Trầm cảm, lo âu, ám sợ.<br>– Chứng chỉ hoàn thành khóa huấn luyện “modern Effective therapy system – Trị liệu hệ thống hiện đại hiệu quả”<br>– Chứng chỉ “Hỗ trợ tâm lý dựa trên những hiểu biết về Rối loạn căng thẳng sau sang chấn” của tổ chức Blue Dragon Children’s Foundation<br>– Chứng chỉ “Ứng dụng liệu pháp thư giãn trong điều trị các rối loạn do Stress” – Hội tâm lý trị liệu Việt Nam<br>– Chứng chỉ Master Timeline Therapy – Hiệp hội ABN Hoa Kỳ<br>– Đã hoàn thành Khóa học Master thôi miên trị liệu<br>– Khóa học Hỗ trợ tâm lý khẩn cấp – Hội tâm lý trị liệu Việt Nam<br>– Chứng chỉ Master NLP<br>– Tham gia Khóa học Coach ICF<br>– Tham gia Khóa học Giao tiếp trắc ẩn</p>
-                                                        <p style="color: #5a5454; font-family: Arial, sans-serif; font-size: 16px; font-weight: 400;"><span style="font-size: 17.6px; color: #a1c73e;"><span style="font-weight: bolder;">ĐIỂM MẠNH/ SỞ TRƯỜNG</span></span></p>
-                                                        <p style="color: #5a5454; font-family: Arial, sans-serif; font-size: 16px; font-weight: 400;">– Thấu cảm, chân thành, tận tâm và giàu lòng trắc ẩn</p>
-                                                        <p style="color: #5a5454; font-family: Arial, sans-serif; font-size: 16px; font-weight: 400;">– Gỡ rối và hỗ trợ thân chủ tìm giải pháp cho các vấn đề gặp phải cho cuộc sống</p>
-                                                        <p style="color: #5a5454; font-family: Arial, sans-serif; font-size: 16px; font-weight: 400;">– Tham vấn hôn nhân gia đình/cặp đôi</p>
-                                                        <p style="color: #5a5454; font-family: Arial, sans-serif; font-size: 16px; font-weight: 400;">– Tham vấn giáo dục con (cách làm bạn cùng con, thấu hiểu con</p>
+                                                        <p>
+                                                            <span style="font-size: 20.8px; color: #4D9D37; font-weight: bolder;">KINH NGHIỆM LÀM VIỆC</span>
+                                                        </p>
+
+                                                        <p style="color: #5a5454; font-family: Arial, sans-serif; font-size: 16px; font-weight: 400;">
+                                                            – Là hội viên Hội tâm lý trị liệu Việt Nam<br>
+                                                            – 7 năm làm việc trong lĩnh vực tham vấn trị liệu tâm lý<br>
+                                                            – Hơn 15 năm làm việc trong lĩnh vực phát triển con người<br>
+                                                            – Tham vấn/ trị liệu hàng nghìn phiên với nhiều đối tượng thân chủ khác nhau:
+                                                            Phụ huynh, cặp đôi, trẻ vị thành niên<br>
+                                                            Các đơn vị/tổ chức đã từng và đang công tác:<br>
+                                                            + TTCSKH BrainCare<br>
+                                                            + Phòng tâm lý Phúc Ngân<br>
+                                                            + Nhà tâm lý học Việt Nam<br>
+                                                            + Phòng tâm lý Nhất Tâm Minh<br>
+                                                            + Phòng tâm lý An Bình<br>
+                                                            + Tổ chức phi chính phủ cứu trợ trẻ em đường phố và nạn nhân mua bán người Rồng Xanh (Blue Dragon)
+                                                        </p>
+
+                                                        <p style="font-size: 20.8px; color: #4D9D37; font-weight: bolder;">ĐÀO TẠO</p>
+                                                        <p style="color: #5a5454; font-family: Arial, sans-serif; font-size: 16px; font-weight: 400;">
+                                                            – Cao học chuyên ngành tham vấn trị liệu tâm lý (Tổ chức IBAM Ấn Độ)<br>
+                                                            – Master trị liệu dòng thời gian ((ABM Hoa Kỳ)<br>
+                                                            – Master NLP (ABM Hoa Kỳ)<br>
+                                                            – Thôi miên trị liệu (Úc)<br>
+                                                            – Hỗ trợ dựa trên hiểu biết về rối loạn căng thẳng sau sang chấn (Blue Dragon)<br>
+                                                            – Nhà Thực hành liệu pháp nhận thức hành vi (CBT Practictioner) (Udemy)<br>
+                                                            – Ứng dụng liệu pháp thư giãn trong trị liệu rối loạn do căng thẳng (Hội tâm lý trị liệu VN)<br>
+                                                            – Liệu pháp trị liệu nhận thức hành vi cho trầm cảm, lo âu, sợ hãi và hoảng loạn (DAP) (Udemy)<br>
+                                                            – Liệu pháp trị liệu hệ thống hiện đại hiệu quả (REBT) Udemy<br>
+                                                            – Liệu pháp giãi mẫn cảm bằng chuyển động nhãn cầu mắt (Viện EMDR)
+                                                        </p>
+                                                        <p style="font-size: 20.8px; color: #4D9D37; font-weight: bolder;">BẰNG CẤP</p>
+
+                                                        <p style="color: #5a5454; font-family: Arial, sans-serif; font-size: 16px; font-weight: 400;">
+                                                            - Thạc sĩ chuyên nghĩ tham vấn trị liệu tâm lý (Master Counseling and Psychotherapy)<br>
+                                                            - Cử nhân luật học<br>
+                                                            - Cử nhân VHQC<br>
+                                                        </p>
                                                     </div>
                                                 </div>
                                                 <div data-id="b9667a5" data-element_type="widget" data-widget_type="text-editor.default">

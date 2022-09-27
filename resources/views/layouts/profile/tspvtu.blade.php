@@ -29,7 +29,7 @@
                                 <b>Tiến sĩ Tâm lý học</b>
 
                                 <div class="text mt-3">
-                                    <h5 class="text-succes">LĨNH VỰC CHÍNH</h5>
+                                    <h5 style="font-size: 20.8px; color: #4D9D37; font-weight: 500;">LĨNH VỰC CHÍNH</h5>
                                     <p>
                                         – Đánh giá tâm lý các vấn đề liên quan sức khỏe tâm thần (stress, lo âu, trầm cảm, nguy cơ tự tử…);<br />
                                         - Tham vấn vị thành niên và gia đình<br />
@@ -42,16 +42,17 @@
 
                                         – Tư vấn hôn nhân gia đình, stress công việc…<br />
                                     </p>
-                                    <h5 class="text-succes mt-2">THÔNG TIN LIÊN HỆ</h5>
-                                    <p>
-                                        <span>–&nbsp;<strong>Địa chỉ:</strong> Tầng 7 toà nhà 59 Võ Chí Công, Phường Nghĩa Đô, Quận Cầu Giấy, Tp. Hà Nội, Việt Nam</span>
-                                    </p>
-                                    <p><span>– <b>Tổng đài tư vấn:<a href="tel:19003307"> 19003307</a></b></span></p>
+                                    <div class="slider-teams">
+                                        <h5 style=" font-size: 20.8px; color: #4D9D37; font-weight: 500;">THÔNG TIN LIÊN HỆ</h5>
+                                        <p>
+                                            <span>–&nbsp;<strong>Địa chỉ:</strong> Tầng 7 toà nhà 59 Võ Chí Công, Phường Nghĩa Đô, Quận Cầu Giấy, Tp. Hà Nội, Việt Nam</span>
+                                        </p>
+                                        <p><span>– <b>Tổng đài tư vấn:<a style="color: #4D9D37; font-weight: 500;" href="tel:19003307"> 1900 3307</a></b></span></p>
 
-                                    <p><span>– <strong>Email:</strong>&nbsp;<a class="text-is-email" href="mailto:lienhe@braincare.vn" target="_blank" rel="noopener noreferrer">lienhe@braincare.vn</a></span></p>
+                                        <p><span>– <strong>Email:</strong>&nbsp;<a style="color: #4D9D37; font-weight: 500;" class="text-is-email" href="mailto:lienhe@braincare.vn" target="_blank" rel="noopener noreferrer">lienhe@braincare.vn</a></span></p>
 
-                                    <p><span><strong>– Websi<span>te: </span></strong><a href="https://briancare.vn/">braincare.vn</a></span></p>
-                                    </p>
+                                        <p><span><strong>– Website: </span></strong><a style="color: #4D9D37; font-weight: 500;" href="https://braincare.vn/">braincare.vn</a></span></p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -71,17 +72,20 @@
                                                     <div class="elementor-widget-container">
                                                         <div class="elementor-element elementor-element-22d5ee8 elementor-widget elementor-widget-heading" data-id="22d5ee8" data-element_type="widget" data-widget_type="heading.default">
                                                             <div class="elementor-widget-container">
-                                                                <p><span style="color: #9fc83e; font-size: 120%;"><strong>Tiến sĩ, Chuyên gia Tâm lý học Phạm Văn Tư</strong></span></p>
+                                                                <p style="font-size: 20.8px; color: #4D9D37; font-weight: bolder;">KINH NGHIỆM LÀM VIỆC</p>
+
                                                                 <p><span>– Hơn 20 năm kinh nghiệm trong nghề, gồm đánh giá và trị liệu tâm lý cho thanh thiếu niên và người trưởng thành</span></p>
                                                                 <p><span>– Diễn giả, Chuyên viên huấn luyện cao cấp trong lĩnh vực chăm sóc sức khỏe tinh thần cho tổ chức, doanh nghiệp, trường học</span></p>
                                                                 <p><span>– Hiện tại Tiến sĩ đang công tác tại Trường Đại học Sư phạm Hà Nội</span></p>
-                                                                <p><span style="color: #9fc83e;"><strong>Quá trình công tác</strong></span></p>
+
+                                                                <p style="font-size: 20.8px; color: #4D9D37; font-weight: bolder;">QUÁ TRÌNH CÔNG TÁC</strong></span></p>
                                                                 <p><span>– Phó Trưởng khoa Công tác xã hội, trường Đại học Sư phạm Hà Nội (1/2021 – nay)</span></p>
                                                                 <p><span>– Chuyên gia cao cấp&nbsp;huấn luyện chuyên đề <em>Sức khỏe sinh sản vị thành niên và giao tiếp học đường</em>, <em>Trường học hạnh phúc</em>, <em>Kỉ luật không nước mắt</em>, <em>Nghệ thuật đánh thức cảm xúc tích cực cho trẻ em</em>…&nbsp;cho các trường học, các công ty, tổ chức.</span></p>
                                                                 <p><span>– Giảng viên tập huấn của Unicef, tổ chức Childfund Việt Nam, Tổ chức GNI tại Việt Nam-<em>Dự án Quản trị trường học</em> dành cho hiệu trưởng, phó hiệu trưởng các trường mầm non, tiểu học ở Ngân Sơn, Bắc Kạn.</span></p>
                                                                 <p><span>– Diễn giả Chăm sóc sức khỏe tinh thần cho các tổ chức: <em>Nghệ thuật đánh thức cảm xúc tích cực ở trẻ em</em>-Jello Academy, <em>Thắp lửa yêu thương</em>-Liên đoàn lao động tỉnh Thanh Hóa, <em>Nghệ thuật ứng xử và đồng hành cùng phụ huynh trong giáo dục trẻ</em>-Hạnh phúc gia đình, Liên đoàn Lao động thành phố Hà Nội, Liên đoàn ngành xây dựng Hà Nội, Công đoàn quận Hai Bà Trưng, Công an quận…</span></p>
                                                                 <p><span>– Chuyên gia cao cấp hỗ trợ vận hành các phòng Tham vấn học đường trên địa bàn Hà Nội và các tỉnh lân cận</span></p>
-                                                                <p><span style="color: #9fc83e;"><strong>Các công trình nghiên cứu khoa học</strong></span></p>
+
+                                                                <p style="font-size: 20.8px; color: #4D9D37; font-weight: bolder;">CÁC CÔNG TRÌNH NGHIÊN CỨU KHOA HỌC</strong></span></p>
                                                                 <p><span>– Thực hiện Đề tài “Nhu cầu tham vấn tâm lí của trẻ em bị ảnh hưởng bởi HIV/AIDS”</span></p>
                                                                 <p><span>– Chủ nhiệm đề tài cấp Bộ “Các yếu tố ảnh hưởng và biện pháp can thiệp nhằm giảm thiểu hành vi gây hấn của học sinh trung học cơ sở”</span></p>
                                                                 <p><span>– Thư ký đề tài cấp Sở “Thực trạng và các giải pháp nâng cao năng lực phòng ngừa và ứng phó với quấy rối tình dục ở nữ giới trên địa bàn thành phố Hà Nội trong giai đoạn hiện nay”</span></p>
