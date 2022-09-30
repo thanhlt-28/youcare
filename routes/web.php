@@ -93,9 +93,17 @@ Route::prefix('/')->group(function () {
     Route::get('danh-cho-quan-ly', function () {
         return view('layouts.procedure.manager');
     })->name('layouts.procedure.manager');
+
     Route::get('danh-cho-nha-chuyen-mon', function () {
-        return view('layouts.procedure.dure_five');
-    })->name('layouts.procedure.dure_five');
+        return view('.dure_five');
+    })->name('.dure_five');
+
+    Route::get('hanh-trinh-1', function () {
+        return view('layouts.procedure.set__once');
+    })->name('layouts.procedure.set__once');
+    Route::get('hanh-trinh-2', function () {
+        return view('layouts.procedure.set__twice');
+    })->name('layouts.procedure.set__twice');
 
 
     // ====== Tài nguyên ============================ //

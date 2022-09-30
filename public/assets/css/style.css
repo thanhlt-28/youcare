@@ -2038,6 +2038,9 @@ q:after {
 /* Accordion thay cho tabs */
 
 
+.content-items {
+    margin: 0px 15px 0px 15px;
+}
 
 .tab-content {
     margin-left: 0px;
@@ -3585,11 +3588,9 @@ q:after {
     }
 
     .nav-border {
-        border: 2px solid #94c045;
-        border-top-left-radius: 20px;
-        border-top-right-radius: 20px;
-        border-bottom-left-radius: 20px;
-        border-bottom-right-radius: 20px;
+        border: 1px solid #67ac2f;
+        padding: 20px;
+        border-radius: 20px;
     }
 
     .nav-pills .nav-link {

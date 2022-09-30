@@ -29,8 +29,8 @@
             <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='currentColor'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item"><a href="{{'/'}}">Trang chủ</a></li>
-                    <li class="breadcrumb-item" aria-current="page"><a href="{{route('layouts.ck_detail.ckcare_school')}}">CKSchool</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">High-School</li>
+                    <li class="breadcrumb-item" aria-current="page"><a href="{{route('layouts.ck_detail.ckcare_school')}}">Trường học</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Trường phổ thông</li>
                 </ol>
             </nav>
         </div>
@@ -128,7 +128,7 @@
                                         <path d="M569.994 235.629L589.968 229.988L589.989 230.071L570.057 235.775L569.994 235.629Z" fill="white" />
                                         <path d="M609.922 224.346L619.972 221.505L609.922 224.367V224.346Z" fill="white" />
 
-                                        <a class="pro__once" href="http://youcare.vn/hanh-trinh-1/" target="_blank">
+                                        <a class="pro__once" href="{{route('layouts.procedure.set__once')}}" target="_blank">
                                             <rect x="153" y="506" width="476" height="127" rx="19" fill="white" stroke="#67AC2F" stroke-width="2" />
                                             <path d="M151.992 650.984C197.275 650.984 233.984 614.275 233.984 568.992C233.984 523.709 197.275 487 151.992 487C106.709 487 70 523.709 70 568.992C70 614.275 106.709 650.984 151.992 650.984Z" fill="#67AC2F" />
                                             <path class="pro__bgr" d="M152.873 632.395C187.889 632.395 216.275 604.009 216.275 568.992C216.275 533.976 187.889 505.589 152.873 505.589C117.856 505.589 89.4697 533.976 89.4697 568.992C89.4697 604.009 117.856 632.395 152.873 632.395Z" fill="white" />
@@ -136,7 +136,7 @@
                                             <path class="pro__text" d="M160.829 601H146.632V551.691C144.979 552.803 143.146 553.749 141.133 554.531C139.15 555.312 136.971 556.078 134.597 556.829L130.721 545.471C134.838 544.269 138.729 542.767 142.395 540.964C146.061 539.161 149.336 537.148 152.221 534.924H160.829V601Z" fill="#333333" />
                                         </a>
 
-                                        <a class="pro__twice" href="http://youcare.vn/hanh-trinh-2/" target="_blank">
+                                        <a class="pro__twice" href="{{route('layouts.procedure.set__twice')}}" target="_blank">
                                             <rect x="120" y="21" width="476" height="127" rx="19" fill="white" stroke="#1D6495" stroke-width="2" />
                                             <path d="M592.024 164.898C637.307 164.898 674.016 128.189 674.016 82.9063C674.016 37.6234 637.307 0.914307 592.024 0.914307C546.741 0.914307 510.032 37.6234 510.032 82.9063C510.032 128.189 546.741 164.898 592.024 164.898Z" fill="#1D6495" />
                                             <path class="pro__bgr" d="M592.904 146.309C627.921 146.309 656.307 117.923 656.307 82.9065C656.307 47.8901 627.921 19.5037 592.904 19.5037C557.888 19.5037 529.501 47.8901 529.501 82.9065C529.501 117.923 557.888 146.309 592.904 146.309Z" fill="white" />

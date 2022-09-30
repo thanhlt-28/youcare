@@ -5,7 +5,7 @@
         <div class="row justify-content-center mt-5">
             <div class="col-lg-12">
                 <div class="row justify-content-center mt-3">
-                    <div class="col-lg-10 align-self-baseline position-relative">
+                    <div class="col-lg-8 align-self-baseline position-relative">
                         <div class="section-title">
                             <h2>ĐỘI NGŨ CHUYÊN GIA</h2>
                         </div>
