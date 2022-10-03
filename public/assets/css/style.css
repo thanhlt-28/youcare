@@ -1023,8 +1023,10 @@ section {
     }
 
     .value_desc {
-        display: block;
+        display: flex;
+        justify-content: center;
         margin-top: 0rem;
+        width: 50%;
     }
 }
 
@@ -1106,7 +1108,7 @@ section {
 }
 
 .ckcare__total {
-    margin-top: 4%;
+    margin-top: 10%;
 }
 
 .ckcare__total__content {
@@ -1377,6 +1379,7 @@ section {
     margin-bottom: 3rem;
 }
 
+
 .value__ckcare {
     margin-top: 3rem;
 }
@@ -1384,6 +1387,7 @@ section {
 .value_image {
     margin-top: -2%;
 }
+
 
 /* .value_desc {
     display: flex;
@@ -5043,7 +5047,7 @@ q:after {
         color: #67ac2f;
     }
 
-    .content-wrap{
+    .content-wrap {
         padding: 20px;
     }
 
