@@ -6087,3 +6087,38 @@ Hành trình cho mầm non &&&&&& phổ thông
 .ckcare__high:hover path {
     fill: #67ac2f;
 }
+
+/* < !-- css giải pháp tổng thể--> */
+
+
+.motion__once:hover g path {
+    fill: #fff;
+}
+
+.motion__once:hover path {
+    fill: #E65925;
+}
+
+.motion__twice:hover g path {
+    fill: #fff;
+}
+
+.motion__twice:hover path {
+    fill: #01CC9B;
+}
+
+.motion__three:hover g path {
+    fill: #fff;
+}
+
+.motion__three:hover path {
+    fill: #67AC2F;
+}
+
+.motion__four:hover g path {
+    fill: #fff;
+}
+
+.motion__four:hover path {
+    fill: #1d6495;
+}
