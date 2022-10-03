@@ -1,4 +1,4 @@
-@section('title', 'Hành trình 3')
+@section('title', 'Hành trình 2')
 @section('content')
 @extends('layouts.main')
 
@@ -52,7 +52,7 @@
                 <div class="row">
 
                     <div class="col-12 col-lg-7">
-                        <div class="content-body d-flex align-items-center">
+                        <div style="padding:20px" class="content-body d-flex align-items-center">
                             <div>
                                 <i><i class="bi bi-circle-square"></i> BrainCare xây dựng chương trình chăm sóc sức khỏe tinh thần toàn diện cho trẻ em, phối hợp giữa nhà trường, phụ huynh và học sinh.</i>
                                 <br>
