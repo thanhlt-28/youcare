@@ -42,158 +42,19 @@
         <div class="section-title mt-5">
             <h2 class="text-uppercase">Sàng lọc & theo dõi</h2>
         </div>
-
-        <!-- ======= Features Section ======= -->
-        <section id="features" class="features">
+        <main>
             <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="row">
-                            <div class="col-lg-6 col-md-6">
-                                <div class="row">
-                                    <div class="col-lg-6 col-md-6 mt-3">
-                                        <a href="{{route('clients.ckcare.asq3')}}" target="_blank">
-                                            <div class="icon-box">
-                                                <i class="bi bi-shop" style="color: #ffbb2c;"></i>
-                                                <h3>ASQ-3</h3>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <div class="col-lg-6 col-md-6 mt-3">
-                                        <a href="{{route('clients.ckcare.cbcl')}}" target="_blank">
-                                            <div class="icon-box">
-                                                <i class="bi bi-calendar-check-fill" style="color: #e80368;"></i>
-                                                <h3>CBCL</h3>
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-lg-6 col-md-6 mt-3">
-                                        <a href="{{route('clients.ckcare.adhd')}}" target="_blank">
-                                            <div class="icon-box">
-                                                <i class="bi bi-bar-chart-line" style="color: #5578ff;"></i>
-                                                <h3>ADHD</h3>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <div class="col-lg-6 col-md-6 mt-3">
-                                        <a href="{{route('clients.ckcare.mchat')}}" target="_blank">
-                                            <div class="icon-box">
-                                                <i class="bi bi-paint-bucket" style="color: #e361ff;"></i>
-                                                <h3>M-CHAT</h3>
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-6 col-md-6">
-                                <div class="col-lg-12 col-md-12">
-                                    <div>
-                                        <img class="card" src="{{asset('assets/img/ck-detail.png')}}" alt="">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+
+                <section class="section error-404 min-vh-100 d-flex flex-column align-items-center justify-content-center">
+                    <h2>Nội dụng đang được xây dựng, vui lòng quay trở lại trang chủ.</h2>
+                    <a class="btn btn-success rounded-pill text-white" href="{{('/')}}">Trang chủ</a>
+                    <img src="{{asset('assets/img/not-found.jpg')}}" width="50%" class="img-fluid py-5" alt="Page Not Found">
+                </section>
+
             </div>
-        </section>
-        <!-- End Features Section -->
+        </main>
 
-
-        <!-- ======= Features Section ======= -->
-        <div class="container-fluild aos-init aos-animate">
-            <div class="container">
-                <div class="pre__card">
-                    <div class="pre__card__hd">
-                        <div class="section-title">
-                            <h2 class="ck_header">QUY TRÌNH SÀNG LỌC</h2>
-                        </div>
-                        <div class="pre__card_box">
-                            <div class="row row-cols-1 row-cols-md-3 g-4">
-                                <div class="col pre__box">
-                                    <a target="_blank" href="{{route('layouts.procedure.teacher')}}">
-                                        <div class="pre__box_1">
-                                            <div class="pre__img">
-                                                <img src="{{asset('assets/img/clients/pre-danh-cho-giao-vien.jpg')}}" alt="">
-                                            </div>
-                                            <div class="pre__box__content">
-                                                DÀNH CHO GIÁO VIÊN
-                                            </div>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col pre__box">
-                                    <a target="_blank" href="{{route('layouts.procedure.manager')}}">
-                                        <div class="pre__box_2">
-                                            <div class="pre__img">
-                                                <img src="{{asset('assets/img/clients/pre-danh-cho-quan-ly.jpg')}}" alt="">
-                                            </div>
-                                            <div class="pre__box__content">
-                                                DÀNH CHO QUẢN LÝ
-                                            </div>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col pre__box">
-                                    <a target="_blank" href="{{route('layouts.procedure.parents')}}">
-                                        <div class="pre__box_3">
-                                            <div class="pre__img">
-                                                <img src="{{asset('assets/img/clients/pre-danh-cho-cha-me.jpg')}}" alt="">
-                                            </div>
-                                            <div class="pre__box__content">
-                                                DÀNH CHO CHA MẸ
-                                            </div>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="container__mobile">
-                    <div class="section-title">
-                        <h2 class="ck_header">QUY TRÌNH SÀNG LỌC</h2>
-                    </div>
-                    <div class="container__mobile__items">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div class="col-lg-6 col-md-6 mt-3">
-                                    <div class="pre__box_hd">
-                                        <a href="{{route('layouts.procedure.teacher')}}" target="_blank">
-                                            <div class="icon__box text-center">
-                                                DÀNH CHO GIÁO VIÊN
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 col-md-6 mt-3">
-                                    <div class="pre__box_hd">
-                                        <a target="_blank" href="{{route('layouts.procedure.manager')}}">
-                                            <div class="icon__box text-center">
-                                                DÀNH CHO QUẢN LÝ
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 col-md-6 mt-3">
-                                    <div class="pre__box_hd">
-                                        <a target="_blank" href="{{route('layouts.procedure.parents')}}">
-                                            <div class="icon__box text-center">
-                                                DÀNH CHO CHA MẸ
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- End Features Section -->
+        <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
 
         @include('layouts.team')

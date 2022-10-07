@@ -166,6 +166,21 @@ Route::prefix('/')->group(function () {
         return view('clients.ckcare.mchat');
     })->name('clients.ckcare.mchat');
 
+
+    // 4 Giải pháp ckcare
+    Route::get('sang-loc-theo-doi', function () {
+        return view('clients.ckcare_motion.1-sl&td');
+    })->name('clients.ckcare_motion.1-sl&td');
+    Route::get('danh-gia-chuyen-sau', function () {
+        return view('clients.ckcare_motion.2-dgcs');
+    })->name('clients.ckcare_motion.2-dgcs');
+    Route::get('can-thiep-tri-lieu', function () {
+        return view('clients.ckcare_motion.3-ct&tl');
+    })->name('clients.ckcare_motion.3-ct&tl');
+    Route::get('ho-tro-dong-hanh', function () {
+        return view('clients.ckcare_motion.4-ht&dh');
+    })->name('clients.ckcare_motion.4-ht&dh');
+
     // ============================================================== //
     // Chuyên gia - chi tiết
     Route::get('thay-thuoc-uu-tu-nguyen-van-dung', function () {

@@ -6,30 +6,36 @@
 <!-- ======= Breadcrumbs ======= -->
 <section id="breadcrumbs" class="breadcrumbs">
     <div class="breadcrumb-ckcare"></div>
-    <div class="bread-ckcare">
+    <div class="bread-pre-school">
         <div class="container">
             <div class="header-hero">
-                <a href="https://ck.youcare.vn/user/login" target="_blank">
-                    <button type="button" class="btn btn-outline-success rounded-pill">Sàng lọc ngay</button>
-                </a>
+                <div class="header-hero__slogan">
+                    <h2>Hãy bắt đầu theo dõi & sàng lọc <br /> cho trẻ ngay từ hôm nay!</h2>
+                </div>
+                <div class="header__btn__cta">
+                    <a href="https://ck.youcare.vn/user/login" target="_blank">
+                        <button type="button" class="btn btn-outline-success rounded-pill">Sàng lọc ngay</button>
+                    </a>
+                </div>
             </div>
         </div>
     </div>
     <div class="slogan-ckcare">
         <p class="slogan">
-            <q>Không trẻ em nào bị bỏ lại phía sau - Hãy bắt đầu theo dõi và sàng lọc cho trẻ ngay từ hôm nay!</q>
+            <q>Không trẻ em nào bị bỏ lại phía sau</q>
         </p>
     </div>
     <div class="container">
         <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='currentColor'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
             <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="{{'/'}}">Trang chủ</a></li>
-                <li class="breadcrumb-item" aria-current="page"><a href="{{route('layouts.ck_detail.ckcare_once')}}">Ứng dụng CKCare</a></li>
-                <li class="breadcrumb-item active" aria-current="page">Thang đo ASQ-3</li>
+                <<li class="breadcrumb-item"><a href="/">Trang chủ</a></li>
+                    <li class="breadcrumb-item" aria-current="page"><a href="{{route('layouts.ck_detail.ckcare_school')}}">Trường học</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Thang đo ASQ3</li>
             </ol>
         </nav>
     </div>
 </section>
+<!-- End Breadcrumbs -->
 <!-- End Breadcrumbs -->
 <section id="pricing" class="pricing">
     <div class="section-title" data-aos="fade-up">
