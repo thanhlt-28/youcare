@@ -13,7 +13,7 @@
     <div class="row">
       <div class="col-lg-6">
         <div class="hero-content">
-          <h2 class="hero-title">NỀN TẢNG CHĂM SÓC SỨC KHỎE TINH THẦN TOÀN DIỆN</h2>
+          <h2 class="hero-title">NỀN TẢNG CHĂM SÓC SỨC KHỎE <br/> TINH THẦN TOÀN DIỆN</h2>
           <p class="hero-left">YouCare ứng dụng công nghệ vào việc theo dõi, sàng lọc, đánh giá, trị liệu và chăm sóc sức khỏe tinh thần cho cộng đồng. YouCare ứng dụng công nghệ để lan tỏa những trí tuệ của các chuyên gia hàng đầu trong lĩnh vực chăm sóc sức khỏe tinh thần.</p>
 
           <a href="{{route('clients.platform.product')}}" 
