@@ -1,4 +1,4 @@
-@section('title', 'Hành trình 1')
+@section('title', 'Sàng lọc & theo dõi')
 @section('content')
 @extends('layouts.main')
 
@@ -30,7 +30,7 @@
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item"><a href="/">Trang chủ</a></li>
                     <li class="breadcrumb-item" aria-current="page"><a href="{{route('layouts.ck_detail.ckcare_school')}}">Trường học</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">Hành trình 1</li>
+                    <li class="breadcrumb-item active" aria-current="page">Sàng lọc & theo dõi</li>
                 </ol>
             </nav>
         </div>
@@ -40,7 +40,7 @@
     <section id="pricing" class="pricing">
 
         <div class="section-title mt-5">
-            <h2 class="text-uppercase">Giới thiệu bộ công cụ</h2>
+            <h2 class="text-uppercase">Sàng lọc & theo dõi</h2>
         </div>
 
         <!-- ======= Features Section ======= -->

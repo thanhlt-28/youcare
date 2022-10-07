@@ -35,7 +35,7 @@
         <div class="container">
             <div class="row row-cols-1 row-cols-md-5 g-4">
                 <div class="col-lg-3 col-md-12">
-                    <div class="box feature" data-aos="fade-up">
+                    <div class="box feature">
                         <!-- <h3>San Pham 1</h3> -->
                         <a href="{{route('clients.platform.ckcare_detail')}}">
                             <div style="border: none;" class="card h-100">
@@ -57,7 +57,7 @@
 
 
                 <div class="col-lg-3 col-md-12">
-                    <div class="box feature" data-aos="fade-up">
+                    <div class="box feature">
                         <!-- <h3>San Pham 2</h3> -->
                         <a href="{{route('clients.platform.pubcare')}}">
                             <div style="border: none;" class="card h-100">
@@ -77,7 +77,7 @@
                 </div>
 
                 <div class="col-lg-3 col-md-12">
-                    <div class="box feature" data-aos="fade-up">
+                    <div class="box feature">
                         <!-- <h3>San Pham 4</h3> -->
                         <a href="{{route('clients.platform.bizcare')}}">
                             <div style="border: none;" class="card h-100">
@@ -98,7 +98,7 @@
                 </div>
 
                 <div class="col-lg-3 col-md-12">
-                    <div class="box feature" data-aos="fade-up">
+                    <div class="box feature">
                         <!-- <h3>San Pham 4</h3> -->
                         <a href="{{route('clients.platform.bizcare')}}">
                             <div style="border: none;" class="card h-100">
