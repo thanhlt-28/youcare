@@ -1,4 +1,4 @@
-@section('title', 'Sàng lọc & theo dõi')
+@section('title', 'Can thiệp & trị liệu')
 @section('content')
 @extends('layouts.main')
 
@@ -30,7 +30,7 @@
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item"><a href="/">Trang chủ</a></li>
                     <li class="breadcrumb-item" aria-current="page"><a href="{{route('layouts.ck_detail.ckcare_school')}}">Trường học</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">Sàng lọc & theo dõi</li>
+                    <li class="breadcrumb-item active" aria-current="page">Can thiệp & trị liệu</li>
                 </ol>
             </nav>
         </div>
@@ -40,22 +40,14 @@
     <section id="pricing" class="pricing">
 
         <div class="section-title mt-5">
-            <h2 class="text-uppercase">Sàng lọc & theo dõi</h2>
+            <h2 class="text-uppercase">Can thiệp & trị liệu</h2>
         </div>
-        <main>
-            <div class="container">
-
-                <section class="section error-404 min-vh-100 d-flex flex-column align-items-center justify-content-center">
-                    <h2>Nội dung đang được xây dựng, vui lòng quay trở lại trang chủ.</h2>
-                    <a class="btn btn-success rounded-pill text-white" href="{{('/')}}">Trang chủ</a>
-                    <img src="{{asset('assets/img/not-found.jpg')}}" width="50%" class="img-fluid py-5" alt="Page Not Found">
-                </section>
-
-            </div>
-        </main>
-
-        <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-
+        <section class="section min-vh-50 d-flex flex-column align-items-center justify-content-center">
+            <h2>Nội dung đang được xây dựng, vui lòng quay trở lại trang chủ.</h2>
+            <a class="btn btn-success rounded-pill text-white" href="{{('/')}}">Trang chủ</a>
+            <img src="{{asset('assets/img/not-found.jpg')}}" width="30%" class="img-fluid" alt="Page Not Found">
+        </section>
+        
 
         @include('layouts.team')
         @include('layouts.say')
@@ -63,6 +55,7 @@
     </section>
 
     @include('clients.about.group')
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
 </main>
 
