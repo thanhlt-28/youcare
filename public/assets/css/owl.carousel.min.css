@@ -64,10 +64,11 @@
         color: #fff;
     }
     .profile__content{
-        padding: 20px;
+        margin: 0px 15% 0px 15%;
         color: #fff;
         text-align: justify;
         font-size: 16px;
+        line-height: 20px;
     }
     
 }
@@ -80,8 +81,8 @@
     max-width: 720px;
     position: relative;
     overflow: hidden;
-    padding: 3%;
-    border-radius: 30px;
+    padding: 5% 15% 5% 15%;
+    border-radius: 0%;
 }
 
 .owl-carousel .owl-dots.disabled,

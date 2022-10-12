@@ -1414,7 +1414,7 @@ section {
     }
 
     .slogan-ckcare p {
-        font-size: 15px;
+        font-size: 20px;
         padding: 10px 5px 10px 5px;
         margin: 0px 5px 0px 5px;
         font-weight: 400;
@@ -1697,7 +1697,8 @@ q:after {
 @media only screen and (max-width: 600px) {
     .cta p {
         text-align: center;
-        font-size: 10px;
+        font-size: 16px;
+        line-height: 20px;
     }
 }
 
@@ -3241,14 +3242,14 @@ q:after {
         font-family: 'Segoe UI', 'Poppins', sans-serif;
         font-style: normal;
         font-weight: 400;
-        font-size: 12px;
-        line-height: 16px;
+        font-size: 16px;
+        line-height: 20px;
         text-align: justify;
         color: #000000;
     }
 
     .breadcrumbs ol {
-        font-size: 12px;
+        font-size: 16px;
     }
 
     .about-knowledge .play-btn {
@@ -3403,7 +3404,7 @@ q:after {
 
     /* @media screen and (max-width: 991.98px)  */
     .media-29102 .img-circle {
-        height: 85px;
+        height: 100px;
         width: 61% !important;
     }
 
@@ -4982,7 +4983,7 @@ q:after {
     }
 
     .btn__cta {
-        font-size: 10px;
+        font-size: 18px;
         border-radius: 5px;
         padding: 5px 10px 6px 10px;
     }
