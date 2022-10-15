@@ -1114,6 +1114,9 @@ section {
 .ckcare__total__content {
     width: 70%;
 }
+.ckcare__total__content__mobile {
+    display: none;
+}
 
 .ckcare__total_school {
     margin-top: 5rem;
@@ -1273,6 +1276,13 @@ section {
 }
 
 @media screen and (max-width: 991.98px) {
+    .ckcare__total__content {
+        display: none;
+    }
+    .ckcare__total__content__mobile {
+        width: 100%;
+        display: block;
+    }
     .total__title_family .total_click {
         font-size: 17px;
         margin-top: 20px;

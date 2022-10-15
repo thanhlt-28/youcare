@@ -4,7 +4,7 @@
       <div class="row">
         <div class="col-lg-4 col-md-6 footer-info">
           <a href="{{'/'}}">
-            <img width="30%" src="{{asset('assets/img/svg/logo-ft.svg')}}" alt="logo">
+            <img width="30%" src="{{asset('assets/img/svg/logo-ft.png')}}" alt="logo">
           </a>
           <div class="mt-3">
             <b style="font-size: 19px;">Trung tâm chăm sóc sức khỏe tinh thần BrainCare</b>
@@ -95,7 +95,7 @@
       <div class="row">
         <div class="col-lg-4 col-md-6 footer-info mx-0">
           <a href="{{'/'}}">
-            <img width="30%" src="{{asset('assets/img/svg/logo-ft.svg')}}" alt="logo">
+            <img width="30%" src="{{asset('assets/img/svg/logo-ft.png')}}" alt="logo">
           </a>
           <div class="mt-3">
             <b style="font-size: 16px;">Trung tâm chăm sóc sức khỏe tinh thần BrainCare</b>
