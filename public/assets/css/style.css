@@ -1114,6 +1114,7 @@ section {
 .ckcare__total__content {
     width: 70%;
 }
+
 .ckcare__total__content__mobile {
     display: none;
 }
@@ -1279,10 +1280,12 @@ section {
     .ckcare__total__content {
         display: none;
     }
+
     .ckcare__total__content__mobile {
         width: 100%;
         display: block;
     }
+
     .total__title_family .total_click {
         font-size: 17px;
         margin-top: 20px;
@@ -5957,12 +5960,10 @@ q:after {
     fill: #fff;
 }
 
-.org__bottom:hover {
-    fill: #67AC2F;
-    transition: all 1s;
-    transform-origin: 50% 50%;
-    transform: scale(1.01);
-    /* filter: drop-shadow(2px 0px 2px #467520); */
+
+.org__theme:hover .org__box {
+    fill: #1c540d;
+    /* transition: all 1s; */
 }
 
 /* <!-- css trẻ em --> */
@@ -6111,6 +6112,7 @@ Hành trình cho mầm non &&&&&& phổ thông
 
 .motion__once:hover g path {
     fill: #fff;
+    transition: all 0.1s;
 }
 
 .motion__once:hover path {
@@ -6119,6 +6121,7 @@ Hành trình cho mầm non &&&&&& phổ thông
 
 .motion__twice:hover g path {
     fill: #fff;
+    transition: all 0.1s;
 }
 
 .motion__twice:hover path {
@@ -6127,6 +6130,7 @@ Hành trình cho mầm non &&&&&& phổ thông
 
 .motion__three:hover g path {
     fill: #fff;
+    transition: all 0.1s;
 }
 
 .motion__three:hover path {
@@ -6135,6 +6139,7 @@ Hành trình cho mầm non &&&&&& phổ thông
 
 .motion__four:hover g path {
     fill: #fff;
+    transition: all 0.1s;
 }
 
 .motion__four:hover path {
