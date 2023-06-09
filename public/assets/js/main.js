@@ -296,6 +296,8 @@ $(function() {
     }
 
 })
+
+
 $(function() {
 
     var owl = $('.slide-one-item');
@@ -306,8 +308,8 @@ $(function() {
         loop: true,
         stagePadding: 0,
         margin: 0,
-        smartSpeed: 1500,
-        autoplay: true,
+        // smartSpeed: 1500,
+        autoplay: false,
         nav: true,
         dots: true,
         pauseOnHover: true,
@@ -316,14 +318,14 @@ $(function() {
 
     $('.thumbnail li').each(function(slide_index) {
         $(this).click(function(e) {
-            owl.trigger('to.owl.carousel', [slide_index, 1500]);
+            owl.trigger('to.owl.carousel', [slide_index, 0]);
             e.preventDefault();
         })
     })
 
     owl.on('changed.owl.carousel', function(event) {
         $('.thumbnail li').removeClass('active');
-        $('.thumbnail li').eq(event.item.index - 2).addClass('active');
+        $('.thumbnail li').eq(event.item.index).addClass('active');
     })
 
 

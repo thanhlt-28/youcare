@@ -39,23 +39,50 @@
 
     <section id="pricing" class="pricing">
 
-        <div class="section-title mt-5">
+        <div class="section-title">
             <h2 class="text-uppercase">Hỗ trợ & đồng hành</h2>
         </div>
-        <section class="section min-vh-50 d-flex flex-column align-items-center justify-content-center">
+        <!-- <section class="section min-vh-50 d-flex flex-column align-items-center justify-content-center">
             <h2>Nội dung đang được xây dựng, vui lòng quay trở lại trang chủ.</h2>
             <a class="btn btn-success rounded-pill text-white" href="{{('/')}}">Trang chủ</a>
             <img src="{{asset('assets/img/not-found.jpg')}}" width="30%" class="img-fluid" alt="Page Not Found">
-        </section>
+        </section> -->
 
+        <div class="container mb-3">
+            <div class="row">
+                <div class="col-md-6 slider-teams d-flex align-items-center justify-content-center">
+                    <div class="ck__content">
+                        <div class="ck__content_item">
+                            <p><b style="font-weight: 500; color: #67ac2f;">Chúng tôi gọi đây là “gói đồng hành”.</b></p>
+                            <p> Sau quá trình can thiệp, trị liệu, nhà trường/tổ chức/phụ huynh/các em có thể tiếp tục sử dụng gói đồng hành với YouCare.</p>
+                            <p> &#8226; Với nhà trường, các chuyên gia Youcare giàu kinh nghiệm là các Tiến sĩ, Thạc sĩ sẽ hỗ trợ, đồng hành cùng nhà trường trong quá trình xây dựng và triển khai các chương trình phòng ngừa đồng thời tư vấn xây dựng các chương trình phát triển toàn diện cho học sinh. Việc xây dựng các chương trình trên giúp thầy cô giảm tối đa thời gian phải tự loay hoay đi tìm giải pháp và là cơ sở, tiền đề để xây dựng trường học hạnh phúc mỗi ngày.</p>
+                            <p> &#8226; Bên cạnh đó, các chuyên gia YouCare sẽ xây dựng các hoạt động ngoại khóa, các buổi chia sẻ về hoạt động nâng cao giá trị cho nhà trường, từ đó, giúp gia tăng hiệu quả kết nối giữa nhà trường-phụ huynh-học sinh.</p>
+                            <p> &#8226; YouCare sẽ đồng hành, hỗ trợ, định hướng cho phụ huynh và học sinh, giúp các em tìm thấy giá trị sống để tích cực hơn mỗi ngày.</p>
 
+                        </div>
+                    </div>
+                </div>
 
-        @include('layouts.team')
-        @include('layouts.say')
+                <div class="col-md-6">
+                    <div class="about-knowledge">
+                        <div class="container aos-init aos-animate">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-12 video-box align-self-baseline position-relative">
+                                    <img src="{{asset('assets/img/blog/video-img.jpg')}}" class="img-fluid" alt="">
+                                    <a href="https://youtu.be/7Dth98I6New" class="glightbox play-btn mb-4"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
     </section>
 
-    @include('clients.about.group')
+    @include('layouts.team')
+    @include('layouts.say')
+
     <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 </main>
 

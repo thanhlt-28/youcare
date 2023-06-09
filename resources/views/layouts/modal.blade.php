@@ -14,20 +14,16 @@
                     </div>
                     <!-- M.body -->
                     <div class="modal-body">
-                        Vấn đề phải làm với việc định vị các thùng chứa cha. Bạn có thể dễ dàng "di chuyển" phương thức của mình ra khỏi các thùng chứa này trước khi hiển thị nó. Đây là cách thực hiện nếu bạn đang showsử dụng phương thức của mình bằng js:
-                        <h4>Giáo viên</h4>
-                        <p>Phát hiện sớm những học sinh có những vấn đề về sức khoẻ tinh thần để thông báo cho phụ huynh kịp thời.
-                            Cho kết quả nhanh và chính xác</p>
-                        <p>Dễ dàng theo dõi sự phát triển của trẻ em nhằm phát hiện sớm những vấn đề giúp cho học sinh được hỗ trợ kịp thời.</p>
-                        <p>Không cần phải đi tập huấn, đào tạo về sử dụng công cụ đánh giá. Đơn giản chỉ bằng click chuột.</p>
-                        <p>Các bộ công cụ đã được sử dụng nhiều nước trên thế giới và được chuẩn hóa phù hợp với người Việt Nam.</p>
-                        <p>Dễ dàng quản lý tình trạng sức khoẻ tâm thần của học sinh trong lớp mà không cần kiến thức chuyên môn.</p>
-                        <p>Được hỗ trợ của các chuyên gia đầu ngành về sức khỏe tinh thần khi học sinh gặp phải vấn đề.</p>
+                        <section class="section min-vh-50 d-flex flex-column align-items-center justify-content-center">
+                            <h6>Nội dung đang được xây dựng, quý khách vui lòng đóng cửa sổ hoặc quay trở lại trang chủ.</h6>
+                            <a class="btn btn-success rounded-pill text-white" href="{{('/')}}">Trang chủ</a>
+                            <img src="{{asset('assets/img/not-found.jpg')}}" width="30%" class="img-fluid" alt="Page Not Found">
+                        </section>
                     </div>
 
                     <!-- M.footer -->
                     <div class="modal-footer">
-                        <a target="_blank" href="https://ck.youcare.vn/user/register">
+                        <a href="https://ck.youcare.vn/user/register">
                             <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Đăng kí</button>
                         </a>
                         <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Đóng</button>
@@ -36,7 +32,7 @@
             </div>
         </div>
         <div class="btn__sign">
-            <a target="_blank" href="https://ck.youcare.vn/user/register">
+            <a href="https://ck.youcare.vn/user/register">
                 <button type="button" class="btn__modal">
                     ĐĂNG KÝ
                 </button>

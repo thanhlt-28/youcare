@@ -39,22 +39,43 @@
 
     <section id="pricing" class="pricing">
 
-        <div class="section-title mt-5">
+        <div class="section-title">
             <h2 class="text-uppercase">Can thiệp & trị liệu</h2>
         </div>
-        <section class="section min-vh-50 d-flex flex-column align-items-center justify-content-center">
+        <!-- <section class="section min-vh-50 d-flex flex-column align-items-center justify-content-center">
             <h2>Nội dung đang được xây dựng, vui lòng quay trở lại trang chủ.</h2>
             <a class="btn btn-success rounded-pill text-white" href="{{('/')}}">Trang chủ</a>
             <img src="{{asset('assets/img/not-found.jpg')}}" width="30%" class="img-fluid" alt="Page Not Found">
-        </section>
-        
+        </section> -->
+        <div class="container mb-3">
+            <div class="row">
+                <div class="col-md-6 slider-teams d-flex align-items-center justify-content-center">
+                    <div class="ck__content">
+                        <div class="ck__content_item">
+                            <p> Việc đánh giá chuyên sâu giúp xác định rõ được vấn đề là cơ sở để các chuyên gia YouCare đưa ra các lộ trình can thiệp, trị liệu phù hợp với từng học sinh. Đội ngũ chuyên gia của YouCare sẽ hỗ trợ Phụ huynh/giáo viên lập kế hoạch giáo dục cá nhân cho các con, sử dụng các bài tập, các chiến lược để can thiệp, hỗ trợ con ở nhà/ở lớp. Chuyên gia sẽ sử dụng những phương pháp, những liệu pháp trị liệu tiên tiến hàng đầu, có độ tin cậy cao và đã được chuẩn hóa phù hợp với người Việt Nam như MBAT, CBT, DASS21, BECK,...để tối ưu hiệu quả trị liệu với từng học sinh ở nhiều môi trường khác nhau (ở trường, ở nhà, ở trung tâm YouCare).</p>
+                        </div>
+                    </div>
+                </div>
 
-        @include('layouts.team')
-        @include('layouts.say')
-
+                <div class="col-md-6">
+                    <div class="about-knowledge">
+                        <div class="container aos-init aos-animate">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-12 video-box align-self-baseline position-relative">
+                                    <img src="{{asset('assets/img/blog/video-img.jpg')}}" class="img-fluid" alt="">
+                                    <a href="https://youtu.be/7Dth98I6New" class="glightbox play-btn mb-4"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
-    @include('clients.about.group')
+    @include('layouts.team')
+    @include('layouts.say')
+
     <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
 </main>

@@ -10,6 +10,7 @@
     <link href="{{asset('assets/img/logo-landscape.png')}}" rel="logo-Landscape">
     <title> @yield('title', 'BrainCare')</title>
     @include('layouts.style')
+  
 </head>
 
 <body>
@@ -25,7 +26,14 @@
     @include('layouts.script')
 
     @yield('page-script')
+    <script>
+        $(document).ready(function() {
 
+            $(".item").click(function() {
+                $(this).addClass("active").siblings().removeClass("active");
+            });
+        });
+    </script>
 </body>
 
 </html>

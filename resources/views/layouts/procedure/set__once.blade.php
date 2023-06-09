@@ -50,17 +50,26 @@
                     <div class="col-md-12">
                         <div class="row">
                             <div class="col-lg-6 col-md-6">
+                                <!-- <img class="card" src="{{asset('assets/img/ck-detail.png')}}" alt=""> -->
+                                <div class="ck__content_item">
+                                    <p>
+                                    <p> Sàng lọc và đánh giá học sinh được tiến hành sàng lọc, đánh giá để phòng ngừa các rối loạn phát triển và rối nhiễu tâm lý. </p>
+                                    <p>Với CKCare, phụ huynh, giáo viên, nhà trường có thể tự đánh giá sự phát triển của học sinh một cách dễ dàng, nhanh chóng và chính xác tại bất cứ đâu mà không cần tham gia bất kỳ lớp tập huấn nào.</p>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6">
                                 <div class="row">
-                                    <div class="col-lg-6 col-md-6 mt-3">
-                                        <a href="{{route('clients.ckcare.asq3')}}" target="_blank">
+                                    <div class="col-lg-6 col-md-6 mt-2">
+                                        <a href="{{route('clients.ckcare.asq3')}}">
                                             <div class="icon-box">
                                                 <i class="bi bi-shop" style="color: #ffbb2c;"></i>
                                                 <h3>ASQ-3</h3>
                                             </div>
                                         </a>
                                     </div>
-                                    <div class="col-lg-6 col-md-6 mt-3">
-                                        <a href="{{route('clients.ckcare.cbcl')}}" target="_blank">
+                                    <div class="col-lg-6 col-md-6 mt-2">
+                                        <a href="{{route('clients.ckcare.cbcl')}}">
                                             <div class="icon-box">
                                                 <i class="bi bi-calendar-check-fill" style="color: #e80368;"></i>
                                                 <h3>CBCL</h3>
@@ -69,28 +78,21 @@
                                     </div>
                                 </div>
                                 <div class="row">
-                                    <div class="col-lg-6 col-md-6 mt-3">
-                                        <a href="{{route('clients.ckcare.adhd')}}" target="_blank">
+                                    <div class="col-lg-6 col-md-6 mt-2 mb-3">
+                                        <a href="{{route('clients.ckcare.adhd')}}">
                                             <div class="icon-box">
                                                 <i class="bi bi-bar-chart-line" style="color: #5578ff;"></i>
                                                 <h3>ADHD</h3>
                                             </div>
                                         </a>
                                     </div>
-                                    <div class="col-lg-6 col-md-6 mt-3">
-                                        <a href="{{route('clients.ckcare.mchat')}}" target="_blank">
+                                    <div class="col-lg-6 col-md-6 mt-2 mb-3">
+                                        <a href="{{route('clients.ckcare.mchat')}}">
                                             <div class="icon-box">
                                                 <i class="bi bi-paint-bucket" style="color: #e361ff;"></i>
                                                 <h3>M-CHAT</h3>
                                             </div>
                                         </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-6 col-md-6">
-                                <div class="col-lg-12 col-md-12">
-                                    <div>
-                                        <img class="card" src="{{asset('assets/img/ck-detail.png')}}" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -113,7 +115,7 @@
                         <div class="pre__card_box">
                             <div class="row row-cols-1 row-cols-md-3 g-4">
                                 <div class="col pre__box">
-                                    <a target="_blank" href="{{route('layouts.procedure.teacher')}}">
+                                    <a href="{{route('layouts.procedure.teacher')}}">
                                         <div class="pre__box_1">
                                             <div class="pre__img">
                                                 <img src="{{asset('assets/img/clients/pre-danh-cho-giao-vien.jpg')}}" alt="">
@@ -125,7 +127,7 @@
                                     </a>
                                 </div>
                                 <div class="col pre__box">
-                                    <a target="_blank" href="{{route('layouts.procedure.manager')}}">
+                                    <a href="{{route('layouts.procedure.manager')}}">
                                         <div class="pre__box_2">
                                             <div class="pre__img">
                                                 <img src="{{asset('assets/img/clients/pre-danh-cho-quan-ly.jpg')}}" alt="">
@@ -137,7 +139,7 @@
                                     </a>
                                 </div>
                                 <div class="col pre__box">
-                                    <a target="_blank" href="{{route('layouts.procedure.parents')}}">
+                                    <a href="{{route('layouts.procedure.parents')}}">
                                         <div class="pre__box_3">
                                             <div class="pre__img">
                                                 <img src="{{asset('assets/img/clients/pre-danh-cho-cha-me.jpg')}}" alt="">
@@ -162,7 +164,7 @@
                             <div class="col-md-12">
                                 <div class="col-lg-6 col-md-6 mt-3">
                                     <div class="pre__box_hd">
-                                        <a href="{{route('layouts.procedure.teacher')}}" target="_blank">
+                                        <a href="{{route('layouts.procedure.teacher')}}">
                                             <div class="icon__box text-center">
                                                 DÀNH CHO GIÁO VIÊN
                                             </div>
@@ -171,7 +173,7 @@
                                 </div>
                                 <div class="col-lg-6 col-md-6 mt-3">
                                     <div class="pre__box_hd">
-                                        <a target="_blank" href="{{route('layouts.procedure.manager')}}">
+                                        <a href="{{route('layouts.procedure.manager')}}">
                                             <div class="icon__box text-center">
                                                 DÀNH CHO QUẢN LÝ
                                             </div>
@@ -180,7 +182,7 @@
                                 </div>
                                 <div class="col-lg-6 col-md-6 mt-3">
                                     <div class="pre__box_hd">
-                                        <a target="_blank" href="{{route('layouts.procedure.parents')}}">
+                                        <a href="{{route('layouts.procedure.parents')}}">
                                             <div class="icon__box text-center">
                                                 DÀNH CHO CHA MẸ
                                             </div>

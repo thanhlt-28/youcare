@@ -41,6 +41,10 @@ Route::get('lien-he', function () {
     return view('clients.contact');
 })->name('clients.contact');
 
+Route::get('dieu-khoan-su-dung', function () {
+    return view('clients.police');
+})->name('clients.police');
+
 // ========== Router Clients ============================ //
 Route::prefix('/')->group(function () {
     // Giới thiệu
@@ -67,9 +71,6 @@ Route::prefix('/')->group(function () {
     // })->name('clients.about.group');
 
 
-    Route::get('ckcare', function () {
-        return view('clients.platform.ckcare_detail');
-    })->name('clients.platform.ckcare_detail');
     Route::get('pubcare', function () {
         return view('clients.platform.pubcare');
     })->name('clients.platform.pubcare');
@@ -79,6 +80,10 @@ Route::prefix('/')->group(function () {
     Route::get('bizcare', function () {
         return view('clients.platform.bizcare');
     })->name('clients.platform.bizcare');
+
+    Route::get('jobcare', function () {
+        return view('clients.platform.jobcare');
+    })->name('clients.platform.jobcare');
 
     // ========= Quy trình =============================//
     Route::get('danh-cho-giao-vien', function () {
@@ -128,6 +133,10 @@ Route::prefix('/')->group(function () {
 
 
     //CKCare 4.0
+    Route::get('ckcare', function () {
+        return view('layouts.ck_detail.ckcare_detail');
+    })->name('layouts.ck_detail.ckcare_detail');
+
     // CKCare School
     Route::get('ckcare-school', function () {
         return view('layouts.ck_detail.ckcare_school');
@@ -202,6 +211,10 @@ Route::prefix('/')->group(function () {
     Route::get('tien-si-nguyen-minh-phuong', function () {
         return view('layouts.profile.tsphuong');
     })->name('layouts.profile.tsphuong');
+
+    Route::get('thac-si-hoang-le-thuy', function () {
+        return view('layouts.profile.thsthuy');
+    })->name('layouts.profile.thsthuy');
 
     Route::get('thac-si-nguyen-thi-thanh-van', function () {
         return view('layouts.profile.thsnttvan');

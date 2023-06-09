@@ -13,11 +13,11 @@
                         <div class="about-knowledge">
                             <div class="row d-flex align-items-center">
                                 <div class="col-lg-10 video-box align-self-baseline position-relative">
-                                    <div class="border border-secondary rounded-3 shadow p-3 mb-5 bg-body rounded">
-                                        <img src="assets/img/blog/GV.png" class="img-fluid" alt="">
+                                    <div class="p-3 mb-5">
+                                        <img src="assets/img/blog/video-gv.jpg" class="img-fluid" alt="">
                                         <a href="https://youtu.be/7Dth98I6New" class="glightbox play-btn"></a>
                                         <div class="box-text text-center pt-3">
-                                            <h6>HD GIÁO VIÊN SỬ DỤNG BỘ CÔNG CỤ ĐÁNH GIÁ & SÀNG LỌC</h6>
+                                            <h6 class="proce-text">HD GIÁO VIÊN SỬ DỤNG BỘ CÔNG CỤ ĐÁNH GIÁ & SÀNG LỌC</h6>
                                         </div>
                                     </div>
                                 </div>
@@ -254,7 +254,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-md-6">
-                    <a class="d-flex align-item-start" href="{{route('layouts.procedure.teacher')}}">
+                    <a class="d-flex align-item-start" href="{{route('layouts.procedure.manager')}}">
                         <div class="icon-box">
                             <i class="bi bi-arrow-left-circle-fill" style="color: #94c045;"></i>
                             <h3>Dành cho nhà chuyên môn&nbsp;</h3>
@@ -262,7 +262,7 @@
                     </a>
                 </div>
                 <div class="col-lg-6 col-md-6">
-                    <a class="d-flex justify-content-end" href="{{route('layouts.procedure.teacher')}}">
+                    <a class="d-flex justify-content-end" href="{{route('layouts.procedure.parents')}}">
                         <div class="icon-box">
                             <h3>Dành cho phụ huynh &nbsp;</h3>
                             <i class="bi bi-arrow-right-circle-fill" style="color: #94c045;"></i>
@@ -276,9 +276,13 @@
 
 
     @include('layouts.team')
+
+
     @include('layouts.say')
 
+    @include('layouts.video_source')
+
+
 </main>
-@include('clients.about.group')
 
 @endsection

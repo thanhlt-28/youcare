@@ -7,14 +7,25 @@
             <img width="30%" src="{{asset('assets/img/svg/logo-ft.png')}}" alt="logo">
           </a>
           <div class="mt-3">
-            <b style="font-size: 19px;">Trung tâm chăm sóc sức khỏe tinh thần BrainCare</b>
-            <div class="address mt-4">
-              <h4 class="text-capitalize" style="font-size: 20px;">
+            <b style="font-size: 22px;">Công ty cổ phần YouCare</b>
+            <p style="font-size: 18px;">Người đại diện: Ông Trần Phúc Quỳnh</p>
+            <div class="address">
+              <!-- <h4 class="text-capitalize" style="font-size: 20px;">
                 <img width="8%" src="{{asset('assets/img/svg/icon/location.svg')}}" alt="">
                 Địa chỉ/ Location:
-              </h4>
-              <p style="font-size: 18px;">- Tầng 7, Đường 59 Võ Chí Công, <br /> Quận Cầu Giấy, Hà Nội</p>
-              <p style="font-size: 18px;">- 7th floor, 59 Vo Chi Cong street, <br /> Cau Giay District, Ha Noi</p>
+              </h4> -->
+              <p style="font-size: 18px;">Địa chỉ: Tầng 7, 59 Võ Chí Công, Cầu Giấy, Hà Nội</p>
+              <!-- <p style="font-size: 18px;">- 7th floor, 59 Vo Chi Cong street, <br /> Cau Giay District, Ha Noi</p> -->
+            </div>
+            <div class=" footer-links">
+              <ul>
+                <p style="font-size: 18px;">Mã số doanh nghiệp: 0110143593</p>
+                <li style="font-size: 18px;">Điện thoại:<a style="font-size: 18px;" href="tel: 02444553307"> (024) 4455 3307</a> <br />
+                  Email:<a style="font-size: 18px;" href="mailto: lienhe@braincare.vn"> lienhe@braincare.vn</a><br />
+
+                </li>
+              </ul>
+
             </div>
           </div>
 
@@ -23,15 +34,15 @@
         <div class="col-lg-2 col-md-6 footer-links">
           <h4 style="font-size: 20px;">Tài nguyên</h4>
           <ul>
-            <li><a style="font-size: 18px;" target="_blank" href="{{route('clients.library.docs')}}">Tài liệu</a></li>
-            <li><a style="font-size: 18px;" target="_blank" href="{{route('clients.library.media')}}">Video</a></li>
+            <li><a style="font-size: 18px;" href="{{route('clients.library.docs')}}">Tài liệu</a></li>
+            <li><a style="font-size: 18px;" href="{{route('clients.library.media')}}">Video</a></li>
           </ul>
           <div class="footer-links mt-5">
             <h4 style="font-size: 20px;">Dịch vụ</h4>
             <ul>
-              <li><a style="font-size: 18px;" target="_blank" href="https://checkingcare.vn/">Đánh giá Sàng lọc</a></li>
-              <li><a style="font-size: 18px;" target="_blank" href="https://phongkhamtamly.com/">Sức khỏe Tâm lý</a></li>
-              <li><a style="font-size: 18px;" target="_blank" href="https://phongkhamtamthan.com/">Sức khỏe Tâm thần</a></li>
+              <li><a style="font-size: 18px;" href="https://checkingcare.vn/">Đánh giá Sàng lọc</a></li>
+              <li><a style="font-size: 18px;" href="https://phongkhamtamly.com/">Sức khỏe Tâm lý</a></li>
+              <li><a style="font-size: 18px;" href="https://phongkhamtamthan.com/">Sức khỏe Tâm thần</a></li>
             </ul>
           </div>
         </div>
@@ -47,9 +58,10 @@
             <h4 style="font-size: 20px;">Ứng dụng</h4>
             <ul>
               <li><a style="font-size: 18px;" href="https://ck.youcare.vn/user/login">CKCare</a></li>
-              <li><a style="font-size: 18px;" target="_blank" href="#">PubCare</a></li>
-              <li><a style="font-size: 18px;" target="_blank" href="#">PsyCare</a></li>
-              <li><a style="font-size: 18px;" target="_blank" href="#">BizCare</a></li>
+              <li><a style="font-size: 18px;" href="#">PubCare</a></li>
+              <li><a style="font-size: 18px;" href="#">PsyCare</a></li>
+              <li><a style="font-size: 18px;" href="#">JobCare</a></li>
+              <li><a style="font-size: 18px;" href="#">BizCare</a></li>
             </ul>
           </div>
 
@@ -98,14 +110,24 @@
             <img width="30%" src="{{asset('assets/img/svg/logo-ft.png')}}" alt="logo">
           </a>
           <div class="mt-3">
-            <b style="font-size: 16px;">Trung tâm chăm sóc sức khỏe tinh thần BrainCare</b>
-            <div class="address mt-4">
-              <h4 class="text-capitalize" style="font-size: 20px;">
+            <b style="font-size: 22px;">Công ty cổ phần YouCare</b>
+            <p style="font-size: 16px;">Người đại diện: Ông Trần Phúc Quỳnh</p>
+            <div class="address">
+              <!-- <h4 class="text-capitalize" style="font-size: 20px;">
                 <img width="8%" src="{{asset('assets/img/svg/icon/location.svg')}}" alt="">
                 Địa chỉ/ Location:
-              </h4>
-              <p style="font-size: 16px;">- Tầng 7, Đường 59 Võ Chí Công, <br /> Quận Cầu Giấy, Hà Nội</p>
-              <p style="font-size: 16px;">- 7th floor, 59 Vo Chi Cong street, <br /> Cau Giay District, Ha Noi</p>
+              </h4> -->
+              <p style="font-size: 16px;">Địa chỉ: Tầng 7, 59 Võ Chí Công, Cầu Giấy, Hà Nội</p>
+              <!-- <p style="font-size: 16px;">- 7th floor, 59 Vo Chi Cong street, <br /> Cau Giay District, Ha Noi</p> -->
+            </div>
+            <div class=" footer-links">
+              <ul>
+                <p style="font-size: 16px;">Mã số doanh nghiệp: 0110143593</p>
+                <li style="font-size: 16px;">Điện thoại:<a style="font-size: 16px;" href="tel: 02444553307"> (024) 4455 3307</a> <br />
+                  Email:<a style="font-size: 16px;" href="mailto: lienhe@braincare.vn"> lienhe@braincare.vn</a><br />
+
+                </li>
+              </ul>
             </div>
           </div>
         </div>
@@ -114,16 +136,16 @@
           <div class="col-lg-12 footer-links">
             <h4 style="font-size: 20px;">Tài nguyên</h4>
             <ul>
-              <li><a style="font-size: 16px;" target="_blank" href="{{route('clients.library.docs')}}">Tài liệu</a></li>
-              <li><a style="font-size: 16px;" target="_blank" href="{{route('clients.library.media')}}">Video</a></li>
+              <li><a style="font-size: 16px;" href="{{route('clients.library.docs')}}">Tài liệu</a></li>
+              <li><a style="font-size: 16px;" href="{{route('clients.library.media')}}">Video</a></li>
             </ul>
           </div>
           <div class="col-lg-12 footer-links">
             <h4 style="font-size: 20px;">Dịch vụ</h4>
             <ul>
-              <li><a style="font-size: 16px;" target="_blank" href="https://checkingcare.vn/">Đánh giá Sàng lọc</a></li>
-              <li><a style="font-size: 16px;" target="_blank" href="https://phongkhamtamly.com/">Sức khỏe Tâm lý</a></li>
-              <li><a style="font-size: 16px;" target="_blank" href="https://phongkhamtamthan.com/">Sức khỏe Tâm thần</a></li>
+              <li><a style="font-size: 16px;" href="https://checkingcare.vn/">Đánh giá Sàng lọc</a></li>
+              <li><a style="font-size: 16px;" href="https://phongkhamtamly.com/">Sức khỏe Tâm lý</a></li>
+              <li><a style="font-size: 16px;" href="https://phongkhamtamthan.com/">Sức khỏe Tâm thần</a></li>
             </ul>
           </div>
         </div>
@@ -133,9 +155,10 @@
             <h4 style="font-size: 20px;">Ứng dụng</h4>
             <ul>
               <li><a style="font-size: 16px;" href="https://ck.youcare.vn/user/login">CKCare</a></li>
-              <li><a style="font-size: 16px;" target="_blank" href="#">PubCare</a></li>
-              <li><a style="font-size: 16px;" target="_blank" href="#">PsyCare</a></li>
-              <li><a style="font-size: 16px;" target="_blank" href="#">BizCare</a></li>
+              <li><a style="font-size: 16px;" href="#">PubCare</a></li>
+              <li><a style="font-size: 16px;" href="#">PsyCare</a></li>
+              <li><a style="font-size: 16px;" href="#">JobCare</a></li>
+              <li><a style="font-size: 16px;" href="#">BizCare</a></li>
             </ul>
           </div>
           <div class="col-lg-12 footer-links">

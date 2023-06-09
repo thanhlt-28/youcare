@@ -3,30 +3,35 @@
 
     <div class="logo">
         <!--image logo -->
-        <a href="{{'/'}}"><img src="{{asset('assets/img/logo-landscape.png')}}" alt="" class="img-fluid"></a>
+        <a href="{{'/'}}"><img src="{{asset('assets/img/logo-landscape.png')}}" alt=""></a>
     </div>
 
     <nav id="navbar" class="navbar">
-        <ul>
-            <li><a class="{{ Request::is('/') ? 'active' : '' }}" href="{{'/'}}">Trang chủ</a></li>
-            <li class="dropdown"><a href="{{route('clients.about')}}">Giới thiệu <i class="bi bi-chevron-down"></i></a>
+        <ul class="main-menu">
+            <li class="item active">
+                <a href="{{'/'}}">Trang chủ</a>
+            </li>
+            <li class="dropdown item"><a href="#">Giới thiệu <i class="bi bi-chevron-down"></i></a>
                 <ul>
                     <li><a href="{{route('clients.about.vision')}}">Tầm nhìn & Sứ mệnh</a></li>
                     <li><a href="{{route('clients.about.team_experts')}}">Đội ngũ chuyên gia</a></li>
 
                 </ul>
             </li>
-            <li><a href="{{route('clients.platform.product')}}">Sản phẩm</a>
+            <li class="item"><a href="{{route('layouts.ck_detail.ckcare_detail')}}">Sản phẩm</a>
             </li>
-            <li class="dropdown"><a href="#"><span>Tài nguyên</span> <i class="bi bi-chevron-down"></i></a>
+            <li class="dropdown item">
+                <a href="#"><span>Tài nguyên</span> <i class="bi bi-chevron-down"></i></a>
                 <ul>
                     <!-- <li><a href="{{route('clients.library.docs')}}">Tài liệu</a></li> -->
                     <li><a href="{{route('clients.library.media')}}">Video hướng dẫn</a></li>
                 </ul>
             </li>
-            <li><a href="{{route('clients.contact')}}">Liên hệ</a></li>
+            <li class="item"><a href="{{route('clients.police')}}">Điều khoản sử dụng</a></li>
+            <li class="item"><a href="{{route('clients.contact')}}">Liên hệ</a></li>
 
         </ul>
+       
         <i class="mobile-nav-toggle">
             <svg width="24" height="24" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M11.0991 1.84424H9.42098C8.80312 1.84424 8.30225 2.34511 8.30225 2.96298V4.64108C8.30225 5.25894 8.80312 5.75982 9.42098 5.75982H11.0991C11.7169 5.75982 12.2178 5.25894 12.2178 4.64108V2.96298C12.2178 2.34511 11.7169 1.84424 11.0991 1.84424Z" stroke="black" stroke-width="0.839053" stroke-linecap="round" stroke-linejoin="round" />

@@ -38,9 +38,9 @@
     <!-- End Breadcrumbs -->
 
     <div class="section-title">
-    <div class="section-title">
-                <h2 class="ck_header">HỖ TRỢ ĐỒNG HÀNH</h2>
-            </div>
+        <div class="section-title">
+            <h2 class="ck_header">HỖ TRỢ ĐỒNG HÀNH</h2>
+        </div>
         <h5>
             CKCare xây dựng chương trình chăm sóc sức khỏe tinh thần toàn diện
         </h5>
@@ -66,7 +66,7 @@
                                     <br>
                                     <i class="bi bi-chevron-double-right"></i> Hotline: <span>(024) 4455 3307</span> <br>
                                     <i class="bi bi-chevron-double-right"></i> Tổng đài tư vấn: <span>1900 3307</span> <br>
-                                    <i class="bi bi-chevron-double-right"></i> Website: <a href="https://braincare.vn/" target="_blank">braincare.vn</a> <br>
+                                    <i class="bi bi-chevron-double-right"></i> Website: <a href="https://braincare.vn/">braincare.vn</a> <br>
 
                                 </div>
                             </div>
@@ -82,7 +82,7 @@
 
         </div>
         <div class="value__ckcare">
-            
+
             <div class="value__items">
                 <div class="container">
                     <ul class="m-0 nav nav-fill nav-justified nav-tabs" id="myTab" role="tablist">
@@ -294,7 +294,7 @@
                     </div>
                     <div class="row row-cols-1 row-cols-md-4 g-2">
                         <div class="col high__box">
-                            <a target="_blank" href="{{route('layouts.procedure.teacher')}}">
+                            <a href="{{route('layouts.procedure.teacher')}}">
                                 <div class="high__box_1">
                                     <div class="high__img">
                                         <img src="{{asset('assets/img/clients/pre-danh-cho-giao-vien.jpg')}}" alt="">
@@ -306,7 +306,7 @@
                             </a>
                         </div>
                         <div class="col high__box">
-                            <a target="_blank" href="{{route('layouts.procedure.manager')}}">
+                            <a href="{{route('layouts.procedure.manager')}}">
                                 <div class="high__box_2">
                                     <div class="high__img">
                                         <img src="{{asset('assets/img/clients/pre-danh-cho-quan-ly.jpg')}}" alt="">
@@ -318,7 +318,7 @@
                             </a>
                         </div>
                         <div class="col high__box">
-                            <a target="_blank" href="{{route('layouts.procedure.parents')}}">
+                            <a href="{{route('layouts.procedure.parents')}}">
                                 <div class="high__box_3">
                                     <div class="high__img">
                                         <img src="{{asset('assets/img/clients/pre-danh-cho-cha-me.jpg')}}" alt="">
@@ -330,7 +330,7 @@
                             </a>
                         </div>
                         <div class="col high__box">
-                            <a target="_blank" href="{{route('layouts.procedure.students')}}">
+                            <a href="{{route('layouts.procedure.students')}}">
                                 <div class="high__box_4">
                                     <div class="high__img">
                                         <img src="{{asset('assets/img/clients/pre-danh-cho-hoc-sinh.jpg')}}" alt="">
@@ -355,7 +355,7 @@
                         <div class="col-md-12">
                             <div class="col-lg-6 col-md-6 mt-3">
                                 <div class="pre__box_hd">
-                                    <a href="{{route('layouts.procedure.teacher')}}" target="_blank">
+                                    <a href="{{route('layouts.procedure.teacher')}}">
                                         <div class="icon__box text-center">
                                             DÀNH CHO GIÁO VIÊN
                                         </div>
@@ -364,7 +364,7 @@
                             </div>
                             <div class="col-lg-6 col-md-6 mt-3">
                                 <div class="pre__box_hd">
-                                    <a href="https://checkingcare.vn/cbcl/" target="_blank">
+                                    <a href="https://checkingcare.vn/cbcl/">
                                         <div class="icon__box text-center">
                                             DÀNH CHO QUẢN LÝ
                                         </div>
@@ -373,7 +373,7 @@
                             </div>
                             <div class="col-lg-6 col-md-6 mt-3">
                                 <div class="pre__box_hd">
-                                    <a href="https://checkingcare.vn/cbcl/" target="_blank">
+                                    <a href="https://checkingcare.vn/cbcl/">
                                         <div class="icon__box text-center">
                                             DÀNH CHO PHỤ HUYNH
                                         </div>
@@ -382,7 +382,7 @@
                             </div>
                             <div class="col-lg-6 col-md-6 mt-3">
                                 <div class="pre__box_hd">
-                                    <a href="https://checkingcare.vn/cbcl/" target="_blank">
+                                    <a href="https://checkingcare.vn/cbcl/">
                                         <div class="icon__box text-center">
                                             DÀNH CHO HỌC SINH
                                         </div>

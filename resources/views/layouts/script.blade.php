@@ -43,6 +43,8 @@
 <script src="{{asset('assets/js/custom.js')}}"></script>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/icomoon@1.0.0/demo-files/demo.min.js"></script>
+
 
 
 <script>

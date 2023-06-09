@@ -7,7 +7,25 @@
 
     <!-- ======= Breadcrumbs ======= -->
     <section id="breadcrumbs" class="breadcrumbs">
-        <div class="breadcrumb-contact"></div>
+        <div class="breadcrumb-contact">
+            <div class="container">
+                <div class="header-hero">
+                    <div class="header-hero__slogan">
+                        <h2>LIÊN HỆ VỚI CHÚNG TÔI</h2>
+                        <div class="header___slogan">
+                            <h5>Bạn có nhu cầu sử dụng ứng dụng, hãy để lại<br /> thông tin, chúng tôi rất vui được <br />liên hệ lại & lắng nghe bạn!</h5>
+                        </div>
+                    </div>
+
+                    <div class="header__btn__cta">
+                        <a href="https://ck.youcare.vn/user/login" target="_blank">
+                            <button type="button" class="btn btn-outline-success rounded-pill">Sàng lọc ngay</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
 
         <div class="container">
             <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='currentColor'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
@@ -21,43 +39,20 @@
     <!-- End Breadcrumbs -->
 
     <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact">
+    <section id="contact" class="contact mt-5">
         <!-- <div class="main_form"> -->
         <div class="container">
 
             <div class="row">
                 <div class="card-body">
-                    <h3 class="section-title">Đăng ký tư vấn</h3>
+                    <div class="section-title">
+                        <h2 class="ck_header">ĐĂNG KÝ TƯ VẤN</h2>
+                    </div>
                     <p style="margin-top: -30px;" class="text-center">
                         Chúng tôi luôn sẵn lòng lắng nghe bạn, hãy sẻ chia với chúng tôi nhé!
                     </p>
                 </div>
-                <div class="col-lg-6" data-aos="fade-right">
-                    <div class="info">
-                        <div class="address">
-                            <i class="bi bi-geo-alt"></i>
-                            <h4>Địa chỉ/ Location:</h4>
-                            <p>- Tầng 7, 59 Võ Chí Công, Cầu Giấy, Hà Nội</p>
-                            <p>- 7th floor, 59 Vo Chi Cong street, Cau Giay District, Ha Noi</p>
-                        </div>
-
-                        <div class="email">
-                            <i class="bi bi-envelope"></i>
-                            <h4>Email:</h4>
-                            <p>lienhe@braincare.vn</p>
-                        </div>
-
-                        <div class="phone">
-                            <i class="bi bi-phone"></i>
-                            <h4>Hotline:</h4>
-                            <p>(024) 4455 3307</p>
-                        </div>
-
-                    </div>
-
-                </div>
-
-                <div class="col-lg-6 mt-5 mt-lg-0" data-aos="fade-left">
+                <div class="col-lg-6 mt-lg-0">
 
                     <div id="getfly-optin-form-iframe-1646904312118"></div>
                     <script type="text/javascript">
@@ -117,15 +112,37 @@
                     </script>
                 </div>
 
-            </div>
-            <section id="contact" class="content-section" data-aos="fade">
-                <h3 class="section-title">Vị trí</h3>
-                <div id="map">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d476614.106305572!2d105.804103!3d21.050776!3m2!1i1024!2i768!4f131!3m3!1m2!1s0x3135ab226a78d97b%3A0xfa288a20a51995a7!2zVOG6p25nIDcsIDU5IFbDtSBDaMOtIEPDtG5nLCBOZ2jEqWEgxJDDtCwgQ-G6p3UgR2nhuqV5LCBIw6AgTuG7mWkgMTAwMDAwLCBWaeG7h3QgTmFt!5e0!3m2!1svi!2sus!4v1621176139857!5m2!1svi!2sus" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                <div class="col-lg-6 mb-5">
+                    <div class="info">
+                        <div class="address">
+                            <i class="bi bi-geo-alt"></i>
+                            <h4>Địa chỉ/ Location:</h4>
+                            <p>- Tầng 7, 59 Võ Chí Công, Cầu Giấy, Hà Nội</p>
+                            <p>- 7th floor, 59 Vo Chi Cong street, Cau Giay District, Ha Noi</p>
+                        </div>
+
+                        <div class="email">
+                            <i class="bi bi-envelope"></i>
+                            <h4>Email:</h4>
+                            <p>lienhe@braincare.vn</p>
+                        </div>
+
+                        <div class="phone">
+                            <i class="bi bi-phone"></i>
+                            <h4>Hotline:</h4>
+                            <p>(024) 4455 3307</p>
+                        </div>
+
+                    </div>
+
                 </div>
-            </section>
+
+
+            </div>
+
         </div>
-    </section><!-- End Contact Section -->
+    </section>
+    <!-- End Contact Section -->
 
 </main><!-- End #main -->
 
